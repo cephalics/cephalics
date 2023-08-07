@@ -6,7 +6,7 @@
 :lix-repo: https://github.com/SimonN/LixD
 :pingus-homepage: https://pingus.seul.org/
 
-Welcome to Cephalics
+Welcome to Cephalics!
 
 This is a collection of Lix levels.
 The difficulty levels vary.
