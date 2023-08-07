@@ -1,0 +1,83 @@
+$BUILT 2023-02-05 12:23:20
+$AUTHOR Green Frisbee
+$ENGLISH Compressed Jumping
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 544
+#SIZE_Y 256
+#BACKGROUND_RED 70
+#BACKGROUND_GREEN 40
+#BACKGROUND_BLUE 70
+
+#INITIAL 10
+#REQUIRED 9
+#SPAWN_INTERVAL 1
+
+#WALKER 1
+#RUNNER 10
+#FLOATER 1
+#EXPLODER2 1
+#JUMPER -1
+
+:geoo/sandstone/fennec.H: 16 64
+:geoo/sandstone/fennec.H: 16 72
+:geoo/sandstone/fennec.H: 16 80
+:geoo/sandstone/fennec.H: 16 88
+:geoo/sandstone/fennec.H: 16 96
+:geoo/sandstone/fennec.H: 16 104
+:geoo/sandstone/fennec.H: 16 112
+:geoo/sandstone/fennec.H: 16 120
+:geoo/sandstone/fennec.H: 16 128
+:geoo/sandstone/fennec.H: 16 136
+:matt/bricks/Hatch.H: 192 64
+
+:green-frisbee/goal-59thedigits.G: 80 64
+:green-frisbee/house2.G: 512 112
+
+:matt/10tons.T: 400 120
+:matt/10tons.T: 408 120
+
+:geoo/construction/Laser_vr_16.F: 448 160
+:geoo/construction/Laser_vr_16.F: 448 192
+
+:geoo/construction/spring.T: 176 128
+:geoo/construction/spring_fast.T: 160 128
+
+:geoo/abstract/tbeam_right.T: 16 208
+:geoo/abstract/tbeam_right.T: 48 208
+:raymanni/lab/elev_up.T: 144 224
+:raymanni/lab/elev_up.T: 144 192
+:raymanni/lab/elev_up.T: 144 160
+:geoo/abstract/tbeam_right.T: 80 208
+:geoo/abstract/tbeam_right.T: 112 208
+:raymanni/lab/elev_up.T: 80 160
+:raymanni/lab/elev_up.T: 80 128
+:raymanni/lab/elev_up.T: 80 96
+:geoo/abstract/tbeam_left.T: 496 224
+:geoo/abstract/tbeam_left.T: 464 224
+:geoo/abstract/tbeam_left.T: 432 224
+:geoo/abstract/tbeam_left.T: 400 224
+:geoo/abstract/tbeam_left.T: 368 224
+:geoo/abstract/tbeam_left.T: 336 224
+:geoo/abstract/tbeam_left.T: 304 224
+:geoo/abstract/tbeam_left.T: 272 224
+:geoo/abstract/tbeam_left.T: 240 224
+:geoo/abstract/tbeam_left.T: 208 224
+:geoo/abstract/tbeam_left.T: 176 224
+:geoo/abstract/tbeam_left.T: 528 224
+
+:geoo/construction/platformbrick: 80 96
+$BEGIN_TILE_GROUP 0
+:geoo/construction/platformbrick: 0 0
+:geoo/construction/platformbrick: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 64 0
+$END_TILE_GROUP
+:Group-1: 144 160
+:Group-1: 272 160
+:geoo/construction/platformbrick: 208 112
+:Group-1: 400 208
+:Group-1: 416 160
+:geoo/construction/stairsbrick_rd_32: 264 112

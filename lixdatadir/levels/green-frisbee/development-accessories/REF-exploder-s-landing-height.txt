@@ -1,0 +1,35 @@
+$BUILT 2023-03-16 16:38:35
+$AUTHOR Green Frisbee
+$ENGLISH REF: Exploder's Landing Height
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 160
+#SIZE_Y 288
+
+#INITIAL 2
+#REQUIRED 2
+#SPAWN_INTERVAL 1
+
+#EXPLODER2 -1
+
+:geoo/sandstone/fennec.H: 56 -8
+:geoo/sandstone/fennec.H: 56 0
+
+:simon/tapir/064h: 16 240
+$BEGIN_TILE_GROUP 0
+:geoo/construction/concrete/016hb: 32 0
+:geoo/construction/concrete/016hd: 32 16
+:geoo/construction/concrete/016h: 0 8
+$END_TILE_GROUP
+:Group-0: 0 176
+$BEGIN_TILE_GROUP 1
+:geoo/construction/concrete/016ha: 0 0
+:geoo/construction/concrete/016h: 32 8
+:geoo/construction/concrete/016hc: 0 16
+$END_TILE_GROUP
+:Group-1: 96 176
+:guideline/cube: 16 224
+:guideline/cube: 16 208
+:guideline/cube: 16 192
+:guideline/build-R: 112 216
+:guideline/build-L: 112 192

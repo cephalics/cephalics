@@ -1,0 +1,46 @@
+$BUILT 2023-01-22 11:56:28
+$AUTHOR Brown Bear
+$ENGLISH Motherboard with laser #1
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 208
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 64
+#BACKGROUND_GREEN 14
+#BACKGROUND_BLUE 64
+
+#INITIAL 120
+#REQUIRED 106
+#SPAWN_INTERVAL 40
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:matt/carnival/Hatch.H: 496 -32
+
+:geoo/abstract/goal.G: 272 96
+
+:amanda/tar.W: 560 128
+:geoo/construction/Laser_vr_64.F: 96 80
+
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/cvblocks/046: 0 0
+:geoo/abstract/cvblocks/046: 128 0
+$END_TILE_GROUP
+:Group-0: 224 144
+:Group-0: 480 144
+:geoo/abstract/cvblocks/046: 96 144

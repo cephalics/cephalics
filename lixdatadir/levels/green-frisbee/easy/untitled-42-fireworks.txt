@@ -1,0 +1,41 @@
+$BUILT 2023-02-23 23:40:43
+$AUTHOR Green Frisbee
+$ENGLISH Untitled #42: Fireworks
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#TORUS_X 1
+#TORUS_Y 1
+#BACKGROUND_RED 109
+#BACKGROUND_GREEN 40
+#BACKGROUND_BLUE 135
+
+#INITIAL 999
+#REQUIRED 1
+#SPAWN_INTERVAL 4
+
+#WALKER 1
+#EXPLODER2 -1
+#JUMPER -1
+
+:geoo/sandstone/fennec.H: 624 368
+
+:geoo/abstract/goal.G: 80 352
+
+:geoo/construction/concrete/016h: 0 32
+$BEGIN_TILE_GROUP 0
+:geoo/construction/concrete/032va: 64 16
+:geoo/construction/concrete/032vb: 0 16
+:geoo/construction/concrete/008h: 48 80
+:geoo/construction/concrete/008h: 32 80
+:geoo/construction/concrete/016c: 80 0
+:geoo/construction/concrete/016d: 0 0
+$END_TILE_GROUP
+:Group-0: 48 320
+$BEGIN_TILE_GROUP 1
+:green-frisbee/cracker-violet: 0 0
+:geoo/construction/concrete/032v: 8 24 d
+$END_TILE_GROUP
+:Group-1: 120 376
+:Group-1: 48 376

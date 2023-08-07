@@ -1,0 +1,84 @@
+$BUILT 2023-03-13 21:06:53
+$AUTHOR Green Frisbee
+$ENGLISH Another Timely Sprint
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 288
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 136
+#BACKGROUND_GREEN 115
+#BACKGROUND_BLUE 134
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 64
+
+#RUNNER 1
+#EXPLODER2 1
+
+:green-frisbee/spinny-advent2-R.H: 0 144
+:green-frisbee/spinny-advent2-R.H: 0 176
+
+:simon/oriental/goal.G: 144 32
+
+:geoo/abstract/tbeam_up.T: 416 112
+:geoo/abstract/tbeam_down.T: 64 112
+:geoo/abstract/tbeam_down.T: 96 112
+:geoo/abstract/tbeam_down.T: 0 112
+:geoo/abstract/tbeam_down.T: 32 112
+:geoo/abstract/tbeam_down.T: 192 112
+:geoo/abstract/tbeam_down.T: 224 112
+:geoo/abstract/tbeam_down.T: 128 112
+:geoo/abstract/tbeam_down.T: 160 112
+:geoo/abstract/tbeam_down.T: 320 112
+:geoo/abstract/tbeam_down.T: 352 112
+:geoo/abstract/tbeam_down.T: 256 112
+:geoo/abstract/tbeam_down.T: 288 112
+:geoo/abstract/tbeam_down.T: 448 112
+:geoo/abstract/tbeam_down.T: 480 112
+:geoo/abstract/tbeam_down.T: 384 112
+:geoo/abstract/tbeam_down.T: 576 112
+:geoo/abstract/tbeam_down.T: 608 112
+:geoo/abstract/tbeam_down.T: 512 112
+:geoo/abstract/tbeam_down.T: 544 112
+:geoo/abstract/tbeam_up.T: 416 80
+:raymanni/lab/launcher_right.T: 440 80
+:geoo/abstract/tbeam_right.T: 416 48
+
+:raymanni/holiday/plank_long: 0 208
+:raymanni/holiday/plank_long: 128 208
+:raymanni/holiday/plank_long: 256 208
+:raymanni/holiday/plank_long: 384 208
+:raymanni/holiday/plank_long: 512 208
+:raymanni/holiday/plank_long: 0 176
+:raymanni/holiday/plank_long: 128 176
+:raymanni/holiday/plank_long: 256 176
+:raymanni/holiday/plank_long: 384 176
+:raymanni/holiday/plank_long: 512 176
+$BEGIN_TILE_GROUP 0
+:geoo/construction/platform.S: 0 0
+:geoo/construction/platform.S: 32 0
+$END_TILE_GROUP
+:Group-0: 144 112
+:raymanni/toys/cracker: 0 224
+:raymanni/toys/cracker: 64 224
+:raymanni/toys/cracker: 96 224
+:raymanni/toys/cracker: 128 224
+:raymanni/toys/cracker: 160 224
+:raymanni/toys/cracker: 192 224
+:raymanni/toys/cracker: 224 224
+:raymanni/toys/cracker: 256 224
+:raymanni/toys/cracker: 288 224
+:raymanni/toys/cracker: 320 224
+:raymanni/toys/cracker: 352 224
+:raymanni/toys/cracker: 384 224
+:raymanni/toys/cracker: 416 224
+:raymanni/toys/cracker: 448 224
+:raymanni/toys/cracker: 480 224
+:raymanni/toys/cracker: 512 224
+:raymanni/toys/cracker: 544 224
+:raymanni/toys/cracker: 576 224
+:raymanni/toys/cracker: 608 224
+:green-frisbee/cracker-teal: 32 224

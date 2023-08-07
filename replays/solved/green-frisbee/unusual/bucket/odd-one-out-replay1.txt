@@ -1,0 +1,8 @@
+$FILENAME green-frisbee/unusual/bucket/odd-one-out.txt
+$LEVEL_BUILT_REQUIRED 2023-02-17 15:11:05
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+
+! 711 0 ASSIGN=CLIMBER 199
+

@@ -1,0 +1,53 @@
+$BUILT 2023-03-27 13:10:25
+$AUTHOR Green Frisbee
+$ENGLISH With a hop, a skip, and a jump (20/20)
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#TORUS_X 0
+#TORUS_Y 0
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 191
+#BACKGROUND_BLUE 0
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 16
+
+#WALKER -1
+#RUNNER 1
+#CLIMBER -1
+#FLOATER 1
+#BLOCKER 3
+#BUILDER 1
+#PLATFORMER 26
+#BASHER 2
+#MINER 2
+#DIGGER 2
+#JUMPER -1
+#BATTER 190
+#EXPLODER2 0
+
+:raymanni/lab/hatch.H: 224 184
+
+:simon/tapir/goal.G: 344 152
+
+:matt/beach/decor/beach ball: 498 258 frr
+:matt/beach/decor/umbrella_blue: 416 224 r
+:raymanni/toys/cracker: 114 222 fr
+:matt/beach/nighttime/03: 80 240
+$BEGIN_TILE_GROUP 0
+:matt/bricks/20: 0 0
+:matt/bricks/18: 8 80
+:matt/bricks/19: 0 176
+:matt/bricks/18: 8 48
+:matt/bricks/18: 8 16
+:matt/bricks/18: 8 112
+:matt/bricks/18: 8 144
+$END_TILE_GROUP
+:Group-0: 224 248 r
+:geoo/abstract/cvblocks/044: 416 184
+:geoo/abstract/cvblocks/043: 192 184
+:geoo/abstract/cvblocks/043: 384 120
+:geoo/abstract/cvblocks/044: 224 120

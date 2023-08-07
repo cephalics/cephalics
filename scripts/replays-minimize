@@ -1,0 +1,4 @@
+#!/bin/sh
+## Minimize replays
+find replays/solved/ -name '*.txt' \
+	-exec perl -ni -E 'print unless /^\$BUILT [0-9]/..eof' {} +

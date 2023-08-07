@@ -1,0 +1,696 @@
+$BUILT 2023-01-10 19:05:34
+$AUTHOR Green Frisbee
+$ENGLISH The Monty Hall Problem (69% v. 2%)
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 3176
+#SIZE_Y 2000
+#BACKGROUND_RED 183
+#BACKGROUND_GREEN 170
+#BACKGROUND_BLUE 132
+
+#INITIAL 14
+#REQUIRED 9
+#SPAWN_INTERVAL 1
+
+#DIGGER 14
+#EXPLODER2 0
+
+:geoo/construction/Hatch.H: 64 0
+:geoo/construction/Hatch.H: 288 0
+:geoo/construction/Hatch.H: 512 0
+:geoo/construction/Hatch.H: 736 0
+:geoo/construction/Hatch.H: 960 0
+:geoo/construction/Hatch.H: 1184 0
+:geoo/construction/Hatch.H: 1408 0
+:geoo/construction/Hatch.H: 1632 0
+:geoo/construction/Hatch.H: 1856 0
+:geoo/construction/Hatch.H: 2080 0
+:geoo/construction/Hatch.H: 2304 0
+:geoo/construction/Hatch.H: 2528 0
+:geoo/construction/Hatch.H: 2752 0
+:geoo/construction/Hatch.H: 2976 0
+
+:geoo/abstract/goal.G: 64 1848
+:geoo/abstract/goal.G: 288 1848
+:geoo/abstract/goal.G: 576 1848
+:geoo/abstract/goal.G: 736 1848
+:geoo/abstract/goal.G: 1024 1848
+:geoo/abstract/goal.G: 1248 1848
+:geoo/abstract/goal.G: 1408 1848
+:geoo/abstract/goal.G: 1696 1848
+:geoo/abstract/goal.G: 1920 1848
+:geoo/abstract/goal.G: 2208 1848
+:geoo/abstract/goal.G: 2368 1848
+:geoo/abstract/goal.G: 2592 1848
+:geoo/abstract/goal.G: 2880 1848
+:geoo/abstract/goal.G: 2976 1848
+
+$BEGIN_TILE_GROUP 0
+:geoo/construction/platform_single.S: 0 0
+:geoo/construction/platform_single.S: 8 0
+$END_TILE_GROUP
+:Group-0: 192 2528
+:Group-0: 208 2528
+:Group-0: 192 2806
+:Group-0: 208 2806
+:Group-0: 192 3084
+:Group-0: 208 3084
+:Group-0: 192 3362
+:Group-0: 208 3362
+:green-frisbee/MontyHall.117x153: -28 1878
+:matt/carnival/balloons: 10 -36 frr
+:matt/carnival/balloons: 240 -36
+:raymanni/holiday/plank_left: 32 0 r
+:raymanni/holiday/plank_right: 32 64 r
+:raymanni/toys/brick_8: 176 56 rr
+:raymanni/toys/brick_7: 112 56 rr
+:raymanni/toys/brick_6: 48 56 rr
+:raymanni/holiday/plank_mid1: 32 32 r
+:matt/carnival/balloons: 234 -36 frr
+:raymanni/holiday/plank_left: 240 0 fr
+:raymanni/holiday/plank_right: 240 64 fr
+:raymanni/holiday/plank_mid1: 240 32 fr
+:raymanni/toys/cracker: 224 32
+:raymanni/toys/cracker: 16 32
+:Group-0: 192 2250
+:Group-0: 208 2250
+$BEGIN_TILE_GROUP 1
+:raymanni/toys/brick_2: 128 0 r
+:raymanni/toys/brick_4: 64 0 r
+:raymanni/toys/brick_3: 0 0 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 0 40
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 3
+:Group-2: 0 0
+:Group-2: 0 80
+$END_TILE_GROUP
+:Group-3: 48 96
+:Group-3: 48 1696
+$BEGIN_TILE_GROUP 4
+:Group-3: 0 0
+:Group-3: 0 160
+$END_TILE_GROUP
+:Group-4: 48 256
+:Group-4: 48 576
+:Group-4: 48 896
+:Group-4: 48 1216
+:Group-3: 48 1536
+:matt/carnival/balloons: 464 -36
+:raymanni/holiday/plank_left: 256 0 r
+:raymanni/holiday/plank_right: 256 64 r
+:raymanni/toys/brick_8: 400 56 rr
+:raymanni/toys/brick_7: 336 56 rr
+:raymanni/toys/brick_6: 272 56 rr
+:raymanni/holiday/plank_mid1: 256 32 r
+:matt/carnival/balloons: 458 -36 frr
+:raymanni/holiday/plank_left: 464 0 fr
+:raymanni/holiday/plank_right: 464 64 fr
+:raymanni/holiday/plank_mid1: 464 32 fr
+:raymanni/toys/cracker: 448 32
+:raymanni/toys/cracker: 240 32
+:Group-0: 416 2250
+:Group-0: 432 2250
+:Group-3: 272 96
+:Group-3: 272 1696
+:Group-4: 272 256
+:Group-4: 272 576
+:Group-4: 272 896
+:Group-4: 272 1216
+:Group-3: 272 1536
+:matt/carnival/balloons: 688 -36
+:raymanni/holiday/plank_left: 480 0 r
+:raymanni/holiday/plank_right: 480 64 r
+:raymanni/toys/brick_8: 624 56 rr
+:raymanni/toys/brick_7: 560 56 rr
+:raymanni/toys/brick_6: 496 56 rr
+:raymanni/holiday/plank_mid1: 480 32 r
+:matt/carnival/balloons: 682 -36 frr
+:raymanni/holiday/plank_left: 688 0 fr
+:raymanni/holiday/plank_right: 688 64 fr
+:raymanni/holiday/plank_mid1: 688 32 fr
+:raymanni/toys/cracker: 672 32
+:raymanni/toys/cracker: 464 32
+:Group-0: 640 2250
+:Group-0: 656 2250
+:Group-3: 496 96
+:Group-3: 496 1696
+:Group-4: 496 256
+:Group-4: 496 576
+:Group-4: 496 896
+:Group-4: 496 1216
+:Group-3: 496 1536
+:matt/carnival/balloons: 912 -36
+:raymanni/holiday/plank_left: 704 0 r
+:raymanni/holiday/plank_right: 704 64 r
+:raymanni/toys/brick_8: 848 56 rr
+:raymanni/toys/brick_7: 784 56 rr
+:raymanni/toys/brick_6: 720 56 rr
+:raymanni/holiday/plank_mid1: 704 32 r
+:matt/carnival/balloons: 906 -36 frr
+:raymanni/holiday/plank_left: 912 0 fr
+:raymanni/holiday/plank_right: 912 64 fr
+:raymanni/holiday/plank_mid1: 912 32 fr
+:raymanni/toys/cracker: 896 32
+:raymanni/toys/cracker: 688 32
+:Group-0: 864 2250
+:Group-0: 880 2250
+:Group-3: 720 96
+:Group-3: 720 1696
+:Group-4: 720 256
+:Group-4: 720 576
+:Group-4: 720 896
+:Group-4: 720 1216
+:Group-3: 720 1536
+:matt/carnival/balloons: 1136 -36
+:raymanni/holiday/plank_left: 928 0 r
+:raymanni/holiday/plank_right: 928 64 r
+:raymanni/toys/brick_8: 1072 56 rr
+:raymanni/toys/brick_7: 1008 56 rr
+:raymanni/toys/brick_6: 944 56 rr
+:raymanni/holiday/plank_mid1: 928 32 r
+:matt/carnival/balloons: 1130 -36 frr
+:raymanni/holiday/plank_left: 1136 0 fr
+:raymanni/holiday/plank_right: 1136 64 fr
+:raymanni/holiday/plank_mid1: 1136 32 fr
+:raymanni/toys/cracker: 1120 32
+:raymanni/toys/cracker: 912 32
+:Group-0: 1088 2250
+:Group-0: 1104 2250
+:Group-3: 944 96
+:Group-3: 944 1696
+:Group-4: 944 256
+:Group-4: 944 576
+:Group-4: 944 896
+:Group-4: 944 1216
+:Group-3: 944 1536
+:matt/carnival/balloons: 1360 -36
+:raymanni/holiday/plank_left: 1152 0 r
+:raymanni/holiday/plank_right: 1152 64 r
+:matt/carnival/balloons: 1354 -36 frr
+:raymanni/toys/brick_8: 1296 56 rr
+:raymanni/toys/brick_7: 1232 56 rr
+:raymanni/toys/brick_6: 1168 56 rr
+:raymanni/holiday/plank_mid1: 1152 32 r
+:raymanni/holiday/plank_left: 1360 0 fr
+:raymanni/holiday/plank_right: 1360 64 fr
+:raymanni/holiday/plank_mid1: 1360 32 fr
+:raymanni/toys/cracker: 1344 32
+:raymanni/toys/cracker: 1136 32
+:Group-0: 1312 2250
+:Group-0: 1328 2250
+:Group-3: 1168 96
+:Group-3: 1168 1696
+:Group-4: 1168 256
+:Group-4: 1168 576
+:Group-4: 1168 896
+:Group-4: 1168 1216
+:Group-3: 1168 1536
+:matt/carnival/balloons: 1584 -36
+:raymanni/holiday/plank_left: 1376 0 r
+:raymanni/holiday/plank_right: 1376 64 r
+:raymanni/toys/brick_8: 1520 56 rr
+:raymanni/toys/brick_7: 1456 56 rr
+:raymanni/toys/brick_6: 1392 56 rr
+:raymanni/holiday/plank_mid1: 1376 32 r
+:matt/carnival/balloons: 1578 -36 frr
+:raymanni/holiday/plank_left: 1584 0 fr
+:raymanni/holiday/plank_right: 1584 64 fr
+:raymanni/holiday/plank_mid1: 1584 32 fr
+:raymanni/toys/cracker: 1568 32
+:raymanni/toys/cracker: 1360 32
+:Group-0: 1536 2250
+:Group-0: 1552 2250
+:Group-3: 1392 96
+:Group-3: 1392 1696
+:Group-4: 1392 256
+:Group-4: 1392 576
+:Group-4: 1392 896
+:Group-4: 1392 1216
+:Group-3: 1392 1536
+:matt/carnival/balloons: 1808 -36
+:raymanni/holiday/plank_left: 1600 0 r
+:raymanni/holiday/plank_right: 1600 64 r
+:raymanni/toys/brick_8: 1744 56 rr
+:raymanni/toys/brick_7: 1680 56 rr
+:raymanni/toys/brick_6: 1616 56 rr
+:raymanni/holiday/plank_mid1: 1600 32 r
+:matt/carnival/balloons: 1802 -36 frr
+:raymanni/holiday/plank_left: 1808 0 fr
+:raymanni/holiday/plank_right: 1808 64 fr
+:raymanni/holiday/plank_mid1: 1808 32 fr
+:raymanni/toys/cracker: 1792 32
+:raymanni/toys/cracker: 1584 32
+:Group-0: 1760 2250
+:Group-0: 1776 2250
+:Group-3: 1616 96
+:Group-3: 1616 1696
+:Group-4: 1616 256
+:Group-4: 1616 576
+:Group-4: 1616 896
+:Group-4: 1616 1216
+:Group-3: 1616 1536
+:matt/carnival/balloons: 2032 -36
+:raymanni/holiday/plank_left: 1824 0 r
+:raymanni/holiday/plank_right: 1824 64 r
+:raymanni/toys/brick_8: 1968 56 rr
+:raymanni/toys/brick_7: 1904 56 rr
+:raymanni/toys/brick_6: 1840 56 rr
+:raymanni/holiday/plank_mid1: 1824 32 r
+:matt/carnival/balloons: 2026 -36 frr
+:raymanni/holiday/plank_left: 2032 0 fr
+:raymanni/holiday/plank_right: 2032 64 fr
+:raymanni/holiday/plank_mid1: 2032 32 fr
+:raymanni/toys/cracker: 2016 32
+:raymanni/toys/cracker: 1808 32
+:Group-0: 1984 2250
+:Group-0: 2000 2250
+:Group-3: 1840 96
+:Group-3: 1840 1696
+:Group-4: 1840 256
+:Group-4: 1840 576
+:Group-4: 1840 896
+:Group-4: 1840 1216
+:Group-3: 1840 1536
+:matt/carnival/balloons: 2256 -36
+:raymanni/holiday/plank_left: 2048 0 r
+:raymanni/holiday/plank_right: 2048 64 r
+:raymanni/toys/brick_8: 2192 56 rr
+:raymanni/toys/brick_7: 2128 56 rr
+:raymanni/toys/brick_6: 2064 56 rr
+:raymanni/holiday/plank_mid1: 2048 32 r
+:matt/carnival/balloons: 2250 -36 frr
+:raymanni/holiday/plank_left: 2256 0 fr
+:raymanni/holiday/plank_right: 2256 64 fr
+:raymanni/holiday/plank_mid1: 2256 32 fr
+:raymanni/toys/cracker: 2240 32
+:raymanni/toys/cracker: 2032 32
+:Group-0: 2208 2250
+:Group-0: 2224 2250
+:Group-3: 2064 96
+:Group-3: 2064 1696
+:Group-4: 2064 256
+:Group-4: 2064 576
+:Group-4: 2064 896
+:Group-4: 2064 1216
+:Group-3: 2064 1536
+:matt/carnival/balloons: 2480 -36
+:raymanni/holiday/plank_left: 2272 0 r
+:raymanni/holiday/plank_right: 2272 64 r
+:raymanni/toys/brick_8: 2416 56 rr
+:raymanni/toys/brick_7: 2352 56 rr
+:raymanni/toys/brick_6: 2288 56 rr
+:raymanni/holiday/plank_mid1: 2272 32 r
+:matt/carnival/balloons: 2474 -36 frr
+:raymanni/holiday/plank_left: 2480 0 fr
+:raymanni/holiday/plank_right: 2480 64 fr
+:raymanni/holiday/plank_mid1: 2480 32 fr
+:raymanni/toys/cracker: 2464 32
+:raymanni/toys/cracker: 2256 32
+:Group-0: 2432 2250
+:Group-0: 2448 2250
+:Group-3: 2288 96
+:Group-3: 2288 1696
+:Group-4: 2288 256
+:Group-4: 2288 576
+:Group-4: 2288 896
+:Group-4: 2288 1216
+:Group-3: 2288 1536
+:matt/carnival/balloons: 2704 -36
+:raymanni/holiday/plank_left: 2496 0 r
+:raymanni/holiday/plank_right: 2496 64 r
+:raymanni/toys/brick_8: 2640 56 rr
+:raymanni/toys/brick_7: 2576 56 rr
+:raymanni/toys/brick_6: 2512 56 rr
+:raymanni/holiday/plank_mid1: 2496 32 r
+:matt/carnival/balloons: 2698 -36 frr
+:raymanni/holiday/plank_left: 2704 0 fr
+:raymanni/holiday/plank_right: 2704 64 fr
+:raymanni/holiday/plank_mid1: 2704 32 fr
+:raymanni/toys/cracker: 2688 32
+:raymanni/toys/cracker: 2480 32
+:Group-0: 2656 2250
+:Group-0: 2672 2250
+:Group-3: 2512 96
+:Group-3: 2512 1696
+:Group-4: 2512 256
+:Group-4: 2512 576
+:Group-4: 2512 896
+:Group-4: 2512 1216
+:Group-3: 2512 1536
+:matt/carnival/balloons: 2928 -36
+:raymanni/holiday/plank_left: 2720 0 r
+:raymanni/holiday/plank_right: 2720 64 r
+:raymanni/toys/brick_8: 2864 56 rr
+:raymanni/toys/brick_7: 2800 56 rr
+:raymanni/toys/brick_6: 2736 56 rr
+:raymanni/holiday/plank_mid1: 2720 32 r
+:matt/carnival/balloons: 2922 -36 frr
+:raymanni/holiday/plank_left: 2928 0 fr
+:raymanni/holiday/plank_right: 2928 64 fr
+:raymanni/holiday/plank_mid1: 2928 32 fr
+:raymanni/toys/cracker: 2912 32
+:raymanni/toys/cracker: 2704 32
+:Group-0: 2880 2250
+:Group-0: 2896 2250
+:Group-3: 2736 96
+:Group-3: 2736 1696
+:Group-4: 2736 256
+:Group-4: 2736 576
+:Group-4: 2736 896
+:Group-4: 2736 1216
+:Group-3: 2736 1536
+:matt/carnival/balloons: 3152 -36
+:raymanni/holiday/plank_left: 2944 0 r
+:raymanni/holiday/plank_right: 2944 64 r
+:raymanni/toys/brick_8: 3088 56 rr
+:raymanni/toys/brick_7: 3024 56 rr
+:raymanni/toys/brick_6: 2960 56 rr
+:raymanni/holiday/plank_mid1: 2944 32 r
+:raymanni/holiday/plank_left: 3152 0 fr
+:raymanni/holiday/plank_right: 3152 64 fr
+:raymanni/holiday/plank_mid1: 3152 32 fr
+:raymanni/toys/cracker: 3136 32
+:raymanni/toys/cracker: 2928 32
+:Group-0: 3104 2250
+:Group-0: 3120 2250
+:Group-3: 2960 96
+:Group-3: 2960 1696
+:Group-4: 2960 256
+:Group-4: 2960 576
+:Group-4: 2960 896
+:Group-4: 2960 1216
+:Group-3: 2960 1536
+$BEGIN_TILE_GROUP 5
+:geoo/abstract/pipes/endr4: 0 16 r
+:geoo/abstract/pipes/endr4: 0 0 rrr
+:geoo/abstract/pipes/junct4: 0 8 r
+:geoo/abstract/pipes/junct4: 16 8 rrr
+:geoo/abstract/pipes/endr4: 16 16 r
+:geoo/abstract/pipes/endr4: 16 0 rrr
+:geoo/abstract/pipes/cshort4: 8 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:geoo/abstract/pipes/endr4: 0 0 rr
+:geoo/abstract/pipes/cshort4: 8 0
+:geoo/abstract/pipes/corner4: 16 0 rr
+:geoo/abstract/pipes/junct4: 16 8 rrr
+:geoo/abstract/pipes/corner4: 0 8 r
+:geoo/abstract/pipes/corner4: 0 16
+:geoo/abstract/pipes/corner4: 16 16 rrr
+:geoo/abstract/pipes/cshort4: 8 8
+:geoo/abstract/pipes/cshort4: 8 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 7
+:geoo/abstract/pipes/endr4: 16 16
+:geoo/abstract/pipes/endr4: 0 0 rrr
+:geoo/abstract/pipes/cshort4: 8 16
+:geoo/abstract/pipes/cshort4: 0 8 r
+:geoo/abstract/pipes/corner4: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 8
+:Group-6: 32 0
+:Group-7: 64 0
+:Group-5: 0 0
+:Group-7: 96 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 9
+:geoo/abstract/pipes/cshort4: 8 0
+:geoo/abstract/pipes/endr4: 16 0
+:geoo/abstract/pipes/corner4: 0 0 r
+:geoo/abstract/pipes/corner4: 0 16
+:geoo/abstract/pipes/cshort4: 8 16
+:geoo/abstract/pipes/endr4: 16 16
+:geoo/abstract/pipes/endr4: 8 8
+:geoo/abstract/pipes/junct4: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 10
+:geoo/abstract/pipes/endr4: 0 16 r
+:geoo/abstract/pipes/endr4: 16 16 r
+:geoo/abstract/pipes/endr4: 8 16 r
+:geoo/abstract/pipes/corner4: 0 0 r
+:geoo/abstract/pipes/corner4: 16 0 rr
+:geoo/abstract/pipes/junct4: 8 0 rr
+:geoo/abstract/pipes/cshort4: 0 8 r
+:geoo/abstract/pipes/cshort4: 16 8 r
+:geoo/abstract/pipes/cshort4: 8 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 11
+:geoo/abstract/pipes/cshort4: 8 0
+:geoo/abstract/pipes/corner4: 0 0 r
+:geoo/abstract/pipes/cshort4: 16 8 r
+:geoo/abstract/pipes/corner4: 16 0 rr
+:geoo/abstract/pipes/cshort4: 8 16 rr
+:geoo/abstract/pipes/corner4: 16 16 rrr
+:geoo/abstract/pipes/cshort4: 0 8 rrr
+:geoo/abstract/pipes/corner4: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 12
+:geoo/abstract/pipes/junct4: 0 8 r
+:geoo/abstract/pipes/corner4: 0 16
+:geoo/abstract/pipes/corner4: 0 0 r
+:geoo/abstract/pipes/cshort4: 8 16
+:geoo/abstract/pipes/junct4: 8 8
+:geoo/abstract/pipes/link4: 16 8
+:geoo/abstract/pipes/link4: 16 8 rrr
+:geoo/abstract/pipes/link4: 16 16 r
+:geoo/abstract/pipes/link4: 16 16
+:geoo/abstract/pipes/link4: 8 0
+:geoo/abstract/pipes/link4: 8 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 13
+:geoo/abstract/pipes/corner4: 0 0 r
+:geoo/abstract/pipes/corner4: 8 0 rr
+:geoo/abstract/pipes/corner4: 8 8 rrr
+:geoo/abstract/pipes/endr4: 0 16 r
+:geoo/abstract/pipes/junct4: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 14
+:geoo/abstract/pipes/corner4: 0 0 r
+:geoo/abstract/pipes/corner4: 8 0 rr
+:geoo/abstract/pipes/endr4: 0 16 r
+:geoo/abstract/pipes/junct4: 0 8 r
+:geoo/abstract/pipes/junct4: 8 8 rrr
+:geoo/abstract/pipes/link4: 8 16 r
+:geoo/abstract/pipes/link4: 8 16 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 15
+:Group-12: 80 0
+:Group-13: 0 0
+:Group-14: 24 0
+:Group-11: 48 0
+:Group-7: 112 0
+:Group-9: 144 0
+:Group-10: 176 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 16
+:geoo/abstract/pipes/endr4: 16 0
+:geoo/abstract/pipes/endr4: 0 0 rr
+:geoo/abstract/pipes/junct4: 8 0 rr
+:geoo/abstract/pipes/cshort4: 8 8 r
+:geoo/abstract/pipes/endr4: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 17
+:Group-9: 64 0
+:Group-5: 32 0
+:Group-16: 0 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 18
+:geoo/abstract/pipes/endr4: 0 16 r
+:geoo/abstract/pipes/cshort4: 0 8 r
+:geoo/abstract/pipes/cshort4: 8 8 r
+:geoo/abstract/pipes/cshort4: 16 8 r
+:geoo/abstract/pipes/corner4: 8 16
+:geoo/abstract/pipes/corner4: 0 0 r
+:geoo/abstract/pipes/corner4: 8 0 rr
+:geoo/abstract/pipes/corner4: 16 16 rrr
+:geoo/abstract/pipes/endr4: 16 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 19
+:geoo/abstract/pipes/endr4: 0 16 rr
+:geoo/abstract/pipes/corner4: 8 16 rrr
+:geoo/abstract/pipes/junct4: 8 8 rrr
+:geoo/abstract/pipes/endr4: 8 0 rrr
+:geoo/abstract/pipes/endr4: 0 0 rrr
+:geoo/abstract/pipes/corner4: 0 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 20
+:Group-10: 0 0
+:Group-11: 32 0
+:Group-18: 64 0
+:Group-16: 96 0
+:Group-19: 128 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 21
+:Group-17: 0 0
+:Group-20: 120 0
+:Group-8: 296 0
+:Group-15: 448 0
+$END_TILE_GROUP
+:Group-21: 240 96 r
+:Group-21: 464 96 r
+:Group-21: 688 96 r
+:Group-21: 912 96 r
+:Group-21: 1136 96 r
+:Group-21: 1360 96 r
+:Group-21: 1584 96 r
+:Group-21: 1808 96 r
+:Group-21: 2032 96 r
+:Group-21: 2256 96 r
+:Group-21: 2480 96 r
+:Group-21: 2704 96 r
+:Group-21: 2928 96 r
+:Group-21: 3152 96 r
+:green-frisbee/goat-nicubunu: 128 1814
+:green-frisbee/goat-nicubunu: 192 1814
+$BEGIN_TILE_GROUP 22
+:raymanni/toys/car_2: 0 0
+:geoo/construction/platform.S: 0 72
+:geoo/construction/platform.S: 32 72
+:geoo/construction/platform.S: 0 40 r
+:geoo/construction/platform.S: 62 40 fr
+$END_TILE_GROUP
+:Group-22: 48 1827
+:green-frisbee/goat-nicubunu: 352 1814
+:green-frisbee/goat-nicubunu: 416 1814
+:Group-22: 272 1827
+:green-frisbee/goat-nicubunu: 512 1814
+:green-frisbee/goat-nicubunu: 640 1814
+:Group-22: 560 1827
+:green-frisbee/goat-nicubunu: 800 1814
+:green-frisbee/goat-nicubunu: 864 1814
+:Group-22: 720 1827
+:green-frisbee/goat-nicubunu: 960 1814
+:green-frisbee/goat-nicubunu: 1088 1814
+:Group-22: 1008 1827
+:green-frisbee/goat-nicubunu: 1184 1814
+:green-frisbee/goat-nicubunu: 1312 1814
+:Group-22: 1232 1827
+:green-frisbee/goat-nicubunu: 1472 1814
+:green-frisbee/goat-nicubunu: 1536 1814
+:Group-22: 1392 1827
+:green-frisbee/goat-nicubunu: 1632 1814
+:green-frisbee/goat-nicubunu: 1760 1814
+:Group-22: 1680 1827
+:green-frisbee/goat-nicubunu: 1856 1814
+:green-frisbee/goat-nicubunu: 1984 1814
+:Group-22: 1904 1827
+:green-frisbee/goat-nicubunu: 2080 1814
+:green-frisbee/goat-nicubunu: 2144 1814
+:Group-22: 2192 1827
+:green-frisbee/goat-nicubunu: 2304 1814
+:green-frisbee/goat-nicubunu: 2432 1814
+:Group-22: 2352 1827
+:green-frisbee/goat-nicubunu: 2528 1814
+:green-frisbee/goat-nicubunu: 2656 1814
+:Group-22: 2576 1827
+:green-frisbee/goat-nicubunu: 2752 1814
+:green-frisbee/goat-nicubunu: 2816 1814
+:Group-22: 2864 1827
+:green-frisbee/goat-nicubunu: 3040 1814
+:green-frisbee/goat-nicubunu: 3104 1814
+:Group-22: 2960 1827
+$BEGIN_TILE_GROUP 23
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/cshort7: 8 8 r
+:geoo/abstract/pipes/link7: 0 0 rr
+:geoo/abstract/pipes/endr7: 8 16 r
+$END_TILE_GROUP
+:Group-23: 136 0
+$BEGIN_TILE_GROUP 24
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/corner7: 8 8 rrr
+:geoo/abstract/pipes/endr7: 8 16
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/corner7: 0 8 r
+$END_TILE_GROUP
+:Group-24: 360 0
+$BEGIN_TILE_GROUP 25
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/endr7: 0 16 frr
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/endr7: 0 8 frr
+:geoo/abstract/pipes/junct7: 8 8 rrr
+$END_TILE_GROUP
+:Group-25: 584 0
+$BEGIN_TILE_GROUP 26
+:geoo/abstract/pipes/endr7: 0 0 rrr
+:geoo/abstract/pipes/corner7: 0 8
+:geoo/abstract/pipes/junct7: 8 8 rrr
+:geoo/abstract/pipes/endr7: 8 0 rrr
+:geoo/abstract/pipes/endr7: 8 16 r
+$END_TILE_GROUP
+:Group-26: 808 0
+$BEGIN_TILE_GROUP 27
+:geoo/abstract/pipes/endr7: 8 0 f
+:geoo/abstract/pipes/corner7: 0 0 f
+:geoo/abstract/pipes/corner7: 0 8 frrr
+:geoo/abstract/pipes/endr7: 0 16 frr
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/corner7: 8 8 fr
+$END_TILE_GROUP
+:Group-27: 1032 0
+$BEGIN_TILE_GROUP 28
+:geoo/abstract/pipes/endr7: 8 0 f
+:geoo/abstract/pipes/corner7: 0 0 f
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/corner7: 8 8 fr
+:geoo/abstract/pipes/junct7: 0 8 r
+:geoo/abstract/pipes/corner7: 0 16 frrr
+$END_TILE_GROUP
+:Group-28: 1256 0
+$BEGIN_TILE_GROUP 29
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/endr7: 8 16 r
+:geoo/abstract/pipes/juncx7: 8 8
+:geoo/abstract/pipes/link7: 16 8
+:geoo/abstract/pipes/link7: 0 8 rr
+:geoo/abstract/pipes/corner7: 8 0 rr
+$END_TILE_GROUP
+:Group-29: 1480 0
+$BEGIN_TILE_GROUP 30
+:geoo/abstract/pipes/corner7: 0 0 r
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/corner7: 8 16 rrr
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/junct7: 0 8 r
+:geoo/abstract/pipes/junct7: 8 8 rrr
+$END_TILE_GROUP
+:Group-30: 1704 0
+$BEGIN_TILE_GROUP 31
+:geoo/abstract/pipes/endr7: 0 16 frr
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/corner7: 0 0 f
+:geoo/abstract/pipes/corner7: 0 8 frrr
+:geoo/abstract/pipes/junct7: 8 8 rrr
+:geoo/abstract/pipes/corner7: 8 0 fr
+$END_TILE_GROUP
+:Group-31: 1928 0
+:Group-23: 2144 0
+$BEGIN_TILE_GROUP 32
+:geoo/abstract/pipes/corner7: 0 0 r
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/corner7: 8 16 rrr
+:geoo/abstract/pipes/cshort7: 0 8 r
+:geoo/abstract/pipes/cshort7: 8 8 r
+$END_TILE_GROUP
+:Group-32: 2160 0
+:Group-23: 2368 0
+:Group-23: 2384 0
+:Group-23: 2592 0
+:Group-24: 2608 0
+:Group-23: 2816 0
+:Group-25: 2832 0
+:Group-23: 3040 0
+:Group-26: 3056 0
+$BEGIN_TILE_GROUP 33
+:green-frisbee/not-solvable-the-first-time.w32px: 0 0
+:green-frisbee/roadsign-panel-30pct: 0 28
+$END_TILE_GROUP
+:Group-33: 0 52

@@ -1,0 +1,40 @@
+$BUILT 2023-02-16 22:14:38
+$AUTHOR Brown Bear
+$ENGLISH Frogs
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 320
+#SIZE_Y 160
+#BACKGROUND_RED 48
+#BACKGROUND_GREEN 48
+#BACKGROUND_BLUE 251
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 32
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:matt/beach/Hatch.H: 208 16
+
+:raymanni/holiday/goal.G: 0 48
+
+:amanda/forest/frog.T: 128 72
+
+:raymanni/gore/blob_5: 0 112 fr
+:raymanni/gore/blob_5: 96 112 fr
+:raymanni/gore/blob_5: 192 112 r
+:raymanni/gore/blob_5: 272 32 rr

@@ -1,0 +1,63 @@
+$BUILT 2023-01-04 20:39:52
+$AUTHOR Green Frisbee
+$ENGLISH X marks the spot
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 192
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 38
+#BACKGROUND_GREEN 152
+#BACKGROUND_BLUE 216
+
+#INITIAL 80
+#REQUIRED 1
+#SPAWN_INTERVAL 4
+
+#DIGGER 1
+#EXPLODER2 0
+
+:geoo/sandstone/fennec.H: 160 -8
+
+:raymanni/lab/goal.G: 8 128
+
+:simon/oriental/earth: 0 144
+$BEGIN_TILE_GROUP 0
+:simon/oriental/earth: 0 0
+:geoo/construction/rod_steel/cross_diag_full.S: 28 30
+$END_TILE_GROUP
+:Group-0: 0 -64
+$BEGIN_TILE_GROUP 1
+:geoo/abstract/pipes/link0: 16 8 r
+:geoo/abstract/pipes/link0: 16 8 rrr
+:geoo/abstract/pipes/link0: 0 0 rr
+:geoo/abstract/pipes/link0: 24 0
+:geoo/abstract/pipes/link0: 0 16 rr
+:geoo/abstract/pipes/link0: 24 16
+:geoo/abstract/pipes/link0: 16 16 r
+:geoo/abstract/pipes/link0: 16 0 rrr
+:geoo/abstract/pipes/link0: 16 0 rr
+:geoo/abstract/pipes/link0: 8 0
+:geoo/abstract/pipes/link0: 16 16 rr
+:geoo/abstract/pipes/link0: 8 16
+:geoo/abstract/pipes/link0: 8 8 r
+:geoo/abstract/pipes/link0: 8 8 rrr
+:geoo/abstract/pipes/link0: 8 16 r
+:geoo/abstract/pipes/link0: 8 0 rrr
+$END_TILE_GROUP
+:Group-1: 28 156
+:green-frisbee/cracker-azure: 88 144 r
+:simon/oriental/earth: 80 144
+:green-frisbee/cracker-azure: 168 144 r
+:simon/oriental/earth: 160 144
+:green-frisbee/cracker-azure: 248 144 r
+:simon/oriental/earth: 240 144
+:green-frisbee/cracker-azure: 328 144 r
+:simon/oriental/earth: 320 144
+:green-frisbee/cracker-azure: 408 144 r
+:simon/oriental/earth: 400 144
+:green-frisbee/cracker-azure: 488 144 r
+:simon/oriental/earth: 480 144
+:green-frisbee/cracker-azure: 568 144 r
+:simon/oriental/earth: 560 144

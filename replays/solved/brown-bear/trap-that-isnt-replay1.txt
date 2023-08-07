@@ -1,0 +1,6 @@
+$FILENAME brown-bear/trap-that-isnt.txt
+$LEVEL_BUILT_REQUIRED 2023-03-25 20:15:37
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+

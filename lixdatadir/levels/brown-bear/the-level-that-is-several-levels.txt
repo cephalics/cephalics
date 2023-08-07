@@ -1,0 +1,64 @@
+$BUILT 2023-04-27 03:09:38
+$AUTHOR Brown Bear
+$ENGLISH The Several-levels Level
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 160
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 176
+#BACKGROUND_GREEN 124
+#BACKGROUND_BLUE 32
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 4
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:brown-bear/that-appears.H: 80 0
+
+:raymanni/toys/goal.G: 312 80
+:raymanni/toys/goal.G: 264 80
+
+:matt/10tons.T: 144 96
+
+$BEGIN_TILE_GROUP 0
+:geoo/construction/platformbrick: 0 0
+:geoo/construction/platformbrick: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 64 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 128 0
+$END_TILE_GROUP
+:Group-2: 320 -96 r
+:Group-2: 320 -352 r
+$BEGIN_TILE_GROUP 3
+:matt/winter/06: 0 0 r
+:matt/winter/06: 64 0 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:Group-3: 0 0
+:Group-3: 128 0
+$END_TILE_GROUP
+:Group-4: 320 144
+:Group-4: 576 144
+:Group-3: 192 144

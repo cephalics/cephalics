@@ -1,0 +1,161 @@
+$BUILT 2023-03-19 12:04:31
+$AUTHOR Green Frisbee
+$ENGLISH Workaround
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 608
+#SIZE_Y 240
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 96
+#BACKGROUND_GREEN 48
+#BACKGROUND_BLUE 192
+
+#INITIAL 1
+#REQUIRED 1
+#SPAWN_INTERVAL 96
+
+#WALKER 3
+#CLIMBER 1
+#FLOATER 1
+#PLATFORMER 1
+#BASHER 1
+#MINER 1
+#JUMPER 2
+#BATTER 1
+#EXPLODER2 0
+
+:raymanni/lab/hatch.H: 192 128
+
+:raymanni/lab/goal.G: 272 144
+
+:raymanni/lab/goo_fall.W: 48 80
+:raymanni/lab/goo_fall.W: 48 96
+:raymanni/lab/goo_fall.W: 48 112
+:raymanni/lab/goo_fall.W: 48 128
+:raymanni/lab/goo_fall.W: 48 144
+:raymanni/lab/goo_fall.W: 48 160
+:raymanni/lab/goo_fall.W: 48 176
+:raymanni/lab/goo_fall.W: 48 192
+:geoo/construction/Laser_hz_64.F: 384 88
+
+$BEGIN_TILE_GROUP 0
+:geoo/construction/concrete/016h: 0 0
+:geoo/construction/concrete/016h: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 64 0
+$END_TILE_GROUP
+:Group-1: 96 208
+:Group-1: 320 208
+:geoo/construction/pillar_long: 64 80
+:geoo/construction/pillar_long: 16 80
+:Group-1: 128 80
+:Group-1: 256 80
+:geoo/construction/concrete/064h: 192 16
+:geoo/construction/concrete/128: 448 80
+$BEGIN_TILE_GROUP 2
+:matt/steel/16x16.S: 0 0
+:matt/steel/16x16.S: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 3
+:Group-2: 0 0
+:Group-2: 0 32
+$END_TILE_GROUP
+:Group-3: 576 80
+:Group-3: 576 144
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/pipes/endr7: 0 0 rrr
+:geoo/abstract/pipes/endr7: 16 0 rrr
+:geoo/abstract/pipes/endr7: 8 8 rrr
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/corner7: 16 16 rrr
+:geoo/abstract/pipes/cshort7: 0 8 r
+:geoo/abstract/pipes/cshort7: 16 8 r
+:geoo/abstract/pipes/junct7: 8 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/endr7: 16 0
+:geoo/abstract/pipes/junct7: 8 0 rr
+:geoo/abstract/pipes/cshort7: 8 8 r
+:geoo/abstract/pipes/endr7: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:geoo/abstract/pipes/corner7: 0 0 r
+:geoo/abstract/pipes/cshort7: 8 0
+:geoo/abstract/pipes/corner7: 16 16 rrr
+:geoo/abstract/pipes/cshort7: 8 16 rr
+:geoo/abstract/pipes/corner7: 16 0 rr
+:geoo/abstract/pipes/cshort7: 16 8 r
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/cshort7: 0 8 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 7
+:Group-5: 0 0
+:Group-4: 32 0
+:Group-6: 64 0
+$END_TILE_GROUP
+:Group-7: 212 52
+$BEGIN_TILE_GROUP 8
+:geoo/abstract/pipes/endr7: 16 0
+:geoo/abstract/pipes/cshort7: 8 0
+:geoo/abstract/pipes/corner7: 0 0 r
+:geoo/abstract/pipes/corner7: 0 8
+:geoo/abstract/pipes/endr7: 0 16 rr
+:geoo/abstract/pipes/cshort7: 8 16 rr
+:geoo/abstract/pipes/corner7: 16 16 rrr
+:geoo/abstract/pipes/corner7: 16 8 rr
+:geoo/abstract/pipes/cshort7: 8 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 9
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/cshort7: 8 16
+:geoo/abstract/pipes/endr7: 16 16
+:geoo/abstract/pipes/cshort7: 0 8 r
+:geoo/abstract/pipes/endr7: 0 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 10
+:geoo/abstract/pipes/endr7: 0 0 rrr
+:geoo/abstract/pipes/cshort7: 0 8 r
+:geoo/abstract/pipes/endr7: 16 0 rrr
+:geoo/abstract/pipes/cshort7: 16 8 r
+:geoo/abstract/pipes/cshort7: 8 16
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/corner7: 16 16 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 11
+:geoo/abstract/pipes/endr7: 0 0 rrr
+:geoo/abstract/pipes/cshort7: 0 8 r
+:geoo/abstract/pipes/endr7: 0 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 12
+:geoo/abstract/pipes/cshort7: 0 8 r
+:geoo/abstract/pipes/endr7: 0 16 r
+:geoo/abstract/pipes/corner7: 0 0 r
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/cshort7: 16 8 rrr
+:geoo/abstract/pipes/endr7: 16 0 rrr
+:geoo/abstract/pipes/corner7: 16 16 rrr
+:geoo/abstract/pipes/corner7: 8 16
+:geoo/abstract/pipes/cshort7: 8 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 13
+:Group-8: 0 0
+:Group-6: 32 0
+:Group-9: 64 0
+:Group-8: 240 0
+:Group-10: 96 0
+:Group-5: 128 0
+:Group-11: 160 0
+:Group-6: 176 0
+:Group-12: 208 0
+$END_TILE_GROUP
+:Group-13: 124 96
+:matt/carnival/balloons: 464 88
+:raymanni/toys/cracker: 440 136
+:raymanni/toys/cracker: 472 136 rr
+:matt/carnival/balloons: 528 88
+:raymanni/toys/cracker: 504 136
+:raymanni/toys/cracker: 536 136 rr

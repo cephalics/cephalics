@@ -1,0 +1,45 @@
+$BUILT 2023-02-28 16:15:01
+$AUTHOR Green Frisbee
+$ENGLISH Delay Circuit
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 352
+#SIZE_Y 160
+#BACKGROUND_RED 114
+#BACKGROUND_GREEN 37
+#BACKGROUND_BLUE 215
+
+#INITIAL 2
+#REQUIRED 2
+#SPAWN_INTERVAL 16
+
+#CLIMBER 1
+#FLOATER 1
+#BLOCKER 1
+#PLATFORMER 1
+#BASHER 1
+#MINER 1
+#DIGGER 1
+#JUMPER 1
+#BATTER 1
+#EXPLODER2 0
+
+:geoo/sandstone/fennec.H: 152 0
+
+:raymanni/lab/goal.G: 304 16
+
+:geoo/construction/spring.T: 200 112
+
+:raymanni/holiday/plank_long: 96 144
+:geoo/construction/concrete/016h: 240 80
+:raymanni/holiday/plank_long: -32 144
+:matt/marble/03d: 224 80
+:matt/marble/16d: 16 112
+:matt/marble/14d: 16 80
+:matt/marble/thinplatform128p: 104 40
+:matt/marble/22d: 48 40
+:matt/marble/03d: 224 112
+:matt/marble/03d: 0 80
+:matt/marble/03d: 0 112
+:guideline/platform: 320 80
+:green-frisbee/cracker-violet: 312 82 rr

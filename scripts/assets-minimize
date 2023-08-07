@@ -1,0 +1,19 @@
+#!/usr/bin/env zsh
+set -e
+set -u
+
+# Verify dependencies
+scour --help >/dev/null
+sponge -h > /dev/null
+
+typeset -a extra_args
+
+## Minimize vector graphics
+for i in assets/**/*.svg; do
+	case $i in
+		(assets/original/*) extra_args=( --remove-metadata );;
+		(assets/derived/*)  extra_args=( --remove-metadata );;
+		(*) extra_args=()
+	esac
+	scour --disable-group-collapsing $extra_args $i | sponge $i
+done

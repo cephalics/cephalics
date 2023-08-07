@@ -1,0 +1,97 @@
+$BUILT 2023-02-01 13:12:57
+$AUTHOR Green Frisbee
+$ENGLISH Exit Stage... Drawbridge?
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1920
+#SIZE_Y 1200
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 135
+#BACKGROUND_GREEN 171
+#BACKGROUND_BLUE 235
+
+#INITIAL 241
+#REQUIRED 1
+#SPAWN_INTERVAL 4
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+
+:matt/goldmine/Hatch.H: 960 512
+
+:simon/tapir/goal.G: 960 506
+:raymanni/lab/goal.G: 176 1072
+
+$BEGIN_TILE_GROUP 0
+:guideline/maxfall: 0 0 r
+:guideline/maxfall: 2 0 r
+$END_TILE_GROUP
+:Group-0: 992 560
+$BEGIN_TILE_GROUP 1
+:matt/marble/thinplatform128p: 0 0
+:matt/marble/thinplatform128p: 0 2 frr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 0 4
+:Group-1: 0 8
+:Group-1: 0 12
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 3
+:Group-2: 0 0
+:Group-2: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:Group-3: 0 0
+:Group-3: 128 0
+:Group-3: 0 32
+:Group-3: 128 32
+:Group-3: 256 0
+:Group-3: 384 0
+:Group-3: 256 32
+:Group-3: 384 32
+:Group-3: 512 0
+:Group-3: 512 32
+$END_TILE_GROUP
+:Group-4: 640 560
+:Group-4: 0 880
+:Group-4: 640 880
+:Group-4: 1280 880
+:Group-4: 0 944
+:Group-4: 640 944
+:Group-4: 1280 944
+:Group-4: 0 1008
+:Group-4: 640 1008
+:Group-4: 1280 1008
+:Group-4: 0 1072
+:Group-4: 640 1072
+:Group-4: 1280 1072
+:Group-4: 0 1136
+:Group-4: 640 1136
+:Group-4: 1280 1136
+:Group-4: 0 560
+:Group-4: 1280 560
+:Group-4: 0 624
+:Group-4: 640 624
+:Group-4: 1280 624
+:Group-4: 0 688
+:Group-4: 640 688
+:Group-4: 1280 688
+:Group-4: 0 752
+:Group-4: 640 752
+:Group-4: 1280 752
+:Group-4: 0 816
+:Group-4: 640 816
+:Group-4: 1280 816
+:matt/marble/thinplatform128p: 990 560 rd

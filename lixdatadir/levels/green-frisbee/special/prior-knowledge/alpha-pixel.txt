@@ -1,0 +1,48 @@
+$BUILT 2023-02-06 02:18:07
+$AUTHOR Green Frisbee
+$ENGLISH Alpha Pixel
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 162
+#SIZE_Y 208
+#BACKGROUND_RED 135
+#BACKGROUND_GREEN 83
+#BACKGROUND_BLUE 68
+
+#INITIAL 50
+#REQUIRED 49
+#SPAWN_INTERVAL 32
+
+#WALKER 10
+#RUNNER 10
+#CLIMBER 10
+#FLOATER 10
+#EXPLODER2 10
+#BLOCKER 10
+#BUILDER 10
+#PLATFORMER 10
+#BASHER 10
+#MINER 10
+#DIGGER 10
+#JUMPER 10
+#BATTER 10
+#CUBER 10
+
+:green-frisbee/spinny-advent2-α0-R.H: 32 0
+
+:green-frisbee/house2.G: 32 136
+:green-frisbee/warning-transparent.G: 96 24
+
+:green-frisbee/warning-factorial: 0 24
+:green-frisbee/warning-fall-straight-ahead: 64 24
+:green-frisbee/warning-hatch: 32 24
+:geoo/construction/platform.S: 160 16 rrr
+:geoo/construction/platform.S: 64 184 frr
+:geoo/construction/platform.S: 32 184 frr
+:geoo/construction/platform.S: 0 184 frr
+:geoo/construction/platform.S: 96 184 frr
+:matt/bricks/18: 120 152
+:green-frisbee/warning-falling-rocks: 112 128
+:green-frisbee/mandatory-U-turn-left: 128 32
+:geoo/construction/stairs_rd_32.S: 120 184
+:raymanni/toys/cracker: 157 -17 rrr

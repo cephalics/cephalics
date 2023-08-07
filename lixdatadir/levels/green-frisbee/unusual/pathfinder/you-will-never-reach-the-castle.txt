@@ -1,0 +1,83 @@
+$BUILT 2023-02-15 07:03:09
+$AUTHOR Green Frisbee
+$ENGLISH You will never reach the castle
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1208
+#SIZE_Y 160
+#BACKGROUND_RED 56
+#BACKGROUND_GREEN 95
+#BACKGROUND_BLUE 174
+
+#INITIAL 120
+#REQUIRED 117
+#SPAWN_INTERVAL 48
+
+#WALKER -1
+#RUNNER -1
+#PLATFORMER -1
+#JUMPER -1
+#EXPLODER2 0
+
+:matt/marble/Hatch.H: 0 64
+
+:matt/marble/Goal.G: 1144 80
+:green-frisbee/transparent.32x32.G: 1024 96
+:green-frisbee/transparent.32x32.G: 1030 96
+:green-frisbee/transparent.32x32.G: 1036 96
+:green-frisbee/transparent.32x32.G: 1042 96
+:green-frisbee/transparent.32x32.G: 1048 96
+:green-frisbee/transparent.32x32.G: 1054 96
+:green-frisbee/transparent.32x32.G: 1060 96
+:green-frisbee/transparent.32x32.G: 1066 96
+:green-frisbee/transparent.32x32.G: 1072 96
+:green-frisbee/transparent.32x32.G: 1078 96
+:green-frisbee/transparent.32x32.G: 1084 96
+:green-frisbee/transparent.32x32.G: 1090 96
+
+:matt/marble/08d: 0 128
+:matt/marble/08d: 624 128
+:matt/marble/08d: 1040 128
+:matt/marble/08d: 728 128
+:matt/marble/08d: 832 128
+:matt/marble/08d: 936 128
+:matt/marble/08d: 208 128
+:matt/marble/08d: 312 128
+:matt/marble/08d: 416 128
+:matt/marble/08d: 520 128
+:matt/marble/08d: 104 128
+:matt/marble/08d: 1144 128
+:matt/carnival/balloons: 24 -99
+:matt/carnival/balloons: 128 -99
+:matt/carnival/balloons: 232 -99
+:matt/carnival/balloons: 336 -99
+:matt/carnival/balloons: 440 -99
+:matt/carnival/balloons: 544 -99
+:matt/carnival/balloons: 648 -99
+:matt/carnival/balloons: 752 -99
+:matt/carnival/balloons: 856 -99
+:matt/carnival/balloons: 960 -99
+:matt/carnival/balloons: 1064 -99
+:matt/carnival/balloons: 1168 -99
+$BEGIN_TILE_GROUP 0
+:matt/marble/08: 0 64
+:raymanni/toys/cracker: 8 0
+$END_TILE_GROUP
+:Group-0: 0 -32
+$BEGIN_TILE_GROUP 1
+:matt/marble/08d: 0 64
+:green-frisbee/cracker-violet: 8 0
+$END_TILE_GROUP
+:Group-1: 104 -32
+:Group-0: 208 -32
+:Group-1: 312 -32
+:Group-0: 416 -32
+:Group-1: 520 -32
+:Group-0: 624 -32
+:Group-1: 728 -32
+:Group-0: 832 -32
+:Group-1: 936 -32
+:Group-0: 1040 -32
+:Group-1: 1144 -32
+:green-frisbee/warning-invisible-goals: 1004 36
+:green-frisbee/first-time-solvable: 1004 4

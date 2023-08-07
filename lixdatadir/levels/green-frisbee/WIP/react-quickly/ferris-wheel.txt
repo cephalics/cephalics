@@ -1,0 +1,44 @@
+$BUILT 2023-01-30 00:52:01
+$AUTHOR Green Frisbee
+$ENGLISH Ferris Wheel
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 160
+#SIZE_Y 176
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 37
+#BACKGROUND_GREEN 201
+#BACKGROUND_BLUE 110
+
+#INITIAL 50
+#REQUIRED 40
+#SPAWN_INTERVAL 32
+
+#WALKER 50
+#RUNNER 50
+#CLIMBER 50
+#FLOATER 50
+#EXPLODER2 50
+#BLOCKER 50
+#BUILDER 50
+#PLATFORMER 50
+#BASHER 50
+#MINER 50
+#DIGGER 50
+#JUMPER 50
+#BATTER 50
+#CUBER 50
+
+:green-frisbee/spinny-advent2-R.H: 64 112
+:green-frisbee/spinny-advent2-L.H: 64 112 r
+
+:green-frisbee/goalling.G: 64 -8
+
+:green-frisbee/warning-airplanes: 16 112
+:green-frisbee/warning-bends-l-r: 16 64
+:green-frisbee/warning-deer: 64 24
+:green-frisbee/warning-factorial: 64 144
+:green-frisbee/warning-fall-straight-ahead: 112 112
+:green-frisbee/warning-falling-rocks: 112 64
+:green-frisbee/warning-l-r-traffic.diamond.w32px: 64 88

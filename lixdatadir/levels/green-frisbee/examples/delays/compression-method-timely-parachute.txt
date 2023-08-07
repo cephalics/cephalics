@@ -1,0 +1,47 @@
+$BUILT 2023-05-03 11:59:24
+$AUTHOR Green Frisbee
+$ENGLISH Compression Method Timely Parachute
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 600
+#SIZE_Y 160
+#BACKGROUND_RED 191
+#BACKGROUND_GREEN 109
+#BACKGROUND_BLUE 108
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 8
+
+#FLOATER 1
+#EXPLODER2 0
+
+:geoo/construction/Hatch.H: 0 24
+:geoo/construction/Hatch.H: 416 120
+
+:raymanni/lab/goal.G: 552 88
+
+:geoo/construction/squisher.T: 536 88
+
+:raymanni/lab/launcher_right.T: 32 24
+
+:matt/carnival/balloons: 526 -44
+:geoo/abstract/pipes/central4: 32 56 frr
+:geoo/abstract/pipes/central4: 0 56 frr
+:geoo/abstract/pipes/central4: 440 152 frr
+:geoo/abstract/pipes/central4: 408 152 frr
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/cvblocks/028: 0 32
+:geoo/abstract/cvblocks/029: 16 32
+:geoo/abstract/cvblocks/025: 8 0
+$END_TILE_GROUP
+:Group-0: 384 0
+:Group-0: 320 64 rrr
+$BEGIN_TILE_GROUP 1
+:geoo/abstract/pipes/central4: 0 0 frr
+:geoo/abstract/pipes/central4: 32 0 frr
+$END_TILE_GROUP
+:Group-1: 472 152
+:Group-1: 536 152
+:geoo/abstract/pipes/central4: 384 152 frrd
+:raymanni/toys/cracker: 528 24

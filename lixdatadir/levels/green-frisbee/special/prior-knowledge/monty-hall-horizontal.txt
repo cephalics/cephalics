@@ -1,0 +1,553 @@
+$BUILT 2023-03-20 16:17:01
+$AUTHOR Green Frisbee
+$ENGLISH The Monty Hall Problem (68% v. 10%)
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 3200
+#SIZE_Y 1648
+#BACKGROUND_RED 183
+#BACKGROUND_GREEN 170
+#BACKGROUND_BLUE 132
+
+#INITIAL 6
+#REQUIRED 4
+#SPAWN_INTERVAL 1
+
+#DIGGER 6
+#EXPLODER2 0
+
+:geoo/construction/Hatch.H: 40 0
+:geoo/construction/Hatch.H: 40 278
+:geoo/construction/Hatch.H: 40 556
+:geoo/construction/Hatch.H: 40 834
+:geoo/construction/Hatch.H: 40 1112
+:geoo/construction/Hatch.H: 40 1390
+
+:geoo/abstract/goal.G: 3048 104
+:geoo/abstract/goal.G: 3048 478
+:geoo/abstract/goal.G: 3048 660
+:geoo/abstract/goal.G: 3048 938
+:geoo/abstract/goal.G: 3048 1264
+:geoo/abstract/goal.G: 3048 1494
+
+:raymanni/lab/launcher_right.T: 208 112
+:raymanni/lab/launcher_right.T: 208 160
+:raymanni/lab/launcher_right.T: 208 208
+:raymanni/lab/launcher_right.T: 520 112
+:raymanni/lab/launcher_right.T: 520 160
+:raymanni/lab/launcher_right.T: 520 208
+:raymanni/lab/launcher_right.T: 832 112
+:raymanni/lab/launcher_right.T: 832 160
+:raymanni/lab/launcher_right.T: 832 208
+:raymanni/lab/launcher_right.T: 1144 112
+:raymanni/lab/launcher_right.T: 1144 160
+:raymanni/lab/launcher_right.T: 1144 208
+:raymanni/lab/launcher_right.T: 1456 112
+:raymanni/lab/launcher_right.T: 1456 160
+:raymanni/lab/launcher_right.T: 1456 208
+:raymanni/lab/launcher_right.T: 1768 112
+:raymanni/lab/launcher_right.T: 1768 160
+:raymanni/lab/launcher_right.T: 1768 208
+:raymanni/lab/launcher_right.T: 2080 112
+:raymanni/lab/launcher_right.T: 2080 160
+:raymanni/lab/launcher_right.T: 2080 208
+:raymanni/lab/launcher_right.T: 2392 112
+:raymanni/lab/launcher_right.T: 2392 160
+:raymanni/lab/launcher_right.T: 2392 208
+:raymanni/lab/launcher_right.T: 2704 112
+:raymanni/lab/launcher_right.T: 2704 160
+:raymanni/lab/launcher_right.T: 2704 208
+:geoo/abstract/tbeam_right.T: 3008 112
+:geoo/abstract/tbeam_right.T: 3008 160
+:geoo/abstract/tbeam_right.T: 3008 208
+:raymanni/lab/launcher_right.T: 208 390
+:raymanni/lab/launcher_right.T: 208 438
+:raymanni/lab/launcher_right.T: 208 486
+:raymanni/lab/launcher_right.T: 520 390
+:raymanni/lab/launcher_right.T: 520 438
+:raymanni/lab/launcher_right.T: 520 486
+:raymanni/lab/launcher_right.T: 832 390
+:raymanni/lab/launcher_right.T: 832 438
+:raymanni/lab/launcher_right.T: 832 486
+:raymanni/lab/launcher_right.T: 1144 390
+:raymanni/lab/launcher_right.T: 1144 438
+:raymanni/lab/launcher_right.T: 1144 486
+:raymanni/lab/launcher_right.T: 1456 390
+:raymanni/lab/launcher_right.T: 1456 438
+:raymanni/lab/launcher_right.T: 1456 486
+:raymanni/lab/launcher_right.T: 1768 390
+:raymanni/lab/launcher_right.T: 1768 438
+:raymanni/lab/launcher_right.T: 1768 486
+:raymanni/lab/launcher_right.T: 2080 390
+:raymanni/lab/launcher_right.T: 2080 438
+:raymanni/lab/launcher_right.T: 2080 486
+:raymanni/lab/launcher_right.T: 2392 390
+:raymanni/lab/launcher_right.T: 2392 438
+:raymanni/lab/launcher_right.T: 2392 486
+:raymanni/lab/launcher_right.T: 2704 390
+:raymanni/lab/launcher_right.T: 2704 438
+:raymanni/lab/launcher_right.T: 2704 486
+:geoo/abstract/tbeam_right.T: 3008 390
+:geoo/abstract/tbeam_right.T: 3008 438
+:geoo/abstract/tbeam_right.T: 3008 486
+:raymanni/lab/launcher_right.T: 208 668
+:raymanni/lab/launcher_right.T: 208 716
+:raymanni/lab/launcher_right.T: 208 764
+:raymanni/lab/launcher_right.T: 520 668
+:raymanni/lab/launcher_right.T: 520 716
+:raymanni/lab/launcher_right.T: 520 764
+:raymanni/lab/launcher_right.T: 832 668
+:raymanni/lab/launcher_right.T: 832 716
+:raymanni/lab/launcher_right.T: 832 764
+:raymanni/lab/launcher_right.T: 1144 668
+:raymanni/lab/launcher_right.T: 1144 716
+:raymanni/lab/launcher_right.T: 1144 764
+:raymanni/lab/launcher_right.T: 1456 668
+:raymanni/lab/launcher_right.T: 1456 716
+:raymanni/lab/launcher_right.T: 1456 764
+:raymanni/lab/launcher_right.T: 1768 668
+:raymanni/lab/launcher_right.T: 1768 716
+:raymanni/lab/launcher_right.T: 1768 764
+:raymanni/lab/launcher_right.T: 2080 668
+:raymanni/lab/launcher_right.T: 2080 716
+:raymanni/lab/launcher_right.T: 2080 764
+:raymanni/lab/launcher_right.T: 2392 668
+:raymanni/lab/launcher_right.T: 2392 716
+:raymanni/lab/launcher_right.T: 2392 764
+:raymanni/lab/launcher_right.T: 2704 668
+:raymanni/lab/launcher_right.T: 2704 716
+:raymanni/lab/launcher_right.T: 2704 764
+:geoo/abstract/tbeam_right.T: 3008 668
+:geoo/abstract/tbeam_right.T: 3008 716
+:geoo/abstract/tbeam_right.T: 3008 764
+:raymanni/lab/launcher_right.T: 208 946
+:raymanni/lab/launcher_right.T: 208 994
+:raymanni/lab/launcher_right.T: 208 1042
+:raymanni/lab/launcher_right.T: 520 946
+:raymanni/lab/launcher_right.T: 520 994
+:raymanni/lab/launcher_right.T: 520 1042
+:raymanni/lab/launcher_right.T: 832 946
+:raymanni/lab/launcher_right.T: 832 994
+:raymanni/lab/launcher_right.T: 832 1042
+:raymanni/lab/launcher_right.T: 1144 946
+:raymanni/lab/launcher_right.T: 1144 994
+:raymanni/lab/launcher_right.T: 1144 1042
+:raymanni/lab/launcher_right.T: 1456 946
+:raymanni/lab/launcher_right.T: 1456 994
+:raymanni/lab/launcher_right.T: 1456 1042
+:raymanni/lab/launcher_right.T: 1768 946
+:raymanni/lab/launcher_right.T: 1768 994
+:raymanni/lab/launcher_right.T: 1768 1042
+:raymanni/lab/launcher_right.T: 2080 946
+:raymanni/lab/launcher_right.T: 2080 994
+:raymanni/lab/launcher_right.T: 2080 1042
+:raymanni/lab/launcher_right.T: 2392 946
+:raymanni/lab/launcher_right.T: 2392 994
+:raymanni/lab/launcher_right.T: 2392 1042
+:raymanni/lab/launcher_right.T: 2704 946
+:raymanni/lab/launcher_right.T: 2704 994
+:raymanni/lab/launcher_right.T: 2704 1042
+:geoo/abstract/tbeam_right.T: 3008 946
+:geoo/abstract/tbeam_right.T: 3008 994
+:geoo/abstract/tbeam_right.T: 3008 1042
+:raymanni/lab/launcher_right.T: 208 1224
+:raymanni/lab/launcher_right.T: 208 1272
+:raymanni/lab/launcher_right.T: 208 1320
+:raymanni/lab/launcher_right.T: 520 1224
+:raymanni/lab/launcher_right.T: 520 1272
+:raymanni/lab/launcher_right.T: 520 1320
+:raymanni/lab/launcher_right.T: 832 1224
+:raymanni/lab/launcher_right.T: 832 1272
+:raymanni/lab/launcher_right.T: 832 1320
+:raymanni/lab/launcher_right.T: 1144 1224
+:raymanni/lab/launcher_right.T: 1144 1272
+:raymanni/lab/launcher_right.T: 1144 1320
+:raymanni/lab/launcher_right.T: 1456 1224
+:raymanni/lab/launcher_right.T: 1456 1272
+:raymanni/lab/launcher_right.T: 1456 1320
+:raymanni/lab/launcher_right.T: 1768 1224
+:raymanni/lab/launcher_right.T: 1768 1272
+:raymanni/lab/launcher_right.T: 1768 1320
+:raymanni/lab/launcher_right.T: 2080 1224
+:raymanni/lab/launcher_right.T: 2080 1272
+:raymanni/lab/launcher_right.T: 2080 1320
+:raymanni/lab/launcher_right.T: 2392 1224
+:raymanni/lab/launcher_right.T: 2392 1272
+:raymanni/lab/launcher_right.T: 2392 1320
+:raymanni/lab/launcher_right.T: 2704 1224
+:raymanni/lab/launcher_right.T: 2704 1272
+:raymanni/lab/launcher_right.T: 2704 1320
+:geoo/abstract/tbeam_right.T: 3008 1224
+:geoo/abstract/tbeam_right.T: 3008 1272
+:geoo/abstract/tbeam_right.T: 3008 1320
+:raymanni/lab/launcher_right.T: 208 1502
+:raymanni/lab/launcher_right.T: 208 1550
+:raymanni/lab/launcher_right.T: 208 1598
+:raymanni/lab/launcher_right.T: 520 1502
+:raymanni/lab/launcher_right.T: 520 1550
+:raymanni/lab/launcher_right.T: 520 1598
+:raymanni/lab/launcher_right.T: 832 1502
+:raymanni/lab/launcher_right.T: 832 1550
+:raymanni/lab/launcher_right.T: 832 1598
+:raymanni/lab/launcher_right.T: 1144 1502
+:raymanni/lab/launcher_right.T: 1144 1550
+:raymanni/lab/launcher_right.T: 1144 1598
+:raymanni/lab/launcher_right.T: 1456 1502
+:raymanni/lab/launcher_right.T: 1456 1550
+:raymanni/lab/launcher_right.T: 1456 1598
+:raymanni/lab/launcher_right.T: 1768 1502
+:raymanni/lab/launcher_right.T: 1768 1550
+:raymanni/lab/launcher_right.T: 1768 1598
+:raymanni/lab/launcher_right.T: 2080 1502
+:raymanni/lab/launcher_right.T: 2080 1550
+:raymanni/lab/launcher_right.T: 2080 1598
+:raymanni/lab/launcher_right.T: 2392 1502
+:raymanni/lab/launcher_right.T: 2392 1550
+:raymanni/lab/launcher_right.T: 2392 1598
+:raymanni/lab/launcher_right.T: 2704 1502
+:raymanni/lab/launcher_right.T: 2704 1550
+:raymanni/lab/launcher_right.T: 2704 1598
+:geoo/abstract/tbeam_right.T: 3008 1502
+:geoo/abstract/tbeam_right.T: 3008 1550
+:geoo/abstract/tbeam_right.T: 3008 1598
+
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/cshort0: 8 0
+:geoo/abstract/pipes/endr0: 16 0
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/cshort0: 8 16
+:geoo/abstract/pipes/endr0: 16 16
+:geoo/abstract/pipes/endr0: 8 8
+:geoo/abstract/pipes/junct0: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/endr0: 0 0 rrr
+:geoo/abstract/pipes/junct0: 0 8 r
+:geoo/abstract/pipes/junct0: 16 8 rrr
+:geoo/abstract/pipes/endr0: 16 16 r
+:geoo/abstract/pipes/endr0: 16 0 rrr
+:geoo/abstract/pipes/cshort0: 8 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:geoo/abstract/pipes/endr0: 16 0
+:geoo/abstract/pipes/endr0: 0 0 rr
+:geoo/abstract/pipes/junct0: 8 0 rr
+:geoo/abstract/pipes/cshort0: 8 8 r
+:geoo/abstract/pipes/endr0: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 3
+:Group-0: 64 0
+:Group-1: 32 0
+:Group-2: 0 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/pipes/cshort0: 8 0
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/cshort0: 16 8 r
+:geoo/abstract/pipes/corner0: 16 0 rr
+:geoo/abstract/pipes/cshort0: 8 16 rr
+:geoo/abstract/pipes/corner0: 16 16 rrr
+:geoo/abstract/pipes/cshort0: 0 8 rrr
+:geoo/abstract/pipes/corner0: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/cshort0: 0 8 r
+:geoo/abstract/pipes/cshort0: 8 8 r
+:geoo/abstract/pipes/cshort0: 16 8 r
+:geoo/abstract/pipes/corner0: 8 16
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/corner0: 16 16 rrr
+:geoo/abstract/pipes/endr0: 16 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:geoo/abstract/pipes/endr0: 0 16 rr
+:geoo/abstract/pipes/corner0: 8 16 rrr
+:geoo/abstract/pipes/junct0: 8 8 rrr
+:geoo/abstract/pipes/endr0: 8 0 rrr
+:geoo/abstract/pipes/endr0: 0 0 rrr
+:geoo/abstract/pipes/corner0: 0 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 7
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/endr0: 16 16 r
+:geoo/abstract/pipes/endr0: 8 16 r
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 16 0 rr
+:geoo/abstract/pipes/junct0: 8 0 rr
+:geoo/abstract/pipes/cshort0: 0 8 r
+:geoo/abstract/pipes/cshort0: 16 8 r
+:geoo/abstract/pipes/cshort0: 8 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 8
+:Group-7: 0 0
+:Group-4: 32 0
+:Group-5: 64 0
+:Group-2: 96 0
+:Group-6: 128 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 9
+:geoo/abstract/pipes/endr0: 0 0 rr
+:geoo/abstract/pipes/cshort0: 8 0
+:geoo/abstract/pipes/corner0: 16 0 rr
+:geoo/abstract/pipes/junct0: 16 8 rrr
+:geoo/abstract/pipes/corner0: 0 8 r
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/corner0: 16 16 rrr
+:geoo/abstract/pipes/cshort0: 8 8
+:geoo/abstract/pipes/cshort0: 8 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 10
+:geoo/abstract/pipes/endr0: 16 16
+:geoo/abstract/pipes/endr0: 0 0 rrr
+:geoo/abstract/pipes/cshort0: 8 16
+:geoo/abstract/pipes/cshort0: 0 8 r
+:geoo/abstract/pipes/corner0: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 11
+:Group-9: 32 0
+:Group-10: 64 0
+:Group-1: 0 0
+:Group-10: 96 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 12
+:geoo/abstract/pipes/junct0: 0 8 r
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/cshort0: 8 16
+:geoo/abstract/pipes/junct0: 8 8
+:geoo/abstract/pipes/link0: 16 8
+:geoo/abstract/pipes/link0: 16 8 rrr
+:geoo/abstract/pipes/link0: 16 16 r
+:geoo/abstract/pipes/link0: 16 16
+:geoo/abstract/pipes/link0: 8 0
+:geoo/abstract/pipes/link0: 8 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 13
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/corner0: 8 8 rrr
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/junct0: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 14
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/junct0: 0 8 r
+:geoo/abstract/pipes/junct0: 8 8 rrr
+:geoo/abstract/pipes/link0: 8 16 r
+:geoo/abstract/pipes/link0: 8 16 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 15
+:Group-12: 80 0
+:Group-13: 0 0
+:Group-14: 24 0
+:Group-4: 48 0
+:Group-10: 112 0
+:Group-0: 144 0
+:Group-7: 176 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 16
+:Group-3: 0 0
+:Group-8: 120 0
+:Group-11: 296 0
+:Group-15: 448 0
+$END_TILE_GROUP
+:Group-16: 528 16
+$BEGIN_TILE_GROUP 17
+:amanda/steel/steel_flange_left24x16.S: 0 0
+:amanda/steel/steel_flange_left24x16.S: 16 16
+:amanda/steel/steel_flange_left24x16.S: 32 32
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 18
+:geoo/construction/platform_single.S: 0 0
+:geoo/construction/platform_single.S: 8 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 19
+:geoo/construction/platform.S: 0 0
+:geoo/construction/platform.S: 0 48
+:geoo/construction/platform.S: 0 96
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 20
+:matt/carnival/balloons: 0 0 frr
+:matt/carnival/balloons: 230 0
+:raymanni/holiday/plank_left: 22 36 r
+:raymanni/holiday/plank_right: 22 100 r
+:raymanni/toys/brick_8: 166 92 rr
+:raymanni/toys/brick_7: 102 92 rr
+:raymanni/toys/brick_6: 38 92 rr
+:raymanni/holiday/plank_mid1: 22 68 r
+:raymanni/holiday/plank_left: 230 36 fr
+:raymanni/holiday/plank_right: 230 100 fr
+:raymanni/holiday/plank_mid1: 230 68 fr
+:raymanni/toys/cracker: 214 68
+:Group-17: 158 132
+:Group-17: 94 132
+:Group-17: 30 132
+:Group-17: 142 180
+:Group-17: 78 180
+:Group-17: 126 228
+:Group-18: 198 228
+:Group-18: 182 276
+:Group-18: 198 276
+:Group-19: 214 180
+:raymanni/toys/cracker: 6 68
+$END_TILE_GROUP
+:Group-20: -14 -36
+:Group-19: 3008 144
+:raymanni/toys/car_2: 3034 142
+:green-frisbee/goat-nicubunu: 3034 190 frr
+$BEGIN_TILE_GROUP 21
+:geoo/construction/stairsbrick_rd_8: 0 0
+:geoo/construction/stairsbrick_rd_32: 8 4
+:geoo/construction/platformbrick: 80 36
+:geoo/construction/platformbrick: 112 36
+$END_TILE_GROUP
+:Group-21: 3056 196
+:green-frisbee/goat-nicubunu: 3034 238 frr
+:Group-21: 3056 244
+:Group-16: 528 294
+:Group-18: 168 1898
+:Group-18: 184 1898
+:Group-20: -14 242
+:Group-19: 3008 422
+:green-frisbee/goat-nicubunu: 3034 420 frr
+:Group-21: 3056 426
+:green-frisbee/goat-nicubunu: 3034 468 frr
+:Group-21: 3056 474
+:raymanni/toys/car_2: 3034 516
+:Group-16: 528 572
+:Group-18: 168 2176
+:Group-18: 184 2176
+:Group-20: -14 520
+:Group-19: 3008 700
+:raymanni/toys/car_2: 3034 698
+:green-frisbee/goat-nicubunu: 3034 746 frr
+:Group-21: 3056 752
+:green-frisbee/goat-nicubunu: 3034 794 frr
+:Group-21: 3056 800
+:Group-16: 528 850
+:Group-18: 168 2454
+:Group-18: 184 2454
+:Group-20: -14 798
+:Group-19: 3008 978
+:raymanni/toys/car_2: 3034 976
+:green-frisbee/goat-nicubunu: 3034 1024 frr
+:Group-21: 3056 1030
+:green-frisbee/goat-nicubunu: 3034 1072 frr
+:Group-21: 3056 1078
+:Group-16: 528 1128
+:Group-18: 168 2732
+:Group-18: 184 2732
+:Group-20: -14 1076
+:Group-19: 3008 1256
+:green-frisbee/goat-nicubunu: 3034 1254 frr
+:Group-21: 3056 1260
+:raymanni/toys/car_2: 3034 1302
+:green-frisbee/goat-nicubunu: 3034 1350 frr
+:Group-21: 3056 1356
+:Group-16: 528 1406
+:Group-18: 168 3010
+:Group-18: 184 3010
+:Group-20: -14 1354
+:Group-19: 3008 1534
+:raymanni/toys/car_2: 3034 1532
+:green-frisbee/goat-nicubunu: 3034 1580 frr
+:Group-21: 3056 1586
+:green-frisbee/goat-nicubunu: 3034 1628 frr
+:Group-21: 3056 1634
+:green-frisbee/MontyHall.117x153: -28 1526
+$BEGIN_TILE_GROUP 22
+:green-frisbee/not-solvable-the-first-time.w32px: 0 0
+:green-frisbee/roadsign-panel-30pct: 0 28
+$END_TILE_GROUP
+:Group-22: 264 8
+
+$BEGIN_TILE_GROUP digit-0-pink
+:geoo/abstract/pipes/corner7: 0 0 r
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/corner7: 8 16 rrr
+:geoo/abstract/pipes/cshort7: 0 8 r
+:geoo/abstract/pipes/cshort7: 8 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-1-pink
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/cshort7: 8 8 r
+:geoo/abstract/pipes/link7: 0 0 rr
+:geoo/abstract/pipes/endr7: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-2-pink
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/corner7: 8 8 rrr
+:geoo/abstract/pipes/endr7: 8 16
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/corner7: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-3-pink
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/endr7: 0 16 frr
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/endr7: 0 8 frr
+:geoo/abstract/pipes/junct7: 8 8 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-4-pink
+:geoo/abstract/pipes/endr7: 0 0 rrr
+:geoo/abstract/pipes/corner7: 0 8
+:geoo/abstract/pipes/junct7: 8 8 rrr
+:geoo/abstract/pipes/endr7: 8 0 rrr
+:geoo/abstract/pipes/endr7: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-5-pink
+:geoo/abstract/pipes/endr7: 8 0 f
+:geoo/abstract/pipes/corner7: 0 0 f
+:geoo/abstract/pipes/corner7: 0 8 frrr
+:geoo/abstract/pipes/endr7: 0 16 frr
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/corner7: 8 8 fr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-6-pink
+:geoo/abstract/pipes/endr7: 8 0 f
+:geoo/abstract/pipes/corner7: 0 0 f
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/corner7: 8 8 fr
+:geoo/abstract/pipes/junct7: 0 8 r
+:geoo/abstract/pipes/corner7: 0 16 frrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-7-pink
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/endr7: 8 16 r
+:geoo/abstract/pipes/juncx7: 8 8
+:geoo/abstract/pipes/link7: 16 8
+:geoo/abstract/pipes/link7: 0 8 rr
+:geoo/abstract/pipes/corner7: 8 0 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-8-pink
+:geoo/abstract/pipes/corner7: 0 0 r
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/corner7: 8 16 rrr
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/junct7: 0 8 r
+:geoo/abstract/pipes/junct7: 8 8 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-9-pink
+:geoo/abstract/pipes/endr7: 0 16 frr
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/corner7: 0 0 f
+:geoo/abstract/pipes/corner7: 0 8 frrr
+:geoo/abstract/pipes/junct7: 8 8 rrr
+:geoo/abstract/pipes/corner7: 8 0 fr
+$END_TILE_GROUP
+
+:Group-digit-1-pink: 112 0
+:Group-digit-2-pink: 112 278
+:Group-digit-3-pink: 112 556
+:Group-digit-4-pink: 112 834
+:Group-digit-5-pink: 112 1112
+:Group-digit-6-pink: 112 1390

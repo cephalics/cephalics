@@ -1,0 +1,23 @@
+$BUILT 2023-03-28 11:47:25
+$AUTHOR Green Frisbee
+$ENGLISH Unsolvable #1
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 160
+#SIZE_Y 160
+#TORUS_X 1
+#TORUS_Y 1
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 4
+
+#FLOATER 1
+#EXPLODER 1
+
+:matt/beach/Hatch.H: 56 0
+
+:amanda/occult/goal_skull.G: 16 80
+
+:matt/carnival/balloons: 143 159
+:raymanni/toys/cracker: 136 96

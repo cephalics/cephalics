@@ -1,0 +1,33 @@
+$BUILT 2023-01-21 23:34:26
+$AUTHOR Green Frisbee (cleanroomly recreating a Lemmings™ level)
+$ENGLISH LEMMINGS: Formation Drilling
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 320
+#SIZE_Y 256
+#BACKGROUND_RED 96
+#BACKGROUND_GREEN 160
+#BACKGROUND_BLUE 0
+
+#INITIAL 20
+#REQUIRED 1
+#SPAWN_INTERVAL 5
+
+#DIGGER 20
+#EXPLODER2 0
+
+:geoo/sandstone/fennec.H: 40 7
+
+:raymanni/lab/goal.G: 232 176
+
+:matt/water.W: 270 82
+:matt/water.W: 16 82
+
+$BEGIN_TILE_GROUP 0
+:guideline/platform: 0 0
+:guideline/platform: 74 0
+$END_TILE_GROUP
+:Group-0: 48 240
+:Group-0: 48 113
+:guideline/platform: 196 113
+:guideline/platform: 196 240

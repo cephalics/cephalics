@@ -1,0 +1,55 @@
+$BUILT 2023-04-18 12:38:04
+$AUTHOR Green Frisbee
+$ENGLISH EXAMPLE: Invisible Goals
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 320
+#SIZE_Y 160
+#BACKGROUND_RED 125
+#BACKGROUND_GREEN 72
+#BACKGROUND_BLUE 180
+
+#INITIAL 2
+#REQUIRED 2
+#SPAWN_INTERVAL 1
+
+#CLIMBER 1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 32 8
+:green-frisbee/spinny-advent2-R.H: 32 72
+
+:green-frisbee/house2.G: 288 0
+:green-frisbee/house2.G: 288 56
+:green-frisbee/transparent.32x32.G: 160 72
+
+:green-frisbee/first-time-solvable: 0 52
+:green-frisbee/warning-invisible-goals: 0 28
+:green-frisbee/warning-invisible-goals: 0 84
+:geoo/abstract/pipes/central3: 288 104
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/central3: 8 0
+:green-frisbee/cracker-green: 0 64
+:geoo/abstract/pipes/central3: 8 56
+$END_TILE_GROUP
+:Group-0: 32 48
+$BEGIN_TILE_GROUP 1
+:geoo/abstract/pipes/central2: 8 0
+:green-frisbee/cracker-greyscale: 0 64
+:geoo/abstract/pipes/central2: 8 56
+$END_TILE_GROUP
+:Group-1: 64 48
+:Group-0: 96 48
+:Group-1: 128 48
+:Group-0: 160 48
+:Group-1: 192 48
+:Group-0: 224 48
+:Group-1: 256 48
+:Group-0: 288 48
+:matt/carnival/balloons: -8 120 frr
+:raymanni/toys/car_2: 64 56 rr
+:raymanni/toys/car_1: 128 56 rr
+:green-frisbee/warning-invisible-goals: 160 0
+:matt/marble/thinplatform16p: 240 32 r
+:matt/marble/thinplatform16p: 240 88 r
+:green-frisbee/first-time-solvable: 0 -4

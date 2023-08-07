@@ -1,0 +1,333 @@
+$BUILT 2023-01-29 21:13:05
+$AUTHOR Green Frisbee
+$ENGLISH Exit Stage... Right?
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1920
+#SIZE_Y 1200
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 135
+#BACKGROUND_GREEN 171
+#BACKGROUND_BLUE 235
+
+#INITIAL 241
+#REQUIRED 1
+#SPAWN_INTERVAL 4
+
+#WALKER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#EXPLODER2 0
+
+:matt/goldmine/Hatch.H: 960 512
+
+:simon/tapir/goal.G: 960 506
+:raymanni/lab/goal.G: 176 1072
+:simon/oriental/goal.G: 1896 552
+:simon/oriental/goal.G: 1904 552
+:simon/oriental/goal.G: 1912 552
+:simon/oriental/goal.G: 0 552
+:simon/oriental/goal.G: 8 552
+:simon/oriental/goal.G: 16 552
+:simon/oriental/goal.G: 24 552
+:simon/oriental/goal.G: 32 552
+:simon/oriental/goal.G: 40 552
+:simon/oriental/goal.G: 48 552
+:simon/oriental/goal.G: 56 552
+:simon/oriental/goal.G: 64 552
+:simon/oriental/goal.G: 72 552
+:simon/oriental/goal.G: 80 552
+:simon/oriental/goal.G: 88 552
+:simon/oriental/goal.G: 96 552
+:simon/oriental/goal.G: 104 552
+:simon/oriental/goal.G: 112 552
+:simon/oriental/goal.G: 120 552
+:simon/oriental/goal.G: 128 552
+:simon/oriental/goal.G: 136 552
+:simon/oriental/goal.G: 144 552
+:simon/oriental/goal.G: 152 552
+:simon/oriental/goal.G: 160 552
+:simon/oriental/goal.G: 168 552
+:simon/oriental/goal.G: 176 552
+:simon/oriental/goal.G: 184 552
+:simon/oriental/goal.G: 192 552
+:simon/oriental/goal.G: 200 552
+:simon/oriental/goal.G: 208 552
+:simon/oriental/goal.G: 216 552
+:simon/oriental/goal.G: 224 552
+:simon/oriental/goal.G: 224 552
+:simon/oriental/goal.G: 232 552
+:simon/oriental/goal.G: 240 552
+:simon/oriental/goal.G: 248 552
+:simon/oriental/goal.G: 256 552
+:simon/oriental/goal.G: 264 552
+:simon/oriental/goal.G: 272 552
+:simon/oriental/goal.G: 280 552
+:simon/oriental/goal.G: 288 552
+:simon/oriental/goal.G: 296 552
+:simon/oriental/goal.G: 304 552
+:simon/oriental/goal.G: 312 552
+:simon/oriental/goal.G: 320 552
+:simon/oriental/goal.G: 328 552
+:simon/oriental/goal.G: 336 552
+:simon/oriental/goal.G: 344 552
+:simon/oriental/goal.G: 352 552
+:simon/oriental/goal.G: 360 552
+:simon/oriental/goal.G: 368 552
+:simon/oriental/goal.G: 376 552
+:simon/oriental/goal.G: 384 552
+:simon/oriental/goal.G: 392 552
+:simon/oriental/goal.G: 400 552
+:simon/oriental/goal.G: 408 552
+:simon/oriental/goal.G: 416 552
+:simon/oriental/goal.G: 424 552
+:simon/oriental/goal.G: 432 552
+:simon/oriental/goal.G: 440 552
+:simon/oriental/goal.G: 448 552
+:simon/oriental/goal.G: 456 552
+:simon/oriental/goal.G: 464 552
+:simon/oriental/goal.G: 472 552
+:simon/oriental/goal.G: 480 552
+:simon/oriental/goal.G: 488 552
+:simon/oriental/goal.G: 496 552
+:simon/oriental/goal.G: 504 552
+:simon/oriental/goal.G: 512 552
+:simon/oriental/goal.G: 520 552
+:simon/oriental/goal.G: 528 552
+:simon/oriental/goal.G: 536 552
+:simon/oriental/goal.G: 544 552
+:simon/oriental/goal.G: 552 552
+:simon/oriental/goal.G: 560 552
+:simon/oriental/goal.G: 568 552
+:simon/oriental/goal.G: 576 552
+:simon/oriental/goal.G: 584 552
+:simon/oriental/goal.G: 592 552
+:simon/oriental/goal.G: 600 552
+:simon/oriental/goal.G: 608 552
+:simon/oriental/goal.G: 616 552
+:simon/oriental/goal.G: 624 552
+:simon/oriental/goal.G: 632 552
+:simon/oriental/goal.G: 640 552
+:simon/oriental/goal.G: 648 552
+:simon/oriental/goal.G: 656 552
+:simon/oriental/goal.G: 664 552
+:simon/oriental/goal.G: 672 552
+:simon/oriental/goal.G: 680 552
+:simon/oriental/goal.G: 688 552
+:simon/oriental/goal.G: 696 552
+:simon/oriental/goal.G: 704 552
+:simon/oriental/goal.G: 712 552
+:simon/oriental/goal.G: 720 552
+:simon/oriental/goal.G: 728 552
+:simon/oriental/goal.G: 728 552
+:simon/oriental/goal.G: 736 552
+:simon/oriental/goal.G: 744 552
+:simon/oriental/goal.G: 752 552
+:simon/oriental/goal.G: 760 552
+:simon/oriental/goal.G: 768 552
+:simon/oriental/goal.G: 776 552
+:simon/oriental/goal.G: 784 552
+:simon/oriental/goal.G: 792 552
+:simon/oriental/goal.G: 800 552
+:simon/oriental/goal.G: 808 552
+:simon/oriental/goal.G: 816 552
+:simon/oriental/goal.G: 824 552
+:simon/oriental/goal.G: 832 552
+:simon/oriental/goal.G: 840 552
+:simon/oriental/goal.G: 848 552
+:simon/oriental/goal.G: 856 552
+:simon/oriental/goal.G: 864 552
+:simon/oriental/goal.G: 872 552
+:simon/oriental/goal.G: 880 552
+:simon/oriental/goal.G: 888 552
+:simon/oriental/goal.G: 896 552
+:simon/oriental/goal.G: 904 552
+:simon/oriental/goal.G: 912 552
+:simon/oriental/goal.G: 920 552
+:simon/oriental/goal.G: 928 552
+:simon/oriental/goal.G: 936 552
+:simon/oriental/goal.G: 944 552
+:simon/oriental/goal.G: 952 552
+:simon/oriental/goal.G: 960 552
+:simon/oriental/goal.G: 968 552
+:simon/oriental/goal.G: 976 552
+:simon/oriental/goal.G: 984 552
+:simon/oriental/goal.G: 992 552
+:simon/oriental/goal.G: 1000 552
+:simon/oriental/goal.G: 1008 552
+:simon/oriental/goal.G: 1016 552
+:simon/oriental/goal.G: 1024 552
+:simon/oriental/goal.G: 1032 552
+:simon/oriental/goal.G: 1040 552
+:simon/oriental/goal.G: 1048 552
+:simon/oriental/goal.G: 1056 552
+:simon/oriental/goal.G: 1064 552
+:simon/oriental/goal.G: 1072 552
+:simon/oriental/goal.G: 1080 552
+:simon/oriental/goal.G: 1088 552
+:simon/oriental/goal.G: 1096 552
+:simon/oriental/goal.G: 1104 552
+:simon/oriental/goal.G: 1112 552
+:simon/oriental/goal.G: 1120 552
+:simon/oriental/goal.G: 1128 552
+:simon/oriental/goal.G: 1136 552
+:simon/oriental/goal.G: 1144 552
+:simon/oriental/goal.G: 1152 552
+:simon/oriental/goal.G: 1160 552
+:simon/oriental/goal.G: 1168 552
+:simon/oriental/goal.G: 1176 552
+:simon/oriental/goal.G: 1184 552
+:simon/oriental/goal.G: 1192 552
+:simon/oriental/goal.G: 1200 552
+:simon/oriental/goal.G: 1208 552
+:simon/oriental/goal.G: 1216 552
+:simon/oriental/goal.G: 1224 552
+:simon/oriental/goal.G: 1232 552
+:simon/oriental/goal.G: 1232 552
+:simon/oriental/goal.G: 1240 552
+:simon/oriental/goal.G: 1248 552
+:simon/oriental/goal.G: 1256 552
+:simon/oriental/goal.G: 1264 552
+:simon/oriental/goal.G: 1272 552
+:simon/oriental/goal.G: 1280 552
+:simon/oriental/goal.G: 1288 552
+:simon/oriental/goal.G: 1296 552
+:simon/oriental/goal.G: 1304 552
+:simon/oriental/goal.G: 1312 552
+:simon/oriental/goal.G: 1320 552
+:simon/oriental/goal.G: 1328 552
+:simon/oriental/goal.G: 1336 552
+:simon/oriental/goal.G: 1344 552
+:simon/oriental/goal.G: 1352 552
+:simon/oriental/goal.G: 1360 552
+:simon/oriental/goal.G: 1368 552
+:simon/oriental/goal.G: 1376 552
+:simon/oriental/goal.G: 1384 552
+:simon/oriental/goal.G: 1392 552
+:simon/oriental/goal.G: 1400 552
+:simon/oriental/goal.G: 1408 552
+:simon/oriental/goal.G: 1416 552
+:simon/oriental/goal.G: 1424 552
+:simon/oriental/goal.G: 1432 552
+:simon/oriental/goal.G: 1440 552
+:simon/oriental/goal.G: 1448 552
+:simon/oriental/goal.G: 1456 552
+:simon/oriental/goal.G: 1464 552
+:simon/oriental/goal.G: 1472 552
+:simon/oriental/goal.G: 1480 552
+:simon/oriental/goal.G: 1488 552
+:simon/oriental/goal.G: 1496 552
+:simon/oriental/goal.G: 1504 552
+:simon/oriental/goal.G: 1512 552
+:simon/oriental/goal.G: 1520 552
+:simon/oriental/goal.G: 1528 552
+:simon/oriental/goal.G: 1536 552
+:simon/oriental/goal.G: 1544 552
+:simon/oriental/goal.G: 1552 552
+:simon/oriental/goal.G: 1560 552
+:simon/oriental/goal.G: 1568 552
+:simon/oriental/goal.G: 1576 552
+:simon/oriental/goal.G: 1584 552
+:simon/oriental/goal.G: 1592 552
+:simon/oriental/goal.G: 1600 552
+:simon/oriental/goal.G: 1608 552
+:simon/oriental/goal.G: 1616 552
+:simon/oriental/goal.G: 1624 552
+:simon/oriental/goal.G: 1632 552
+:simon/oriental/goal.G: 1640 552
+:simon/oriental/goal.G: 1648 552
+:simon/oriental/goal.G: 1656 552
+:simon/oriental/goal.G: 1664 552
+:simon/oriental/goal.G: 1672 552
+:simon/oriental/goal.G: 1680 552
+:simon/oriental/goal.G: 1688 552
+:simon/oriental/goal.G: 1696 552
+:simon/oriental/goal.G: 1704 552
+:simon/oriental/goal.G: 1712 552
+:simon/oriental/goal.G: 1720 552
+:simon/oriental/goal.G: 1728 552
+:simon/oriental/goal.G: 1736 552
+:simon/oriental/goal.G: 1736 552
+:simon/oriental/goal.G: 1744 552
+:simon/oriental/goal.G: 1752 552
+:simon/oriental/goal.G: 1760 552
+:simon/oriental/goal.G: 1768 552
+:simon/oriental/goal.G: 1776 552
+:simon/oriental/goal.G: 1784 552
+:simon/oriental/goal.G: 1792 552
+:simon/oriental/goal.G: 1800 552
+:simon/oriental/goal.G: 1808 552
+:simon/oriental/goal.G: 1816 552
+:simon/oriental/goal.G: 1824 552
+:simon/oriental/goal.G: 1832 552
+:simon/oriental/goal.G: 1840 552
+:simon/oriental/goal.G: 1848 552
+:simon/oriental/goal.G: 1856 552
+:simon/oriental/goal.G: 1864 552
+:simon/oriental/goal.G: 1872 552
+:simon/oriental/goal.G: 1880 552
+:simon/oriental/goal.G: 1888 552
+
+$BEGIN_TILE_GROUP 0
+:guideline/maxfall: 0 0 r
+:guideline/maxfall: 2 0 r
+$END_TILE_GROUP
+:Group-0: 992 560
+$BEGIN_TILE_GROUP 1
+:matt/marble/thinplatform128p: 0 0
+:matt/marble/thinplatform128p: 0 2 frr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 0 4
+:Group-1: 0 8
+:Group-1: 0 12
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 3
+:Group-2: 0 0
+:Group-2: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:Group-3: 0 0
+:Group-3: 128 0
+:Group-3: 0 32
+:Group-3: 128 32
+:Group-3: 256 0
+:Group-3: 384 0
+:Group-3: 256 32
+:Group-3: 384 32
+:Group-3: 512 0
+:Group-3: 512 32
+$END_TILE_GROUP
+:Group-4: 640 560
+:Group-4: 0 880
+:Group-4: 640 880
+:Group-4: 1280 880
+:Group-4: 0 944
+:Group-4: 640 944
+:Group-4: 1280 944
+:Group-4: 0 1008
+:Group-4: 640 1008
+:Group-4: 1280 1008
+:Group-4: 0 1072
+:Group-4: 640 1072
+:Group-4: 1280 1072
+:Group-4: 0 1136
+:Group-4: 640 1136
+:Group-4: 1280 1136
+:Group-4: 0 560
+:Group-4: 1280 560
+:Group-4: 0 624
+:Group-4: 640 624
+:Group-4: 1280 624
+:Group-4: 0 688
+:Group-4: 640 688
+:Group-4: 1280 688
+:Group-4: 0 752
+:Group-4: 640 752
+:Group-4: 1280 752
+:Group-4: 0 816
+:Group-4: 640 816
+:Group-4: 1280 816

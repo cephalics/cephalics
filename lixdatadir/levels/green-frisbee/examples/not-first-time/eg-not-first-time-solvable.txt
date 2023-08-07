@@ -1,0 +1,30 @@
+$BUILT 2023-04-14 14:42:48
+$AUTHOR Green Frisbee
+$ENGLISH EXAMPLE: Not First-time-solvable
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 160
+#SIZE_Y 160
+#BACKGROUND_RED 255
+#BACKGROUND_GREEN 128
+#BACKGROUND_BLUE 0
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 32
+
+#BASHER 1
+#EXPLODER2 0
+
+:raymanni/lab/hatch.H: 64 80
+
+:geoo/abstract/goal.G: 112 96
+
+:geoo/construction/Laser_vr_64.F: 24 80
+
+:raymanni/toys/cracker: -16 96
+:raymanni/holiday/plank_long: 16 144
+:raymanni/toys/cracker: 128 96
+:geoo/construction/concrete/064: 96 80
+:geoo/construction/concrete/064: 0 80
+:green-frisbee/not-solvable-the-first-time-24-sharpened: 68 59

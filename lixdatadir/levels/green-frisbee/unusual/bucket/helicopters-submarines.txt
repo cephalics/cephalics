@@ -1,0 +1,77 @@
+$BUILT 2023-05-04 17:52:15
+$AUTHOR Green Frisbee
+$ENGLISH Helicopters and Submarines
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 272
+#SIZE_Y 192
+#BACKGROUND_RED 19
+#BACKGROUND_GREEN 24
+#BACKGROUND_BLUE 69
+
+#INITIAL 20
+#REQUIRED 15
+#SPAWN_INTERVAL 4
+
+#WALKER 1
+#RUNNER 1
+#CLIMBER 1
+#FLOATER 1
+#EXPLODER2 1
+#BLOCKER 1
+#BASHER 1
+#MINER 1
+#DIGGER 1
+#JUMPER 1
+#BATTER 1
+#CUBER 1
+
+:geoo/sandstone/fennec.H: 40 -8
+
+:amanda/occult/goal_skull.G: 152 104
+
+:geoo/abstract/tbeam_left.T: 24 16
+:geoo/abstract/tbeam_right.T: 24 16
+:geoo/abstract/tbeam_left.T: -8 16
+:geoo/abstract/tbeam_right.T: -8 16
+:geoo/abstract/tbeam_left.T: 72 16
+:geoo/abstract/tbeam_right.T: 72 16
+:geoo/abstract/tbeam_left.T: 104 16
+:geoo/abstract/tbeam_right.T: 104 16
+:geoo/abstract/tbeam_left.T: 96 64
+:geoo/abstract/tbeam_right.T: 96 64
+:geoo/abstract/tbeam_left.T: 64 64
+:geoo/abstract/tbeam_right.T: 64 64
+:geoo/abstract/tbeam_left.T: 32 64
+:geoo/abstract/tbeam_right.T: 32 64
+:geoo/abstract/tbeam_left.T: 0 64
+:geoo/abstract/tbeam_right.T: 0 64
+:geoo/abstract/tbeam_left.T: 96 96
+:geoo/abstract/tbeam_right.T: 96 96
+:geoo/abstract/tbeam_left.T: 64 96
+:geoo/abstract/tbeam_right.T: 64 96
+:geoo/abstract/tbeam_left.T: 32 96
+:geoo/abstract/tbeam_right.T: 32 96
+:geoo/abstract/tbeam_left.T: 0 96
+:geoo/abstract/tbeam_right.T: 0 96
+:geoo/abstract/tbeam_left.T: 96 128
+:geoo/abstract/tbeam_right.T: 96 128
+:geoo/abstract/tbeam_left.T: 64 128
+:geoo/abstract/tbeam_right.T: 64 128
+:geoo/abstract/tbeam_left.T: 32 128
+:geoo/abstract/tbeam_right.T: 32 128
+:geoo/abstract/tbeam_left.T: 0 128
+:geoo/abstract/tbeam_right.T: 0 128
+:geoo/abstract/tbeam_left.T: 96 160
+:geoo/abstract/tbeam_right.T: 96 160
+:geoo/abstract/tbeam_left.T: 64 160
+:geoo/abstract/tbeam_right.T: 64 160
+:geoo/abstract/tbeam_left.T: 32 160
+:geoo/abstract/tbeam_right.T: 32 160
+:geoo/abstract/tbeam_left.T: 0 160
+:geoo/abstract/tbeam_right.T: 0 160
+
+:matt/marble/thinplatform128p: 0 64
+:matt/marble/thinplatform128p: 152 184
+:raymanni/toys/soldier_3: 16 16
+:raymanni/toys/cracker: -16 0

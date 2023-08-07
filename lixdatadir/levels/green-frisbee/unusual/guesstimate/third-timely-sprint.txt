@@ -1,0 +1,107 @@
+$BUILT 2023-05-08 02:34:28
+$AUTHOR Green Frisbee
+$ENGLISH Third Timely Sprint
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1152
+#SIZE_Y 160
+#BACKGROUND_RED 91
+#BACKGROUND_GREEN 10
+#BACKGROUND_BLUE 82
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 4
+
+#RUNNER 1
+#EXPLODER2 1
+#JUMPER 2
+
+:green-frisbee/spinny-advent2-R.H: 0 16
+:green-frisbee/spinny-advent2-R.H: 384 48
+
+:matt/goldmine/Goal.G: 796 8
+
+:geoo/abstract/tbeam_left.T: 1040 96
+:geoo/abstract/tbeam_left.T: 1024 88
+:geoo/abstract/tbeam_left.T: 1008 80
+:geoo/abstract/tbeam_left.T: 992 72
+:geoo/abstract/tbeam_left.T: 976 64
+:geoo/abstract/tbeam_left.T: 960 56
+:geoo/abstract/tbeam_left.T: 944 48
+:geoo/abstract/tbeam_left.T: 928 40
+:geoo/abstract/tbeam_left.T: 1056 104
+
+:raymanni/holiday/plank_long: 0 80
+:raymanni/holiday/plank_long: 128 80
+:raymanni/holiday/plank_long: 256 80
+:raymanni/holiday/plank_long: 384 80
+:raymanni/holiday/plank_long: 512 80
+:raymanni/holiday/plank_long: 640 80
+:raymanni/holiday/plank_mid1: 368 80 d
+:raymanni/holiday/plank_broken: 368 80
+:raymanni/holiday/plank_mid1: 336 80 d
+:raymanni/holiday/plank_mid1: 240 80 frrd
+:raymanni/holiday/plank_broken: 240 80 frr
+:raymanni/holiday/plank_mid1: 304 80 d
+:raymanni/holiday/plank_mid1: 272 80 d
+:geoo/construction/platformbrick: 864 56 frr
+:geoo/construction/platformbrick: 832 56 frr
+:geoo/construction/platformbrick: 800 56 frr
+:raymanni/holiday/plank_long: 768 80
+:geoo/construction/platform.S: 800 24 r
+:geoo/construction/platform.S: 800 -8 r
+:raymanni/holiday/plank_mid1: 896 80
+:raymanni/holiday/plank_mid1: 1056 144
+:raymanni/holiday/plank_mid1: 1088 144
+:raymanni/holiday/plank_mid1: 1120 144
+$BEGIN_TILE_GROUP 0
+:raymanni/holiday/plank_d1: 0 0 frr
+:raymanni/holiday/plank_d1: 32 16 frr
+:raymanni/holiday/plank_d1: 64 32 frr
+:raymanni/holiday/plank_d1: 96 48 frr
+$END_TILE_GROUP
+:Group-0: 928 80
+:raymanni/toys/cracker: -16 96
+:raymanni/toys/cracker: 16 96
+:raymanni/toys/cracker: 48 96
+:raymanni/toys/cracker: 80 96
+:raymanni/toys/cracker: 112 96
+:raymanni/toys/cracker: 144 96
+:green-frisbee/cracker-teal: 176 96
+:raymanni/toys/cracker: 208 96
+:raymanni/toys/cracker: 240 96
+:raymanni/toys/cracker: 272 96
+:raymanni/toys/cracker: 304 96
+:raymanni/toys/cracker: 336 96
+:raymanni/toys/cracker: 368 96
+:raymanni/toys/cracker: 400 96
+:raymanni/toys/cracker: 432 96
+:raymanni/toys/cracker: 464 96
+:raymanni/toys/cracker: 496 96
+:raymanni/toys/cracker: 528 96
+:raymanni/toys/cracker: 560 96
+:raymanni/toys/cracker: 592 96
+:raymanni/toys/cracker: 624 96
+:raymanni/toys/cracker: 656 96
+:raymanni/toys/cracker: 688 96
+:raymanni/toys/cracker: 720 96
+:raymanni/toys/cracker: 752 96
+:raymanni/toys/cracker: 784 96
+:raymanni/toys/cracker: 816 96
+:raymanni/toys/cracker: 848 96
+:raymanni/toys/cracker: 880 96
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:geoo/abstract/cvblocks/038: 64 32
+:geoo/abstract/cvblocks/038: 0 0
+:geoo/abstract/cvblocks/035: 64 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:raymanni/toys/cracker: 96 16
+:raymanni/toys/cracker: 64 16
+:raymanni/toys/cracker: 32 16
+:raymanni/toys/cracker: 0 16
+:Group-1: 16 0 d
+$END_TILE_GROUP
+:Group-2: 925 98

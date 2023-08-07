@@ -1,0 +1,8 @@
+$FILENAME green-frisbee/examples/eg-exploder-saves-the-day.txt
+$LEVEL_BUILT_REQUIRED 2023-01-24 02:37:04
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+
+! 87 0 ASSIGN=EXPLODER2 0
+

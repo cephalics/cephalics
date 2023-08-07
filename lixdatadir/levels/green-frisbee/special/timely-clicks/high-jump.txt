@@ -1,0 +1,71 @@
+$BUILT 2023-02-13 23:21:21
+$AUTHOR Green Frisbee
+$ENGLISH High Jump
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 512
+#SIZE_Y 240
+#BACKGROUND_RED 62
+#BACKGROUND_GREEN 118
+#BACKGROUND_BLUE 179
+
+#INITIAL 120
+#REQUIRED 12
+#SPAWN_INTERVAL 64
+
+#RUNNER -1
+#JUMPER -1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 0 128
+
+:green-frisbee/goal-59circles.G: 480 0
+
+:geoo/construction/spring_fast.T: 344 128
+
+:geoo/abstract/tbeam_right.T: 0 176
+:geoo/abstract/tbeam_right.T: 32 176
+:geoo/abstract/tbeam_right.T: 64 176
+:geoo/abstract/tbeam_right.T: 96 176
+:geoo/abstract/tbeam_right.T: 128 176
+:geoo/abstract/tbeam_right.T: 160 176
+:geoo/abstract/tbeam_right.T: 192 176
+:geoo/abstract/tbeam_right.T: 224 176
+:geoo/abstract/tbeam_right.T: 256 176
+:geoo/abstract/tbeam_right.T: 288 176
+:geoo/abstract/tbeam_right.T: 320 176
+:geoo/abstract/tbeam_right.T: 352 176
+:geoo/abstract/tbeam_right.T: 384 176
+:geoo/abstract/tbeam_right.T: 416 176
+:geoo/abstract/tbeam_right.T: 448 176
+:geoo/abstract/tbeam_left.T: 32 208
+:geoo/abstract/tbeam_left.T: 64 208
+:geoo/abstract/tbeam_left.T: 96 208
+:geoo/abstract/tbeam_left.T: 128 208
+:geoo/abstract/tbeam_left.T: 160 208
+:geoo/abstract/tbeam_left.T: 192 208
+:geoo/abstract/tbeam_left.T: 224 208
+:geoo/abstract/tbeam_left.T: 256 208
+:geoo/abstract/tbeam_left.T: 288 208
+:geoo/abstract/tbeam_left.T: 320 208
+:geoo/abstract/tbeam_left.T: 352 208
+:geoo/abstract/tbeam_left.T: 384 208
+:geoo/abstract/tbeam_left.T: 416 208
+:geoo/abstract/tbeam_left.T: 448 208
+:geoo/abstract/tbeam_left.T: 480 208
+:geoo/abstract/tbeam_up.T: 0 208
+
+:raymanni/holiday/plank_long: 0 160
+:raymanni/holiday/plank_long: 128 160
+:raymanni/holiday/plank_long: 384 32
+:simon/tapir/016d: 384 32 d
+$BEGIN_TILE_GROUP 0
+:green-frisbee/cracker-azure: 8 0
+:simon/tapir/064v: 0 24 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:green-frisbee/cracker-azure: 8 16
+:raymanni/holiday/wreath: 0 0
+:Group-0: 21 16
+$END_TILE_GROUP
+:Group-1: 466 81

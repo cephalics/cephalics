@@ -1,0 +1,148 @@
+$BUILT 2023-04-10 03:35:53
+$AUTHOR Green Frisbee
+$ENGLISH The Equestrian
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 248
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 104
+#BACKGROUND_GREEN 184
+#BACKGROUND_BLUE 148
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 32
+
+#WALKER 1
+#RUNNER 1
+#JUMPER 1
+#EXPLODER2 0
+
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80
+:matt/underworld/Hatch.H: 96 80 r
+
+:geoo/construction/Goal2.G: 528 96
+
+:geoo/construction/Laser_vr_16.F: 16 144
+:geoo/construction/Laser_vr_16.F: 16 128
+
+:matt/carnival/balloons: 574 8
+$BEGIN_TILE_GROUP 0
+:raymanni/toys/beam_14.S: 0 0
+:raymanni/toys/beam_14.S: 32 0
+:raymanni/toys/beam_14.S: 64 0
+:raymanni/toys/beam_14.S: 96 0
+:raymanni/toys/beam_14.S: 128 0
+:raymanni/toys/beam_14.S: 160 0
+:raymanni/toys/beam_14.S: 192 0
+:raymanni/toys/beam_14.S: 224 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 256 0
+:raymanni/toys/beam_14.S: 512 0
+$END_TILE_GROUP
+:Group-1: 48 160
+:raymanni/toys/beam_14.S: 592 160
+:raymanni/toys/beam_14.S: 624 160
+:raymanni/toys/beam_14.S: 16 160
+$BEGIN_TILE_GROUP 2
+:geoo/abstract/pipes/cshort2: 8 0
+:geoo/abstract/pipes/endr2: 0 0 rr
+:geoo/abstract/pipes/corner2: 16 0 rr
+:geoo/abstract/pipes/junct2: 16 8 rrr
+:geoo/abstract/pipes/cshort2: 8 8
+:geoo/abstract/pipes/corner2: 0 8 r
+:geoo/abstract/pipes/cshort2: 8 16 rr
+:geoo/abstract/pipes/corner2: 0 16
+:geoo/abstract/pipes/corner2: 16 16 rrr
+$END_TILE_GROUP
+:Group-2: 200 176
+$BEGIN_TILE_GROUP 3
+:geoo/abstract/pipes/cshort2: 0 8 r
+:geoo/abstract/pipes/endr2: 0 0 rrr
+:geoo/abstract/pipes/cshort2: 8 16 rr
+:geoo/abstract/pipes/corner2: 0 16
+:geoo/abstract/pipes/endr2: 16 16 f
+$END_TILE_GROUP
+:Group-3: 232 176
+:Group-3: 264 176
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/pipes/endr2: 16 0
+:geoo/abstract/pipes/cshort2: 8 0 frr
+:geoo/abstract/pipes/corner2: 0 0 r
+:geoo/abstract/pipes/cshort2: 8 8 rr
+:geoo/abstract/pipes/corner2: 0 8
+:geoo/abstract/pipes/endr2: 0 16 rr
+:geoo/abstract/pipes/cshort2: 8 16 f
+:geoo/abstract/pipes/corner2: 16 16 rrr
+:geoo/abstract/pipes/corner2: 16 8 rr
+$END_TILE_GROUP
+:Group-4: 320 176
+$BEGIN_TILE_GROUP 5
+:geoo/abstract/pipes/endr2: 0 0 rrr
+:geoo/abstract/pipes/junct2: 0 8 r
+:geoo/abstract/pipes/endr2: 0 16 r
+:geoo/abstract/pipes/endr2: 16 0 rrr
+:geoo/abstract/pipes/endr2: 24 16 r
+:geoo/abstract/pipes/cshort2: 8 8
+:geoo/abstract/pipes/junct2: 16 8
+:geoo/abstract/pipes/corner2: 24 8 rr
+$END_TILE_GROUP
+:Group-5: 352 176
+$BEGIN_TILE_GROUP 6
+:geoo/abstract/pipes/cshort2: 0 8 r
+:geoo/abstract/pipes/endr2: 0 0 rrr
+:geoo/abstract/pipes/endr2: 0 16 r
+$END_TILE_GROUP
+:Group-6: 392 176
+:Group-3: 408 176
+:Group-3: 440 176
+:Group-4: 472 176
+$BEGIN_TILE_GROUP 7
+:geoo/abstract/pipes/cshort2: 8 0 rr
+:geoo/abstract/pipes/endr2: 16 0
+:geoo/abstract/pipes/corner2: 0 0 r
+:geoo/abstract/pipes/cshort2: 8 16 frr
+:geoo/abstract/pipes/endr2: 16 16 f
+:geoo/abstract/pipes/corner2: 0 16 frrr
+:geoo/abstract/pipes/junct2: 0 8 r
+:geoo/abstract/pipes/cshort2: 8 8 rr
+:geoo/abstract/pipes/endr2: 16 8
+$END_TILE_GROUP
+:Group-7: 144 176
+:Group-4: 112 176
+$BEGIN_TILE_GROUP 8
+:geoo/abstract/pipes/cshort2: 0 8 r
+:geoo/abstract/pipes/endr2: 0 0 rrr
+:geoo/abstract/pipes/cshort2: 8 16 rr
+:geoo/abstract/pipes/corner2: 0 16
+:geoo/abstract/pipes/cshort2: 16 8 fr
+:geoo/abstract/pipes/endr2: 16 0 frrr
+:geoo/abstract/pipes/corner2: 16 16 frr
+$END_TILE_GROUP
+:Group-8: 80 176
+:raymanni/toys/cracker: 40 176
+:raymanni/toys/cracker: 488 176
+:matt/carnival/balloons: 508 8 frr
+:green-frisbee/warning-factorial: 112 56

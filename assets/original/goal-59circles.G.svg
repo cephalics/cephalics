@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg8" width="91.396mm" height="91.396mm" version="1.1" viewBox="0 0 91.396 91.396" xmlns="http://www.w3.org/2000/svg">
+ <g id="layer1" transform="translate(-59.302 -91.217)">
+  <rect id="bg" x="59.302" y="91.217" width="91.396" height="91.396" fill="#a11966"/>
+  <g id="g-triangle-and-aux" transform="translate(0 -3.2737)" stroke-width="0">
+   <g id="circles" transform="translate(0 78.048)" fill="#002036">
+    <circle id="path10" cx="105" cy="32.677" r="2.5397"/>
+    <circle id="circle12" cx="101.22" cy="39.224" r="2.5397"/>
+    <circle id="circle14" cx="108.78" cy="39.224" r="2.5397"/>
+    <circle id="circle20" cx="97.44" cy="45.772" r="2.5397"/>
+    <circle id="circle22" cx="105" cy="45.772" r="2.5397"/>
+    <circle id="circle30" cx="112.56" cy="45.772" r="2.5397"/>
+    <circle id="circle859" cx="93.659" cy="52.319" r="2.5397"/>
+    <circle id="circle861" cx="101.22" cy="52.319" r="2.5397"/>
+    <circle id="circle865" cx="89.879" cy="58.867" r="2.5397"/>
+    <circle id="circle867" cx="97.44" cy="58.867" r="2.5397"/>
+    <circle id="circle871" cx="105" cy="58.867" r="2.5397"/>
+    <circle id="circle877" cx="108.78" cy="52.319" r="2.5397"/>
+    <circle id="circle879" cx="116.34" cy="52.319" r="2.5397"/>
+    <circle id="circle885" cx="112.56" cy="58.867" r="2.5397"/>
+    <circle id="circle889" cx="120.12" cy="58.867" r="2.5397"/>
+    <circle id="circle895" cx="86.099" cy="65.414" r="2.5397"/>
+    <circle id="circle897" cx="93.659" cy="65.414" r="2.5397"/>
+    <circle id="circle901" cx="82.319" cy="71.962" r="2.5397"/>
+    <circle id="circle903" cx="89.879" cy="71.962" r="2.5397"/>
+    <circle id="circle907" cx="97.44" cy="71.962" r="2.5397"/>
+    <circle id="circle911" cx="78.539" cy="78.509" r="2.5397"/>
+    <circle id="circle913" cx="86.099" cy="78.509" r="2.5397"/>
+    <circle id="circle917" cx="74.759" cy="85.056" r="2.5397"/>
+    <circle id="circle919" cx="82.319" cy="85.056" r="2.5397"/>
+    <circle id="circle923" cx="89.879" cy="85.056" r="2.5397"/>
+    <circle id="circle927" cx="93.659" cy="78.509" r="2.5397"/>
+    <circle id="circle929" cx="101.22" cy="78.509" r="2.5397"/>
+    <circle id="circle933" cx="97.44" cy="85.056" r="2.5397"/>
+    <circle id="circle937" cx="105" cy="85.056" r="2.5397"/>
+    <circle id="circle943" cx="116.34" cy="65.414" r="2.5397"/>
+    <circle id="circle945" cx="123.9" cy="65.414" r="2.5397"/>
+    <circle id="circle949" cx="112.56" cy="71.962" r="2.5397"/>
+    <circle id="circle951" cx="120.12" cy="71.962" r="2.5397"/>
+    <circle id="circle955" cx="127.68" cy="71.962" r="2.5397"/>
+    <circle id="circle959" cx="108.78" cy="78.509" r="2.5397"/>
+    <circle id="circle961" cx="116.34" cy="78.509" r="2.5397"/>
+    <circle id="circle967" cx="112.56" cy="85.056" r="2.5397"/>
+    <circle id="circle971" cx="120.12" cy="85.056" r="2.5397"/>
+    <circle id="circle975" cx="123.9" cy="78.509" r="2.5397"/>
+    <circle id="circle977" cx="131.46" cy="78.509" r="2.5397"/>
+    <circle id="circle981" cx="127.68" cy="85.056" r="2.5397"/>
+    <circle id="circle985" cx="135.24" cy="85.056" r="2.5397"/>
+    <circle id="circle1022" cx="101.22" cy="65.414" r="2.5397"/>
+    <circle id="circle1024" cx="108.78" cy="65.414" r="2.5397"/>
+    <circle id="circle1026" cx="105" cy="71.962" r="2.5397"/>
+    <circle id="circle617" cx="70.978" cy="91.604" r="2.5397"/>
+    <circle id="circle619" cx="78.539" cy="91.604" r="2.5397"/>
+    <circle id="circle621" cx="86.099" cy="91.604" r="2.5397"/>
+    <circle id="circle623" cx="93.659" cy="91.604" r="2.5397"/>
+    <circle id="circle625" cx="101.22" cy="91.604" r="2.5397"/>
+    <circle id="circle627" cx="108.78" cy="91.604" r="2.5397"/>
+    <circle id="circle629" cx="116.34" cy="91.604" r="2.5397"/>
+    <circle id="circle631" cx="123.9" cy="91.604" r="2.5397"/>
+    <circle id="circle633" cx="131.46" cy="91.604" r="2.5397"/>
+    <circle id="circle651" cx="139.02" cy="91.604" r="2.5397"/>
+   </g>
+   <g id="aux-triangles" transform="translate(-1.817e-7 78.048)" display="none" fill="#800000">
+    <path id="path16" d="m108.78 39.224h-7.5604l3.7802-6.5475z"/>
+    <path id="path24" d="m105 45.772h-7.5604l3.7802-6.5475z"/>
+    <path id="path32" d="m112.56 45.772h-7.5604l3.7802-6.5475z"/>
+    <path id="path863" d="m101.22 52.319h-7.5604l3.7802-6.5475z"/>
+    <path id="path869" d="m97.44 58.867h-7.5604l3.7802-6.5475z"/>
+    <path id="path873" d="m105 58.867h-7.5604l3.7802-6.5475z"/>
+    <path id="path881" d="m116.34 52.319h-7.5604l3.7802-6.5475z"/>
+    <path id="path887" d="m112.56 58.867h-7.5604l3.7802-6.5475z"/>
+    <path id="path891" d="m120.12 58.867h-7.5604l3.7802-6.5475z"/>
+    <path id="path899" d="m93.659 65.414h-7.5604l3.7802-6.5475z"/>
+    <path id="path905" d="m89.879 71.962h-7.5604l3.7802-6.5475z"/>
+    <path id="path909" d="m97.44 71.962h-7.5604l3.7802-6.5475z"/>
+    <path id="path915" d="m86.099 78.509h-7.5604l3.7802-6.5475z"/>
+    <path id="path921" d="m82.319 85.056h-7.5604l3.7802-6.5475z"/>
+    <path id="path925" d="m89.879 85.056h-7.5604l3.7802-6.5475z"/>
+    <path id="path931" d="m101.22 78.509h-7.5604l3.7802-6.5475z"/>
+    <path id="path935" d="m97.44 85.056h-7.5604l3.7802-6.5475z"/>
+    <path id="path939" d="m105 85.056h-7.5604l3.7802-6.5475z"/>
+    <path id="path947" d="m123.9 65.414h-7.5604l3.7802-6.5475z"/>
+    <path id="path953" d="m120.12 71.962h-7.5604l3.7802-6.5475z"/>
+    <path id="path957" d="m127.68 71.962h-7.5604l3.7802-6.5475z"/>
+    <path id="path963" d="m116.34 78.509h-7.5604l3.7802-6.5475z"/>
+    <path id="path969" d="m112.56 85.056h-7.5604l3.7802-6.5475z"/>
+    <path id="path973" d="m120.12 85.056h-7.5604l3.7802-6.5475z"/>
+    <path id="path979" d="m131.46 78.509h-7.5604l3.7802-6.5475z"/>
+    <path id="path983" d="m127.68 85.056h-7.5604l3.7802-6.5475z"/>
+    <path id="path987" d="m135.24 85.056h-7.5604l3.7802-6.5475z"/>
+    <path id="path635" d="m78.539 91.604h-7.5604l3.7802-6.5475z"/>
+    <path id="path637" d="m86.099 91.604h-7.5604l3.7802-6.5475z"/>
+    <path id="path639" d="m93.659 91.604h-7.5604l3.7802-6.5475z"/>
+    <path id="path641" d="m101.22 91.604h-7.5604l3.7802-6.5475z"/>
+    <path id="path643" d="m108.78 91.604h-7.5604l3.7802-6.5475z"/>
+    <path id="path645" d="m116.34 91.604h-7.5604l3.7802-6.5475z"/>
+    <path id="path647" d="m123.9 91.604h-7.5604l3.7802-6.5475z"/>
+    <path id="path649" d="m131.46 91.604h-7.5604l3.7802-6.5475z"/>
+    <path id="path653" d="m139.02 91.604h-7.5604l3.7802-6.5475z"/>
+   </g>
+  </g>
+  <g id="g-corners-and-aux">
+   <g id="aux-for-corners" display="none">
+    <rect id="aux-rect-for-corners" x="63.805" y="95.72" width="82.39" height="82.39" display="inline" fill="#b0b"/>
+    <g id="aux-diagonals" display="inline" fill="none" stroke="#f00" stroke-width=".26458px">
+     <path id="path1171" d="m59.302 91.217 91.396 91.396"/>
+     <path id="path1173" d="m150.7 91.217-91.396 91.396"/>
+    </g>
+   </g>
+   <g id="g-corners" fill="#002036" stroke-width="0">
+    <circle id="circle1084" cx="63.805" cy="95.72" r="2.5397"/>
+    <circle id="circle1181" cx="146.19" cy="95.72" r="2.5397"/>
+    <circle id="circle1183" cx="63.805" cy="178.11" r="2.5397"/>
+    <circle id="circle1185" cx="146.19" cy="178.11" r="2.5397"/>
+   </g>
+  </g>
+ </g>
+</svg>

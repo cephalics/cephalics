@@ -1,0 +1,176 @@
+$BUILT 2023-02-22 02:08:52
+$AUTHOR Green Frisbee
+$ENGLISH Longitudal Wave Generator
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 3200
+#SIZE_Y 2000
+
+#INITIAL 999
+#REQUIRED 1
+#SPAWN_INTERVAL 32
+
+#EXPLODER2 0
+
+:raymanni/lab/hatch.H: 0 0
+
+:raymanni/lab/goal.G: 3152 1936
+
+$BEGIN_TILE_GROUP 0
+:matt/marble/thinplatform128p: 0 0
+:matt/marble/thinplatform128p: 128 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 256 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 512 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 3
+:Group-2: 0 0
+:Group-2: 1024 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:Group-3: 0 0
+:Group-2: 2048 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:Group-4: 0 0
+:matt/marble/thinplatform64p: 3072 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:Group-5: 0 16
+:matt/marble/thinplatform16p: 0 0 r
+:matt/marble/thinplatform64p: 3136 16
+:matt/marble/thinplatform8p: 3192 16 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 7
+:Group-6: 0 0
+:Group-6: 8 8 frr
+$END_TILE_GROUP
+:Group-7: 0 8
+:Group-7: 0 24
+:Group-7: 0 40
+:Group-7: 0 56
+:Group-7: 0 72
+:Group-7: 0 88
+:Group-7: 0 104
+:Group-7: 0 120
+:Group-7: 0 136
+:Group-7: 0 152
+:Group-7: 0 168
+:Group-7: 0 184
+:Group-7: 0 200
+:Group-7: 0 216
+:Group-7: 0 232
+:Group-7: 0 248
+:Group-7: 0 264
+:Group-7: 0 280
+:Group-7: 0 296
+:Group-7: 0 312
+:Group-7: 0 328
+:Group-7: 0 344
+:Group-7: 0 360
+:Group-7: 0 376
+:Group-7: 0 392
+:Group-7: 0 408
+:Group-7: 0 424
+:Group-7: 0 440
+:Group-7: 0 456
+:Group-7: 0 472
+:Group-7: 0 488
+:Group-7: 0 504
+:Group-7: 0 520
+:Group-7: 0 536
+:Group-7: 0 552
+:Group-7: 0 568
+:Group-7: 0 584
+:Group-7: 0 600
+:Group-7: 0 616
+:Group-7: 0 632
+:Group-7: 0 648
+:Group-7: 0 664
+:Group-7: 0 680
+:Group-7: 0 696
+:Group-7: 0 712
+:Group-7: 0 728
+:Group-7: 0 744
+:Group-7: 0 760
+:Group-7: 0 776
+:Group-7: 0 792
+:Group-7: 0 808
+:Group-7: 0 824
+:Group-7: 0 840
+:Group-7: 0 856
+:Group-7: 0 872
+:Group-7: 0 888
+:Group-7: 0 904
+:Group-7: 0 920
+:Group-7: 0 936
+:Group-7: 0 952
+:Group-7: 0 968
+:Group-7: 0 984
+:Group-7: 0 1000
+:Group-7: 0 1016
+:Group-7: 0 1032
+:Group-7: 0 1048
+:Group-7: 0 1064
+:Group-7: 0 1080
+:Group-7: 0 1096
+:Group-7: 0 1112
+:Group-7: 0 1128
+:Group-7: 0 1144
+:Group-7: 0 1160
+:Group-7: 0 1176
+:Group-7: 0 1192
+:Group-7: 0 1208
+:Group-7: 0 1224
+:Group-7: 0 1240
+:Group-7: 0 1256
+:Group-7: 0 1272
+:Group-7: 0 1288
+:Group-7: 0 1304
+:Group-7: 0 1320
+:Group-7: 0 1336
+:Group-7: 0 1352
+:Group-7: 0 1368
+:Group-7: 0 1384
+:Group-7: 0 1400
+:Group-7: 0 1416
+:Group-7: 0 1432
+:Group-7: 0 1448
+:Group-7: 0 1464
+:Group-7: 0 1480
+:Group-7: 0 1496
+:Group-7: 0 1512
+:Group-7: 0 1528
+:Group-7: 0 1544
+:Group-7: 0 1560
+:Group-7: 0 1576
+:Group-7: 0 1592
+:Group-7: 0 1608
+:Group-7: 0 1624
+:Group-7: 0 1640
+:Group-7: 0 1656
+:Group-7: 0 1672
+:Group-7: 0 1688
+:Group-7: 0 1704
+:Group-7: 0 1720
+:Group-7: 0 1736
+:Group-7: 0 1752
+:Group-7: 0 1768
+:Group-7: 0 1784
+:Group-7: 0 1800
+:Group-7: 0 1816
+:Group-7: 0 1832
+:Group-7: 0 1848
+:Group-7: 0 1864
+:Group-7: 0 1880
+:Group-7: 0 1896
+:Group-7: 0 1912
+:Group-7: 0 1928
+:Group-7: 0 1944
+:Group-7: 0 1960
+:Group-7: 0 1976

@@ -1,0 +1,49 @@
+$BUILT 2023-04-20 19:10:28
+$AUTHOR Green Frisbee
+$ENGLISH Compression Method Rapid Ingress
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 256
+#SIZE_Y 184
+#BACKGROUND_RED 191
+#BACKGROUND_GREEN 207
+#BACKGROUND_BLUE 175
+
+#INITIAL 60
+#REQUIRED 60
+#SPAWN_INTERVAL 2
+
+#WALKER 2
+#RUNNER 1
+#FLOATER 59
+#BUILDER 1
+#PLATFORMER 10
+#JUMPER 1
+#BATTER -1
+#EXPLODER2 0
+
+:geoo/sandstone/fennec.H: 0 0
+:geoo/sandstone/fennec.H: 0 16
+:geoo/sandstone/fennec.H: 0 32
+:geoo/sandstone/fennec.H: 0 48
+:geoo/sandstone/fennec.H: 0 64
+:geoo/sandstone/fennec.H: 0 80
+
+:amanda/occult/goal_skull.G: 160 96
+
+:matt/beach/decor/bonfire.F: 108 144
+:proxima/flame.F: 102 128
+
+:raymanni/toys/beam_14.S: 0 176
+:raymanni/toys/beam_14.S: 32 176
+:raymanni/toys/beam_14.S: 64 176
+:raymanni/toys/beam_14.S: 96 176
+:raymanni/toys/beam_14.S: 128 176
+:raymanni/toys/beam_14.S: 160 176
+:raymanni/toys/beam_14.S: 192 176
+:raymanni/toys/beam_14.S: 224 176
+$BEGIN_TILE_GROUP 0
+:matt/carnival/balloons: 16 0
+:raymanni/toys/cracker: 0 66
+$END_TILE_GROUP
+:Group-0: 103 -18

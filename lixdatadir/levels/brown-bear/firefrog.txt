@@ -1,0 +1,63 @@
+$BUILT 2023-01-06 18:09:48
+$AUTHOR Brown Bear
+$ENGLISH Firefrog
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 464
+#SIZE_Y 208
+#BACKGROUND_RED 64
+#BACKGROUND_GREEN 48
+#BACKGROUND_BLUE 64
+
+#INITIAL 120
+#REQUIRED 116
+#SPAWN_INTERVAL 32
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:geoo/construction/Hatch.H: 48 32
+
+:simon/oriental/goal.G: 400 48
+
+:amanda/forest/frog.T: 176 80
+:amanda/forest/frog_catch.T: 240 80
+:amanda/forest/frog_happy.T: 208 80
+
+:proxima/flame.F: 112 80
+
+$BEGIN_TILE_GROUP 0
+:amanda/forest/moss_00: 0 0
+:amanda/forest/moss_00: 80 0
+:amanda/forest/moss_00: 160 0
+$END_TILE_GROUP
+:Group-0: 0 128
+:Group-0: 240 128
+:geoo/construction/fence_64x64.S: -160 224
+:geoo/construction/fence_64x64.S: -144 240
+:geoo/construction/fence_64x64.S: -128 256
+$BEGIN_TILE_GROUP 1
+:geoo/construction/fence_64x64.S: 128 0
+:geoo/construction/fence_64x64.S: 64 0
+:geoo/construction/fence_64x64.S: 0 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 256 0
+:Group-1: 64 0
+:geoo/construction/fence_64x64.S: 0 0
+$END_TILE_GROUP
+:Group-2: 0 144
+:raymanni/holiday/gift2: 32 0
+:geoo/construction/fence_64x64.S: 448 144

@@ -1,0 +1,95 @@
+$BUILT 2023-01-09 20:49:21
+$AUTHOR Green Frisbee
+$ENGLISH One step forward, two steps back
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 360
+#SIZE_Y 784
+#TORUS_X 0
+#TORUS_Y 1
+#BACKGROUND_RED 151
+#BACKGROUND_GREEN 131
+#BACKGROUND_BLUE 208
+
+#INITIAL 196
+#REQUIRED 16
+#SPAWN_INTERVAL 4
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:green-frisbee/spinny-advent2-L.H: 128 304 r
+:green-frisbee/spinny-advent2-R.H: 160 336
+:green-frisbee/spinny-advent2-R.H: 200 368
+:green-frisbee/spinny-advent2-L.H: 200 400 r
+
+:green-frisbee/house2.G: 328 160
+:green-frisbee/house2.G: 0 224
+
+:geoo/construction/Laser_vr_64.F: 224 0
+:geoo/construction/Laser_vr_64.F: 224 64
+:geoo/construction/Laser_vr_64.F: 224 120
+:geoo/construction/Laser_vr_64.F: 224 208
+:geoo/construction/Laser_vr_64.F: 224 272
+:geoo/construction/Laser_vr_64.F: 224 336
+:geoo/construction/Laser_vr_64.F: 120 0
+:geoo/construction/Laser_vr_64.F: 120 64
+:geoo/construction/Laser_vr_64.F: 120 128
+:geoo/construction/Laser_vr_64.F: 120 184
+:geoo/construction/Laser_vr_64.F: 120 272
+:geoo/construction/Laser_vr_64.F: 120 336
+:geoo/construction/Laser_vr_64.F: 224 720
+:geoo/construction/Laser_vr_64.F: 120 720
+:geoo/construction/Laser_vr_64.F: 224 656
+:geoo/construction/Laser_vr_64.F: 120 656
+:geoo/construction/Laser_vr_64.F: 224 592
+:geoo/construction/Laser_vr_64.F: 120 592
+:geoo/construction/Laser_vr_64.F: 224 528
+:geoo/construction/Laser_vr_64.F: 120 528
+:geoo/construction/Laser_vr_64.F: 224 464
+:geoo/construction/Laser_vr_64.F: 120 464
+:geoo/construction/Laser_vr_64.F: 224 400
+:geoo/construction/Laser_vr_64.F: 120 400
+
+:green-frisbee/cracker-violet: 88 304
+$BEGIN_TILE_GROUP 0
+:geoo/construction/rod_steel/straight32.S: 0 0 r
+:geoo/construction/rod_steel/straight32.S: 0 32 r
+$END_TILE_GROUP
+:Group-0: 192 0
+:Group-0: 192 64
+:Group-0: 192 128
+:Group-0: 192 192
+:Group-0: 192 256
+:Group-0: 192 320
+:geoo/construction/rod_steel/straight8.S: 192 384 r
+:geoo/construction/platformbrick: 232 208
+:geoo/construction/platformbrick: 264 208
+:geoo/construction/platformbrick: 296 208
+:geoo/construction/platformbrick: 328 208
+:geoo/construction/platformbrick: 96 272 frr
+:geoo/construction/platformbrick: 64 272 frr
+:geoo/construction/platformbrick: 32 272 frr
+:geoo/construction/platformbrick: 0 272 frr
+:Group-0: 192 720
+:Group-0: 192 656
+:Group-0: 192 592
+:Group-0: 192 528
+:Group-0: 192 464
+:Group-0: 192 400
+:geoo/construction/rod_steel/straight8.S: 192 392 r
+:green-frisbee/cracker-violet: 224 368
+:green-frisbee/cracker-violet: -8 274 rr
+:green-frisbee/cracker-violet: 320 210 rr

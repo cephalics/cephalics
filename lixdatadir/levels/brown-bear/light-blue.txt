@@ -1,0 +1,43 @@
+$BUILT 2023-04-06 00:24:35
+$AUTHOR Brown Bear
+$ENGLISH The Light-blue Level
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 704
+#SIZE_Y 176
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 250
+#BACKGROUND_BLUE 255
+
+#INITIAL 40
+#REQUIRED 1
+#SPAWN_INTERVAL 96
+
+#JUMPER 2
+#EXPLODER2 0
+
+:matt/winter/Hatch.H: 400 -16 r
+
+:geoo/construction/Goal2.G: 192 48
+
+:raymanni/gore/eater.T: 64 -16
+
+:simon/crystal.W: 456 100
+:simon/crystal.W: 584 100
+:simon/crystal.W: 136 100
+:simon/crystal.W: 328 100
+:simon/crystal.W: 8 100
+
+:matt/winter/09a: 384 112
+:matt/winter/09a: 576 112
+:matt/winter/09a: 512 112
+:matt/winter/09a: 448 112
+:matt/winter/09a: 320 112
+:matt/winter/09a: 256 112
+:matt/winter/09a: 192 112
+:matt/winter/09a: 128 112
+:matt/winter/09a: 64 112
+:matt/winter/09a: 0 112
+:matt/winter/09a: 640 112

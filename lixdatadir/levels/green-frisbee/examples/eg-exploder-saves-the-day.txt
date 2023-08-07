@@ -1,0 +1,32 @@
+$BUILT 2023-01-24 02:37:04
+$AUTHOR Green Frisbee
+$ENGLISH EXAMPLE: Exploder Saves the Day
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 160
+#SIZE_Y 272
+
+#INITIAL 12
+#REQUIRED 11
+#SPAWN_INTERVAL 1
+
+#EXPLODER2 1
+
+:geoo/sandstone/fennec.H: 56 0
+:geoo/sandstone/fennec.H: 56 8
+:geoo/sandstone/fennec.H: 56 16
+:geoo/sandstone/fennec.H: 56 24
+:geoo/sandstone/fennec.H: 56 32
+:geoo/sandstone/fennec.H: 56 40
+:geoo/sandstone/fennec.H: 56 48
+:geoo/sandstone/fennec.H: 56 56
+:geoo/sandstone/fennec.H: 56 64
+:geoo/sandstone/fennec.H: 56 72
+:geoo/sandstone/fennec.H: 56 80
+:geoo/sandstone/fennec.H: 56 88
+
+:geoo/abstract/goal.G: 64 216
+
+:raymanni/toys/cracker: 112 208
+:raymanni/toys/cracker: 0 208
+:geoo/steel/32x16o.S: 64 264

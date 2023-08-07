@@ -1,0 +1,50 @@
+$BUILT 2023-05-05 23:05:29
+$AUTHOR Green Frisbee
+$ENGLISH EXAMPLE: Replay Editor
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 208
+#SIZE_Y 160
+#BACKGROUND_RED 32
+#BACKGROUND_GREEN 64
+#BACKGROUND_BLUE 128
+
+#INITIAL 20
+#REQUIRED 19
+#SPAWN_INTERVAL 32
+
+#EXPLODER 1
+#BLOCKER 1
+#PLATFORMER 1
+
+:raymanni/lab/hatch.H: 32 16
+
+:raymanni/lab/goal.G: 144 80
+
+:matt/steel/16x16.S: 16 48
+:geoo/steel/64x32o.S: 32 64
+:geoo/construction/platform.S: 154 70 rrr
+:geoo/construction/platform.S: 158 70 r
+:geoo/construction/platform.S: 160 100
+:geoo/construction/platform.S: 122 100
+:geoo/construction/platform.S: 120 70 r
+:geoo/construction/platform.S: 192 70 rrr
+:geoo/construction/platform.S: 160 144
+:geoo/construction/platform.S: 128 144
+$BEGIN_TILE_GROUP 0
+:raymanni/toys/cracker: 0 0 r
+:geoo/abstract/cvblocks/005: 3 19 d
+:geoo/abstract/cvblocks/005: 3 21 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:matt/bricks/18: 8 32
+:matt/bricks/18: 8 0
+:matt/bricks/19: 0 64
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 6
+:green-frisbee/mandatory-replay-edit.w24px: 4 20
+:green-frisbee/not-solvable-the-first-time-24-sharpened: 4 0
+:Group-0: 5 47
+$END_TILE_GROUP
+:Group-2: 4 64

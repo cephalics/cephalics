@@ -1,0 +1,179 @@
+$BUILT 2023-04-05 14:30:52
+$AUTHOR Green Frisbee
+$ENGLISH Screensaver: Squash
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 1184
+#BACKGROUND_RED 1
+#BACKGROUND_GREEN 1
+#BACKGROUND_BLUE 1
+
+#INITIAL 1
+#REQUIRED 1
+#SPAWN_INTERVAL 32
+
+#RUNNER 1
+#JUMPER 1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 320 1120
+
+:green-frisbee/goal-59circles.G: 0 96
+:green-frisbee/goal-59circles.G: 608 96
+
+:raymanni/lab/launcher_right.T: 120 880
+:raymanni/lab/launcher_right.T: 120 880
+:raymanni/lab/launcher_left.T: 488 1008
+:raymanni/lab/launcher_left.T: 488 1008
+:raymanni/lab/launcher_left.T: 488 752
+:raymanni/lab/launcher_left.T: 488 752
+:raymanni/lab/launcher_right.T: 120 624
+:raymanni/lab/launcher_right.T: 120 624
+:raymanni/lab/launcher_left.T: 488 496
+:raymanni/lab/launcher_left.T: 488 496
+:raymanni/lab/launcher_right.T: 120 368
+:raymanni/lab/launcher_right.T: 120 368
+:raymanni/lab/launcher_right.T: 120 848
+:raymanni/lab/launcher_right.T: 120 848
+:raymanni/lab/launcher_left.T: 488 976
+:raymanni/lab/launcher_left.T: 488 976
+:raymanni/lab/launcher_left.T: 488 720
+:raymanni/lab/launcher_left.T: 488 720
+:raymanni/lab/launcher_right.T: 120 592
+:raymanni/lab/launcher_right.T: 120 592
+:raymanni/lab/launcher_left.T: 488 464
+:raymanni/lab/launcher_left.T: 488 464
+:raymanni/lab/launcher_right.T: 120 336
+:raymanni/lab/launcher_right.T: 120 336
+:raymanni/lab/launcher_right.T: 120 816
+:raymanni/lab/launcher_right.T: 120 816
+:raymanni/lab/launcher_left.T: 488 944
+:raymanni/lab/launcher_left.T: 488 944
+:raymanni/lab/launcher_left.T: 488 688
+:raymanni/lab/launcher_left.T: 488 688
+:raymanni/lab/launcher_right.T: 120 560
+:raymanni/lab/launcher_right.T: 120 560
+:raymanni/lab/launcher_left.T: 488 432
+:raymanni/lab/launcher_left.T: 488 432
+:raymanni/lab/launcher_right.T: 120 304
+:raymanni/lab/launcher_right.T: 120 304
+:raymanni/lab/launcher_right.T: 120 784
+:raymanni/lab/launcher_right.T: 120 784
+:raymanni/lab/launcher_left.T: 488 912
+:raymanni/lab/launcher_left.T: 488 912
+:raymanni/lab/launcher_left.T: 488 656
+:raymanni/lab/launcher_left.T: 488 656
+:raymanni/lab/launcher_right.T: 120 528
+:raymanni/lab/launcher_right.T: 120 528
+:raymanni/lab/launcher_left.T: 488 400
+:raymanni/lab/launcher_left.T: 488 400
+:raymanni/lab/launcher_right.T: 120 272
+:raymanni/lab/launcher_right.T: 120 272
+:raymanni/lab/launcher_right.T: 120 752
+:raymanni/lab/launcher_right.T: 120 752
+:raymanni/lab/launcher_left.T: 488 880
+:raymanni/lab/launcher_left.T: 488 880
+:raymanni/lab/launcher_left.T: 488 624
+:raymanni/lab/launcher_left.T: 488 624
+:raymanni/lab/launcher_right.T: 120 496
+:raymanni/lab/launcher_right.T: 120 496
+:raymanni/lab/launcher_left.T: 488 368
+:raymanni/lab/launcher_left.T: 488 368
+:raymanni/lab/launcher_right.T: 120 720
+:raymanni/lab/launcher_right.T: 120 720
+:raymanni/lab/launcher_left.T: 488 848
+:raymanni/lab/launcher_left.T: 488 848
+:raymanni/lab/launcher_left.T: 488 592
+:raymanni/lab/launcher_left.T: 488 592
+:raymanni/lab/launcher_right.T: 120 464
+:raymanni/lab/launcher_right.T: 120 464
+:raymanni/lab/launcher_left.T: 488 336
+:raymanni/lab/launcher_left.T: 488 336
+:raymanni/lab/launcher_right.T: 120 688
+:raymanni/lab/launcher_right.T: 120 688
+:raymanni/lab/launcher_left.T: 488 816
+:raymanni/lab/launcher_left.T: 488 816
+:raymanni/lab/launcher_left.T: 488 560
+:raymanni/lab/launcher_left.T: 488 560
+:raymanni/lab/launcher_right.T: 120 432
+:raymanni/lab/launcher_right.T: 120 432
+:raymanni/lab/launcher_left.T: 488 304
+:raymanni/lab/launcher_left.T: 488 304
+:raymanni/lab/launcher_right.T: 120 656
+:raymanni/lab/launcher_right.T: 120 656
+:raymanni/lab/launcher_left.T: 488 784
+:raymanni/lab/launcher_left.T: 488 784
+:raymanni/lab/launcher_left.T: 488 528
+:raymanni/lab/launcher_left.T: 488 528
+:raymanni/lab/launcher_right.T: 120 400
+:raymanni/lab/launcher_right.T: 120 400
+:raymanni/lab/launcher_left.T: 488 272
+:raymanni/lab/launcher_left.T: 488 272
+:raymanni/lab/launcher_right.T: 120 1040
+:raymanni/lab/launcher_right.T: 120 1040
+:raymanni/lab/launcher_right.T: 120 1008
+:raymanni/lab/launcher_right.T: 120 1008
+:raymanni/lab/launcher_right.T: 120 976
+:raymanni/lab/launcher_right.T: 120 976
+:raymanni/lab/launcher_right.T: 120 944
+:raymanni/lab/launcher_right.T: 120 944
+:raymanni/lab/launcher_right.T: 120 912
+:raymanni/lab/launcher_right.T: 120 912
+:raymanni/lab/launcher_left.T: 488 1104
+:raymanni/lab/launcher_left.T: 488 1104
+:raymanni/lab/launcher_left.T: 488 1072
+:raymanni/lab/launcher_left.T: 488 1072
+:raymanni/lab/launcher_left.T: 488 1040
+:raymanni/lab/launcher_left.T: 488 1040
+:raymanni/lab/launcher_right.T: 120 1136
+:raymanni/lab/launcher_right.T: 120 1136
+:raymanni/lab/launcher_right.T: 120 1104
+:raymanni/lab/launcher_right.T: 120 1104
+:raymanni/lab/launcher_right.T: 120 1072
+:raymanni/lab/launcher_right.T: 120 1072
+:raymanni/lab/launcher_left.T: 488 1136
+:raymanni/lab/launcher_left.T: 488 1136
+
+:simon/tapir/128: 512 1024
+$BEGIN_TILE_GROUP 0
+:simon/tapir/016h: 0 0
+:simon/tapir/016h: 16 16
+$END_TILE_GROUP
+:Group-0: 0 1152
+:Group-0: 32 1152
+:Group-0: 64 1152
+:Group-0: 96 1152
+:Group-0: 128 1152
+:Group-0: 160 1152
+:Group-0: 192 1152
+:Group-0: 224 1152
+:Group-0: 256 1152
+:Group-0: 288 1152
+:Group-0: 320 1152
+:Group-0: 352 1152
+:Group-0: 384 1152
+:Group-0: 416 1152
+:Group-0: 512 1152
+:Group-0: 544 1152
+:Group-0: 576 1152
+:Group-0: 608 1152
+:Group-0: -32 1152
+:simon/tapir/128: 512 896
+:Group-0: -192 1152
+:simon/tapir/128: 0 1024
+:simon/tapir/128: 0 896
+:simon/tapir/128: 512 768
+:simon/tapir/128: 512 640
+:simon/tapir/128: 0 768
+:simon/tapir/128: 0 640
+:simon/tapir/128: 512 512
+:simon/tapir/128: 512 384
+:simon/tapir/128: 0 512
+:simon/tapir/128: 0 384
+:simon/tapir/128: 512 256
+:simon/tapir/128: 512 128
+:simon/tapir/128: 0 256
+:simon/tapir/128: 0 128
+:Group-0: 480 1152
+:Group-0: 448 1152

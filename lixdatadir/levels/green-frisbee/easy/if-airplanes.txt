@@ -1,0 +1,120 @@
+$BUILT 2023-04-17 01:42:52
+$AUTHOR Green Frisbee
+$ENGLISH If airplanes were like this
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 496
+#BACKGROUND_RED 176
+#BACKGROUND_GREEN 0
+#BACKGROUND_BLUE 128
+
+#INITIAL 8
+#REQUIRED 4
+#SPAWN_INTERVAL 64
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:matt/goldmine/Hatch.H: 256 176
+:matt/goldmine/Hatch.H: 328 176 r
+
+:matt/winter/Goal.G: 73 39
+:proxima/tile/goal.G: 518 32
+:geoo/sandstone/Goal.G: 576 336
+:matt/marble/Goal.G: 32 352
+
+:matt/carnival/balloons: 464 259
+:matt/underworld/09a: 454 96
+:matt/underworld/thinplatform128: 456 96
+:matt/bricks/18: 589 50
+:matt/bricks/19: 581 82
+:matt/bricks/20: 581 34
+:guideline/build-L: 224 216
+$BEGIN_TILE_GROUP 0
+:matt/bricks/18: 0 0 r
+:matt/bricks/18: 32 0 r
+$END_TILE_GROUP
+:Group-0: 224 224
+:Group-0: 288 224
+:guideline/build-R: 360 216
+:Group-0: 352 224
+$BEGIN_TILE_GROUP 1
+:raymanni/toys/brick_5: 0 0
+:raymanni/toys/brick_6: 64 0
+:raymanni/toys/brick_7: 128 0
+:raymanni/toys/brick_8: 192 0
+$END_TILE_GROUP
+:Group-1: 416 96 rrr
+:matt/winter/07: 121 96 rrr
+:matt/winter/07: 57 96 frrr
+:matt/winter/08: 208 96 f
+:Group-1: 184 96 frrr
+:simon/oriental/bridge2: 456 40
+:matt/winter/06: 208 32
+:matt/winter/08: 208 23
+:geoo/shadow/sock: 96 296 frr
+:geoo/shadow/sock: 66 295
+:raymanni/holiday/snow3: 64 184
+:raymanni/holiday/snow1: 77 142
+:geoo/nopales/fruit_00: 87 154
+:geoo/nopales/fruit_06: 105 154
+:raymanni/holiday/cane_b: 114 204
+:raymanni/holiday/cane_a: 54 205
+:geoo/construction/stairsbrick_rd_8: 72 172
+:geoo/construction/stairsbrick_ru_8: 96 172
+:geoo/abstract/pipes/juncx0: 96 200
+:geoo/abstract/pipes/juncx1: 96 216
+:geoo/abstract/pipes/juncx2: 96 232
+:geoo/abstract/pipes/juncx3: 96 248
+:raymanni/holiday/garland: 69 252
+:geoo/abstract/cvblocks/039: 352 336 frr
+:geoo/abstract/cvblocks/039: 224 336
+:geoo/abstract/cvblocks/035: 288 336
+:geoo/sandstone/slopes/64x32lb: 320 368
+:geoo/sandstone/slopes/32x16lb: 384 384
+:geoo/sandstone/32x32: 416 400
+:geoo/sandstone/64x64: 576 400
+:raymanni/toys/cracker: 464 376 r
+:geoo/sandstone/arc_small: 448 400 rr
+:geoo/sandstone/32x32: 544 400
+$BEGIN_TILE_GROUP 2
+:geoo/construction/wall/small_64x32: 64 0
+:geoo/construction/wall/small_64x32: 0 0
+$END_TILE_GROUP
+:Group-2: 192 400
+:Group-2: 64 400
+:geoo/construction/wall/small_64x32: 0 400
+:matt/marble/02d: 304 416
+$BEGIN_TILE_GROUP 3
+:matt/marble/04: 144 0
+:matt/marble/04a: 128 16
+:matt/marble/04b: 112 0
+:matt/marble/04c: 96 16
+:matt/marble/04d: 80 0
+:matt/marble/04: 64 16 frr
+:matt/marble/04a: 48 0 frr
+:matt/marble/04b: 32 16 frr
+:matt/marble/04c: 16 0 frr
+:matt/marble/04d: 0 16
+$END_TILE_GROUP
+:Group-3: 144 400
+:Group-3: -16 400
+:matt/marble/03e_1: 120 368
+:matt/marble/03e_1: 152 368
+:matt/marble/03e_1: 184 368
+:matt/goldmine/pickaxe: 136 384
+:matt/goldmine/pickaxe: 168 384
+:raymanni/gore/tentacle_1: 468 46 rr

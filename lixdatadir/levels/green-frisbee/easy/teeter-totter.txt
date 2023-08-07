@@ -1,0 +1,104 @@
+$BUILT 2023-03-02 19:04:28
+$AUTHOR Green Frisbee
+$ENGLISH Teeter-totter
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 880
+#SIZE_Y 1360
+#BACKGROUND_RED 57
+#BACKGROUND_GREEN 141
+#BACKGROUND_BLUE 196
+
+#INITIAL 1
+#REQUIRED 1
+#SPAWN_INTERVAL 32
+
+#CLIMBER 1
+#PLATFORMER 2
+#DIGGER 1
+#JUMPER 1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 36 1260
+
+:green-frisbee/goalling.G: 768 16
+
+:geoo/construction/spring_fast.T: 176 1312
+:geoo/construction/spring_fast.T: 176 1312
+:geoo/construction/spring_fast.T: 176 1312
+
+:geoo/abstract/pipes/central0: 544 48
+:geoo/abstract/pipes/central1: 576 48
+:geoo/abstract/pipes/central2: 608 48
+:geoo/abstract/pipes/central3: 640 48
+:geoo/abstract/pipes/central4: 672 48
+:geoo/abstract/pipes/central5: 704 48
+:geoo/abstract/pipes/central6: 736 48
+:geoo/abstract/pipes/central7: 768 48
+:geoo/abstract/pipes/corner0: 544 48 r
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/cvblocks/000: 0 0
+:geoo/abstract/cvblocks/000: 0 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 0 32
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 3
+:Group-2: 0 0
+:Group-2: 0 64
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/cvblocks/001: 0 18
+:geoo/construction/platformbrick_single: 8 16
+:geoo/abstract/cvblocks/000: 8 18
+:geoo/abstract/cvblocks/000: 16 18
+:geoo/construction/platformbrick_single: 24 2 rrr
+:geoo/construction/platformbrick_single: 24 10 rrr
+:geoo/construction/platformbrick_single: 16 0 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:Group-3: 0 0
+:Group-3: 0 128
+:Group-4: 8 110 frr
+:Group-4: 24 238
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:Group-5: 0 0
+:Group-5: 0 256
+:Group-5: 0 512
+:Group-5: 0 768
+:Group-5: 0 1024
+:simon/tapir/016d: 8 1160
+:simon/tapir/008h: 8 1280
+:simon/tapir/008h: 48 1280
+:geoo/construction/platformbrick_single: 40 1262 rrd
+$END_TILE_GROUP
+:Group-6: 544 64
+:Group-6: 600 64
+:Group-6: 656 64
+:Group-6: 712 64
+:Group-6: 768 64
+:Group-6: 824 64
+:guideline/cube: 834 46
+:matt/earth/30: 40 1296
+$BEGIN_TILE_GROUP 7
+:guideline/platform: 54 0
+:guideline/platform: 0 0 d
+$END_TILE_GROUP
+:Group-7: 830 62
+:guideline/cube: 846 30
+:guideline/cube: 842 14
+$BEGIN_TILE_GROUP 8
+:matt/earth/19: 194 40
+:matt/earth/10: 0 0 frr
+$END_TILE_GROUP
+:Group-8: 144 1272
+:green-frisbee/warning-roadworks.tri.w32px: 176 1312
+:Group-6: 872 64
+:guideline/cube: 850 46
+:green-frisbee/cracker-azure: 488 48

@@ -1,0 +1,40 @@
+$BUILT 2023-04-24 03:09:52
+$AUTHOR Brown Bear
+$ENGLISH Very Difficult
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 416
+#SIZE_Y 352
+#BACKGROUND_RED 64
+#BACKGROUND_GREEN 82
+#BACKGROUND_BLUE 64
+
+#INITIAL 999
+#REQUIRED 992
+#SPAWN_INTERVAL 2
+
+#WALKER 1
+#FLOATER 2
+#EXPLODER 1
+#BLOCKER 1
+#BUILDER 3
+#DIGGER 1
+#CUBER 8
+
+:matt/carnival/Hatch.H: 344 -15
+:geoo/sandstone/fennec.H: 240 64
+:geoo/sandstone/Hatch.H: 96 0 r
+
+:amanda/occult/goal_skull.G: 16 208
+:amanda/occult/goal_skull.G: 112 208
+
+:geoo/construction/factory.T: 368 112
+
+:geoo/construction/fence_64x64.S: 160 144
+:matt/goldmine/09: 224 144 r
+:matt/goldmine/06: 336 176
+:raymanni/gore/blob_2: 48 128
+:geoo/construction/concrete/064h: 0 288
+:geoo/construction/concrete/064h: 128 288
+:guideline/maxfall: 66 14
+:guideline/maxfall: 222 20

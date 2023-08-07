@@ -1,0 +1,144 @@
+$BUILT 2023-01-07 05:30:11
+$AUTHOR Green Frisbee
+$ENGLISH Land!
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 592
+#SIZE_Y 336
+#BACKGROUND_RED 73
+#BACKGROUND_GREEN 201
+#BACKGROUND_BLUE 235
+
+#INITIAL 109
+#REQUIRED 3
+#SPAWN_INTERVAL 4
+
+#FLOATER -1
+#EXPLODER2 -1
+
+:geoo/sandstone/fennec.H: 64 -48
+
+:simon/oriental/goal.G: 528 208
+
+:geoo/abstract/tbeam_up.T: 80 112
+:geoo/abstract/tbeam_right.T: 80 112
+:geoo/abstract/tbeam_up.T: 112 112
+:geoo/abstract/tbeam_right.T: 112 112
+:geoo/abstract/tbeam_up.T: 336 112
+:geoo/abstract/tbeam_right.T: 336 112
+:geoo/abstract/tbeam_up.T: 368 112
+:geoo/abstract/tbeam_right.T: 368 112
+:geoo/abstract/tbeam_up.T: 400 112
+:geoo/abstract/tbeam_right.T: 400 112
+:geoo/abstract/tbeam_up.T: 448 160
+:geoo/abstract/tbeam_left.T: 448 160
+:geoo/abstract/tbeam_up.T: 416 160
+:geoo/abstract/tbeam_left.T: 416 160
+:geoo/abstract/tbeam_up.T: 384 160
+:geoo/abstract/tbeam_left.T: 384 160
+:geoo/abstract/tbeam_up.T: 352 160
+:geoo/abstract/tbeam_left.T: 352 160
+:geoo/abstract/tbeam_up.T: 112 208
+:geoo/abstract/tbeam_right.T: 112 208
+:geoo/abstract/tbeam_up.T: 336 208
+:geoo/abstract/tbeam_right.T: 336 208
+:geoo/abstract/tbeam_up.T: 368 208
+:geoo/abstract/tbeam_right.T: 368 208
+:geoo/abstract/tbeam_up.T: 400 208
+:geoo/abstract/tbeam_right.T: 400 208
+:geoo/abstract/tbeam_up.T: 448 256
+:geoo/abstract/tbeam_left.T: 448 256
+:geoo/abstract/tbeam_up.T: 416 256
+:geoo/abstract/tbeam_left.T: 416 256
+:geoo/abstract/tbeam_up.T: 384 256
+:geoo/abstract/tbeam_left.T: 384 256
+:geoo/abstract/tbeam_up.T: 352 256
+:geoo/abstract/tbeam_left.T: 352 256
+:geoo/abstract/tbeam_up.T: 128 256
+:geoo/abstract/tbeam_left.T: 128 256
+:geoo/abstract/tbeam_up.T: 96 256
+:geoo/abstract/tbeam_left.T: 96 256
+:geoo/abstract/tbeam_up.T: 64 256
+:geoo/abstract/tbeam_left.T: 64 256
+:geoo/abstract/tbeam_up.T: 32 256
+:geoo/abstract/tbeam_left.T: 32 256
+:geoo/abstract/tbeam_up.T: 32 224
+:geoo/abstract/tbeam_left.T: 32 224
+:geoo/abstract/tbeam_up.T: 0 224
+:geoo/abstract/tbeam_left.T: 0 224
+:geoo/abstract/tbeam_up.T: 0 192
+:geoo/abstract/tbeam_right.T: 0 192
+:geoo/abstract/tbeam_up.T: 32 192
+:geoo/abstract/tbeam_right.T: 32 192
+:geoo/abstract/tbeam_up.T: 32 160
+:geoo/abstract/tbeam_left.T: 32 160
+:geoo/abstract/tbeam_up.T: 0 160
+:geoo/abstract/tbeam_left.T: 0 160
+:geoo/abstract/tbeam_up.T: 0 128
+:geoo/abstract/tbeam_right.T: 0 128
+:geoo/abstract/tbeam_up.T: 128 160
+:geoo/abstract/tbeam_left.T: 128 160
+:geoo/abstract/tbeam_up.T: 80 208
+:geoo/abstract/tbeam_right.T: 80 208
+:geoo/abstract/tbeam_up.T: 32 128
+:geoo/abstract/tbeam_right.T: 32 128
+:geoo/abstract/tbeam_up.T: 32 96
+:geoo/abstract/tbeam_left.T: 32 96
+:geoo/abstract/tbeam_up.T: 0 96
+:geoo/abstract/tbeam_left.T: 0 96
+:geoo/abstract/tbeam_up.T: 0 64
+:geoo/abstract/tbeam_right.T: 0 64
+:geoo/abstract/tbeam_up.T: 32 64
+:geoo/abstract/tbeam_right.T: 32 64
+:geoo/abstract/tbeam_up.T: 272 112
+:geoo/abstract/tbeam_right.T: 272 112
+:geoo/abstract/tbeam_up.T: 304 112
+:geoo/abstract/tbeam_right.T: 304 112
+:geoo/abstract/tbeam_up.T: 320 160
+:geoo/abstract/tbeam_left.T: 320 160
+:geoo/abstract/tbeam_up.T: 288 160
+:geoo/abstract/tbeam_left.T: 288 160
+:geoo/abstract/tbeam_up.T: 272 208
+:geoo/abstract/tbeam_right.T: 272 208
+:geoo/abstract/tbeam_up.T: 304 208
+:geoo/abstract/tbeam_right.T: 304 208
+:geoo/abstract/tbeam_up.T: 320 256
+:geoo/abstract/tbeam_left.T: 320 256
+:geoo/abstract/tbeam_up.T: 288 256
+:geoo/abstract/tbeam_left.T: 288 256
+:geoo/abstract/tbeam_up.T: 208 112
+:geoo/abstract/tbeam_right.T: 208 112
+:geoo/abstract/tbeam_up.T: 240 112
+:geoo/abstract/tbeam_right.T: 240 112
+:geoo/abstract/tbeam_up.T: 256 160
+:geoo/abstract/tbeam_left.T: 256 160
+:geoo/abstract/tbeam_up.T: 224 160
+:geoo/abstract/tbeam_left.T: 224 160
+:geoo/abstract/tbeam_up.T: 208 208
+:geoo/abstract/tbeam_right.T: 208 208
+:geoo/abstract/tbeam_up.T: 240 208
+:geoo/abstract/tbeam_right.T: 240 208
+:geoo/abstract/tbeam_up.T: 256 256
+:geoo/abstract/tbeam_left.T: 256 256
+:geoo/abstract/tbeam_up.T: 224 256
+:geoo/abstract/tbeam_left.T: 224 256
+:geoo/abstract/tbeam_up.T: 144 112
+:geoo/abstract/tbeam_right.T: 144 112
+:geoo/abstract/tbeam_up.T: 176 112
+:geoo/abstract/tbeam_right.T: 176 112
+:geoo/abstract/tbeam_up.T: 192 160
+:geoo/abstract/tbeam_left.T: 192 160
+:geoo/abstract/tbeam_up.T: 160 160
+:geoo/abstract/tbeam_left.T: 160 160
+:geoo/abstract/tbeam_up.T: 144 208
+:geoo/abstract/tbeam_right.T: 144 208
+:geoo/abstract/tbeam_up.T: 176 208
+:geoo/abstract/tbeam_right.T: 176 208
+:geoo/abstract/tbeam_up.T: 192 256
+:geoo/abstract/tbeam_left.T: 192 256
+:geoo/abstract/tbeam_up.T: 160 256
+:geoo/abstract/tbeam_left.T: 160 256
+
+:raymanni/toys/brick_5: 528 288
+:green-frisbee/warning-hatch: 560 0
+:green-frisbee/cracker-violet: -8 264

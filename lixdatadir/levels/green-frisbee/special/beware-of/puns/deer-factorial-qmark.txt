@@ -1,0 +1,226 @@
+$BUILT 2023-01-27 01:37:36
+$AUTHOR Green Frisbee
+$ENGLISH Deer!?
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 816
+#SIZE_Y 160
+#BACKGROUND_RED 255
+#BACKGROUND_GREEN 102
+#BACKGROUND_BLUE 0
+
+#INITIAL 5
+#REQUIRED 5
+#SPAWN_INTERVAL 96
+
+#RUNNER 1
+#CLIMBER 10
+#PLATFORMER 1
+#BASHER 1
+#JUMPER -1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-L.H: 392 16 r
+
+:matt/earth/Goal.G: 752 16
+
+:proxima/flame.F: 564 94
+:geoo/construction/sawblade_small.F: 624 64
+
+:raymanni/holiday/plank_long: 408 80
+:matt/bricks/18: 456 48
+:matt/bricks/19: 448 80
+:green-frisbee/warning-deer: 336 20
+:green-frisbee/warning-factorial: 448 20
+:raymanni/holiday/plank_broken: 536 80 frr
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/cvblocks/011: 0 0
+:geoo/abstract/cvblocks/012: 8 0
+:geoo/abstract/cvblocks/010: 4 16
+$END_TILE_GROUP
+:Group-0: 532 80
+:raymanni/holiday/plank_broken: 600 80
+:raymanni/holiday/plank_mid1: 632 80
+:raymanni/holiday/plank_broken: 664 80 frr
+:raymanni/holiday/plank_broken: 752 80
+:raymanni/holiday/plank_right: 784 80
+:raymanni/holiday/plank_broken: 248 80
+:raymanni/holiday/plank_broken: 184 80 frr
+:raymanni/holiday/plank_mid1: 152 80 frr
+:raymanni/holiday/plank_broken: 120 80
+:raymanni/holiday/plank_broken: 32 80 frr
+:raymanni/holiday/plank_right: 0 80 frr
+:green-frisbee/goat-nicubunu: 16 56
+$BEGIN_TILE_GROUP 1
+:geoo/construction/platformbrick: 0 0
+:geoo/construction/platformbrick_single: 32 0
+:geoo/construction/platformbrick_single: 40 0
+:geoo/construction/platformbrick_single: 48 0
+$END_TILE_GROUP
+:Group-1: 600 40
+:Group-1: 160 40 frr
+$BEGIN_TILE_GROUP 2
+:geoo/steel/16x16o.S: 48 0
+:geoo/steel/dark_16x16o.S: 48 16
+:geoo/steel/16x16o.S: 48 32
+:geoo/steel/dark_16x16o.S: 48 48
+:geoo/steel/16x16o.S: 32 48 fr
+:geoo/steel/dark_16x16o.S: 16 48 r
+:geoo/steel/16x16o.S: 0 48 frr
+:geoo/steel/dark_16x16o.S: 0 32 frr
+:geoo/steel/16x16o.S: 0 16 frr
+:geoo/steel/dark_16x16o.S: 0 0 frr
+$END_TILE_GROUP
+:Group-2: 200 96
+:Group-2: 552 96 frr
+$BEGIN_TILE_GROUP 3
+:geoo/abstract/pipes/cshort1: 0 8 r
+:geoo/abstract/pipes/endr1: 0 16 r
+:geoo/abstract/pipes/endr1: 0 0 rrr
+$END_TILE_GROUP
+:Group-3: 96 104
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/pipes/endr1: 0 16 r
+:geoo/abstract/pipes/endr1: 0 0 rrr
+:geoo/abstract/pipes/junct1: 0 8 r
+:geoo/abstract/pipes/junct1: 16 8 rrr
+:geoo/abstract/pipes/endr1: 16 16 r
+:geoo/abstract/pipes/endr1: 16 0 rrr
+:geoo/abstract/pipes/cshort1: 8 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:geoo/abstract/pipes/endr1: 0 0 rr
+:geoo/abstract/pipes/cshort1: 8 0
+:geoo/abstract/pipes/corner1: 16 0 rr
+:geoo/abstract/pipes/junct1: 16 8 rrr
+:geoo/abstract/pipes/corner1: 0 8 r
+:geoo/abstract/pipes/corner1: 0 16
+:geoo/abstract/pipes/corner1: 16 16 rrr
+:geoo/abstract/pipes/cshort1: 8 8
+:geoo/abstract/pipes/cshort1: 8 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:geoo/abstract/pipes/cshort1: 8 8 r
+:geoo/abstract/pipes/cshort1: 0 8 rrr
+:geoo/abstract/pipes/endr1: 0 0 rrr
+:geoo/abstract/pipes/endr1: 8 0 rrr
+:geoo/abstract/pipes/link1: 8 16
+:geoo/abstract/pipes/link1: 0 16 rr
+:geoo/abstract/pipes/link1: 8 16 r
+:geoo/abstract/pipes/link1: 0 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 7
+:geoo/abstract/pipes/cshort1: 8 0
+:geoo/abstract/pipes/endr1: 16 0
+:geoo/abstract/pipes/corner1: 0 0 r
+:geoo/abstract/pipes/corner1: 0 16
+:geoo/abstract/pipes/cshort1: 8 16
+:geoo/abstract/pipes/endr1: 16 16
+:geoo/abstract/pipes/endr1: 8 8
+:geoo/abstract/pipes/junct1: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 8
+:Group-4: 0 0
+:Group-5: 24 0
+:Group-6: 48 0
+:Group-7: 64 0
+$END_TILE_GROUP
+:Group-8: 0 104
+$BEGIN_TILE_GROUP 9
+:geoo/abstract/pipes/endr1: 16 0
+:geoo/abstract/pipes/endr1: 0 0 rr
+:geoo/abstract/pipes/junct1: 8 0 rr
+:geoo/abstract/pipes/cshort1: 8 8 r
+:geoo/abstract/pipes/endr1: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 10
+:geoo/abstract/pipes/cshort1: 8 0
+:geoo/abstract/pipes/corner1: 0 0 r
+:geoo/abstract/pipes/cshort1: 16 8 r
+:geoo/abstract/pipes/corner1: 16 0 rr
+:geoo/abstract/pipes/cshort1: 8 16 rr
+:geoo/abstract/pipes/corner1: 16 16 rrr
+:geoo/abstract/pipes/cshort1: 0 8 rrr
+:geoo/abstract/pipes/corner1: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 11
+:geoo/abstract/pipes/cshort1: 8 0
+:geoo/abstract/pipes/endr1: 16 0
+:geoo/abstract/pipes/corner1: 0 0 r
+:geoo/abstract/pipes/corner1: 0 16
+:geoo/abstract/pipes/cshort1: 0 8 r
+:geoo/abstract/pipes/cshort1: 8 16
+:geoo/abstract/pipes/corner1: 16 16 rrr
+:geoo/abstract/pipes/corner1: 16 8 rr
+:geoo/abstract/pipes/link1: 8 8 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 12
+:Group-11: 0 0
+:Group-10: 24 0
+:Group-9: 48 0
+$END_TILE_GROUP
+:Group-12: 112 104
+$BEGIN_TILE_GROUP 13
+:geoo/abstract/pipes/cshort1: 16 8 r
+:geoo/abstract/pipes/cshort1: 8 16 rr
+:geoo/abstract/pipes/corner1: 16 16 rrr
+:geoo/abstract/pipes/cshort1: 0 8 rrr
+:geoo/abstract/pipes/corner1: 0 16
+:geoo/abstract/pipes/endr1: 0 0 rrr
+:geoo/abstract/pipes/endr1: 16 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 14
+:geoo/abstract/pipes/endr1: 0 16 rr
+:geoo/abstract/pipes/corner1: 8 16 rrr
+:geoo/abstract/pipes/junct1: 8 8 rrr
+:geoo/abstract/pipes/endr1: 8 0 rrr
+:geoo/abstract/pipes/endr1: 0 0 rrr
+:geoo/abstract/pipes/corner1: 0 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 15
+:geoo/abstract/pipes/link1: 16 16
+:geoo/abstract/pipes/corner1: 0 0 r
+:geoo/abstract/pipes/corner1: 8 0 rr
+:geoo/abstract/pipes/endr1: 0 16 r
+:geoo/abstract/pipes/junct1: 0 8 r
+:geoo/abstract/pipes/junct1: 8 8 rrr
+:geoo/abstract/pipes/link1: 8 16 r
+:geoo/abstract/pipes/link1: 8 16 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 16
+:Group-14: 0 0
+:Group-10: 16 0
+:Group-13: 40 0
+:Group-15: 64 0
+$END_TILE_GROUP
+:Group-16: -4 128
+$BEGIN_TILE_GROUP 17
+:geoo/abstract/pipes/juncx1: 5 5
+:geoo/abstract/pipes/juncx1: 5 0 d
+:geoo/abstract/pipes/juncx1: 5 10 d
+:geoo/abstract/pipes/juncx1: 10 5 d
+:geoo/abstract/pipes/juncx1: 0 5 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 18
+:geoo/abstract/pipes/link1: 0 0 rr
+:geoo/abstract/pipes/corner1: 8 0 rr
+:geoo/abstract/pipes/link1: 16 8
+:geoo/abstract/pipes/corner1: 8 8
+:Group-17: 11 19
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 19
+:Group-11: 0 0
+:Group-10: 24 0
+:Group-5: 48 0
+:Group-9: 72 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 20
+:Group-18: 96 0
+:Group-19: 0 0
+$END_TILE_GROUP
+:Group-20: 88 128
+:raymanni/holiday/plank_long: 280 80 frr
+:matt/bricks/18: 344 48 frr
+:matt/bricks/19: 336 80 frr
+:raymanni/toys/cracker: 440 96
+:raymanni/toys/cracker: 328 96 frr

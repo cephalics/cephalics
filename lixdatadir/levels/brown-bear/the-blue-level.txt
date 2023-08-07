@@ -1,0 +1,129 @@
+$BUILT 2023-04-21 19:51:28
+$AUTHOR Brown Bear
+$ENGLISH The Blue Level
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#TORUS_X 1
+#TORUS_Y 1
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 255
+#BACKGROUND_BLUE 255
+
+#INITIAL 120
+#REQUIRED 100
+#SPAWN_INTERVAL 1
+
+#WALKER 1
+#RUNNER 9
+#CLIMBER -1
+#FLOATER 1
+#EXPLODER2 1
+#BLOCKER 8
+#BUILDER 7
+#PLATFORMER 3
+#BASHER 2
+#MINER -1
+#DIGGER 2
+#JUMPER -1
+#BATTER 1
+#CUBER 2
+
+:raymanni/gore/hatch.H: 271 176 r
+
+:matt/winter/Goal.G: 208 256
+:raymanni/lab/goal.G: 352 256
+
+:raymanni/lab/shower.T: 296 256
+
+:geoo/construction/Laser_vr_16.F: 362 304
+
+:raymanni/gore/eye: 288 144
+:raymanni/gore/eye: 256 144
+:raymanni/toys/brick_17: 448 304
+:raymanni/toys/brick_17: 392 304
+:matt/carnival/57: 208 320
+:raymanni/toys/brick_17: 448 48
+$BEGIN_TILE_GROUP 0
+:raymanni/toys/brick_17: 40 0
+:raymanni/toys/brick_17: 0 16
+$END_TILE_GROUP
+:Group-0: 328 272
+:Group-0: 408 240
+:Group-0: 408 272
+:Group-0: 408 176
+:Group-0: 408 208
+:Group-0: 408 112
+:Group-0: 408 144
+:Group-0: 408 80
+:raymanni/toys/brick_17: 408 64
+:raymanni/toys/brick_17: 528 304
+:raymanni/toys/brick_17: 528 48
+:Group-0: 488 240
+:Group-0: 488 272
+:Group-0: 488 176
+:Group-0: 488 208
+:Group-0: 488 112
+:Group-0: 488 144
+:Group-0: 488 80
+:raymanni/toys/brick_17: 488 64
+:raymanni/toys/brick_17: 608 304
+:raymanni/toys/brick_17: 552 304
+:raymanni/toys/brick_17: 608 48
+:Group-0: 568 240
+:Group-0: 568 272
+:Group-0: 568 176
+:Group-0: 568 208
+:Group-0: 568 112
+:Group-0: 568 144
+:Group-0: 568 80
+:raymanni/toys/brick_17: 568 64
+:raymanni/toys/brick_17: 48 304
+:raymanni/toys/brick_17: 48 48
+:Group-0: 8 240
+:Group-0: 8 272
+:Group-0: 8 176
+:Group-0: 8 208
+:Group-0: 8 112
+:Group-0: 8 144
+:Group-0: 8 80
+:raymanni/toys/brick_17: 8 64
+:raymanni/toys/brick_17: 128 304
+:raymanni/toys/brick_17: 72 304
+:raymanni/toys/brick_17: 128 48
+:Group-0: 88 240
+:Group-0: 88 272
+:Group-0: 88 208
+:Group-0: 88 176
+:Group-0: 88 112
+:Group-0: 88 144
+:Group-0: 88 80
+:raymanni/toys/brick_17: 88 64
+:raymanni/toys/brick_17: 208 304
+:raymanni/toys/brick_17: 208 48
+:Group-0: 168 240
+:Group-0: 168 272
+:Group-0: 168 176
+:Group-0: 168 208
+:Group-0: 168 112
+:Group-0: 168 144
+:Group-0: 168 80
+:raymanni/toys/brick_17: 168 64
+:raymanni/toys/brick_17: 368 48
+:Group-0: 328 240
+:Group-0: 328 176
+:Group-0: 328 208
+:Group-0: 328 112
+:Group-0: 328 144
+:Group-0: 328 80
+:raymanni/toys/brick_17: 328 64
+:matt/carnival/57: 464 320
+:matt/carnival/57: 80 320
+:matt/carnival/57: 208 32
+:matt/carnival/57: 80 32
+:matt/carnival/57: 464 32
+:geoo/sandstone/slopes/32x64lt: 384 240
+:geoo/sandstone/slopes/32x64rt: 352 240
+:geoo/sandstone/slopes/32x16lb: 328 192
+:geoo/sandstone/slopes/32x16lt: 328 208

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg58" width="2043" height="1805.5" preserveAspectRatio="xMinYMin meet" version="1.1" viewBox="0 0 2043 1805.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs id="defs24">
+  <radialGradient id="korovaSvet" cx="-100" cy="-100" r="150" gradientUnits="userSpaceOnUse">
+   <stop id="stop17" stop-color="#fff" stop-opacity=".75" offset="0"/>
+   <stop id="stop19" stop-color="#fff" stop-opacity=".5" offset=".2"/>
+   <stop id="stop21" stop-color="#fff" stop-opacity="0" offset="1"/>
+  </radialGradient>
+ </defs>
+ <path id="path991" d="m1907.9 1670.4-886.44-1535.4-886.44 1535.4z" fill="none" stroke="#dc0a14" stroke-linejoin="round" stroke-width="270.13"/>
+ <path id="path993" d="m1831.3 1626.1-809.77-1402.6-809.77 1402.6z" fill="#fff" stroke-width="22.7"/>
+ <g id="ladybug" transform="matrix(1.2257,0,0,1.2232,599.59,663.49)">
+  <g id="g56" transform="rotate(-45,721.26,-188.03)">
+   <g id="korovaG" transform="rotate(-45)">
+    <ellipse id="ellipse26" rx="300" ry="250" fill="#e00" stroke="#800" stroke-width="20"/>
+    <line id="line28" x1="-300" x2="300" stroke="#700" stroke-width="20"/>
+    <polygon id="polygon30" points="260 140 380 0 260 -140" stroke="#000" stroke-linejoin="round" stroke-width="50"/>
+    <line id="line35" x1="370" x2="450" y1="30" y2="100" stroke="#000" stroke-width="15"/>
+    <line id="line37" x1="370" x2="450" y1="-30" y2="-100" stroke="#000" stroke-width="15"/>
+    <circle id="circle39" cx="160" r="60"/>
+    <circle id="circle41" cx="-70" cy="100" r="60"/>
+    <circle id="circle43" cx="-70" cy="-100" r="60"/>
+    <ellipse id="ellipse45" transform="rotate(20,679.73,207.57)" rx="40" ry="20"/>
+    <ellipse id="ellipse47" transform="rotate(-20,679.73,-207.57)" rx="40" ry="20"/>
+    <ellipse id="ellipse49" transform="rotate(30,-426.51,-274.28)" rx="40" ry="20"/>
+    <ellipse id="ellipse51" transform="rotate(-30,-426.51,274.28)" rx="40" ry="20"/>
+    <use id="use33" transform="scale(1,-1)" width="100%" height="100%" fill="#ffffff" xlink:href="#korovaGlaz"/>
+    <path id="korovaGlaz" d="m316-112a40 20 50 1 0 36 42z" fill="#fff"/>
+   </g>
+   <circle id="circle54" cx="-100" cy="-100" r="150" display="none" fill="url(#korovaSvet)"/>
+  </g>
+  <g id="legs-sinister" transform="translate(-146.68,-385.97)" fill="none" stroke="#000" stroke-width="6.4761">
+   <path id="path4032" d="m350.89 580.91-57.357-59.376c-5.2009-5.384-10.511-10.761-16.808-14.847-6.2966-4.0861-13.591-6.8299-21.118-7.1614-7.5264-0.33149-15.184 1.8094-21.26 6.2092-6.0761 4.3997-10.481 11.007-12.138 18.267"/>
+   <path id="path4052" d="m276.64 723.83-57.356 14.962c-11.746 3.0642-23.671 5.884-35.817 6.1399-12.146 0.25553-24.368-1.9714-35.507-6.7616"/>
+   <path id="path4070" d="m306.84 1053.2-57.356-38.103c-5.5602-3.6936-11.176-7.3628-17.271-10.111-6.0952-2.7485-12.669-4.5634-19.364-4.8413-6.6943-0.27814-13.47 0.9967-19.517 3.8478-6.0469 2.8511-11.334 7.263-15.171 12.688"/>
+  </g>
+  <g id="legs-dexter" transform="matrix(-1,0,0,1,835.1,-385.97)" fill="none" stroke="#000" stroke-width="6.4761">
+   <path id="path4032-1" d="m350.89 580.91-57.357-59.376c-5.2009-5.384-10.511-10.761-16.808-14.847-6.2966-4.0861-13.591-6.8299-21.118-7.1614-7.5264-0.33149-15.184 1.8094-21.26 6.2092-6.0761 4.3997-10.481 11.007-12.138 18.267"/>
+   <path id="path4052-3" d="m276.64 723.83-57.356 14.962c-11.746 3.0642-23.671 5.884-35.817 6.1399-12.146 0.25553-24.368-1.9714-35.507-6.7616"/>
+   <path id="path4070-9" d="m306.84 1053.2-57.356-38.103c-5.5602-3.6936-11.176-7.3628-17.271-10.111-6.0952-2.7485-12.669-4.5634-19.364-4.8413-6.6943-0.27814-13.47 0.9967-19.517 3.8478-6.0469 2.8511-11.334 7.263-15.171 12.688"/>
+  </g>
+ </g>
+</svg>

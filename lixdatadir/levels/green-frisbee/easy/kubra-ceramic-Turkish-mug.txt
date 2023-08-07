@@ -1,0 +1,43 @@
+$BUILT 2023-02-02 09:59:26
+$AUTHOR Green Frisbee
+$ENGLISH Kübra (ceramic Turkish mug)
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 432
+#SIZE_Y 208
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 255
+#BACKGROUND_GREEN 208
+#BACKGROUND_BLUE 255
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 96
+
+#WALKER 3
+#BLOCKER 2
+#BUILDER 1
+#PLATFORMER 3
+#EXPLODER2 0
+
+:geoo/sandstone/Hatch.H: 32 24
+
+:matt/bricks/Goal.G: 352 64
+
+:geoo/construction/Laser_vr_16.F: 424 128
+:geoo/construction/Laser_vr_16.F: 424 56
+:simon/water.W: 240 144
+:simon/water.W: 192 144
+:simon/water.W: 144 144
+
+:geoo/construction/wall/small_64x32: 16 144
+$BEGIN_TILE_GROUP 0
+:matt/marble/04d: 32 0
+:matt/marble/04: 0 0
+$END_TILE_GROUP
+:Group-0: 192 64
+:geoo/construction/wall/small_64x32: 352 112
+:geoo/construction/wall/small_64x32: 288 144
+:geoo/construction/wall/small_64x32: 352 144
+:geoo/construction/wall/small_64x32: 80 144

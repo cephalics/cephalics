@@ -1,0 +1,62 @@
+$BUILT 2023-03-23 16:03:06
+$AUTHOR Green Frisbee
+$ENGLISH Speed Limit
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 160
+#SIZE_Y 160
+#BACKGROUND_RED 140
+#BACKGROUND_GREEN 120
+#BACKGROUND_BLUE 216
+
+#INITIAL 15
+#REQUIRED 10
+#SPAWN_INTERVAL 96
+
+#PLATFORMER 1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 0 24
+:green-frisbee/spinny-advent2-R.H: 0 104
+:green-frisbee/spinny-advent2-R.H: 0 24
+:green-frisbee/spinny-advent2-R.H: 0 104
+:green-frisbee/spinny-advent2-R.H: 0 24
+:green-frisbee/spinny-advent2-R.H: 0 104
+:green-frisbee/spinny-advent2-R.H: 0 24
+:green-frisbee/spinny-advent2-R.H: 0 104
+:green-frisbee/spinny-advent2-R.H: 0 24
+:green-frisbee/spinny-advent2-R.H: 0 104
+:green-frisbee/spinny-advent2-R.H: 0 24
+:green-frisbee/spinny-advent2-R.H: 0 24
+:green-frisbee/spinny-advent2-R.H: 0 24
+:green-frisbee/spinny-advent2-R.H: 0 24
+:green-frisbee/spinny-advent2-R.H: 0 24
+
+:green-frisbee/house2.G: 128 8
+:green-frisbee/house2.G: 128 88
+
+:geoo/construction/Laser_hz_16.F: 56 72
+:geoo/construction/Laser_hz_16.F: 72 72
+:geoo/construction/Laser_hz_16.F: 88 72
+:geoo/construction/Laser_hz_16.F: 56 152
+:geoo/construction/Laser_hz_16.F: 72 152
+:geoo/construction/Laser_hz_16.F: 88 152
+
+:green-frisbee/mandatory-le-10velocity.w24px: 4 0
+:raymanni/holiday/plank_mid1: 0 56
+:raymanni/holiday/plank_broken: 32 56 frr
+:raymanni/holiday/plank_mid1: 128 56 frr
+:raymanni/holiday/plank_broken: 96 56
+:raymanni/holiday/plank_mid1: 0 136
+:raymanni/holiday/plank_broken: 32 136 frr
+:raymanni/holiday/plank_mid1: 128 136 frr
+:raymanni/holiday/plank_broken: 96 136
+:green-frisbee/mandatory-le-5velocity.w24px: 4 80
+$BEGIN_TILE_GROUP 0
+:green-frisbee/cracker-violet: 0 0
+:simon/tapir/016h: 8 24 rd
+:simon/tapir/016h: 24 24 rd
+:simon/tapir/016h: 8 48 rrd
+$END_TILE_GROUP
+:Group-0: 69 56
+:Group-0: 69 136

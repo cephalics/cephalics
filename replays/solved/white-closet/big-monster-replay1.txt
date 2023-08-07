@@ -1,0 +1,8 @@
+$FILENAME white-closet/big-monster.txt
+$LEVEL_BUILT_REQUIRED 2023-03-15 01:42:53
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+
+! 188 0 ASSIGN=MINER 1
+

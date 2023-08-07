@@ -1,0 +1,50 @@
+$BUILT 2023-05-10 15:28:44
+$AUTHOR Green Frisbee
+$ENGLISH LEGEND: New Hatches & Goals
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 256
+#SIZE_Y 160
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 64
+#BACKGROUND_GREEN 64
+#BACKGROUND_BLUE 64
+
+#INITIAL 32
+#REQUIRED 2
+#SPAWN_INTERVAL 68
+
+#DIGGER 1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 0 0
+:green-frisbee/spinny-advent2-α0-R.H: 128 0
+
+:green-frisbee/goal-59circles.G: 0 96
+:green-frisbee/house2.G: 32 80
+:green-frisbee/infosign-exit.G: 64 96
+:green-frisbee/homerow-FJ.G: 96 96
+:green-frisbee/goalling.G: 128 96
+:green-frisbee/goal-tilde-32.G: 160 96
+:green-frisbee/transparent.32x32.G: 192 96
+:green-frisbee/goal-59thedigits.G: 224 96
+
+$BEGIN_TILE_GROUP 0
+:raymanni/holiday/plank_long: 0 0
+:raymanni/holiday/plank_mid1: 128 0
+$END_TILE_GROUP
+:Group-0: 0 128
+:green-frisbee/cracker-greyscale: 0 128 r
+:green-frisbee/cracker-greyscale: 64 128 r
+:green-frisbee/cracker-greyscale: 128 128 r
+$BEGIN_TILE_GROUP 1
+:geoo/construction/platformbrick: 0 0
+:geoo/construction/platformbrick: 32 0
+$END_TILE_GROUP
+:Group-1: 0 32
+:Group-1: 64 32
+:Group-1: 128 32
+:green-frisbee/cracker-greyscale: 192 128 r
+:raymanni/holiday/plank_long: 160 128
+:Group-1: 192 32

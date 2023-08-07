@@ -1,0 +1,61 @@
+$BUILT 2023-02-03 17:26:32
+$AUTHOR Green Frisbee
+$ENGLISH Terminal Velocity #1: Jumper
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 2000
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 230
+#BACKGROUND_GREEN 166
+#BACKGROUND_BLUE 172
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 96
+
+#RUNNER 1
+#EXPLODER 1
+#JUMPER 1
+
+:geoo/sandstone/Hatch.H: 0 0
+
+:matt/carnival/Goal.G: 576 1920
+
+:geoo/abstract/tbeam_down.T: 512 1888
+
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/central1: 0 0
+:geoo/abstract/pipes/central1: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 64 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 128 0
+$END_TILE_GROUP
+:Group-2: 0 112
+:Group-2: 256 112
+:Group-1: 512 112
+$BEGIN_TILE_GROUP 3
+:geoo/abstract/pipes/central3: 0 0
+:geoo/abstract/pipes/central3: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:Group-3: 0 0
+:Group-3: 64 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:Group-4: 0 0
+:Group-4: 128 0
+$END_TILE_GROUP
+:Group-5: 128 1984
+:Group-5: 384 1984
+:Group-4: 0 1984
+:geoo/construction/platform.S: 512 120
+:green-frisbee/warning-falling-rocks: 544 1920
+:green-frisbee/warning-falling-rocks: 480 1920
+:green-frisbee/cracker-greyscale: 504 0

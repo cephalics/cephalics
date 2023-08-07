@@ -1,0 +1,91 @@
+$BUILT 2023-01-28 19:26:22
+$AUTHOR Green Frisbee
+$ENGLISH Vortex
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 416
+#SIZE_Y 176
+#BACKGROUND_RED 192
+#BACKGROUND_GREEN 192
+#BACKGROUND_BLUE 0
+
+#INITIAL 1
+#REQUIRED 1
+#SPAWN_INTERVAL 1
+
+#WALKER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER 1
+#BATTER -1
+#CUBER -1
+
+:simon/oriental/hatch.H: 120 96 r
+
+:simon/oriental/goal.G: 336 80
+
+:geoo/construction/Laser_vr_16.F: 190 160
+:geoo/construction/Laser_vr_16.F: 184 160
+:geoo/construction/Laser_vr_16.F: 202 160
+:geoo/construction/Laser_vr_16.F: 196 160
+:geoo/construction/Laser_vr_16.F: 214 160
+:geoo/construction/Laser_vr_16.F: 208 160
+
+:geoo/abstract/tbeam_right.T: 88 112
+:geoo/abstract/tbeam_up.T: 88 112
+:geoo/abstract/tbeam_right.T: 88 80
+:geoo/abstract/tbeam_up.T: 88 80
+:geoo/abstract/tbeam_right.T: 120 80
+:geoo/abstract/tbeam_up.T: 120 80
+:geoo/abstract/tbeam_right.T: 120 112
+:geoo/abstract/tbeam_up.T: 120 112
+:geoo/abstract/tbeam_right.T: 120 48
+:geoo/abstract/tbeam_up.T: 120 48
+:geoo/abstract/tbeam_right.T: 152 80
+:geoo/abstract/tbeam_up.T: 152 80
+:geoo/abstract/tbeam_right.T: 152 48
+:geoo/abstract/tbeam_up.T: 152 48
+:geoo/abstract/tbeam_down.T: 56 80
+:geoo/abstract/tbeam_left.T: 56 80
+:geoo/abstract/tbeam_down.T: 56 112
+:geoo/abstract/tbeam_left.T: 56 112
+:geoo/abstract/tbeam_down.T: 56 48
+:geoo/abstract/tbeam_left.T: 56 48
+:geoo/abstract/tbeam_down.T: 24 80
+:geoo/abstract/tbeam_left.T: 24 80
+:geoo/abstract/tbeam_down.T: 24 112
+:geoo/abstract/tbeam_left.T: 24 112
+:geoo/abstract/tbeam_down.T: 24 48
+:geoo/abstract/tbeam_left.T: 24 48
+:geoo/abstract/tbeam_down.T: 152 112
+:geoo/abstract/tbeam_left.T: 72 48
+:geoo/abstract/tbeam_right.T: 152 112
+:geoo/abstract/tbeam_right.T: 104 48
+:geoo/abstract/tbeam_up.T: 88 48
+
+$BEGIN_TILE_GROUP 0
+:geoo/steel/32x16o.S: 0 0
+:geoo/steel/32x16o.S: 32 0
+$END_TILE_GROUP
+:Group-0: 64 160
+:Group-0: 0 160
+:Group-0: 224 160
+:geoo/steel/16x32o.S: 0 64 rr
+:geoo/steel/16x32o.S: 0 96 rr
+:geoo/steel/16x32o.S: 0 128 rr
+:geoo/steel/16x32o.S: 400 128
+:geoo/steel/16x32o.S: 400 96
+:geoo/steel/16x32o.S: 400 64
+:raymanni/toys/cracker: -16 0
+:raymanni/toys/cracker: 384 0
+:Group-0: 288 160
+:Group-0: 352 160
+:geoo/construction/platform.S: 190 128 rrr
+:geoo/construction/platform.S: 190 96 rrr
+:geoo/construction/platform.S: 190 64 rrr
+:geoo/construction/platform.S: 190 56 rrr
+:Group-0: 128 160

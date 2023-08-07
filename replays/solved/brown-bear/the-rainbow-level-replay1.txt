@@ -1,0 +1,6 @@
+$FILENAME brown-bear/the-rainbow-level.txt
+$LEVEL_BUILT_REQUIRED 2023-05-06 13:31:36
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+

@@ -1,0 +1,33 @@
+$BUILT 2023-01-08 03:36:20
+$AUTHOR Green Frisbee
+$ENGLISH Break the Siege
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 160
+#SIZE_Y 160
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 111
+#BACKGROUND_BLUE 207
+
+#INITIAL 999
+#REQUIRED 1
+#SPAWN_INTERVAL 1
+
+#CUBER -1
+#EXPLODER2 0
+
+:matt/goldmine/Hatch.H: 0 80
+
+:matt/goldmine/Goal.G: 72 48
+
+:simon/tapir/064h: 0 128
+$BEGIN_TILE_GROUP 0
+:simon/tapir/008v: 0 48
+:simon/tapir/008v: 0 32
+:simon/tapir/008v: 0 16
+:simon/tapir/008v: 0 0
+$END_TILE_GROUP
+:Group-0: 0 64
+:geoo/abstract/cvblocks/027: 88 76
+:geoo/abstract/cvblocks/025: 88 96
+:raymanni/toys/cracker: -20 0

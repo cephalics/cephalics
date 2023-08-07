@@ -1,0 +1,45 @@
+$BUILT 2023-01-05 11:08:43
+$AUTHOR Green Frisbee
+$ENGLISH Home run
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 592
+#SIZE_Y 176
+#BACKGROUND_RED 189
+#BACKGROUND_GREEN 61
+#BACKGROUND_BLUE 60
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 8
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:geoo/sandstone/fennec.H: 4 12
+
+:geoo/sandstone/Goal.G: 504 48
+
+:geoo/construction/spring.T: 100 80
+:geoo/construction/spring_fast.T: 12 136
+
+:raymanni/lab/launcher_right.T: 168 80
+
+:matt/marble/thinplatform128p: 64 112
+:matt/marble/thinplatform128p: 192 112
+:matt/marble/thinplatform128p: 320 112
+:matt/marble/thinplatform128p: 448 112
+:matt/marble/thinplatform64p: 0 168
+:raymanni/toys/cracker: 556 48

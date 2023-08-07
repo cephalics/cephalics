@@ -1,0 +1,51 @@
+$BUILT 2023-04-19 06:21:10
+$AUTHOR Green Frisbee
+$ENGLISH EXAMPLE: Late parachute
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 192
+#SIZE_Y 400
+#BACKGROUND_RED 71
+#BACKGROUND_GREEN 188
+#BACKGROUND_BLUE 145
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 32
+
+#FLOATER 1
+#EXPLODER2 0
+
+:raymanni/toys/hatch.H: 16 0
+:matt/marble/Hatch.H: -8 336
+
+:matt/marble/Goal.G: 128 320
+
+:geoo/construction/spring.T: 96 336
+
+:geoo/abstract/tbeam_up.T: 96 288
+:geoo/abstract/tbeam_up.T: 96 256
+:geoo/abstract/tbeam_up.T: 96 224
+:geoo/abstract/tbeam_up.T: 96 192
+:geoo/abstract/tbeam_up.T: 96 160
+:geoo/abstract/tbeam_up.T: 96 128
+:geoo/abstract/tbeam_up.T: 96 96
+:geoo/abstract/tbeam_up.T: 96 64
+:geoo/abstract/tbeam_up.T: 96 32
+:geoo/abstract/tbeam_up.T: 96 0
+
+$BEGIN_TILE_GROUP 0
+:geoo/construction/wall/small_64x32: 0 0
+:geoo/construction/wall/small_64x32: 64 0
+$END_TILE_GROUP
+:Group-0: 0 368
+:geoo/construction/wall/small_64x32: 128 368
+:green-frisbee/warning-falling-rocks: 56 312
+:green-frisbee/warning-falling-rocks: 8 312
+:green-frisbee/not-solvable-the-first-time.w32px: 0 0
+$BEGIN_TILE_GROUP 1
+:matt/carnival/balloons: 8 0
+:raymanni/toys/soldier_1: 0 88
+:raymanni/toys/brick_17: 4 134 d
+$END_TILE_GROUP
+:Group-1: 144 160

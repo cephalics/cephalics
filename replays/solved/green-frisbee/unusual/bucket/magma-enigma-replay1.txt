@@ -1,0 +1,9 @@
+$FILENAME green-frisbee/unusual/bucket/magma-enigma.txt
+$LEVEL_BUILT_REQUIRED 2023-02-08 10:09:50
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+
+! 83 0 ASSIGN=PLATFORMER 0
+! 85 0 ASSIGN=PLATFORMER 0
+

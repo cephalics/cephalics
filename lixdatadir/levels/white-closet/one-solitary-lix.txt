@@ -1,0 +1,30 @@
+$BUILT 2023-04-30 19:39:11
+$AUTHOR White Closet
+$ENGLISH One Solitary Lix
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 296
+#SIZE_Y 224
+#TORUS_X 0
+#TORUS_Y 1
+#BACKGROUND_RED 102
+#BACKGROUND_GREEN 220
+#BACKGROUND_BLUE 221
+
+#INITIAL 1
+#REQUIRED 1
+#SPAWN_INTERVAL 32
+
+#WALKER 2
+#FLOATER 1
+#MINER 2
+#EXPLODER2 0
+
+:geoo/sandstone/Hatch.H: 168 32
+
+:matt/beach/goal.G: 0 120
+
+:raymanni/lab/shower.T: 72 104
+
+:white-closet/the-stone-of-colours: 144 144
+:white-closet/the-stone-of-colours: 0 168

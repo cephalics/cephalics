@@ -1,0 +1,99 @@
+$BUILT 2023-03-11 12:22:51
+$AUTHOR Green Frisbee
+$ENGLISH Holding Pattern
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 544
+#SIZE_Y 336
+#BACKGROUND_RED 88
+#BACKGROUND_GREEN 163
+#BACKGROUND_BLUE 198
+
+#INITIAL 120
+#REQUIRED 100
+#SPAWN_INTERVAL 32
+
+#EXPLODER2 1
+#BASHER 1
+#JUMPER 1
+
+:green-frisbee/spinny-advent2-R.H: 240 160
+
+:green-frisbee/house2.G: 336 272
+
+:geoo/construction/spring_fast.T: 56 152
+:geoo/construction/spring_fast.T: 376 224
+:geoo/construction/spring_fast.T: 312 80
+:geoo/construction/spring.T: 456 288
+:geoo/construction/spring.T: 464 288
+:geoo/construction/spring.T: 472 288
+:geoo/construction/spring.T: 480 288
+:geoo/construction/spring.T: 488 288
+:geoo/construction/spring.T: 448 288
+:geoo/construction/spring.T: 496 288
+
+:geoo/abstract/tbeam_up.T: 72 184
+:raymanni/lab/launcher_left.T: 72 240
+:geoo/abstract/tbeam_right.T: 136 8
+:geoo/abstract/tbeam_right.T: 168 8
+:geoo/abstract/tbeam_right.T: 200 8
+:geoo/abstract/tbeam_right.T: 232 8
+:geoo/abstract/tbeam_right.T: 264 8
+:geoo/abstract/tbeam_right.T: 296 8
+:geoo/abstract/tbeam_right.T: 328 8
+:geoo/abstract/tbeam_right.T: 360 8
+:geoo/abstract/tbeam_right.T: 392 8
+:geoo/abstract/tbeam_down.T: 424 56
+:geoo/abstract/tbeam_left.T: 424 256
+:geoo/abstract/tbeam_left.T: 392 256
+:geoo/abstract/tbeam_up.T: 408 256
+:raymanni/lab/launcher_right.T: 288 192
+:geoo/abstract/tbeam_right.T: 400 8
+
+:guideline/cube: 272 208
+:raymanni/holiday/plank_long: 192 224
+:geoo/construction/platformbrick: 0 208 r
+:geoo/construction/platformbrick: 0 176 r
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/cvblocks/010: 0 0
+:geoo/abstract/cvblocks/010: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 0 32
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 0 64
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 3
+:Group-2: 0 0
+:Group-2: 0 128
+$END_TILE_GROUP
+:Group-3: 512 32
+:Group-3: 456 32 frr
+:raymanni/holiday/plank_long: 464 320
+:raymanni/holiday/plank_long: 336 320
+:geoo/construction/platformbrick: 424 288
+:geoo/construction/platformbrick: 392 288
+:geoo/construction/stairsbrick_rd_32: 504 288
+$BEGIN_TILE_GROUP 4
+:geoo/construction/concrete/032: 16 0
+:green-frisbee/cracker-teal: 8 8
+:matt/bricks/03: 0 32 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:Group-4: 64 0
+:Group-4: 32 0
+:Group-4: 0 0
+$END_TILE_GROUP
+:Group-5: 224 240
+:Group-5: 96 240
+$BEGIN_TILE_GROUP 6
+:matt/carnival/12: 0 0
+:matt/carnival/13: 16 0
+:matt/carnival/14: 0 16
+:matt/carnival/15: 16 16
+$END_TILE_GROUP
+:Group-6: 192 240
+:guideline/cube: 224 208

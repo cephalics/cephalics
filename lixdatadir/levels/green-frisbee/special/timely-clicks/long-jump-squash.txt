@@ -1,0 +1,105 @@
+$BUILT 2023-05-01 16:35:28
+$AUTHOR Green Frisbee
+$ENGLISH Long Jump
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 768
+#SIZE_Y 288
+#BACKGROUND_RED 193
+#BACKGROUND_GREEN 152
+#BACKGROUND_BLUE 103
+
+#INITIAL 1
+#REQUIRED 1
+#SPAWN_INTERVAL 32
+
+#RUNNER 1
+#JUMPER 1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 304 224
+
+:green-frisbee/goal-59circles.G: 0 96
+
+:raymanni/lab/launcher_right.T: 272 224
+:raymanni/lab/launcher_right.T: 272 224
+
+:simon/tapir/128: 640 128
+:simon/tapir/128: 640 0
+:geoo/construction/platformbrick_single: 64 128
+:simon/tapir/064v: 0 128
+$BEGIN_TILE_GROUP 0
+:simon/tapir/016h: 0 0
+:simon/tapir/016h: 16 16
+$END_TILE_GROUP
+:Group-0: 128 256
+:Group-0: 160 256
+:Group-0: 192 256
+:Group-0: 224 256
+:Group-0: 256 256
+:Group-0: 288 256
+:Group-0: 320 256
+:Group-0: 352 256
+:Group-0: 384 256
+:Group-0: 416 256
+:Group-0: 448 256
+:Group-0: 480 256
+:Group-0: 512 256
+:Group-0: 544 256
+:Group-0: 576 256
+:Group-0: 608 256
+:Group-0: 640 256
+:Group-0: 672 256
+:Group-0: 704 256
+:Group-0: 736 256
+:Group-0: 96 256
+:Group-0: -32 256
+:Group-0: 0 256
+:Group-0: 32 256
+:Group-0: 64 256
+:Group-0: -64 256
+$BEGIN_TILE_GROUP 1
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/endr7: 0 16 frr
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/endr7: 0 8 frr
+:geoo/abstract/pipes/junct7: 8 8 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/endr7: 8 16 r
+:geoo/abstract/pipes/juncx7: 8 8
+:geoo/abstract/pipes/link7: 16 8
+:geoo/abstract/pipes/link7: 0 8 rr
+:geoo/abstract/pipes/corner7: 8 0 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 3
+:Group-1: 0 0
+:Group-1: 16 0
+:Group-2: 32 0
+$END_TILE_GROUP
+:Group-3: 136 128
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/pipes/endr7: 8 0 f
+:geoo/abstract/pipes/corner7: 0 0 f
+:geoo/abstract/pipes/corner7: 0 8 frrr
+:geoo/abstract/pipes/endr7: 0 16 frr
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/corner7: 8 8 fr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:geoo/abstract/pipes/corner7: 0 0 r
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/corner7: 8 16 rrr
+:geoo/abstract/pipes/cshort7: 0 8 r
+:geoo/abstract/pipes/cshort7: 8 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:Group-1: 0 0
+:Group-4: 16 0
+:Group-5: 32 0
+$END_TILE_GROUP
+:Group-6: 200 128
+:green-frisbee/cracker-greyscale: 688 32 d

@@ -1,0 +1,457 @@
+$BUILT 2023-04-09 15:43:43
+$AUTHOR Green Frisbee
+$ENGLISH SCAFFOLDING: Font Test (SUBSET)
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 1216
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 32
+
+#EXPLODER2 0
+
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/corner0: 0 0
+:geoo/abstract/pipes/cshort0: 0 8
+:geoo/abstract/pipes/endr0: 0 16
+:geoo/abstract/pipes/ends0: 0 24
+:geoo/abstract/pipes/junct0: 0 32
+:geoo/abstract/pipes/juncx0: 0 40
+:geoo/abstract/pipes/link0: 0 48
+:geoo/abstract/pipes/corner1: 8 0
+:geoo/abstract/pipes/cshort1: 8 8
+:geoo/abstract/pipes/endr1: 8 16
+:geoo/abstract/pipes/ends1: 8 24
+:geoo/abstract/pipes/junct1: 8 32
+:geoo/abstract/pipes/juncx1: 8 40
+:geoo/abstract/pipes/link1: 8 48
+:geoo/abstract/pipes/corner2: 16 0
+:geoo/abstract/pipes/cshort2: 16 8
+:geoo/abstract/pipes/endr2: 16 16
+:geoo/abstract/pipes/ends2: 16 24
+:geoo/abstract/pipes/junct2: 16 32
+:geoo/abstract/pipes/juncx2: 16 40
+:geoo/abstract/pipes/link2: 16 48
+:geoo/abstract/pipes/corner3: 24 0
+:geoo/abstract/pipes/cshort3: 24 8
+:geoo/abstract/pipes/endr3: 24 16
+:geoo/abstract/pipes/ends3: 24 24
+:geoo/abstract/pipes/junct3: 24 32
+:geoo/abstract/pipes/juncx3: 24 40
+:geoo/abstract/pipes/link3: 24 48
+:geoo/abstract/pipes/corner4: 32 0
+:geoo/abstract/pipes/cshort4: 32 8
+:geoo/abstract/pipes/endr4: 32 16
+:geoo/abstract/pipes/ends4: 32 24
+:geoo/abstract/pipes/junct4: 32 32
+:geoo/abstract/pipes/juncx4: 32 40
+:geoo/abstract/pipes/link4: 32 48
+:geoo/abstract/pipes/corner5: 40 0
+:geoo/abstract/pipes/cshort5: 40 8
+:geoo/abstract/pipes/endr5: 40 16
+:geoo/abstract/pipes/ends5: 40 24
+:geoo/abstract/pipes/junct5: 40 32
+:geoo/abstract/pipes/juncx5: 40 40
+:geoo/abstract/pipes/link5: 40 48
+:geoo/abstract/pipes/corner6: 48 0
+:geoo/abstract/pipes/cshort6: 48 8
+:geoo/abstract/pipes/endr6: 48 16
+:geoo/abstract/pipes/ends6: 48 24
+:geoo/abstract/pipes/junct6: 48 32
+:geoo/abstract/pipes/juncx6: 48 40
+:geoo/abstract/pipes/link6: 48 48
+:geoo/abstract/pipes/corner7: 56 0
+:geoo/abstract/pipes/cshort7: 56 8
+:geoo/abstract/pipes/endr7: 56 16
+:geoo/abstract/pipes/ends7: 56 24
+:geoo/abstract/pipes/junct7: 56 32
+:geoo/abstract/pipes/juncx7: 56 40
+:geoo/abstract/pipes/link7: 56 48
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-A-red
+:geoo/abstract/pipes/endr0: 0 0 rr
+:geoo/abstract/pipes/cshort0: 8 0
+:geoo/abstract/pipes/corner0: 16 0 rr
+:geoo/abstract/pipes/junct0: 16 8 rrr
+:geoo/abstract/pipes/corner0: 0 8 r
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/corner0: 16 16 rrr
+:geoo/abstract/pipes/cshort0: 8 8
+:geoo/abstract/pipes/cshort0: 8 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-B-red
+:geoo/abstract/pipes/junct0: 0 8 r
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/cshort0: 8 16
+:geoo/abstract/pipes/junct0: 8 8
+:geoo/abstract/pipes/link0: 16 8
+:geoo/abstract/pipes/link0: 16 8 rrr
+:geoo/abstract/pipes/link0: 16 16 r
+:geoo/abstract/pipes/link0: 16 16
+:geoo/abstract/pipes/link0: 8 0
+:geoo/abstract/pipes/link0: 8 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-C-red
+:geoo/abstract/pipes/cshort0: 8 0
+:geoo/abstract/pipes/endr0: 16 0
+:geoo/abstract/pipes/cshort0: 0 8 r
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/cshort0: 8 16
+:geoo/abstract/pipes/endr0: 16 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-D-red
+:geoo/abstract/pipes/cshort0: 8 0
+:geoo/abstract/pipes/cshort0: 16 8 r
+:geoo/abstract/pipes/cshort0: 8 16 rr
+:geoo/abstract/pipes/cshort0: 0 8 rrr
+:geoo/abstract/pipes/link0: 16 0
+:geoo/abstract/pipes/link0: 16 0 rrr
+:geoo/abstract/pipes/link0: 16 16 r
+:geoo/abstract/pipes/link0: 16 16
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-E-red
+:geoo/abstract/pipes/cshort0: 8 0
+:geoo/abstract/pipes/endr0: 16 0
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/cshort0: 8 16
+:geoo/abstract/pipes/endr0: 16 16
+:geoo/abstract/pipes/endr0: 8 8
+:geoo/abstract/pipes/junct0: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-F-red
+:geoo/abstract/pipes/cshort0: 8 0
+:geoo/abstract/pipes/endr0: 16 0
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/endr0: 8 8
+:geoo/abstract/pipes/junct0: 0 8 r
+:geoo/abstract/pipes/endr0: 0 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-G-red
+:geoo/abstract/pipes/cshort0: 8 0
+:geoo/abstract/pipes/endr0: 16 0
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/cshort0: 0 8 r
+:geoo/abstract/pipes/cshort0: 8 16
+:geoo/abstract/pipes/corner0: 16 16 rrr
+:geoo/abstract/pipes/corner0: 16 8 rr
+:geoo/abstract/pipes/link0: 8 8 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-H-red
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/endr0: 0 0 rrr
+:geoo/abstract/pipes/junct0: 0 8 r
+:geoo/abstract/pipes/junct0: 16 8 rrr
+:geoo/abstract/pipes/endr0: 16 16 r
+:geoo/abstract/pipes/endr0: 16 0 rrr
+:geoo/abstract/pipes/cshort0: 8 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-I-red
+:geoo/abstract/pipes/cshort0: 0 8 r
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/endr0: 0 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-J-red
+:geoo/abstract/pipes/cshort0: 8 8 r
+:geoo/abstract/pipes/endr0: 0 16 rr
+:geoo/abstract/pipes/corner0: 8 16 rrr
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/link0: 0 0 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-K-red
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/endr0: 0 0 rrr
+:geoo/abstract/pipes/junct0: 0 8 r
+:geoo/abstract/pipes/endr0: 24 16 r
+:geoo/abstract/pipes/endr0: 16 0 rrr
+:geoo/abstract/pipes/cshort0: 8 8
+:geoo/abstract/pipes/junct0: 16 8
+:geoo/abstract/pipes/corner0: 24 8 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-L-red
+:geoo/abstract/pipes/endr0: 16 16
+:geoo/abstract/pipes/endr0: 0 0 rrr
+:geoo/abstract/pipes/cshort0: 8 16
+:geoo/abstract/pipes/cshort0: 0 8 r
+:geoo/abstract/pipes/corner0: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-M-red
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/endr0: 16 16 r
+:geoo/abstract/pipes/endr0: 8 16 r
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 16 0 rr
+:geoo/abstract/pipes/junct0: 8 0 rr
+:geoo/abstract/pipes/cshort0: 0 8 r
+:geoo/abstract/pipes/cshort0: 16 8 r
+:geoo/abstract/pipes/cshort0: 8 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-N-red
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/cshort0: 0 8 r
+:geoo/abstract/pipes/cshort0: 8 8 r
+:geoo/abstract/pipes/cshort0: 16 8 r
+:geoo/abstract/pipes/corner0: 8 16
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/corner0: 16 16 rrr
+:geoo/abstract/pipes/endr0: 16 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-O-red
+:geoo/abstract/pipes/cshort0: 8 0
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/cshort0: 16 8 r
+:geoo/abstract/pipes/corner0: 16 0 rr
+:geoo/abstract/pipes/cshort0: 8 16 rr
+:geoo/abstract/pipes/corner0: 16 16 rrr
+:geoo/abstract/pipes/cshort0: 0 8 rrr
+:geoo/abstract/pipes/corner0: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-P-red
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/corner0: 8 8 rrr
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/junct0: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-Q-red
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/corner0: 0 8
+:geoo/abstract/pipes/junct0: 8 8 rrr
+:geoo/abstract/pipes/link0: 8 16 r
+:geoo/abstract/pipes/link0: 8 16 rr
+:geoo/abstract/pipes/link0: 16 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-R-red
+:geoo/abstract/pipes/link0: 16 16
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/endr0: 0 16 r
+:geoo/abstract/pipes/junct0: 0 8 r
+:geoo/abstract/pipes/junct0: 8 8 rrr
+:geoo/abstract/pipes/link0: 8 16 r
+:geoo/abstract/pipes/link0: 8 16 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-S-red
+:geoo/abstract/pipes/endr0: 16 0 f
+:geoo/abstract/pipes/cshort0: 8 0 f
+:geoo/abstract/pipes/cshort0: 8 8 f
+:geoo/abstract/pipes/cshort0: 8 16 f
+:geoo/abstract/pipes/corner0: 16 8 fr
+:geoo/abstract/pipes/corner0: 0 0 f
+:geoo/abstract/pipes/corner0: 0 8 frrr
+:geoo/abstract/pipes/corner0: 16 16 frr
+:geoo/abstract/pipes/endr0: 0 16 frr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-T-red
+:geoo/abstract/pipes/endr0: 16 0
+:geoo/abstract/pipes/endr0: 0 0 rr
+:geoo/abstract/pipes/junct0: 8 0 rr
+:geoo/abstract/pipes/cshort0: 8 8 r
+:geoo/abstract/pipes/endr0: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-U-red
+:geoo/abstract/pipes/cshort0: 16 8 r
+:geoo/abstract/pipes/cshort0: 8 16 rr
+:geoo/abstract/pipes/corner0: 16 16 rrr
+:geoo/abstract/pipes/cshort0: 0 8 rrr
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/endr0: 0 0 rrr
+:geoo/abstract/pipes/endr0: 16 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-V-red
+:geoo/abstract/pipes/cshort0: 8 8 r
+:geoo/abstract/pipes/cshort0: 0 8 rrr
+:geoo/abstract/pipes/endr0: 0 0 rrr
+:geoo/abstract/pipes/endr0: 8 0 rrr
+:geoo/abstract/pipes/link0: 8 16
+:geoo/abstract/pipes/link0: 0 16 rr
+:geoo/abstract/pipes/link0: 8 16 r
+:geoo/abstract/pipes/link0: 0 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-W-red
+:geoo/abstract/pipes/cshort0: 16 8 r
+:geoo/abstract/pipes/corner0: 16 16 rrr
+:geoo/abstract/pipes/cshort0: 0 8 rrr
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/endr0: 0 0 rrr
+:geoo/abstract/pipes/endr0: 16 0 rrr
+:geoo/abstract/pipes/junct0: 8 16
+:geoo/abstract/pipes/endr0: 8 8 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-X-red
+:geoo/abstract/pipes/link0: 16 8 r
+:geoo/abstract/pipes/link0: 16 8 rrr
+:geoo/abstract/pipes/link0: 0 0 rr
+:geoo/abstract/pipes/link0: 24 0
+:geoo/abstract/pipes/link0: 0 16 rr
+:geoo/abstract/pipes/link0: 24 16
+:geoo/abstract/pipes/link0: 16 16 r
+:geoo/abstract/pipes/link0: 16 0 rrr
+:geoo/abstract/pipes/link0: 16 0 rr
+:geoo/abstract/pipes/link0: 8 0
+:geoo/abstract/pipes/link0: 16 16 rr
+:geoo/abstract/pipes/link0: 8 16
+:geoo/abstract/pipes/link0: 8 8 r
+:geoo/abstract/pipes/link0: 8 8 rrr
+:geoo/abstract/pipes/link0: 8 16 r
+:geoo/abstract/pipes/link0: 8 0 rrr
+:geoo/abstract/pipes/link0: 16 8
+:geoo/abstract/pipes/link0: 8 8 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-Y-red
+:geoo/abstract/pipes/endr0: 0 16 rr
+:geoo/abstract/pipes/corner0: 8 16 rrr
+:geoo/abstract/pipes/junct0: 8 8 rrr
+:geoo/abstract/pipes/endr0: 8 0 rrr
+:geoo/abstract/pipes/endr0: 0 0 rrr
+:geoo/abstract/pipes/corner0: 0 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP letter-Z-red
+:geoo/abstract/pipes/endr0: 0 0 rr
+:geoo/abstract/pipes/cshort0: 8 0 rr
+:geoo/abstract/pipes/cshort0: 8 8 rr
+:geoo/abstract/pipes/cshort0: 8 16 rr
+:geoo/abstract/pipes/corner0: 0 8 r
+:geoo/abstract/pipes/corner0: 16 0 rr
+:geoo/abstract/pipes/corner0: 16 8 rrr
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/endr0: 16 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-0-red
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/corner0: 8 16 rrr
+:geoo/abstract/pipes/cshort0: 0 8 r
+:geoo/abstract/pipes/cshort0: 8 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-1-red
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/cshort0: 8 8 r
+:geoo/abstract/pipes/link0: 0 0 rr
+:geoo/abstract/pipes/endr0: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-2-red
+:geoo/abstract/pipes/endr0: 0 0 rr
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/corner0: 8 8 rrr
+:geoo/abstract/pipes/endr0: 8 16
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/corner0: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-3-red
+:geoo/abstract/pipes/endr0: 0 0 rr
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/endr0: 0 16 frr
+:geoo/abstract/pipes/corner0: 8 16 frr
+:geoo/abstract/pipes/endr0: 0 8 frr
+:geoo/abstract/pipes/junct0: 8 8 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-4-red
+:geoo/abstract/pipes/endr0: 0 0 rrr
+:geoo/abstract/pipes/corner0: 0 8
+:geoo/abstract/pipes/junct0: 8 8 rrr
+:geoo/abstract/pipes/endr0: 8 0 rrr
+:geoo/abstract/pipes/endr0: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-5-red
+:geoo/abstract/pipes/endr0: 8 0 f
+:geoo/abstract/pipes/corner0: 0 0 f
+:geoo/abstract/pipes/corner0: 0 8 frrr
+:geoo/abstract/pipes/endr0: 0 16 frr
+:geoo/abstract/pipes/corner0: 8 16 frr
+:geoo/abstract/pipes/corner0: 8 8 fr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-6-red
+:geoo/abstract/pipes/endr0: 8 0 f
+:geoo/abstract/pipes/corner0: 0 0 f
+:geoo/abstract/pipes/corner0: 8 16 frr
+:geoo/abstract/pipes/corner0: 8 8 fr
+:geoo/abstract/pipes/junct0: 0 8 r
+:geoo/abstract/pipes/corner0: 0 16 frrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-7-red
+:geoo/abstract/pipes/endr0: 0 0 rr
+:geoo/abstract/pipes/endr0: 8 16 r
+:geoo/abstract/pipes/juncx0: 8 8
+:geoo/abstract/pipes/link0: 16 8
+:geoo/abstract/pipes/link0: 0 8 rr
+:geoo/abstract/pipes/corner0: 8 0 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-8-red
+:geoo/abstract/pipes/corner0: 0 0 r
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/corner0: 8 16 rrr
+:geoo/abstract/pipes/corner0: 0 16
+:geoo/abstract/pipes/junct0: 0 8 r
+:geoo/abstract/pipes/junct0: 8 8 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP digit-9-red
+:geoo/abstract/pipes/endr0: 0 16 frr
+:geoo/abstract/pipes/corner0: 8 16 frr
+:geoo/abstract/pipes/corner0: 0 0 f
+:geoo/abstract/pipes/corner0: 0 8 frrr
+:geoo/abstract/pipes/junct0: 8 8 rrr
+:geoo/abstract/pipes/corner0: 8 0 fr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP aux-qmark-red
+:geoo/abstract/pipes/juncx0: 5 5
+:geoo/abstract/pipes/juncx0: 5 0 d
+:geoo/abstract/pipes/juncx0: 5 10 d
+:geoo/abstract/pipes/juncx0: 10 5 d
+:geoo/abstract/pipes/juncx0: 0 5 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP symbol-qmark-red
+:geoo/abstract/pipes/link0: 0 0 rr
+:geoo/abstract/pipes/corner0: 8 0 rr
+:geoo/abstract/pipes/link0: 16 8
+:geoo/abstract/pipes/corner0: 8 8
+:Group-aux-qmark-red: 11 19
+$END_TILE_GROUP
+:Group-0: 0 0
+:Group-letter-A-red: 96 0
+:Group-letter-B-red: 96 32
+:Group-letter-C-red: 96 64
+:Group-letter-D-red: 96 96
+:Group-letter-E-red: 96 128
+:Group-letter-F-red: 96 160
+:Group-letter-G-red: 96 192
+:Group-letter-H-red: 96 224
+:Group-letter-I-red: 96 256
+:Group-letter-J-red: 96 288
+:Group-letter-K-red: 96 320
+:Group-letter-L-red: 96 352
+:Group-letter-M-red: 96 384
+:Group-letter-N-red: 96 412
+:Group-letter-O-red: 96 448
+:Group-letter-P-red: 96 480
+:Group-letter-Q-red: 96 512
+:Group-letter-R-red: 96 544
+:Group-letter-S-red: 96 576
+:Group-letter-T-red: 96 608
+:Group-letter-U-red: 96 640
+:Group-letter-V-red: 96 672
+:Group-letter-W-red: 96 704
+:Group-letter-X-red: 96 736
+:Group-letter-Y-red: 96 768
+:Group-letter-Z-red: 96 800
+:Group-digit-0-red: 96 832
+:Group-digit-1-red: 100 864
+:Group-digit-2-red: 96 896
+:Group-digit-3-red: 96 928
+:Group-digit-4-red: 96 960
+:Group-digit-5-red: 96 992
+:Group-digit-6-red: 96 1024
+:Group-digit-7-red: 96 1056
+:Group-digit-8-red: 96 1088
+:Group-digit-9-red: 96 1120
+:Group-symbol-qmark-red: 96 1152

@@ -1,0 +1,80 @@
+$BUILT 2023-03-04 15:36:33
+$AUTHOR Green Frisbee
+$ENGLISH Terminal Velocity #2: T-Beams
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 2000
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 230
+#BACKGROUND_GREEN 166
+#BACKGROUND_BLUE 172
+
+#INITIAL 1
+#REQUIRED 1
+#SPAWN_INTERVAL 96
+
+#WALKER 1
+#EXPLODER 0
+
+:geoo/sandstone/Hatch.H: 0 0
+
+:matt/carnival/Goal.G: 576 1920
+
+:geoo/abstract/tbeam_down.T: 512 1888
+:geoo/abstract/tbeam_left.T: 64 192
+:geoo/abstract/tbeam_left.T: 144 192
+:geoo/abstract/tbeam_left.T: 224 192
+:geoo/abstract/tbeam_left.T: 304 192
+:geoo/abstract/tbeam_left.T: 384 192
+:geoo/abstract/tbeam_left.T: 464 192
+:geoo/abstract/tbeam_left.T: 544 192
+:geoo/abstract/tbeam_left.T: 624 192
+:geoo/abstract/tbeam_right.T: 264 304
+:geoo/abstract/tbeam_right.T: 184 304
+:geoo/abstract/tbeam_right.T: 104 304
+:geoo/abstract/tbeam_right.T: 24 304
+:geoo/abstract/tbeam_right.T: 584 304
+:geoo/abstract/tbeam_right.T: 504 304
+:geoo/abstract/tbeam_right.T: 424 304
+:geoo/abstract/tbeam_right.T: 344 304
+
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/central3: 0 0
+:geoo/abstract/pipes/central3: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 64 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 128 0
+$END_TILE_GROUP
+:Group-2: 128 1984
+:Group-2: 384 1984
+:Group-1: 0 1984
+$BEGIN_TILE_GROUP 3
+:geoo/abstract/cvblocks/006: 32 0
+:geoo/abstract/cvblocks/021: 0 8
+$END_TILE_GROUP
+:Group-3: 8 136
+:Group-3: 48 136
+:Group-3: 88 136
+:Group-3: 128 136
+:Group-3: 168 136
+:Group-3: 208 136
+:Group-3: 248 136
+:Group-3: 288 136
+:Group-3: 328 136
+:Group-3: 368 136
+:Group-3: 408 136
+:Group-3: 448 136
+:Group-3: 488 136
+:Group-3: 528 136
+:Group-3: 568 136
+:Group-3: 608 136
+:green-frisbee/warning-falling-rocks: 480 1920
+:green-frisbee/warning-falling-rocks: 544 1920
+:green-frisbee/cracker-greyscale: 512 0

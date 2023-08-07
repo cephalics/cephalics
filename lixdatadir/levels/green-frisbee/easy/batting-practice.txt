@@ -1,0 +1,33 @@
+$BUILT 2023-01-20 21:25:29
+$AUTHOR Green Frisbee
+$ENGLISH Batting Practice
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 384
+#SIZE_Y 160
+#BACKGROUND_RED 64
+#BACKGROUND_GREEN 80
+#BACKGROUND_BLUE 0
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 20
+
+#BUILDER 1
+#JUMPER 1
+#BATTER 1
+#EXPLODER2 0
+
+:matt/bricks/Hatch.H: 48 80
+
+:matt/carnival/Goal.G: 304 64
+
+:geoo/abstract/tbeam_up.T: 160 96
+
+:matt/marble/08d: 0 128
+:matt/marble/08d: 64 128
+:matt/marble/08d: 128 128
+:matt/marble/08d: 192 128
+:matt/marble/08d: 256 128
+:matt/marble/08d: 320 128
+:raymanni/toys/cracker: 312 8

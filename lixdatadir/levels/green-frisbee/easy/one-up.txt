@@ -1,0 +1,153 @@
+$BUILT 2023-03-08 21:08:49
+$AUTHOR Green Frisbee
+$ENGLISH One Up
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 528
+#BACKGROUND_RED 191
+#BACKGROUND_GREEN 159
+#BACKGROUND_BLUE 111
+
+#INITIAL 99
+#REQUIRED 1
+#SPAWN_INTERVAL 32
+
+#WALKER 1
+#CLIMBER 1
+#BLOCKER 1
+#DIGGER -1
+#JUMPER 2
+#EXPLODER2 0
+
+:matt/carnival/Hatch.H: 288 120
+
+:raymanni/toys/goal.G: 288 1
+
+:raymanni/lab/launcher_left.T: 560 96
+
+:raymanni/holiday/wreath: 288 128
+$BEGIN_TILE_GROUP 0
+:raymanni/holiday/cane_mid: 32 80 r
+:raymanni/holiday/cane_a: 0 0
+:raymanni/holiday/cane_mid: 32 0 r
+:raymanni/holiday/cane_b: 64 0
+:raymanni/holiday/cane_c: 0 64
+:raymanni/holiday/cane_d: 64 64
+:raymanni/holiday/cane_mid: 80 32
+:raymanni/holiday/cane_mid: 0 32
+$END_TILE_GROUP
+:Group-0: 272 112
+$BEGIN_TILE_GROUP 1
+:geoo/abstract/cvblocks/039: 0 0
+:geoo/abstract/cvblocks/038: 64 0
+:geoo/abstract/cvblocks/036: 64 96
+:geoo/abstract/cvblocks/037: 0 96
+:geoo/abstract/cvblocks/026: 112 64
+:geoo/abstract/cvblocks/027: 0 64
+:geoo/abstract/cvblocks/028: 112 32
+:geoo/abstract/cvblocks/029: 0 32
+$END_TILE_GROUP
+:Group-1: 256 96
+:matt/beach/decor/umbrella_yellow: 222 202 f
+:geoo/construction/stairsbrick_rd_32: 240 224
+:matt/beach/decor/umbrella_yellow: 320 202 rr
+:geoo/construction/stairsbrick_ru_32: 320 224
+:geoo/construction/stairsbrick_rd_32: 312 64
+:geoo/construction/stairsbrick_ru_32: 248 64
+:matt/carnival/balloons: 320 288 r
+:matt/carnival/balloons: 205 288 fr
+$BEGIN_TILE_GROUP 2
+:matt/goldmine/planksupport: 8 0 r
+:matt/goldmine/planksupport: 0 0 fr
+$END_TILE_GROUP
+:Group-2: 212 336 rr
+:Group-2: 292 336 rr
+:matt/marble/thinplatform128p: 304 512
+:matt/marble/thinplatform128p: 432 512
+:matt/marble/thinplatform128p: 560 384 rrr
+:matt/marble/thinplatform128p: 560 256 rrr
+:matt/marble/thinplatform128p: 560 128 rrr
+:matt/marble/thinplatform128p: 416 128
+:matt/marble/thinplatform64p: 560 128 frr
+:matt/marble/thinplatform128p: 208 512
+:matt/marble/thinplatform128p: 80 512
+:matt/marble/thinplatform128p: 78 384 r
+:matt/marble/thinplatform128p: 78 256 fr
+:matt/marble/thinplatform128p: 78 128 fr
+:matt/marble/thinplatform128p: 96 128
+:matt/marble/thinplatform64p: 16 128 frr
+$BEGIN_TILE_GROUP 3
+:geoo/abstract/pipes/corner6: 0 16
+:geoo/abstract/pipes/cshort6: 8 16
+:geoo/abstract/pipes/cshort6: 0 8 r
+:geoo/abstract/pipes/corner6: 0 0 r
+:geoo/abstract/pipes/cshort6: 8 0
+:geoo/abstract/pipes/corner6: 16 16 rrr
+:geoo/abstract/pipes/corner6: 16 8 rr
+:geoo/abstract/pipes/endr6: 16 0
+:geoo/abstract/pipes/endr6: 8 8 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/pipes/corner6: 0 16
+:geoo/abstract/pipes/cshort6: 8 16
+:geoo/abstract/pipes/cshort6: 0 8 r
+:geoo/abstract/pipes/corner6: 0 0 r
+:geoo/abstract/pipes/corner6: 16 0 rr
+:geoo/abstract/pipes/cshort6: 8 0 rr
+:geoo/abstract/pipes/cshort6: 16 8 rrr
+:geoo/abstract/pipes/corner6: 16 16 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:Group-3: 0 0
+:Group-4: 32 0
+$END_TILE_GROUP
+:Group-5: 24 104
+$BEGIN_TILE_GROUP 6
+:geoo/abstract/pipes/endr6: 0 16 r
+:geoo/abstract/pipes/endr6: 0 0 rrr
+:geoo/abstract/pipes/cshort6: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 7
+:geoo/abstract/pipes/corner6: 0 0 r
+:geoo/abstract/pipes/corner6: 8 0 rr
+:geoo/abstract/pipes/junct6: 0 8 r
+:geoo/abstract/pipes/junct6: 8 8 rrr
+:geoo/abstract/pipes/link6: 8 16 r
+:geoo/abstract/pipes/ends6: 0 16 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 8
+:geoo/abstract/pipes/junct6: 0 8 r
+:geoo/abstract/pipes/endr6: 0 16 r
+:geoo/abstract/pipes/endr6: 0 0 rrr
+:geoo/abstract/pipes/endr6: 16 16 r
+:geoo/abstract/pipes/endr6: 16 0 rrr
+:geoo/abstract/pipes/junct6: 16 8 rrr
+:geoo/abstract/pipes/cshort6: 8 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 9
+:geoo/abstract/pipes/endr6: 8 16 r
+:geoo/abstract/pipes/cshort6: 8 8 r
+:geoo/abstract/pipes/endr6: 0 0 rr
+:geoo/abstract/pipes/endr6: 16 0
+:geoo/abstract/pipes/junct6: 8 0 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 10
+:Group-3: 40 0
+:Group-6: 24 0
+:Group-7: 0 0
+:Group-8: 72 0
+:Group-9: 104 0
+$END_TILE_GROUP
+:Group-10: 96 128
+$BEGIN_TILE_GROUP 11
+:green-frisbee/cracker-violet: 112 16 r
+:green-frisbee/cracker-violet: 112 48 r
+:green-frisbee/cracker-violet: 128 32 r
+:green-frisbee/cracker-violet: 0 32 r
+:green-frisbee/cracker-violet: 64 32 r
+:green-frisbee/cracker-violet: 96 64 r
+:green-frisbee/cracker-violet: 96 0 r
+$END_TILE_GROUP
+:Group-11: -16 -3
+:Group-11: -16 312 rrr

@@ -1,0 +1,28 @@
+$BUILT 2023-03-06 03:05:53
+$AUTHOR Green Frisbee
+$ENGLISH EXAMPLE: Blocker + Builder
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 192
+#SIZE_Y 160
+#BACKGROUND_RED 34
+#BACKGROUND_GREEN 94
+#BACKGROUND_BLUE 133
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 32
+
+#BLOCKER 1
+#BUILDER 1
+#EXPLODER2 0
+
+:geoo/sandstone/fennec.H: 136 32
+:geoo/sandstone/fennec.H: 56 72
+
+:matt/marble/Goal.G: -4 64
+
+:matt/marble/thinplatform128p: 0 112
+:matt/marble/thinplatform128p: 64 128
+:matt/marble/thinplatform128p: 152 112
+:green-frisbee/cracker-teal: 0 105 r

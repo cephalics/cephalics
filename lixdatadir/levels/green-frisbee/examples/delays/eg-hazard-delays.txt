@@ -1,0 +1,79 @@
+$BUILT 2023-01-25 23:41:06
+$AUTHOR Green Frisbee
+$ENGLISH EXAMPLE: Hazard delays
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1024
+#SIZE_Y 160
+#BACKGROUND_RED 80
+#BACKGROUND_GREEN 48
+#BACKGROUND_BLUE 64
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 64
+
+#JUMPER 1
+#EXPLODER2 0
+
+:raymanni/lab/hatch.H: 0 0
+
+:matt/winter/Goal.G: 928 0
+
+:geoo/construction/factory.T: 880 0
+
+:geoo/construction/Laser_hz_64.F: 840 40
+:geoo/construction/Laser_hz_64.F: 776 40
+:geoo/construction/Laser_hz_64.F: 712 40
+:geoo/construction/Laser_hz_64.F: 648 40
+
+:geoo/abstract/tbeam_up.T: 48 16
+:geoo/abstract/tbeam_right.T: 48 16
+:geoo/abstract/tbeam_up.T: 80 16
+:geoo/abstract/tbeam_right.T: 80 16
+:geoo/abstract/tbeam_up.T: 112 16
+:geoo/abstract/tbeam_right.T: 112 16
+:geoo/abstract/tbeam_up.T: 144 16
+:geoo/abstract/tbeam_right.T: 144 16
+:geoo/abstract/tbeam_up.T: 176 16
+:geoo/abstract/tbeam_right.T: 176 16
+:geoo/abstract/tbeam_up.T: 208 16
+:geoo/abstract/tbeam_right.T: 208 16
+:geoo/abstract/tbeam_up.T: 240 16
+:geoo/abstract/tbeam_right.T: 240 16
+:geoo/abstract/tbeam_up.T: 272 16
+:geoo/abstract/tbeam_right.T: 272 16
+:geoo/abstract/tbeam_up.T: 304 16
+:geoo/abstract/tbeam_right.T: 304 16
+:geoo/abstract/tbeam_up.T: 336 16
+:geoo/abstract/tbeam_right.T: 336 16
+:geoo/abstract/tbeam_up.T: 368 16
+:geoo/abstract/tbeam_right.T: 368 16
+:geoo/abstract/tbeam_up.T: 400 16
+:geoo/abstract/tbeam_right.T: 400 16
+:geoo/abstract/tbeam_up.T: 432 16
+:geoo/abstract/tbeam_right.T: 432 16
+:geoo/abstract/tbeam_up.T: 464 16
+:geoo/abstract/tbeam_right.T: 464 16
+:geoo/abstract/tbeam_up.T: 496 16
+:geoo/abstract/tbeam_right.T: 496 16
+
+$BEGIN_TILE_GROUP 0
+:geoo/steel/32x16o.S: 0 0
+:geoo/steel/32x16o.S: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 64 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 128 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 3
+:Group-2: 0 0
+:Group-2: 256 0
+$END_TILE_GROUP
+:Group-3: 0 64
+:Group-3: 512 64
+:raymanni/toys/cracker: 8 56

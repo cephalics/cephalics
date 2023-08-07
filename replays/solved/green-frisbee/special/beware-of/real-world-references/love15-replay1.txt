@@ -1,0 +1,9 @@
+$FILENAME green-frisbee/special/beware-of/real-world-references/love15.txt
+$LEVEL_BUILT_REQUIRED 2023-02-11 12:26:48
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+
+! 64 0 ASSIGN=DIGGER 0
+! 146 0 ASSIGN=BASHER 0
+

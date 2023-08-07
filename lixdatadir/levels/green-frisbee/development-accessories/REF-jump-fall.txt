@@ -1,0 +1,67 @@
+$BUILT 2023-03-10 21:39:48
+$AUTHOR Green Frisbee
+$ENGLISH REF: Largest allowable falls
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 232
+#SIZE_Y 240
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 32
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:green-frisbee/spinny-advent2-R.H: 6 64
+
+:raymanni/holiday/plank_long: 64 206
+:simon/tapir/064v: 0 100
+:raymanni/holiday/plank_long: 64 136
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/endr7: 0 16 frr
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/endr7: 0 8 frr
+:geoo/abstract/pipes/junct7: 8 8 rrr
+$END_TILE_GROUP
+:Group-0: 192 112
+$BEGIN_TILE_GROUP 1
+:geoo/abstract/pipes/endr7: 8 0 f
+:geoo/abstract/pipes/corner7: 0 0 f
+:geoo/abstract/pipes/corner7: 8 16 frr
+:geoo/abstract/pipes/corner7: 8 8 fr
+:geoo/abstract/pipes/junct7: 0 8 r
+:geoo/abstract/pipes/corner7: 0 16 frrr
+$END_TILE_GROUP
+:Group-1: 208 112
+$BEGIN_TILE_GROUP 2
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/cshort7: 8 8 r
+:geoo/abstract/pipes/link7: 0 0 rr
+:geoo/abstract/pipes/endr7: 8 16 r
+$END_TILE_GROUP
+:Group-2: 188 184
+$BEGIN_TILE_GROUP 3
+:geoo/abstract/pipes/corner7: 0 0 r
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/corner7: 8 16 rrr
+:geoo/abstract/pipes/cshort7: 0 8 r
+:geoo/abstract/pipes/cshort7: 8 8 r
+$END_TILE_GROUP
+:Group-3: 200 184
+:Group-1: 216 184

@@ -1,0 +1,115 @@
+$BUILT 2023-03-26 01:34:47
+$AUTHOR Green Frisbee
+$ENGLISH The Zero-choice Interchange
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 272
+#BACKGROUND_RED 97
+#BACKGROUND_GREEN 196
+#BACKGROUND_BLUE 34
+
+#INITIAL 26
+#REQUIRED 10
+#SPAWN_INTERVAL 28
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:green-frisbee/spinny-advent2-R.H: 0 176
+
+:green-frisbee/house2.G: 608 160
+:green-frisbee/goal-59circles.G: 0 208
+
+:geoo/construction/spring_fast.T: 208 176
+:geoo/construction/spring.T: 216 104
+:geoo/construction/spring.T: 176 176
+
+:green-frisbee/launcher_up.T: 96 192
+:raymanni/lab/launcher_left.T: 288 144
+:raymanni/lab/launcher_left.T: 304 144
+:raymanni/lab/launcher_left.T: 320 144
+:raymanni/lab/launcher_left.T: 336 144
+:raymanni/lab/launcher_left.T: 352 144
+:raymanni/lab/launcher_left.T: 368 144
+:raymanni/lab/launcher_left.T: 384 144
+:raymanni/lab/launcher_left.T: 400 144
+:raymanni/lab/launcher_left.T: 416 144
+:raymanni/lab/launcher_left.T: 432 144
+:raymanni/lab/launcher_left.T: 448 144
+:geoo/abstract/tbeam_down.T: 24 64
+:geoo/construction/steam_up.T: 128 200
+
+:matt/carnival/balloons: 576 -104
+:matt/underworld/thinplatform128: 0 80 fr
+:geoo/abstract/cvblocks/046: 0 208
+:geoo/abstract/cvblocks/046: 128 208
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/cvblocks/005: 0 0
+:geoo/abstract/cvblocks/005: 16 0
+$END_TILE_GROUP
+:Group-0: 272 72
+:Group-0: 336 72
+:Group-0: 392 72
+:geoo/abstract/cvblocks/037: 528 176
+:geoo/abstract/cvblocks/036: 464 176
+$BEGIN_TILE_GROUP 1
+:geoo/abstract/pipes/corner3: 0 0 rr
+:geoo/abstract/pipes/cshort3: 0 8 r
+:geoo/abstract/pipes/corner3: 0 16
+:geoo/abstract/pipes/junct3: 16 0 rr
+:geoo/abstract/pipes/endr3: 16 16 r
+:geoo/abstract/pipes/corner3: 8 16 rrr
+:geoo/abstract/pipes/junct3: 16 8 rrr
+:geoo/abstract/pipes/endr3: 8 0 rr
+:geoo/abstract/pipes/corner3: 8 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 24 0
+:Group-1: 48 0
+:Group-1: 72 0
+:Group-1: 96 0
+:Group-1: 120 0
+:Group-1: 144 0
+:Group-1: 168 0
+:Group-1: 192 0
+:Group-1: 216 0
+:Group-1: 240 0
+:Group-1: 360 0
+:Group-1: 264 0
+:Group-1: 288 0
+:Group-1: 312 0
+:Group-1: 336 0
+$END_TILE_GROUP
+:Group-2: 256 208
+:Group-2: 256 248
+:green-frisbee/cracker-teal: 256 216 r
+:green-frisbee/cracker-teal: 320 216 fr
+:green-frisbee/cracker-teal: 376 216 r
+:green-frisbee/cracker-teal: 448 216 fr
+:green-frisbee/cracker-teal: 512 216 r
+:green-frisbee/cracker-teal: 576 216 fr
+:Group-0: 464 72
+:geoo/construction/stairs_ru_32.S: 488 40
+:matt/underworld/thinplatform128: 432 24
+:matt/underworld/thinplatform16: 592 8 r
+:matt/underworld/thinplatform128: 304 24
+:matt/underworld/thinplatform128: 176 24
+:matt/underworld/thinplatform128: 48 24
+:matt/underworld/thinplatform16: 560 24
+:geoo/construction/stairs_ru_8.S: 552 32
+:geoo/construction/stairs_ru_8.S: 568 24
+:matt/underworld/thinplatform16: 576 24

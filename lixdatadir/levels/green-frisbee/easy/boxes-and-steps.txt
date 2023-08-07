@@ -1,0 +1,112 @@
+$BUILT 2023-04-16 18:21:55
+$AUTHOR Green Frisbee
+$ENGLISH Boxes and Steps
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1536
+#SIZE_Y 656
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 255
+#BACKGROUND_GREEN 128
+#BACKGROUND_BLUE 255
+
+#INITIAL 8
+#REQUIRED 1
+#SPAWN_INTERVAL 64
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:matt/beach/Hatch.H: 1123 39
+
+:matt/winter/Goal.G: 347 481
+
+:raymanni/holiday/porcupine.T: 1296 144
+
+:guideline/maxfall: 1001 274
+:simon/oriental/temple: 186 353
+:guideline/build-L: 980 185
+:guideline/build-L: 932 161
+:guideline/build-L: 884 137
+:guideline/build-L: 836 113
+:guideline/cube: 793 221
+:matt/goldmine/tracks: 632 321
+:matt/goldmine/minecart: 676 275
+:matt/goldmine/tracks: 512 321
+:matt/goldmine/tracks: 392 321
+:matt/goldmine/tracks: 272 321
+:matt/goldmine/planksupport: 624 329
+:matt/goldmine/planksupport: 271 328
+:matt/goldmine/planksupport2: 491 329
+:matt/goldmine/crate64: 519 392
+:matt/goldmine/crate64: 456 392
+:matt/goldmine/crate64: 519 456
+:matt/goldmine/crate64: 456 456
+:matt/bricks/17: 841 125 frr
+:matt/bricks/18: 929 252
+:matt/bricks/19: 921 288
+:matt/bricks/20: 921 237
+:matt/beach/decor/beach ball: 647 293
+:raymanni/holiday/wreath: 317 543
+:raymanni/lab/pipe_5: 785 304
+:raymanni/lab/pipe_3: 913 304
+:raymanni/lab/pipe_1: 817 320 r
+:raymanni/lab/pipe_1: 849 320 r
+:raymanni/lab/pipe_1: 881 320 r
+:matt/underworld/09a: 798 320
+:matt/underworld/09a: 862 320
+:matt/bricks/17: 897 181 frr
+:raymanni/toys/soldier_3: 979 226
+:matt/underworld/thinplatform16: 961 237
+:matt/underworld/thinplatform16: 977 237
+:matt/carnival/balloons: 807 125
+:raymanni/toys/cracker: 808 192
+:raymanni/toys/cracker: 819 256 rr
+:raymanni/toys/cracker: 796 256 rr
+:matt/steel/64x64.S: 127 544
+:matt/steel/64x64.S: 63 544
+:matt/steel/64x64.S: 255 544
+:matt/steel/64x64.S: 191 544
+:matt/steel/64x64.S: 502 543
+:matt/steel/64x64.S: 438 543
+:guideline/cube: 64 528
+:raymanni/holiday/wreath: 377 543
+:matt/bricks/18: 929 256
+:matt/marble/00b: 460 536
+:matt/carnival/14: 456 520
+:matt/marble/00e_2: 558 536
+:matt/carnival/14: 554 520
+:raymanni/lab/scen_5: 672 437
+:guideline/platform: 606 286
+:matt/bricks/18: 785 252
+:matt/bricks/19: 777 288
+:matt/bricks/20: 777 237
+:matt/bricks/18: 785 256
+:guideline/build-L: 728 213
+:simon/oriental/06: 1407 337
+:simon/oriental/06: 1455 368 f
+:simon/oriental/06: 1503 401
+:matt/underworld/thinplatform16: 1408 335
+:guideline/cube: 1252 193
+$BEGIN_TILE_GROUP 0
+:matt/carnival/27a: 64 0 rrr
+:matt/carnival/27a: 0 0 r
+:matt/carnival/27a: 0 64 rrr
+:matt/carnival/27a: 64 64 r
+$END_TILE_GROUP
+:Group-0: 1024 209
+:Group-0: 1152 209
+:Group-0: 1280 209

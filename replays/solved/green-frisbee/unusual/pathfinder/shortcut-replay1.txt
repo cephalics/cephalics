@@ -1,0 +1,8 @@
+$FILENAME green-frisbee/unusual/pathfinder/shortcut.txt
+$LEVEL_BUILT_REQUIRED 2023-03-03 00:19:50
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+
+! 117 0 ASSIGN=PLATFORMER 0
+

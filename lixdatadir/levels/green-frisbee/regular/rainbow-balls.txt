@@ -1,0 +1,195 @@
+$BUILT 2023-05-09 05:16:00
+$AUTHOR Green Frisbee (idea: Brown Bear)
+$ENGLISH Rainbow balls
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 832
+#SIZE_Y 576
+#BACKGROUND_RED 255
+#BACKGROUND_GREEN 72
+#BACKGROUND_BLUE 72
+
+#INITIAL 999
+#REQUIRED 42
+#SPAWN_INTERVAL 96
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER 2
+#FLOATER 1
+#EXPLODER 2
+#BLOCKER 3
+#BUILDER 1
+#MINER 2
+#DIGGER 2
+#JUMPER -1
+#BATTER -1
+#CUBER 10
+
+:geoo/sandstone/fennec.H: 387 269
+:geoo/sandstone/fennec.H: 387 269 r
+
+:matt/bricks/Goal.G: 608 512
+
+:simon/water.W: 64 528
+:simon/water.W: -16 528
+:simon/water.W: 160 528
+:simon/water.W: 112 528
+:simon/water.W: 208 528
+:simon/water_thin.W: 24 528
+:simon/acid.W: 208 528
+
+:geoo/construction/spring_fast.T: 728 456
+:geoo/construction/spring_fast.T: 744 456
+:geoo/construction/spring_fast.T: 728 480
+:geoo/construction/spring_fast.T: 744 480
+:geoo/construction/spring_fast.T: 632 456
+:geoo/construction/spring_fast.T: 648 456
+:geoo/construction/spring_fast.T: 632 480
+:geoo/construction/spring_fast.T: 648 480
+
+:geoo/construction/rod_steel/straight32.S: 256 528 rrr
+:raymanni/toys/brick_5: 608 520
+$BEGIN_TILE_GROUP 0
+:proxima/tile/spheres/blue: 0 0 r
+:proxima/tile/spheres/blue: 62 0 r
+:proxima/tile/spheres/blue: 124 0 r
+:proxima/tile/spheres/blue: 186 0 r
+:proxima/tile/spheres/blue: 248 0 r
+$END_TILE_GROUP
+:Group-0: 256 96
+$BEGIN_TILE_GROUP 1
+:proxima/tile/spheres/cyan: 0 0 r
+:proxima/tile/spheres/cyan: 62 0 r
+:proxima/tile/spheres/cyan: 124 0 r
+:proxima/tile/spheres/cyan: 186 0 r
+:proxima/tile/spheres/cyan: 248 0 r
+$END_TILE_GROUP
+:Group-1: 256 176
+$BEGIN_TILE_GROUP 2
+:proxima/tile/spheres/gold: 0 0 r
+:proxima/tile/spheres/gold: 62 0 r
+:proxima/tile/spheres/gold: 124 0 r
+:proxima/tile/spheres/gold: 186 0 r
+:proxima/tile/spheres/gold: 248 0 r
+$END_TILE_GROUP
+:Group-2: 256 336
+$BEGIN_TILE_GROUP 3
+:proxima/tile/spheres/green: 0 0 r
+:proxima/tile/spheres/green: 62 0 r
+:proxima/tile/spheres/green: 124 0 r
+:proxima/tile/spheres/green: 186 0 r
+:proxima/tile/spheres/green: 248 0 r
+$END_TILE_GROUP
+:Group-3: 256 256
+$BEGIN_TILE_GROUP 4
+:proxima/tile/spheres/pink: 0 0 r
+:proxima/tile/spheres/pink: 62 0 r
+:proxima/tile/spheres/pink: 124 0 r
+:proxima/tile/spheres/pink: 186 0 r
+:proxima/tile/spheres/pink: 248 0 r
+$END_TILE_GROUP
+:Group-4: 256 16
+$BEGIN_TILE_GROUP 5
+:proxima/tile/spheres/red: 0 0 r
+:proxima/tile/spheres/red: 62 0 r
+:proxima/tile/spheres/red: 124 0 r
+:proxima/tile/spheres/red: 186 0 r
+:proxima/tile/spheres/red: 248 0 r
+$END_TILE_GROUP
+:Group-5: 256 416
+$BEGIN_TILE_GROUP 6
+:proxima/tile/spheres/grey.S: 0 0 r
+:proxima/tile/spheres/grey.S: 62 0 r
+:proxima/tile/spheres/grey.S: 124 0 r
+:proxima/tile/spheres/grey.S: 186 0 r
+:proxima/tile/spheres/grey.S: 248 0 r
+$END_TILE_GROUP
+:Group-6: 256 496
+:geoo/construction/stairs_ru_32.S: 568 495
+:geoo/construction/stairsbrick_rd_32: 175 414
+:geoo/construction/stairsbrick_ru_32: 568 414
+$BEGIN_TILE_GROUP 7
+:geoo/construction/platformbrick: 0 32 r
+:geoo/construction/platformbrick: 0 0 r
+$END_TILE_GROUP
+:Group-7: 255 382
+:Group-7: 566 382 frr
+$BEGIN_TILE_GROUP 8
+:geoo/construction/platform.S: 0 0
+:geoo/construction/platform.S: 32 0
+$END_TILE_GROUP
+:Group-8: 566 463 fr
+:Group-8: 255 463 r
+:guideline/platform: 254 293 r
+:guideline/platform: 566 293 fr
+$BEGIN_TILE_GROUP 9
+:raymanni/toys/beam_13.S: 0 0
+:raymanni/toys/beam_13.S: 0 32
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 10
+:Group-9: 0 64
+:Group-9: 0 0
+$END_TILE_GROUP
+:Group-10: 288 560 rrr
+$BEGIN_TILE_GROUP 11
+:Group-10: 0 128
+:Group-10: 0 0
+$END_TILE_GROUP
+:Group-11: 416 560 rrr
+:guideline/build-R: 568 343
+:guideline/build-L: 198 343
+:geoo/construction/stairs_rd_32.S: 175 495
+$BEGIN_TILE_GROUP 12
+:matt/carnival/38: 0 0 rrr
+:matt/carnival/38: 32 0 frrr
+$END_TILE_GROUP
+:Group-12: 672 384
+:matt/goldmine/explosivecrate: 672 456
+$BEGIN_TILE_GROUP 13
+:matt/goldmine/planksupport3: 0 16 frrr
+:matt/goldmine/planksupport3: 16 32 frr
+:matt/goldmine/planksupport3: 32 16 rrr
+:matt/goldmine/planksupport3: 16 0 rr
+$END_TILE_GROUP
+:Group-13: 672 456
+:matt/goldmine/planksupport3: 688 416
+$BEGIN_TILE_GROUP 14
+:matt/marble/26c: 0 0
+:matt/marble/26c: 78 0 frr
+:matt/marble/25c: 14 76 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 15
+:raymanni/toys/brick_15: 0 0
+:raymanni/toys/brick_16: 32 0
+:matt/carnival/31: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 16
+:Group-14: 0 0
+:Group-15: 46 12
+:raymanni/toys/brick_15: 14 44
+:raymanni/toys/brick_16: 110 44
+:geoo/construction/concrete/032h: 46 44
+$END_TILE_GROUP
+:Group-16: 57 238
+:raymanni/toys/beam_13.S: 256 560 r
+:matt/carnival/balloons: 114 366
+:raymanni/toys/cracker: 114 462 rr
+:matt/marble/05e: 32 560
+$BEGIN_TILE_GROUP 17
+:matt/goldmine/shovel: 52 0
+:matt/goldmine/shovel: 39 13
+:matt/goldmine/shovel: 26 26
+:matt/goldmine/shovel: 13 39
+:matt/goldmine/shovel: 0 52
+$END_TILE_GROUP
+:Group-17: 140 243 frr
+:Group-17: 61 243
+$BEGIN_TILE_GROUP 18
+:geoo/construction/platformbrick: 96 0
+:geoo/construction/platformbrick: 64 0
+:geoo/construction/platformbrick: 32 0
+:geoo/construction/platformbrick: 0 0
+$END_TILE_GROUP
+:Group-18: 565 454
+:green-frisbee/warning-hatch: 800 0

@@ -1,0 +1,95 @@
+$BUILT 2023-02-25 14:41:27
+$AUTHOR Green Frisbee
+$ENGLISH One for four and four for one
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 720
+#SIZE_Y 312
+#BACKGROUND_RED 37
+#BACKGROUND_GREEN 155
+#BACKGROUND_BLUE 90
+
+#INITIAL 5
+#REQUIRED 4
+#SPAWN_INTERVAL 32
+
+#BUILDER 2
+#PLATFORMER 1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 80 232
+:green-frisbee/spinny-advent2-R.H: 304 0
+:green-frisbee/spinny-advent2-R.H: 304 32
+:green-frisbee/spinny-advent2-R.H: 304 64
+:green-frisbee/spinny-advent2-R.H: 304 96
+
+:green-frisbee/goal-59circles.G: 48 264
+:green-frisbee/transparent.32x32.G: 168 264
+
+:simon/water_thin.W: 0 56
+:simon/water_thin.W: 672 184
+:simon/water_thin.W: 624 184
+:simon/water_thin.W: 48 56
+
+:raymanni/lab/launcher_left.T: 688 264
+:raymanni/lab/launcher_left.T: 688 264
+:geoo/construction/steam_down.T: 320 144
+
+:raymanni/holiday/plank_long: 0 296
+:raymanni/holiday/plank_long: 352 296
+:raymanni/holiday/plank_long: 480 296
+:raymanni/holiday/plank_long: 608 296
+:raymanni/holiday/plank_long: 304 128
+:raymanni/holiday/plank_long: 464 112
+:raymanni/holiday/plank_long: 592 112
+$BEGIN_TILE_GROUP 0
+:amanda/forest/bark_01: 48 96
+:amanda/forest/leaves_03: 0 0
+:green-frisbee/warning-invisible-goals: 40 136
+:green-frisbee/not-solvable-the-first-time.w32px: 40 112
+:matt/underworld/09a: 24 176
+$END_TILE_GROUP
+:Group-0: -32 128
+:geoo/construction/concrete/008: 336 120
+:geoo/construction/concrete/008: 352 120
+:geoo/construction/concrete/008: 368 120
+:geoo/construction/concrete/008: 384 120
+:geoo/construction/concrete/008: 400 120
+:geoo/construction/concrete/008: 416 120
+:geoo/construction/concrete/008: 432 120
+:geoo/construction/concrete/008: 448 112
+:geoo/construction/concrete/008: 464 104
+:geoo/construction/concrete/008: 480 104
+:geoo/construction/concrete/008: 496 104
+:geoo/construction/concrete/008: 512 104
+:geoo/construction/concrete/008: 528 104
+:geoo/construction/concrete/008: 544 104
+:geoo/construction/concrete/008: 560 104
+:geoo/construction/concrete/008: 576 104
+:geoo/construction/concrete/008: 592 104
+:geoo/construction/concrete/008: 608 104
+:geoo/construction/concrete/008: 624 104
+:geoo/construction/concrete/008: 640 104
+:geoo/construction/concrete/008: 656 104
+:geoo/construction/concrete/008: 672 104
+:geoo/construction/concrete/008: 688 104
+:geoo/construction/concrete/008: 704 104
+:raymanni/holiday/plank_d1: 432 112
+:guideline/cube: 716 96
+:green-frisbee/cracker-violet: 0 0
+$BEGIN_TILE_GROUP 1
+:raymanni/toys/chalk_2: 0 0
+:raymanni/toys/chalk_4: 0 8
+$END_TILE_GROUP
+:Group-1: 4 64 frrr
+:raymanni/toys/cracker: 672 128
+:Group-1: 676 192 rrr
+:raymanni/toys/cracker: 624 128
+:Group-1: 628 192 rrr
+:green-frisbee/cracker-violet: 48 0
+:Group-1: 52 64 frrr
+:raymanni/holiday/plank_broken: 288 296
+:raymanni/holiday/plank_broken: 128 296 frr
+:raymanni/holiday/plank_mid1: 320 296
+:raymanni/holiday/plank_mid1: 304 128 d
+:raymanni/holiday/plank_d2: 304 128

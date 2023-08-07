@@ -1,0 +1,29 @@
+#!/usr/bin/env zsh
+
+## Parse argv
+(( $# )) || set -- ${(0)"$(
+		find replays/ \
+			-type f \
+			-name '*.txt' \
+	                -not \( -path '*/brown-bear/the-rainbow-level-*' -o -path '*/green-frisbee/*/monty-hall-vertical-*' \) \
+			-print0
+	)"}
+
+## Initialize state
+failed=false
+
+## Business logic
+XDG_DATA_DIRS=${XDG_DATA_DIRS:+"${XDG_DATA_DIRS}:"}${PWD}/xdg/share/ lix --coverage -- "$@" |
+	grep -v '^.OK.,replays/' |
+	{
+		# The 'while' loop is essentially cat(1) plus setting $failed.
+		while IFS= read -r line; do
+			printf '%s\n' "${line}"
+			case "${line}" in
+				($'\x28'*) failed=true;;
+			esac
+		done
+	}
+
+## Set the exit code
+! ${failed}

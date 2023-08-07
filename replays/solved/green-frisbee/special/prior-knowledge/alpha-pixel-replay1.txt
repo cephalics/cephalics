@@ -1,0 +1,10 @@
+$FILENAME green-frisbee/special/prior-knowledge/alpha-pixel.txt
+$LEVEL_BUILT_REQUIRED 2023-02-06 02:18:07
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+
+! 103 0 ASSIGN=FLOATER 0
+! 108 0 ASSIGN=CUBER 0
+! 1824 0 ASSIGN=BASHER 1
+

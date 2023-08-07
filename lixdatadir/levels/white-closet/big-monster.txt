@@ -1,0 +1,67 @@
+$BUILT 2023-03-15 01:42:53
+$AUTHOR White Closet
+$ENGLISH The Level of the Big Monster
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 480
+#SIZE_Y 384
+#BACKGROUND_RED 219
+#BACKGROUND_GREEN 191
+#BACKGROUND_BLUE 246
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 12
+
+#FLOATER -1
+#MINER 1
+#EXPLODER2 0
+
+:geoo/abstract/hatch.H: 80 16
+
+:raymanni/gore/goal.G: 416 96
+
+:raymanni/gore/eater.T: 336 96
+
+:raymanni/gore/bone_5: -1 1
+:raymanni/gore/bone_6: 304 1
+:matt/carnival/24: 272 128
+:matt/carnival/24: 208 128
+:matt/carnival/24: 144 128
+:matt/carnival/24: 80 192
+:matt/carnival/24: 272 64
+:matt/carnival/24: 208 64
+:matt/carnival/24: 144 64
+:matt/carnival/24: 80 64
+:matt/carnival/24: 16 64
+:matt/carnival/24: 16 128
+:matt/carnival/24: 272 256
+:matt/carnival/24: 208 256
+:matt/carnival/24: 144 256
+:matt/carnival/24: 80 256
+:matt/carnival/24: 272 192
+:matt/carnival/24: 208 192
+:matt/carnival/24: 144 192
+:matt/carnival/24: 80 128
+:matt/carnival/24: 16 192
+:matt/carnival/24: 16 256
+:matt/carnival/24: 272 320
+:matt/carnival/24: 208 320
+:matt/carnival/24: 144 320
+:matt/carnival/24: 80 320
+:matt/carnival/24: 16 320
+:raymanni/gore/eye: 256 128
+:raymanni/gore/eye: 64 128
+:raymanni/gore/goop_4: 144 224
+:raymanni/gore/goop_7: 160 192
+:matt/bricks/17: 336 64
+$BEGIN_TILE_GROUP 0
+:raymanni/toys/beam_14.S: 0 0
+:raymanni/toys/beam_14.S: 32 0
+$END_TILE_GROUP
+:Group-0: 336 160
+:Group-0: 400 160
+:matt/bricks/01: 445 96
+:simon/tapir/016v: 216 96
+:simon/tapir/016vb: 224 64
+:simon/tapir/016va: 208 64

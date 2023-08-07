@@ -1,0 +1,33 @@
+$BUILT 2023-02-07 22:46:49
+$AUTHOR Green Frisbee
+$ENGLISH Self-solver #0
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 160
+#SIZE_Y 208
+#BACKGROUND_RED 127
+#BACKGROUND_GREEN 191
+#BACKGROUND_BLUE 0
+
+#INITIAL 1
+#REQUIRED 1
+#SPAWN_INTERVAL 1
+
+#EXPLODER2 0
+
+:geoo/sandstone/Hatch.H: 32 40
+
+:geoo/sandstone/Goal.G: 48 104
+
+:raymanni/toys/cracker: 8 104
+:geoo/sandstone/32x64: 16 104
+:geoo/sandstone/32x64: 16 40
+:raymanni/toys/cracker: 104 104
+:geoo/sandstone/32x64: 112 104
+:geoo/sandstone/32x64: 112 40
+:geoo/sandstone/64x32: 48 8
+:geoo/sandstone/64x32: 48 168
+:geoo/sandstone/32x32: 16 168
+:geoo/sandstone/32x32: 112 168
+:geoo/sandstone/32x32: 16 8
+:geoo/sandstone/32x32: 112 8

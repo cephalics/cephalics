@@ -1,0 +1,176 @@
+$BUILT 2023-03-03 00:19:50
+$AUTHOR Green Frisbee
+$ENGLISH Shortcut
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 848
+#SIZE_Y 384
+#BACKGROUND_RED 22
+#BACKGROUND_GREEN 119
+#BACKGROUND_BLUE 125
+
+#INITIAL 1
+#REQUIRED 1
+#SPAWN_INTERVAL 32
+
+#RUNNER 1
+#CLIMBER 1
+#PLATFORMER 3
+#BASHER 1
+#DIGGER 1
+#JUMPER 2
+#EXPLODER2 0
+
+:matt/bricks/Hatch.H: 399 101 r
+
+:matt/goldmine/Goal.G: 543 101
+:matt/underworld/Goal.G: 20 290
+:raymanni/toys/goal.G: -1 2
+:raymanni/toys/goal.G: 575 171
+:raymanni/toys/goal.G: 192 264
+:raymanni/toys/goal.G: 479 171
+:raymanni/toys/goal.G: 527 171
+
+:matt/10tons.T: 479 107
+:raymanni/gore/eater.T: 300 302
+
+:proxima/flame.F: 99 133
+:proxima/flame.F: 131 133
+:proxima/flame.F: 163 133
+:simon/water_thin.W: 327 149
+:simon/water_thin.W: 279 149
+:proxima/flame.F: 195 133
+:proxima/flame.F: 227 133
+:simon/water_thin.W: 231 149
+:amanda/tar.W: 103 149
+:geoo/construction/Laser_hz_64.F: 7 61
+:raymanni/lab/goo_fall.W: 7 101
+:raymanni/lab/goo_fall.W: 55 101
+:raymanni/lab/goo_fall.W: 7 117
+:raymanni/lab/goo_fall.W: 55 117
+:raymanni/lab/goo_fall.W: 7 133
+:raymanni/lab/goo_fall.W: 55 133
+:raymanni/lab/goo_fall.W: 7 149
+:raymanni/lab/goo_fall.W: 55 149
+:raymanni/lab/goo.W: 55 149
+:raymanni/lab/goo.W: 7 149
+:geoo/construction/Laser_hz_16.F: 56 328
+:geoo/construction/Laser_hz_16.F: 32 328
+:geoo/construction/Laser_hz_16.F: 44 328
+:geoo/construction/Laser_hz_64.F: 503 117
+:geoo/construction/Laser_hz_64.F: 439 117
+:geoo/construction/Laser_vr_64.F: 557 59
+:geoo/construction/Laser_vr_64.F: 433 59
+
+:geoo/construction/spring.T: 15 61
+
+:raymanni/lab/elev_down.T: 31 117
+:raymanni/lab/elev_down.T: 31 149
+:geoo/abstract/tbeam_right.T: 38 180
+
+$BEGIN_TILE_GROUP 0
+:geoo/sandstone/pillar_32: 0 32
+:geoo/sandstone/pillar_32: 0 0
+$END_TILE_GROUP
+:Group-0: 797 248
+:simon/oriental/temple: -33 -170 rr
+:simon/oriental/temple: -73 -170 rr
+:matt/bricks/02b: 375 149
+:matt/bricks/02b: 567 149
+$BEGIN_TILE_GROUP 1
+:simon/oriental/culm_long: 19 24
+:matt/bricks/19: 8 136
+:matt/bricks/18: 16 104
+:matt/bricks/18: 16 72
+:amanda/forest/leaves_05: 0 0
+$END_TILE_GROUP
+:Group-1: 368 32
+:Group-1: 592 32
+:geoo/shadow/rope1: 55 85
+:matt/carnival/31: 7 85
+:raymanni/gore/bone_1: 87 149
+:matt/bricks/02b: 0 240
+:matt/bricks/02b: 64 240
+:matt/bricks/02b: 128 240
+:matt/bricks/02b: 192 240
+:matt/bricks/02b: 256 240
+:matt/bricks/02b: 320 240
+$BEGIN_TILE_GROUP 2
+:raymanni/gore/goop_3: 0 0
+:raymanni/gore/goop_3: 56 0 frr
+$END_TILE_GROUP
+:Group-2: -2 240
+:Group-2: 276 240
+:matt/bricks/02b: 272 360
+:matt/bricks/02b: 336 360
+:matt/marble/02a: 592 376
+$BEGIN_TILE_GROUP 3
+:matt/marble/04a: 0 0
+:matt/marble/04a: 16 16
+:matt/marble/04a: 32 0
+:matt/marble/04a: 48 16
+$END_TILE_GROUP
+:Group-3: 592 360
+:Group-3: 656 360
+:Group-3: 720 360
+:geoo/sandstone/pillar_bottom_ext: 717 344
+:geoo/sandstone/pillar_bottom: 733 312
+:Group-0: 733 248
+:Group-0: 733 184
+:Group-0: 733 120
+:Group-0: 733 56
+:guideline/cube: 736 40
+:raymanni/holiday/plank_long: 432 360
+:raymanni/holiday/plank_right: 560 360
+:raymanni/holiday/plank_left: 400 360
+:guideline/cube: 744 24
+:guideline/cube: 736 8
+$BEGIN_TILE_GROUP 4
+:raymanni/toys/cracker: 0 64
+:raymanni/toys/cracker: 0 0 f
+$END_TILE_GROUP
+:Group-4: 738 216
+:Group-4: 738 88
+$BEGIN_TILE_GROUP 5
+:Group-4: 5 32
+:Group-0: 0 64 d
+:Group-0: 0 0 d
+$END_TILE_GROUP
+:Group-5: 739 56
+$BEGIN_TILE_GROUP 6
+:raymanni/holiday/plank_broken: 0 0
+:raymanni/holiday/plank_long: 32 0
+:raymanni/holiday/plank_right: 160 0
+$END_TILE_GROUP
+:Group-6: 65 360
+:Group-6: -176 360 frr
+:raymanni/gore/tentacle_1: 224 240
+:simon/oriental/branch5: 176 240 frr
+:simon/oriental/temple: 424 -168 rr
+:simon/tapir/128: 119 -119
+:simon/tapir/128: 247 -119
+:Group-3: 784 360
+:geoo/sandstone/pillar_bottom_ext: 781 344
+$BEGIN_TILE_GROUP 7
+:raymanni/toys/cracker: 0 0
+:geoo/sandstone/pillar_bottom: 8 0 d
+$END_TILE_GROUP
+:Group-7: 803 312
+$BEGIN_TILE_GROUP 8
+:raymanni/toys/cracker: 0 0
+:geoo/sandstone/pillar_bottom: 8 32 d
+$END_TILE_GROUP
+:Group-8: 802 24
+:Group-0: 797 184
+:Group-0: 797 56
+:Group-0: 797 120
+:raymanni/holiday/garland: 247 8
+:raymanni/holiday/garland: 183 8 frr
+:raymanni/holiday/garland: 119 8
+:raymanni/holiday/garland: 311 8 frr
+$BEGIN_TILE_GROUP 9
+:guideline/platform: 0 0
+:guideline/platform: 74 0
+:guideline/platform: 132 0 d
+$END_TILE_GROUP
+:Group-9: 437 147

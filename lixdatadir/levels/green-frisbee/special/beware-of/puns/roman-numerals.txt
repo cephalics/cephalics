@@ -1,0 +1,27 @@
+$BUILT 2023-02-26 21:59:14
+$AUTHOR Green Frisbee
+$ENGLISH Roman Numerals
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 160
+#SIZE_Y 160
+#BACKGROUND_RED 78
+#BACKGROUND_GREEN 139
+#BACKGROUND_BLUE 217
+
+#INITIAL 59
+#REQUIRED 59
+#SPAWN_INTERVAL 59
+
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 64 16
+
+:green-frisbee/goal-59thedigits.G: 64 48
+
+:green-frisbee/32x2.S: 64 80
+:green-frisbee/cracker-advent: 32 48
+:green-frisbee/cracker-advent: 80 48
+:green-frisbee/cracker-advent: 96 16
+:green-frisbee/cracker-advent: 16 16
+:green-frisbee/cracker-advent: 56 80

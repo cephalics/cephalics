@@ -1,0 +1,324 @@
+LEVELS
+======
+
+All levels are licensed under CC0 (except uncopyrightable ones, if any).
+
+Most of them are original work; exceptions are:
+
+* lixdatadir/levels/green-frisbee/special/illustrative/formation-drilling.txt
+  is a cleanroom reimplementation of a Lemmings™ level.  The key idea
+  of the level was also come up with in the level entitled "Decompression Method",
+  where it is used to force the player to deal with the walkers individually.
+
+* lixdatadir/levels/green-frisbee/special/beware-of/real-world-references/out-of-africa.txt
+
+Terrain derived from assets/mirrored/molumen-world-map.svg (about which see
+elsewhere in this file).
+
+(For the record, the SVG was rasterized at width 3200px, and then the result
+mapped to two colours—#000000 and #FF00FF—and used as the background
+of out-of-africa.txt.)
+
+
+IMAGE ASSETS
+============
+
+The provenances and copyright licences of the image assets are enumerated
+below.
+
+As of the last time this paragraph was updated, each item enumerated in the
+remainder of this section was in the public domain or licensed under CC0 or
+licensed under some variant of CC-BY.  This paragraph is meant as a non-binding
+summary only and shall not be construed a substitute to reading the remainder
+of this section.
+
+* assets/original/house2.G.svg
+* lixdatadir/images/green-frisbee/advent-L.H.png
+* lixdatadir/images/green-frisbee/advent-R.H.png
+* lixdatadir/images/green-frisbee/blocker.G.png
+* lixdatadir/images/green-frisbee/blocker.G.txt
+* lixdatadir/images/green-frisbee/cracker-advent.png
+* lixdatadir/images/green-frisbee/cracker-azure.png
+* lixdatadir/images/green-frisbee/cracker-green.png
+* lixdatadir/images/green-frisbee/cracker-greyscale.png
+* lixdatadir/images/green-frisbee/cracker-teal.png
+* lixdatadir/images/green-frisbee/cracker-violet.png
+* lixdatadir/images/green-frisbee/goalling.G.png
+* lixdatadir/images/green-frisbee/house2.G.png
+* lixdatadir/images/green-frisbee/launcher_up.T.png
+* lixdatadir/images/green-frisbee/launcher_up.T.txt
+* lixdatadir/images/green-frisbee/spinny-advent1-L.H.png
+* lixdatadir/images/green-frisbee/spinny-advent1-R.H.png
+* lixdatadir/images/green-frisbee/spinny-advent2-L.H.png
+* lixdatadir/images/green-frisbee/spinny-advent2-L.H.txt
+* lixdatadir/images/green-frisbee/spinny-advent2-R.H.png
+* lixdatadir/images/green-frisbee/spinny-advent2-R.H.txt
+* lixdatadir/images/green-frisbee/spinny-advent2-α0-L.H.png
+* lixdatadir/images/green-frisbee/spinny-advent2-α0-L.H.txt
+* lixdatadir/images/green-frisbee/spinny-advent2-α0-R.H.png
+* lixdatadir/images/green-frisbee/spinny-advent2-α0-R.H.txt
+* lixdatadir/images/brown-bear/that-appears.H.png
+* lixdatadir/images/white-closet/the-stone-of-colours.png
+
+Derived works of graphics that ship with Lix itself (data/images/lix.I.png,
+images/raymanni/toys/cracker.png, images/raymanni/lab/launcher_right.T.png,
+and images/matt/beach/nighttime/03.png), as in version 0.9.29-1.1+b1 of the
+lix-data package in Debian 11 Bullseye.  The modifications that are
+copyrightable are licensed under CC0.
+
+The light green in the "advent" hatches and the eponymous, uniform-color
+variant of "cracker" was chosen by rolling dice.
+
+The teal, violet, green, greyscale, and azure variants of "cracker" were derived
+from cracker.png's colours in GIMP.
+
+The colours in "goalling" were derived from lix.I.png's colours using some
+combination of "Invert Colours", "Rotate Colours", and "Channel Mixer" in GIMP.
+
+The colours in house2.G.png are taken from lix.I.png verbatim.
+
+* lixdatadir/images/green-frisbee/32x2.S.png
+* lixdatadir/images/green-frisbee/32x8.png
+* lixdatadir/images/green-frisbee/8x8.png
+* lixdatadir/images/green-frisbee/goal-59.G.png
+* lixdatadir/images/green-frisbee/goal-59circles.G.png
+* lixdatadir/images/green-frisbee/goal-tilde-32.G.png
+* lixdatadir/images/green-frisbee/goal-tilde-48.G.png
+* lixdatadir/images/green-frisbee/goal-tilde-64.G.png
+
+Original works, licensed under CC0 if copyrightable.
+
+* assets/mirrored/Vienna_Convention_road_sign_C14-V1-10.svg
+* assets/mirrored/Vienna_Convention_road_sign_C14-V1-5.svg
+* lixdatadir/images/green-frisbee/mandatory-le-5velocity.w24px.png
+* lixdatadir/images/green-frisbee/mandatory-le-5velocity.png
+* lixdatadir/images/green-frisbee/mandatory-le-10velocity.w24px.png
+* 
+* assets/mirrored/Vienna_Convention_road_sign_Aa-30-V1-1.svg
+* lixdatadir/images/green-frisbee/warning-airplanes.png
+* 
+* assets/mirrored/Vienna_Convention_road_sign_Aa-1c-V1.svg
+* lixdatadir/images/green-frisbee/warning-bends-l-r.png
+* 
+* assets/mirrored/Vienna_Convention_road_sign_Aa-15b-V1.svg
+* lixdatadir/images/green-frisbee/warning-deer.png
+* 
+* assets/mirrored/Vienna_Convention_road_sign_Aa-32-V1.svg
+* lixdatadir/images/green-frisbee/warning-factorial-24px.png
+* lixdatadir/images/green-frisbee/warning-factorial.png
+* 
+* assets/mirrored/Vienna_Convention_road_sign_Aa-6-V1.svg
+* lixdatadir/images/green-frisbee/warning-fall-straight-ahead.png
+* 
+* assets/mirrored/Vienna_Convention_road_sign_Aa-11a-V1.svg
+* assets/derived/sign-11a-V1-minus-white-margin.svg
+* assets/derived/sign-11a-V1-minus-white-margin.png
+* lixdatadir/images/green-frisbee/warning-falling-rocks-v1.png
+* lixdatadir/images/green-frisbee/warning-falling-rocks-v2.png
+* 
+* assets/mirrored/Vienna_Convention_road_sign_Aa-23-V1.svg
+* assets/mirrored/Vienna_Convention_road_sign_Ab-23-V1.svg
+* assets/derived/warning-l-r-traffic.diamond.svg
+* assets/derived/warning-l-r-traffic.svg
+* lixdatadir/images/green-frisbee/warning-l-r-traffic.diamond.w32px.png
+* lixdatadir/images/green-frisbee/warning-l-r-traffic.tri.w32px.png
+* 
+* assets/mirrored/Vienna_Convention_road_sign_Aa-5-V1.svg
+* lixdatadir/images/green-frisbee/warning-openable-bridge.png
+* 
+* assets/mirrored/Vienna_Convention_road_sign_Aa-16-V1.svg
+* assets/mirrored/Vienna_Convention_road_sign_Ab-16-V1.svg
+* lixdatadir/images/green-frisbee/warning-roadworks.diamond.w32px.png
+* lixdatadir/images/green-frisbee/warning-roadworks.tri.w32px.png
+*
+* assets/mirrored/Vienna_Convention_road_sign_G23a-V1.svg
+* lixdatadir/images/green-frisbee/infosign-exit.png
+*
+* assets/mirrored/Vienna_Convention_road_sign_F15-V1.svg
+* lixdatadir/images/green-frisbee/roadsign-info-wc.png
+
+Derived (rasterized and renamed) from the graphics collected in
+<https://commons.wikimedia.org/wiki/User:Fry1989/Gallery/Road_Signs/Vienna_Convention_on_Road_Signs_and_Signals>.
+Licensed under CC0.
+
+warning-falling-rocks-v2.png has been modified to eliminate the white
+margin near the SE vertex of the triangle.  [Note to maintainers:
+assets/derived/sign-11a-V1-minus-white-margin.svg includes only part of the
+modification; the horizontal black line atop the horizontal red edge was only
+removed during rasterization.]  The modified version is hereby licensed under
+CC0.
+
+* assets/mirrored/Triangle_warning_sign_(red_and_white).svg
+
+Mirror of 
+<https://commons.wikimedia.org/wiki/File:Triangle_warning_sign_(red_and_white).svg>,
+which is in the public domain.
+
+* assets/mirrored/Triangle_warning_sign_(red_and_white).svg
+* lixdatadir/images/green-frisbee/not-solvable-the-first-time-24-sharpened.png
+
+Builds on Triangle_warning_sign_(red_and_white).svg.
+
+Uses the font `DejaVu Sans`, style `Book`, as in version `2.37-2` of the
+`fonts-dejavu-core` package in Debian 11 Bullseye.  Manual modifications have
+been made to the glyph after downscaling.
+
+Licensed under CC0.
+
+* assets/derived/not-solvable-the-first-time.reconstructed.svg
+* lixdatadir/images/green-frisbee/not-solvable-the-first-time.w32px.png
+
+Builds on Triangle_warning_sign_(red_and_white).svg.
+
+Similar to the previous one, but uses the font `Garuda` in style `Regular` as
+of version `1:0.7.2-1` of the `fonts-tlwg-garuda-ttf` package.
+
+Licensed under CC0.
+
+* assets/mirrored/ladybugs/Ladybug.svg
+* assets/mirrored/ladybugs/1434051260.svg
+
+Mirrors of
+
+    https://openclipart.org/detail/220578/ladybug
+    https://openclipart.org/detail/186796/ladybug
+
+both of which are in the public domain.
+
+* assets/derived/warning-ladybug.svg
+* lixdatadir/images/green-frisbee/warning-bug.w32px.png
+
+Combination of:
+
+    assets/mirrored/Triangle_warning_sign_(red_and_white).svg
+    assets/mirrored/ladybugs/Ladybug.svg
+    assets/mirrored/ladybugs/1434051260.svg
+
+with modifications.  The combined work is hereby licensed under CC0.
+
+(Modifications for the record: attach the legs from one ladybug graphic
+to the other; remove shadow filter; rotate the ladybug; circumscribe by
+triangle; rasterize; manually move ladybug 1px northwards.)
+
+* assets/mirrored/nicubunu-Goat-head.svg
+* lixdatadir/images/green-frisbee/goat-nicubunu.png
+
+From <https://openclipart.org/detail/14511/goat-head>, cropped to
+content and rasterized.  Public domain.
+
+* assets/mirrored/Laser-symbol.svg
+* lixdatadir/images/green-frisbee/warning-laser.png
+
+From <https://commons.wikimedia.org/wiki/File:Laser-symbol.svg>, cropped to
+content and rasterized.  Public domain.
+
+* assets/mirrored/Centro_Aquático_do_Complexo_Esportivo_de_Deodoro_01.jpg
+* lixdatadir/images/green-frisbee/swimming-pool.64x43.G.png
+
+From <https://commons.wikimedia.org/wiki/File:Centro_Aqu%C3%A1tico_do_Complexo_Esportivo_de_Deodoro_01.jpg>, 
+licensed under CC-BY-3.0-BR (https://creativecommons.org/licenses/by/3.0/br/deed.en).
+
+Photo credit: Tânia Rêgo/Agência Brasil.  Used here downscaled but
+otherwise unmodified.
+
+* lixdatadir/images/green-frisbee/warning-hatch.png
+
+Derived from data/images/lix.I.png and <Triangle_warning_sign_(red_and_white).svg>;
+see above for details on each of those.  The modifications (placing the sprite within
+the rasterized triangle), if copyrightable, are hereby licensed under CC0.
+
+* lixdatadir/images/green-frisbee/warning-transparent.G.png
+* lixdatadir/images/green-frisbee/warning-transparent.G.txt
+
+Derived from assets/mirrored/Triangle_warning_sign_(red_and_white).svg.  The
+square lattice's colors are those used by GIMP 2.10.22-4.  The sizing of the
+squares is original work.  If copyrightable, this is hereby licensed under
+CC0.
+
+* assets/mirrored/Vorschriftszeichen_21.svg
+* lixdatadir/images/green-frisbee/mandatory-U-turn-left.png
+* lixdatadir/images/green-frisbee/mandatory-U-turn-left.28x28.png
+
+Rasterized from
+<https://commons.wikimedia.org/wiki/File:Vorschriftszeichen_21.svg>.
+Public domain.
+
+* assets/mirrored/ISO_7010_W063_warning;_parasailing.svg
+* assets/derived/warning-parachutes.svg
+* lixdatadir/images/green-frisbee/warning-parachutes.png
+
+Derived from <https://commons.wikimedia.org/wiki/File:ISO_7010_W063_warning;_parasailing.svg>.
+Licensed under CC0.
+
+NOTE: Unlike most other upstreams above, this upstream uses CC0 specifically,
+as opposed to placing the work in the public domain.
+
+* assets/mirrored/molumen-world-map.svg
+
+Mirrored from <https://openclipart.org/detail/402/world-map>, which is
+public domain.  Also mirrored on 
+<https://commons.wikimedia.org/wiki/File:World_map_clip_art.svg>.
+
+* lixdatadir/images/green-frisbee/transparent.32x32.G.png
+
+Original work.  If copyrightable, it is hereby licensed under CC0.
+
+* lixdatadir/images/green-frisbee/warning-invisible-goals.png
+
+Combination of lixdatadir/images/green-frisbee/warning-transparent.G.png and data/images/lix.I.png.
+If copyrightable, this is hereby licensed under CC0.
+
+* lixdatadir/images/green-frisbee/warning-invisible-traps.png
+
+Combination of lixdatadir/images/green-frisbee/warning-transparent.G.png and data/images/lix.I.png.
+If copyrightable, this is hereby licensed under CC0.
+
+* assets/mirrored/Monty_hall_abc_tv.JPG
+* lixdatadir/images/green-frisbee/MontyHall.117x153.png
+
+Derived from <https://commons.wikimedia.org/wiki/File:Monty_hall_abc_tv.JPG>,
+which is public domain.  Licensed under CC0.
+
+* lixdatadir/images/green-frisbee/mandatory-replay-edit.png
+* lixdatadir/images/green-frisbee/mandatory-replay-edit.w24px.png
+
+Derived from and data/images/scale200/game_pa2.I.png (ships with Lix, CC0) and
+potentially assets/mirrored/Vorschriftszeichen_21.svg (above, public domain;
+derived part may or may not count as "derived work" in the copyright law
+sense).  Licensed under CC0.
+
+* assets/derived/first-time-solvable.svg
+* lixdatadir/images/green-frisbee/first-time-solvable.png
+
+Derived from assets/mirrored/Vorschriftszeichen_21.svg above.  Using Garuda
+as above.  If copyrightable, licensed under CC0.
+
+* assets/mirrored/Vienna_Convention_road_sign_H1-V1-3.svg
+
+Mirrored from <https://commons.wikimedia.org/wiki/File:Vienna_Convention_road_sign_H1-V1-3.svg>,
+which is public domain.
+
+* assets/derived/roadsign-panel-30pct.svg
+* lixdatadir/images/green-frisbee/roadsign-panel-30pct.png
+
+Derived from the above.  Using Garuda (see above).  Licensed under CC0.
+
+* assets/mirrored/User-astronaut-solid.svg
+
+Mirrored from <https://commons.wikimedia.org/wiki/File:User-astronaut-solid.svg>,
+credited there to "Font Awesome".  Licensed under CC-BY 4.0 International
+<https://creativecommons.org/licenses/by/4.0/>.
+
+* assets/derived/mandatory-space-suit.svg
+* lixdatadir/images/green-frisbee/mandatory-space-suit.png
+
+Derived from assets/mirrored/User-astronaut-solid.svg (see above) and
+assets/mirrored/Vorschriftszeichen_21.svg (see above).  Licensed under CC-BY
+4.0 International.
+
+* assets/derived/roadsign-panel-5AU.svg
+* lixdatadir/images/green-frisbee/roadsign-panel-5AU.png
+
+Derived from roadsign-panel-30pct.svg above.  Licensed under CC0.
+
+"AU" stands for "astronomical unit".  In SI units, 1 AU ≈ 1.49⋅10¹¹ m.

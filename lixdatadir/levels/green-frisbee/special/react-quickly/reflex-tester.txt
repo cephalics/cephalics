@@ -1,0 +1,56 @@
+$BUILT 2023-03-31 11:19:52
+$AUTHOR Green Frisbee
+$ENGLISH Reflex Tester
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 216
+#SIZE_Y 208
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 175
+#BACKGROUND_BLUE 239
+
+#INITIAL 48
+#REQUIRED 48
+#SPAWN_INTERVAL 16
+
+#FLOATER -1
+#JUMPER -1
+#EXPLODER2 0
+
+:matt/bricks/Hatch.H: 56 8
+:matt/bricks/Hatch.H: 56 8
+:matt/bricks/Hatch.H: 56 8
+:matt/bricks/Hatch.H: 56 8
+:matt/bricks/Hatch.H: 56 8
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8 r
+:matt/bricks/Hatch.H: 56 8
+:matt/bricks/Hatch.H: 56 8
+
+:matt/bricks/Goal.G: 136 8
+:matt/bricks/Goal.G: 16 136
+
+:matt/bricks/18: 72 56 r
+$BEGIN_TILE_GROUP 0
+:matt/bricks/18: 0 0 r
+:matt/bricks/18: 32 0 r
+$END_TILE_GROUP
+:Group-0: 136 56
+:Group-0: 16 184
+:green-frisbee/cracker-azure: 144 80
+:green-frisbee/cracker-azure: 24 88

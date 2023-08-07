@@ -1,0 +1,60 @@
+$BUILT 2023-05-07 03:25:37
+$AUTHOR Green Frisbee
+$ENGLISH First Grade
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 256
+#SIZE_Y 160
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 128
+#BACKGROUND_BLUE 208
+
+#INITIAL 2
+#REQUIRED 2
+#SPAWN_INTERVAL 4
+
+#BUILDER 2
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 0 120
+
+:proxima/tile/goal.G: 64 72
+:green-frisbee/house2.G: 224 104
+:proxima/tile/goal.G: 128 72
+
+:geoo/construction/platformbrick: 80 136
+:geoo/construction/platformbrick: 144 136
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/central7: 0 0
+:geoo/abstract/pipes/central7: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 64 0
+:Group-0: 0 0
+$END_TILE_GROUP
+:Group-1: 128 152
+:Group-1: 0 152
+$BEGIN_TILE_GROUP 2
+:raymanni/toys/chalk_box: 0 0
+:geoo/abstract/cvblocks/030: 16 21 d
+$END_TILE_GROUP
+:Group-2: 64 16
+:Group-2: 128 16
+$BEGIN_TILE_GROUP 3
+:geoo/abstract/pipes/cshort1: 8 8 r
+:geoo/abstract/pipes/corner1: 8 0 rr
+:geoo/abstract/pipes/link1: 0 0 rr
+:geoo/abstract/pipes/junct1: 8 16
+:geoo/abstract/pipes/link1: 0 16 rr
+:geoo/abstract/pipes/link1: 16 16 f
+$END_TILE_GROUP
+:Group-3: 88 40
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/pipes/corner1: 8 0 rr
+:geoo/abstract/pipes/corner1: 8 8 rrr
+:geoo/abstract/pipes/endr1: 0 0 rr
+:geoo/abstract/pipes/corner1: 0 16
+:geoo/abstract/pipes/corner1: 0 8 r
+:geoo/abstract/pipes/endr1: 8 16
+$END_TILE_GROUP
+:Group-4: 152 40

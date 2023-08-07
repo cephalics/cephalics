@@ -1,0 +1,73 @@
+$BUILT 2023-01-19 17:14:12
+$AUTHOR Green Frisbee
+$ENGLISH About Face
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 256
+#SIZE_Y 192
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 8
+#BACKGROUND_GREEN 100
+#BACKGROUND_BLUE 81
+
+#INITIAL 4
+#REQUIRED 2
+#SPAWN_INTERVAL 64
+
+#RUNNER 4
+#JUMPER -1
+#EXPLODER2 0
+
+:raymanni/lab/hatch.H: 208 96
+
+:green-frisbee/house2.G: 160 0
+
+:raymanni/lab/launcher_left.T: 88 168
+:raymanni/lab/launcher_left.T: 72 168
+:raymanni/lab/launcher_left.T: 56 168
+:raymanni/lab/launcher_left.T: 40 168
+:raymanni/lab/launcher_left.T: 24 168
+:raymanni/lab/launcher_left.T: 8 168
+:raymanni/lab/launcher_left.T: 248 168
+:raymanni/lab/launcher_left.T: 232 168
+:raymanni/lab/launcher_left.T: 216 168
+:raymanni/lab/launcher_left.T: 200 168
+:raymanni/lab/launcher_left.T: 184 168
+:raymanni/lab/launcher_left.T: 168 168
+:raymanni/lab/launcher_left.T: 152 168
+:raymanni/lab/launcher_left.T: 136 168
+:raymanni/lab/launcher_left.T: 120 168
+:raymanni/lab/launcher_left.T: 104 168
+:geoo/abstract/tbeam_right.T: 184 112
+
+:geoo/construction/concrete/008h: 32 144
+:geoo/construction/concrete/008h: 48 144
+:geoo/construction/concrete/008h: 64 144
+:geoo/construction/concrete/008h: 80 144
+:geoo/construction/concrete/008h: 160 144
+:geoo/construction/concrete/008h: 176 144
+:geoo/construction/concrete/008h: 192 144
+:geoo/construction/concrete/008h: 208 144
+:geoo/construction/concrete/008h: 224 144
+:geoo/construction/concrete/008h: 240 144
+:geoo/construction/concrete/008h: 0 144
+:geoo/construction/concrete/008h: 16 144
+:geoo/construction/platform.S: 160 48
+:geoo/construction/stairs_rd_8.S: 184 48
+:geoo/construction/stairs_rd_8.S: 200 56
+:geoo/construction/rod_steel/edge_rd.S: 176 96
+:geoo/construction/rod_steel/straight8.S: 176 104 rrr
+:geoo/construction/rod_steel/straight8.S: 176 112 rrr
+$BEGIN_TILE_GROUP 0
+:geoo/construction/rod_steel/straight8.S: 0 0 rrr
+:geoo/construction/rod_steel/straight8.S: 0 8 rrr
+:geoo/construction/rod_steel/straight8.S: 0 16 rrr
+$END_TILE_GROUP
+:Group-0: 184 96 r
+:geoo/construction/rod_steel/straight32.S: 16 96
+:geoo/construction/rod_steel/straight32.S: 240 96
+:geoo/construction/rod_steel/straight32.S: 208 96
+:geoo/construction/rod_steel/link.S: 80 96
+:geoo/construction/rod_steel/straight32.S: 48 96
+:green-frisbee/cracker-teal: 152 -48

@@ -1,0 +1,9 @@
+$FILENAME green-frisbee/regular/compression-method-timely-sprint.txt
+$LEVEL_BUILT_REQUIRED 2023-04-26 08:31:42
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+
+! 128 0 ASSIGN=RUNNER 0
+! 151 0 ASSIGN=JUMPER 0
+

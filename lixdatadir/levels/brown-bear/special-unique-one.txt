@@ -1,0 +1,245 @@
+$BUILT 2023-02-18 03:25:59
+$AUTHOR Brown Bear
+$ENGLISH A unique and special one
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 3072
+#SIZE_Y 480
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 51
+#BACKGROUND_BLUE 204
+
+#INITIAL 72
+#REQUIRED 72
+#SPAWN_INTERVAL 96
+
+#BUILDER 1
+#EXPLODER2 0
+
+:matt/bricks/Hatch.H: 176 0
+:matt/bricks/Hatch.H: 432 0
+:matt/bricks/Hatch.H: 688 0
+:matt/bricks/Hatch.H: 944 0
+:matt/bricks/Hatch.H: 1200 0
+:matt/bricks/Hatch.H: 1456 0
+:matt/bricks/Hatch.H: 1712 0
+:matt/bricks/Hatch.H: 1968 0
+:matt/bricks/Hatch.H: 2224 0
+:matt/bricks/Hatch.H: 2480 0
+:matt/bricks/Hatch.H: 2736 0
+:matt/bricks/Hatch.H: 2992 0 r
+:matt/bricks/Hatch.H: 176 80
+:matt/bricks/Hatch.H: 432 80
+:matt/bricks/Hatch.H: 688 80
+:matt/bricks/Hatch.H: 944 80
+:matt/bricks/Hatch.H: 1200 80
+:matt/bricks/Hatch.H: 1456 80
+:matt/bricks/Hatch.H: 1712 80
+:matt/bricks/Hatch.H: 1968 80
+:matt/bricks/Hatch.H: 2224 80
+:matt/bricks/Hatch.H: 2480 80
+:matt/bricks/Hatch.H: 2736 80
+:matt/bricks/Hatch.H: 2992 80 r
+:matt/bricks/Hatch.H: 176 160
+:matt/bricks/Hatch.H: 432 160
+:matt/bricks/Hatch.H: 688 160
+:matt/bricks/Hatch.H: 944 160
+:matt/bricks/Hatch.H: 1200 160
+:matt/bricks/Hatch.H: 1456 160
+:matt/bricks/Hatch.H: 1712 160
+:matt/bricks/Hatch.H: 1968 160
+:matt/bricks/Hatch.H: 2224 160
+:matt/bricks/Hatch.H: 2480 160
+:matt/bricks/Hatch.H: 2736 160
+:matt/bricks/Hatch.H: 2992 160 r
+:matt/bricks/Hatch.H: 176 240
+:matt/bricks/Hatch.H: 432 240
+:matt/bricks/Hatch.H: 688 240
+:matt/bricks/Hatch.H: 944 240
+:matt/bricks/Hatch.H: 1200 240
+:matt/bricks/Hatch.H: 1456 240
+:matt/bricks/Hatch.H: 1712 240
+:matt/bricks/Hatch.H: 1968 240
+:matt/bricks/Hatch.H: 2224 240
+:matt/bricks/Hatch.H: 2480 240
+:matt/bricks/Hatch.H: 2736 240
+:matt/bricks/Hatch.H: 2992 240 r
+:matt/bricks/Hatch.H: 176 320
+:matt/bricks/Hatch.H: 432 320
+:matt/bricks/Hatch.H: 688 320
+:matt/bricks/Hatch.H: 944 320
+:matt/bricks/Hatch.H: 1200 320
+:matt/bricks/Hatch.H: 1456 320
+:matt/bricks/Hatch.H: 1712 320
+:matt/bricks/Hatch.H: 1968 320
+:matt/bricks/Hatch.H: 2224 320
+:matt/bricks/Hatch.H: 2480 320
+:matt/bricks/Hatch.H: 2736 320
+:matt/bricks/Hatch.H: 2992 320 r
+:matt/bricks/Hatch.H: 176 400
+:matt/bricks/Hatch.H: 432 400
+:matt/bricks/Hatch.H: 688 400
+:matt/bricks/Hatch.H: 944 400
+:matt/bricks/Hatch.H: 1200 400
+:matt/bricks/Hatch.H: 1456 400
+:matt/bricks/Hatch.H: 1712 400
+:matt/bricks/Hatch.H: 1968 400
+:matt/bricks/Hatch.H: 2224 400
+:matt/bricks/Hatch.H: 2480 400
+:matt/bricks/Hatch.H: 2736 400
+:matt/bricks/Hatch.H: 2992 400 r
+
+:matt/bricks/Goal.G: 120 0
+:matt/bricks/Goal.G: 376 0
+:matt/bricks/Goal.G: 632 0
+:matt/bricks/Goal.G: 888 0
+:matt/bricks/Goal.G: 1144 0
+:matt/bricks/Goal.G: 1400 0
+:matt/bricks/Goal.G: 1656 0
+:matt/bricks/Goal.G: 1912 0
+:matt/bricks/Goal.G: 2168 0
+:matt/bricks/Goal.G: 2424 0
+:matt/bricks/Goal.G: 2680 0
+:matt/bricks/Goal.G: 2856 0
+:matt/bricks/Goal.G: 120 80
+:matt/bricks/Goal.G: 376 80
+:matt/bricks/Goal.G: 632 80
+:matt/bricks/Goal.G: 888 80
+:matt/bricks/Goal.G: 1144 80
+:matt/bricks/Goal.G: 1400 80
+:matt/bricks/Goal.G: 1656 80
+:matt/bricks/Goal.G: 1912 80
+:matt/bricks/Goal.G: 2168 80
+:matt/bricks/Goal.G: 2424 80
+:matt/bricks/Goal.G: 2680 80
+:matt/bricks/Goal.G: 2856 80
+:matt/bricks/Goal.G: 120 160
+:matt/bricks/Goal.G: 376 160
+:matt/bricks/Goal.G: 632 160
+:matt/bricks/Goal.G: 888 160
+:matt/bricks/Goal.G: 1144 160
+:matt/bricks/Goal.G: 1400 160
+:matt/bricks/Goal.G: 1656 160
+:matt/bricks/Goal.G: 1912 160
+:matt/bricks/Goal.G: 2168 160
+:matt/bricks/Goal.G: 2424 160
+:matt/bricks/Goal.G: 2680 160
+:matt/bricks/Goal.G: 2856 160
+:matt/bricks/Goal.G: 120 240
+:matt/bricks/Goal.G: 376 240
+:matt/bricks/Goal.G: 632 240
+:matt/bricks/Goal.G: 888 240
+:matt/bricks/Goal.G: 1144 240
+:matt/bricks/Goal.G: 1400 240
+:matt/bricks/Goal.G: 1656 240
+:matt/bricks/Goal.G: 1912 240
+:matt/bricks/Goal.G: 2168 240
+:matt/bricks/Goal.G: 2424 240
+:matt/bricks/Goal.G: 2680 240
+:matt/bricks/Goal.G: 2856 240
+:matt/bricks/Goal.G: 120 320
+:matt/bricks/Goal.G: 376 320
+:matt/bricks/Goal.G: 632 320
+:matt/bricks/Goal.G: 888 320
+:matt/bricks/Goal.G: 1144 320
+:matt/bricks/Goal.G: 1400 320
+:matt/bricks/Goal.G: 1656 320
+:matt/bricks/Goal.G: 1912 320
+:matt/bricks/Goal.G: 2168 320
+:matt/bricks/Goal.G: 2424 320
+:matt/bricks/Goal.G: 2680 320
+:matt/bricks/Goal.G: 2856 320
+:matt/bricks/Goal.G: 120 400
+:matt/bricks/Goal.G: 376 400
+:matt/bricks/Goal.G: 632 400
+:matt/bricks/Goal.G: 888 400
+:matt/bricks/Goal.G: 1144 400
+:matt/bricks/Goal.G: 1400 400
+:matt/bricks/Goal.G: 1656 400
+:matt/bricks/Goal.G: 1912 400
+:matt/bricks/Goal.G: 2168 400
+:matt/bricks/Goal.G: 2424 400
+:matt/bricks/Goal.G: 2680 400
+:matt/bricks/Goal.G: 2856 400
+
+$BEGIN_TILE_GROUP 0
+:geoo/construction/concrete/032h: 0 0
+:geoo/construction/concrete/032h: 64 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 128 0
+$END_TILE_GROUP
+:Group-1: 0 48
+:Group-1: 256 48
+:Group-1: 512 48
+:Group-1: 768 48
+:Group-1: 1024 48
+:Group-1: 1280 48
+:Group-1: 1536 48
+:Group-1: 1792 48
+:Group-1: 2048 48
+:Group-1: 2304 48
+:Group-1: 2560 48
+:Group-1: 2816 48
+:Group-1: 0 128
+:Group-1: 256 128
+:Group-1: 512 128
+:Group-1: 768 128
+:Group-1: 1024 128
+:Group-1: 1280 128
+:Group-1: 1536 128
+:Group-1: 1792 128
+:Group-1: 2048 128
+:Group-1: 2304 128
+:Group-1: 2560 128
+:Group-1: 2816 128
+:Group-1: 0 208
+:Group-1: 256 208
+:Group-1: 512 208
+:Group-1: 768 208
+:Group-1: 1024 208
+:Group-1: 1280 208
+:Group-1: 1536 208
+:Group-1: 1792 208
+:Group-1: 2048 208
+:Group-1: 2304 208
+:Group-1: 2560 208
+:Group-1: 2816 208
+:Group-1: 0 288
+:Group-1: 256 288
+:Group-1: 512 288
+:Group-1: 768 288
+:Group-1: 1024 288
+:Group-1: 1280 288
+:Group-1: 1536 288
+:Group-1: 1792 288
+:Group-1: 2048 288
+:Group-1: 2304 288
+:Group-1: 2560 288
+:Group-1: 2816 288
+:Group-1: 0 368
+:Group-1: 256 368
+:Group-1: 512 368
+:Group-1: 768 368
+:Group-1: 1024 368
+:Group-1: 1280 368
+:Group-1: 1536 368
+:Group-1: 1792 368
+:Group-1: 2048 368
+:Group-1: 2304 368
+:Group-1: 2560 368
+:Group-1: 2816 368
+:Group-1: 0 448
+:Group-1: 256 448
+:Group-1: 512 448
+:Group-1: 768 448
+:Group-1: 1024 448
+:Group-1: 1280 448
+:Group-1: 1536 448
+:Group-1: 1792 448
+:Group-1: 2048 448
+:Group-1: 2304 448
+:Group-1: 2560 448
+:Group-1: 2816 448
+:geoo/abstract/cvblocks/025: 2608 448 rd

@@ -1,0 +1,112 @@
+$BUILT 2023-01-16 21:58:35
+$AUTHOR Green Frisbee
+$ENGLISH Whack A Mole
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 192
+#SIZE_Y 216
+#BACKGROUND_RED 79
+#BACKGROUND_GREEN 175
+#BACKGROUND_BLUE 143
+
+#INITIAL 18
+#REQUIRED 18
+#SPAWN_INTERVAL 32
+
+#JUMPER -1
+#EXPLODER 0
+
+:geoo/abstract/hatch.H: 48 166
+:geoo/abstract/hatch.H: 48 166
+:geoo/abstract/hatch.H: 48 166
+:geoo/abstract/hatch.H: 48 166
+:geoo/abstract/hatch.H: 48 92
+:geoo/abstract/hatch.H: 48 18
+:geoo/abstract/hatch.H: 48 92
+:geoo/abstract/hatch.H: 48 92
+:geoo/abstract/hatch.H: 48 166
+:geoo/abstract/hatch.H: 48 92
+:geoo/abstract/hatch.H: 48 92
+:geoo/abstract/hatch.H: 48 92
+:geoo/abstract/hatch.H: 48 166
+:geoo/abstract/hatch.H: 48 166
+:geoo/abstract/hatch.H: 48 92
+:geoo/abstract/hatch.H: 48 18
+:geoo/abstract/hatch.H: 48 92
+:geoo/abstract/hatch.H: 48 18
+
+:geoo/abstract/goal.G: 112 2
+:geoo/abstract/goal.G: 112 76
+:geoo/abstract/goal.G: 112 150
+
+:geoo/construction/Laser_hz_16.F: 80 47
+:geoo/construction/Laser_hz_16.F: 96 47
+:geoo/construction/Laser_hz_16.F: 80 121
+:geoo/construction/Laser_hz_16.F: 96 121
+:geoo/construction/Laser_hz_16.F: 80 195
+:geoo/construction/Laser_hz_16.F: 96 195
+
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/corner7: 16 0 rr
+:geoo/abstract/pipes/cshort7: 8 0 rr
+:geoo/abstract/pipes/endr7: 0 16 frr
+:geoo/abstract/pipes/corner7: 16 16 frr
+:geoo/abstract/pipes/cshort7: 8 16 frr
+:geoo/abstract/pipes/endr7: 0 8 frr
+:geoo/abstract/pipes/cshort7: 8 8 frr
+:geoo/abstract/pipes/junct7: 16 8 rrr
+$END_TILE_GROUP
+:Group-0: 162 190
+:geoo/construction/platform.S: 48 50
+:geoo/construction/platform.S: 112 50
+$BEGIN_TILE_GROUP 1
+:geoo/construction/platform.S: 0 0
+:geoo/construction/platform.S: 32 0
+$END_TILE_GROUP
+:Group-1: 32 66
+:Group-1: 96 66
+:Group-1: 96 0 rr
+:Group-1: 32 0 rr
+:Group-1: 30 2 r
+:Group-1: 160 2 fr
+$BEGIN_TILE_GROUP 2
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/corner7: 16 0 rr
+:geoo/abstract/pipes/cshort7: 8 8 rr
+:geoo/abstract/pipes/cshort7: 8 0 rr
+:geoo/abstract/pipes/corner7: 16 8 rrr
+:geoo/abstract/pipes/endr7: 16 16
+:geoo/abstract/pipes/corner7: 0 16
+:geoo/abstract/pipes/cshort7: 8 16
+:geoo/abstract/pipes/corner7: 0 8 r
+$END_TILE_GROUP
+:Group-2: 162 116
+$BEGIN_TILE_GROUP 3
+:geoo/abstract/pipes/endr7: 0 0 rr
+:geoo/abstract/pipes/corner7: 8 0 rr
+:geoo/abstract/pipes/cshort7: 8 8 r
+:geoo/abstract/pipes/junct7: 8 16
+:geoo/abstract/pipes/ends7: 0 16
+:geoo/abstract/pipes/ends7: 16 16 frr
+$END_TILE_GROUP
+:Group-3: 162 42
+:geoo/construction/platform.S: 48 124
+:geoo/construction/platform.S: 112 124
+:Group-1: 32 140
+:Group-1: 96 140
+:Group-1: 96 74 rr
+:Group-1: 32 74 rr
+:Group-1: 30 76 r
+:Group-1: 160 76 fr
+:geoo/construction/platform.S: 48 198
+:geoo/construction/platform.S: 112 198
+:Group-1: 32 214
+:Group-1: 96 214
+:Group-1: 96 148 rr
+:Group-1: 32 148 rr
+:Group-1: 30 150 r
+:Group-1: 160 150 fr
+:Group-0: 6 190
+:Group-2: 6 116
+:Group-3: 6 42

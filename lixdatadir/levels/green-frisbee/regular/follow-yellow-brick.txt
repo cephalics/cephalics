@@ -1,0 +1,154 @@
+$BUILT 2023-03-09 10:17:14
+$AUTHOR Green Frisbee
+$ENGLISH Follow the yellow brick road
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 776
+#SIZE_Y 368
+#BACKGROUND_RED 203
+#BACKGROUND_GREEN 86
+#BACKGROUND_BLUE 209
+
+#INITIAL 2
+#REQUIRED 2
+#SPAWN_INTERVAL 1
+
+#FLOATER 1
+#PLATFORMER 2
+#MINER 2
+#DIGGER 2
+#JUMPER 2
+#EXPLODER2 0
+
+:geoo/sandstone/fennec.H: 16 88
+
+:simon/tapir/goal.G: 8 288
+
+:geoo/construction/Laser_hz_64.F: 8 285
+:geoo/construction/Laser_hz_16.F: 80 285
+:geoo/construction/Laser_hz_16.F: 96 285
+:geoo/construction/Laser_hz_16.F: 144 285
+:geoo/construction/Laser_hz_16.F: 160 285
+:geoo/construction/Laser_hz_64.F: 176 285
+:geoo/construction/Laser_hz_64.F: 240 285
+:geoo/construction/Laser_hz_64.F: 304 285
+:geoo/construction/Laser_hz_64.F: 368 285
+:geoo/construction/Laser_hz_64.F: 432 285
+:geoo/construction/Laser_hz_64.F: 496 285
+:geoo/construction/Laser_hz_64.F: 560 285
+:geoo/construction/Laser_hz_64.F: 624 285
+:geoo/construction/Laser_hz_16.F: 64 285
+
+:geoo/construction/spring.T: 48 136
+:geoo/construction/spring_fast.T: 172 232
+
+:geoo/abstract/tbeam_left.T: 248 192
+
+$BEGIN_TILE_GROUP 0
+:geoo/construction/wall/small_64x32: 0 0
+:geoo/construction/wall/small_64x32: 64 0
+:geoo/construction/wall/small_64x32: 128 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:geoo/construction/concrete/032v: 0 0
+:geoo/construction/concrete/032v: 0 64
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-0: 32 72
+:Group-0: 32 104
+:Group-0: 32 136
+:Group-0: 32 168
+:Group-1: 200 72 d
+:Group-1: 200 144 d
+:Group-1: 0 0 d
+:Group-1: 0 72 d
+$END_TILE_GROUP
+:Group-2: 8 168
+$BEGIN_TILE_GROUP 3
+:geoo/construction/platformbrick: 0 0
+:geoo/construction/platformbrick: 32 0
+$END_TILE_GROUP
+:Group-3: 88 128
+:geoo/construction/concrete/008: 80 160
+:geoo/construction/concrete/008: 96 160
+:geoo/construction/concrete/008: 64 160
+:geoo/construction/concrete/008: 112 160
+:geoo/construction/platformbrick: 16 128
+:geoo/construction/platformbrick: 144 128
+:Group-0: -16 336
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/cvblocks/005: 0 112
+:geoo/abstract/cvblocks/005: 72 112
+:geoo/abstract/cvblocks/031: 88 80
+:geoo/abstract/pipes/cshort3: 120 80
+:geoo/abstract/pipes/cshort3: 128 80
+:geoo/abstract/cvblocks/021: 136 64
+:geoo/abstract/cvblocks/026: 168 32
+:geoo/abstract/cvblocks/026: 184 0
+:matt/underworld/thinplatform128: 200 0
+:raymanni/holiday/plank_long: 328 0
+:raymanni/holiday/plank_d1: 456 0 frr
+$END_TILE_GROUP
+:Group-4: 200 16
+:geoo/construction/concrete/008: 688 152
+:geoo/construction/concrete/008: 696 272
+:geoo/construction/concrete/008: 704 336
+:geoo/construction/concrete/032va: 712 280
+:geoo/construction/concrete/032va: 744 216
+:matt/steel/64x64.S: 712 152
+$BEGIN_TILE_GROUP 5
+:geoo/construction/pillar_long: 0 0 r
+:geoo/construction/pillar_long: 128 0 r
+:geoo/construction/pillar_long: 256 0 r
+:geoo/construction/pillar_long: 384 0 r
+$END_TILE_GROUP
+:Group-5: 176 336
+:geoo/construction/platform.S: 176 264 r
+:Group-5: 176 264
+:geoo/construction/concrete/016: 688 336
+:Group-4: 200 56
+:green-frisbee/warning-laser: 656 264 rr
+:green-frisbee/warning-laser: 176 264 rr
+:green-frisbee/cracker-violet: 736 280
+:green-frisbee/warning-laser: 144 168 rr
+:green-frisbee/warning-laser: 8 168 rr
+$BEGIN_TILE_GROUP 6
+:matt/bricks/03a: 0 0
+:matt/bricks/03a: 0 64
+:matt/bricks/03a: 64 0
+:matt/bricks/03a: 64 64
+:matt/bricks/03a: 128 0
+:matt/bricks/03a: 128 64
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 7
+:matt/bricks/01a: 2 0 r
+:matt/bricks/14a: 18 64
+:matt/bricks/01a: 2 23 r
+:matt/bricks/13a: 18 32
+:matt/bricks/01a: 90 97 frrr
+:matt/bricks/01a: 74 97 rrr
+:simon/tapir/016hc: 90 97 rd
+:simon/tapir/016ha: 74 97 rd
+:matt/bricks/14a: 0 55
+:matt/bricks/01a: 82 72 r
+:matt/bricks/13a: 34 40
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 8
+:matt/bricks/03b: 0 0
+:matt/bricks/03b: 0 64
+:matt/bricks/03b: 64 0
+:matt/bricks/03b: 64 64
+:matt/bricks/03b: 128 0
+:matt/bricks/03b: 128 64
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 9
+:Group-8: 0 0
+:Group-7: 56 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 10
+:Group-6: 8 0 frr
+:matt/bricks/02b: 0 0 rd
+:Group-9: 32 0 d
+:matt/bricks/02b: 0 64 rd
+$END_TILE_GROUP
+:Group-10: 40 168

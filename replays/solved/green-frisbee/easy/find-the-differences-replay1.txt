@@ -1,0 +1,8 @@
+$FILENAME green-frisbee/easy/find-the-differences.txt
+$LEVEL_BUILT_REQUIRED 2023-04-12 14:02:45
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+
+! 381 0 ASSIGN=BATTER 0
+

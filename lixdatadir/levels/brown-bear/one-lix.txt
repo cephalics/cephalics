@@ -1,0 +1,72 @@
+$BUILT 2023-02-09 00:28:01
+$AUTHOR Brown Bear
+$ENGLISH The One-lix Level
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 400
+#TORUS_X 1
+#TORUS_Y 1
+#BACKGROUND_RED 215
+#BACKGROUND_GREEN 147
+#BACKGROUND_BLUE 96
+
+#INITIAL 120
+#REQUIRED 1
+#SPAWN_INTERVAL 32
+
+#BUILDER 6
+#PLATFORMER 1
+#BASHER 1
+#EXPLODER2 0
+
+:matt/carnival/Hatch.H: 128 240 r
+
+:raymanni/lab/goal.G: 384 336
+
+:raymanni/lab/goo_fall.W: 432 256
+:raymanni/lab/goo_fall.W: 432 272
+:raymanni/lab/goo_fall.W: 432 288
+:raymanni/lab/goo_fall.W: 432 304
+:raymanni/lab/goo_fall.W: 448 256
+:raymanni/lab/goo_fall.W: 448 272
+:raymanni/lab/goo_fall.W: 448 288
+:raymanni/lab/goo_fall.W: 448 304
+:raymanni/lab/goo_fall.W: 464 256
+:raymanni/lab/goo_fall.W: 464 272
+:raymanni/lab/goo_fall.W: 464 288
+:raymanni/lab/goo_fall.W: 464 304
+:raymanni/lab/goo.W: 432 304
+:geoo/construction/Laser_vr_64.F: 304 336
+:raymanni/lab/goo_fall.W: 480 256
+:raymanni/lab/goo_fall.W: 480 272
+:raymanni/lab/goo_fall.W: 480 288
+:raymanni/lab/goo_fall.W: 480 304
+:raymanni/lab/goo.W: 464 304
+
+:matt/carnival/57: 576 0
+:matt/carnival/57: 192 0
+$BEGIN_TILE_GROUP 0
+:matt/carnival/57: 0 0
+:matt/carnival/57: 128 0 d
+$END_TILE_GROUP
+:Group-0: 448 0
+$BEGIN_TILE_GROUP 1
+:geoo/construction/platform.S: 0 0
+:geoo/construction/platform.S: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:Group-1: 64 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 3
+:Group-2: 128 0
+:Group-2: 0 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:Group-3: 0 0
+:Group-3: 384 0
+:Group-2: 256 0
+$END_TILE_GROUP
+:Group-4: 608 0
+:matt/carnival/26: 432 336

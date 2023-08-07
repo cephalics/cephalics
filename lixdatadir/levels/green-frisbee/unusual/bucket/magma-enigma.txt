@@ -1,0 +1,38 @@
+$BUILT 2023-02-08 10:09:50
+$AUTHOR Green Frisbee
+$ENGLISH Magma Enigma
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 256
+#SIZE_Y 224
+#BACKGROUND_RED 85
+#BACKGROUND_GREEN 155
+#BACKGROUND_BLUE 82
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 24
+
+#WALKER -1
+#EXPLODER2 1
+#PLATFORMER 2
+#JUMPER 1
+
+:green-frisbee/spinny-advent2-R.H: 24 23
+
+:green-frisbee/blocker.G: 55 28
+:green-frisbee/blocker.G: -6 28
+:green-frisbee/house2.G: 200 7
+
+:matt/underworld/Lava.W: 80 151
+:matt/underworld/Lava.W: 128 151
+
+:simon/oriental/earth: 0 55 rr
+:green-frisbee/not-solvable-the-first-time-24-sharpened: 28 2
+:matt/underworld/02: 16 103
+:matt/underworld/01: 64 199
+:matt/underworld/01: 128 199
+:matt/underworld/02: 176 103
+:simon/oriental/earth: 176 55 rr
+:green-frisbee/cracker-greyscale: 24 120
+:green-frisbee/cracker-greyscale: 184 120

@@ -1,0 +1,241 @@
+= Cephalics: A Level Pack for Lix
+:toc:
+
+:xdg-basedir-spec-url: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
+:lix-homepage: https://www.lixgame.com/
+:lix-repo: https://github.com/SimonN/LixD
+:pingus-homepage: https://pingus.seul.org/
+
+Welcome to Cephalics
+
+This is a collection of Lix levels.
+The difficulty levels vary.
+
+{lix-homepage}[Lix] is an {lix-repo}[open-source] game is similar to {pingus-homepage}[Pingus]™ and Lemmings™.
+
+
+== Screenshots
+
+Here are screenshots of some of our favourite levels:
+
+=== Levels by Brown Bear
+
+image::screenshots/brown-bear/very-difficult.png[caption="Level title: ",title="Very Difficult"]
+
+=== Levels by Green Frisbee
+
+image::screenshots/green-frisbee/regular/delay-circuit.png[caption="Level title: ",title="Delay Circuit"]
+
+image::screenshots/green-frisbee/regular/wrong-way.png[caption="Level title: ",title="Wrong Way"]
+
+image::screenshots/green-frisbee/regular/choose-your-adventure-unsubtitled-99.png[caption="Level title: ", title="Choose Your Adventure: Unsubtitled #99"]
+
+image::screenshots/green-frisbee/regular/deer-factorial-qmark.png[caption="Level title: ",title="Deer!?"]
+
+image::screenshots/green-frisbee/regular/left-then-right.png[caption="Level title: ",title="Left Then Right"]
+
+// image::screenshots/green-frisbee/regular/follow-yellow-brick.png[caption="Level title: ",title="Follow the yellow brick road"]
+
+image::screenshots/green-frisbee/unusual/pathfinder/shortcut.png[caption="Level title: ",title="Shortcut"]
+
+image::screenshots/green-frisbee/regular/compression-method-timely-sprint.png[caption="Level title: ",title="Compression Method Timely Sprint"]
+
+image::screenshots/green-frisbee/unusual/bucket/helicopters-submarines.png[caption="Level title: ",title="Helicopters and Submarines"]
+
+image::screenshots/green-frisbee/unusual/bucket/magma-enigma.png[caption="Level title: ",title="Magma Enigma"]
+
+image::screenshots/green-frisbee/examples/not-first-time/one-for-four-and-four-for-one.png[caption="Level title: ",title="One for four and four for one"]
+
+image::screenshots/green-frisbee/unusual/bucket/secret-message.png[caption="Level title: ",title="Secret Message"]
+
+image::screenshots/green-frisbee/regular/disturb-no-frogs.png[caption="Level title: ", title="Disturb No Frogs"]
+
+=== Levels by White Closet
+
+image::screenshots/white-closet/one-solitary-lix.png[caption="Level title: ",title="One Solitary Lix"]
+
+=== More screenshots
+
+For more screenshots, see the collection of link:screenshots/[screenshots of all levels] in this level pack.
+
+
+== Frequently Asked Questions (FAQ): PLAYING
+
+=== How does one solve level X? anchor:bm_how_solve[]
+
+Once you install this level pack (see <<bm_install,How do I play these levels?>> hereunder),
+you will be able to find and watch the developers' replays in-game using the standard _Load Replay_ button.
+(Those replays are collected in the directory `replays/`.)
+
+Additional hints and replays will be collected on the Wiki.
+
+To request addition of hints or replays for a particular level,
+file a feature request.
+
+// TODO: in the walkthrough list quotes, etc., that might not be recognized (e.g., the title of advent.txt)
+
+=== What are those triangular warning signs?
+
+There's several of these:
+
+image:lixdatadir/images/green-frisbee/warning-hatch.png[width=32]::
+On this level, some or all hatches (entrances to the level) are not visible before the level starts.
+
+image:assets/derived/warning-l-r-traffic.svg[width=32]::
+Two-way hatch: incoming lixes will not all face the same way.
++
+(Typically, incoming lixes will face left and right alternately.)
+
+image:lixdatadir/images/green-frisbee/warning-invisible-traps.png[width=32])::
+Beware of quicksand!  Some tiles will kill a lix that steps on them.
++
+The level is nevertheless expected to be solvable on the first attempt,
+unless image:assets/derived/not-solvable-the-first-time.reconstructed.svg[width=16] is posted as well.
+
+image:lixdatadir/images/green-frisbee/warning-invisible-goals.png[width=32])::
+Beware!  Some goals (exits) are invisible.
+A lix may exit the level before you planned for it to.
++
+The level is nevertheless expected to be solvable on the first attempt,
+unless image:assets/derived/not-solvable-the-first-time.reconstructed.svg[width=16] is posted as well.
+
+image:assets/derived/not-solvable-the-first-time.reconstructed.svg[width=32]::
+This level uses
+link:images/example-notfirsttime-invisibility.png[invisible tiles] and/or
+link:images/example-notfirsttime-dice.png[randomness], and therefore
+may require multiple attempts to win, even with perfect play.
+// "Invisible tiles" doesn't _quite_ capture Magma Enigma, but it's close enough.
+// We don't want spoilers in README.
++
+_This is rare._ The vast majority of levels in this level pack don't do anything of this sort
+and _are_ solvable on the first try.
+
+// 💡 Lix tip:
+// Press `/` at the level-choosing screen to search for a level by name.
+
+image:lixdatadir/images/green-frisbee/warning-transparent.G.png[width=32])::
+Beware!  In this level, link:https://m.xkcd.com/363/[some triangular warning signs are transparent]
+(can be neither walked on nor climbed).
+
+Also, if we ever write a level that demonstrates a bug in Lix, we'll use
+image:assets/derived/warning-ladybug.svg[width=16] to self-document it.
+
+=== Who's that guy at the bottom left corner of link:screenshots/README.html#_green_frisbee_special_prior_knowledge[that level with the percentages]?
+
+// Looking for the level?  It's called "The Monty Hall Problem".
+
+https://en.wikipedia.org/wiki/Monty_Hall_problem[Monty Hall].
+
+=== Why's there link:screenshots/green-frisbee/special/beware-of/real-world-references/love15.png[a tennis match between Greece and Italy] in there?
+
+// Looking for the level?  It's called "Love Fifteen".
+
+Because I tried to see what national flags I could construct from standard tiles only,
+and those two are the result.
+They're the first ones I found that comprise
+only right angles and only colors available in the standard tiles.
+
+=== What element of the playfield is the goal (exit, place lixes are supposed to get to)?
+
+All the elements on the bottom storey of
+link:screenshots/green-frisbee/LEGEND-new-hatches-goals.png[the Legend level]
+are goals.
+
+If you can't spot any of these, you might be playing the
+link:xdg/share/lix/levels/green-frisbee/unusual/find-the-goal/[`find-the-goal/`] levels,
+in which case, see <<bm_how_solve,How does one solve level X?>> hereinabove.
+
+=== Are there any secrets?
+
+Well, for starters, lixes have been taught https://en.wikipedia.org/wiki/Butterfly_stroke[the butterfly stroke] 🤫
+
+Also, several levels have goals (exits) that are easy to miss
+(or, in one case, hidden behind terrain).
+// This is NOT a reference to the "Exit Stage... Left?" family of levels.
+
+
+== Frequently Asked Questions (FAQ): INSTALLATION
+
+=== How do I play these levels? anchor:bm_install[]
+
+==== To test them just once, quickly:
+
+In your shell, run the following command:
+
+ cd /path/to/directory/containing/this/file
+ env XDG_DATA_DIRS=${XDG_DATA_DIRS:+"${XDG_DATA_DIRS}:"}"$(pwd)"/xdg/share lix
+
+==== To install them permanently (the Right way):
+
+Add `${ABSOLUTE_PATH_OF_THIS_REPO}/xdg/share` to the value of `$XDG_DATA_DIRS`
+in your per-session environment variables.
+(The way to do so depends on your shell and desktop environment.)
+
+The change will take effect after you logout and login again.
+Until then, you can use the env(1) method above.
+
+==== To install them permanently (the quick-and-dirty way):
+
+Run this:
+
+ mkdir -p ~/.local/share/lix &&
+ rsync -a xdg/share/lix/ ~/.local/share/lix
+
+Make sure to include the trailing slash.
+
+After installing, **restart Lix** if it was running.
+This seems to be needed in order to refresh the images cache.
+
+==== Background: How Lix finds level packs
+
+To play these levels, `./xdg/share/lix/levels/` and `./xdg/share/lix/images/` need to be available
+as `$d/lix/levels/` and `$d/lix/images/`, where `$d` is one of:
+
+1. An element of {xdg-basedir-spec-url}[`$XDG_DATA_DIRS`]
+2. `~/.local/share`
+3. `/usr/local/share`
+4. `/usr/share`
+
+See https://github.com/SimonN/LixD/blob/v0.10.12/src/file/filename/fhs.d#L82-L96
+for the gory details.
+
+=== What version of Lix is required?
+
+Hopefully, 0.9.29 or greater would work.
+
+These levels were developed with Lix 0.9.29-1.1+b1 from Debian 11 Bullseye.
+Newer versions of Lix do NOT generally get tested as they become available
+(surprisingly enough, this thing isn't our $DAYJOB);
+nevertheless, pull requests to support newer versions of Lix are welcome.
+
+
+== Frequently Asked Questions (FAQ): MISCELLANY
+
+=== How do I contribute?
+
+Open an issue or a pull request.
+
+=== Those messages in English comprised of pipe tiles, how to generate them?
+
+See `scripts/generate-letter-groups-usage.py`.
+
+=== How did you choose the name _Cephalics_?
+
+We grepped a wordlist for words that rhyme with "lix".
+
+Specifically,
+we grepped `/usr/share/dict/british-english-huge` for `l(i|ea|ee)(x|[ck].*[scx])`,
+and
+grepped the results of that for `li[ckx]+s$`.
+
+(I used `:v/…/d` and `:g/…/m$` in Vim; YMMV.)
+
+Then we ruled out those options that were already registered at GitHub
+(the hosting site used by Lix itself).
+
+
+== Thanks!
+
+You're welcome.
+
+Feel free to link to us, and/or to send pull requests!

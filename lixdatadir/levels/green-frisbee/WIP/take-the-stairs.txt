@@ -1,0 +1,202 @@
+$BUILT 2023-03-17 18:30:19
+$AUTHOR Green Frisbee
+$ENGLISH Take the Stairs
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 304
+#SIZE_Y 224
+#BACKGROUND_RED 130
+#BACKGROUND_GREEN 103
+#BACKGROUND_BLUE 226
+
+#INITIAL 3
+#REQUIRED 2
+#SPAWN_INTERVAL 59
+
+#WALKER -1
+#RUNNER 3
+#CLIMBER 3
+#JUMPER -1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 0 16
+
+:green-frisbee/goal-59circles.G: 32 16
+:green-frisbee/goal-59circles.G: 224 184
+:green-frisbee/goal-59circles.G: 64 16
+:green-frisbee/goal-59circles.G: 208 16
+:green-frisbee/goal-59circles.G: 240 16
+
+:raymanni/gore/eater.T: 120 192
+
+:geoo/abstract/tbeam_right.T: 8 184
+:geoo/abstract/tbeam_left.T: 88 184
+:geoo/abstract/tbeam_right.T: 184 184
+:geoo/abstract/tbeam_left.T: 264 184
+:geoo/abstract/tbeam_down.T: 136 96
+:geoo/abstract/tbeam_down.T: 136 128
+:geoo/abstract/tbeam_down.T: 136 160
+:geoo/abstract/tbeam_down.T: 136 192
+:geoo/abstract/tbeam_up.T: 136 8
+:geoo/abstract/tbeam_down.T: 136 64
+:geoo/abstract/tbeam_up.T: 136 -24
+
+$BEGIN_TILE_GROUP 0
+:geoo/construction/platformbrick_single: 0 0
+:geoo/abstract/cvblocks/000: 8 0
+:geoo/abstract/cvblocks/000: 16 0
+:geoo/abstract/cvblocks/000: 24 0
+:geoo/abstract/cvblocks/004: 32 0
+:geoo/abstract/cvblocks/000: 40 0
+:geoo/abstract/cvblocks/000: 48 0
+:geoo/abstract/cvblocks/000: 56 0
+:geoo/abstract/cvblocks/000: 64 0
+:geoo/abstract/cvblocks/004: 40 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:matt/marble/01: 0 8
+:matt/marble/01: 48 8
+:matt/marble/10: 32 0
+:matt/marble/01: 32 0 d
+:matt/marble/12: 16 0
+:matt/marble/01: 16 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-0: 0 0
+:Group-0: 0 40
+:matt/marble/thinplatform16p: 38 40 rd
+:Group-0: 0 80
+:matt/marble/thinplatform16p: 36 80 rd
+:matt/marble/thinplatform16p: 38 80 rd
+:Group-0: 0 120
+:matt/marble/thinplatform16p: 32 120 rd
+:matt/marble/thinplatform16p: 34 120 rd
+:matt/marble/thinplatform16p: 36 120 rd
+:matt/marble/thinplatform16p: 38 120 rd
+:Group-1: 8 160
+$END_TILE_GROUP
+:Group-2: 24 48
+:Group-2: 200 48
+:green-frisbee/cracker-teal: 208 -16 fr
+:green-frisbee/cracker-teal: 32 -16 r
+:geoo/construction/fence_rust_32x32: 296 56
+:geoo/construction/fence_rust_32x32: 296 88
+:geoo/construction/fence_rust_32x32: 296 24
+:geoo/construction/fence_rust_32x32: 296 152
+:geoo/construction/fence_rust_32x32: 296 120
+:geoo/construction/fence_rust_32x32: -24 56
+:geoo/construction/fence_rust_32x32: -24 88
+:geoo/construction/fence_rust_32x32: -24 24
+:geoo/construction/fence_rust_32x32: -24 152
+:geoo/construction/fence_rust_32x32: -24 120
+$BEGIN_TILE_GROUP 3
+:geoo/abstract/pipes/cshort1: 8 0
+:geoo/abstract/pipes/cshort1: 16 8 r
+:geoo/abstract/pipes/cshort1: 8 16 rr
+:geoo/abstract/pipes/cshort1: 0 8 rrr
+:geoo/abstract/pipes/link1: 16 0
+:geoo/abstract/pipes/link1: 16 0 rrr
+:geoo/abstract/pipes/link1: 16 16 r
+:geoo/abstract/pipes/link1: 16 16
+:geoo/abstract/pipes/corner1: 0 0 r
+:geoo/abstract/pipes/corner1: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/pipes/cshort1: 8 0
+:geoo/abstract/pipes/endr1: 16 0
+:geoo/abstract/pipes/corner1: 0 0 r
+:geoo/abstract/pipes/corner1: 0 16
+:geoo/abstract/pipes/cshort1: 8 16
+:geoo/abstract/pipes/endr1: 16 16
+:geoo/abstract/pipes/endr1: 8 8
+:geoo/abstract/pipes/junct1: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:geoo/abstract/pipes/cshort1: 8 0
+:geoo/abstract/pipes/endr1: 16 0
+:geoo/abstract/pipes/corner1: 0 0 r
+:geoo/abstract/pipes/endr1: 8 8
+:geoo/abstract/pipes/junct1: 0 8 r
+:geoo/abstract/pipes/endr1: 0 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:Group-5: 0 0
+:Group-4: 24 0
+:Group-4: 48 0
+:Group-3: 72 0
+$END_TILE_GROUP
+:Group-6: 200 216
+$BEGIN_TILE_GROUP 7
+:geoo/abstract/pipes/endr1: 16 0
+:geoo/abstract/pipes/endr1: 0 0 rr
+:geoo/abstract/pipes/junct1: 8 0 rr
+:geoo/abstract/pipes/cshort1: 8 8 r
+:geoo/abstract/pipes/endr1: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 8
+:geoo/abstract/pipes/endr1: 0 16 r
+:geoo/abstract/pipes/endr1: 0 0 rrr
+:geoo/abstract/pipes/junct1: 0 8 r
+:geoo/abstract/pipes/junct1: 16 8 rrr
+:geoo/abstract/pipes/endr1: 16 16 r
+:geoo/abstract/pipes/endr1: 16 0 rrr
+:geoo/abstract/pipes/cshort1: 8 8
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 9
+:Group-7: 0 0
+:Group-8: 24 0
+:Group-4: 48 0
+$END_TILE_GROUP
+:Group-9: 40 240
+$BEGIN_TILE_GROUP 10
+:geoo/abstract/pipes/cshort1: 0 8 r
+:geoo/abstract/pipes/endr1: 0 16 r
+:geoo/abstract/pipes/endr1: 0 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 11
+:geoo/abstract/pipes/endr1: 16 0 f
+:geoo/abstract/pipes/cshort1: 8 0 f
+:geoo/abstract/pipes/cshort1: 8 8 f
+:geoo/abstract/pipes/cshort1: 8 16 f
+:geoo/abstract/pipes/corner1: 16 8 fr
+:geoo/abstract/pipes/corner1: 0 0 f
+:geoo/abstract/pipes/corner1: 0 8 frrr
+:geoo/abstract/pipes/corner1: 16 16 frr
+:geoo/abstract/pipes/endr1: 0 16 frr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 12
+:Group-5: 0 0
+:Group-10: 24 0
+:Group-11: 32 0
+:Group-8: 56 0
+$END_TILE_GROUP
+:Group-12: 208 240
+$BEGIN_TILE_GROUP 13
+:geoo/abstract/pipes/endr1: 0 16 r
+:geoo/abstract/pipes/cshort1: 0 8 r
+:geoo/abstract/pipes/cshort1: 8 8 r
+:geoo/abstract/pipes/cshort1: 16 8 r
+:geoo/abstract/pipes/corner1: 8 16
+:geoo/abstract/pipes/corner1: 0 0 r
+:geoo/abstract/pipes/corner1: 8 0 rr
+:geoo/abstract/pipes/corner1: 16 16 rrr
+:geoo/abstract/pipes/endr1: 16 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 14
+:geoo/abstract/pipes/cshort1: 8 0
+:geoo/abstract/pipes/corner1: 0 0 r
+:geoo/abstract/pipes/cshort1: 16 8 r
+:geoo/abstract/pipes/corner1: 16 0 rr
+:geoo/abstract/pipes/cshort1: 8 16 rr
+:geoo/abstract/pipes/corner1: 16 16 rrr
+:geoo/abstract/pipes/cshort1: 0 8 rrr
+:geoo/abstract/pipes/corner1: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 15
+:Group-3: 0 0
+:Group-14: 24 0
+:Group-13: 48 0
+:Group-7: 80 0
+:geoo/abstract/pipes/link1: 72 0 rr
+$END_TILE_GROUP
+:Group-15: 8 216

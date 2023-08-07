@@ -1,0 +1,61 @@
+$BUILT 2023-02-27 22:02:06
+$AUTHOR Green Frisbee
+$ENGLISH Decompression Chamber
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 320
+#SIZE_Y 288
+#TORUS_X 1
+#TORUS_Y 0
+#BACKGROUND_RED 152
+#BACKGROUND_GREEN 114
+#BACKGROUND_BLUE 73
+
+#INITIAL 15
+#REQUIRED 10
+#SPAWN_INTERVAL 32
+
+#DIGGER 15
+#JUMPER 15
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 144 0
+
+:green-frisbee/house2.G: 16 232
+:green-frisbee/house2.G: 80 232
+:green-frisbee/house2.G: 144 232
+:green-frisbee/house2.G: 208 232
+:green-frisbee/house2.G: 272 232
+
+:green-frisbee/mandatory-le-10velocity.w24px: 184 40
+:raymanni/holiday/bauble_string: 0 248 rr
+:raymanni/holiday/bauble_string: 16 264 r
+:raymanni/holiday/bauble_string: 32 248 f
+:raymanni/holiday/bauble_string: 64 248 rr
+:raymanni/holiday/bauble_string: 80 264 r
+:raymanni/holiday/bauble_string: 96 248 f
+:raymanni/holiday/bauble_string: 128 248 rr
+:raymanni/holiday/bauble_string: 144 264 r
+:raymanni/holiday/bauble_string: 160 248 f
+:raymanni/holiday/bauble_string: 192 248 rr
+:raymanni/holiday/bauble_string: 208 264 r
+:raymanni/holiday/bauble_string: 224 248 f
+:raymanni/holiday/bauble_string: 256 248 rr
+:raymanni/holiday/bauble_string: 272 264 r
+:raymanni/holiday/bauble_string: 288 248 f
+$BEGIN_TILE_GROUP 0
+:matt/marble/thinplatform128p: 0 0
+:matt/marble/thinplatform128p: 0 1 d
+$END_TILE_GROUP
+:Group-0: 0 152
+:Group-0: 128 152
+$BEGIN_TILE_GROUP 1
+:matt/marble/thinplatform64p: 0 0
+:matt/marble/thinplatform64p: 0 1 d
+$END_TILE_GROUP
+:Group-1: 256 152
+:geoo/construction/platform.S: 144 64
+:amanda/steel/steel24x8.S: 176 40 fr
+:amanda/steel/steel24x8.S: 136 40 r
+:amanda/steel/steel24x8.S: 136 16 r
+:green-frisbee/cracker-green: 136 -63 rr

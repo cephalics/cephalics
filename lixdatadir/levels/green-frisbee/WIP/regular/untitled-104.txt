@@ -1,0 +1,109 @@
+$BUILT 2023-03-12 06:50:49
+$AUTHOR Green Frisbee
+$ENGLISH Untitled #104
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 480
+#SIZE_Y 216
+#BACKGROUND_RED 109
+#BACKGROUND_GREEN 174
+#BACKGROUND_BLUE 16
+
+#INITIAL 40
+#REQUIRED 35
+#SPAWN_INTERVAL 32
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:green-frisbee/spinny-advent2-R.H: 32 88
+
+:geoo/abstract/goal.G: 192 8
+
+:matt/water.W: 392 190
+:matt/water.W: 360 190
+:matt/water.W: 456 190
+:matt/water.W: 424 190
+
+:geoo/construction/spring_fast.T: 112 152
+
+:geoo/abstract/tbeam_left.T: 80 24
+:geoo/abstract/tbeam_left.T: 48 24
+:geoo/abstract/tbeam_down.T: 0 56
+:geoo/abstract/tbeam_down.T: 0 88
+:geoo/abstract/tbeam_down.T: 0 120
+:geoo/abstract/tbeam_right.T: 0 168
+:geoo/abstract/tbeam_right.T: 32 152
+:geoo/abstract/tbeam_right.T: 64 152
+:geoo/abstract/tbeam_right.T: 80 152
+:geoo/abstract/tbeam_right.T: 48 152
+
+:green-frisbee/cracker-teal: 440 184
+$BEGIN_TILE_GROUP 0
+:simon/tapir/016h: 0 0
+:simon/tapir/016h: 16 16
+:simon/tapir/016h: 32 0
+:simon/tapir/016h: 48 16
+$END_TILE_GROUP
+:Group-0: 32 120
+:simon/tapir/016: 32 136
+:simon/tapir/016h: 336 120
+:simon/tapir/016h: 352 136
+:Group-0: 32 56
+:simon/tapir/016: 208 56
+:Group-0: 144 56
+:Group-0: 160 184
+:Group-0: 224 184
+:Group-0: 288 184
+:simon/tapir/016: 32 200
+:Group-0: 32 184
+:Group-0: 96 184
+$BEGIN_TILE_GROUP 1
+:matt/bricks/17: 0 16
+:matt/bricks/17: 16 0
+$END_TILE_GROUP
+:Group-1: 384 56
+:Group-0: 272 120
+:simon/tapir/016: 368 120
+:simon/tapir/016: 464 40
+:Group-0: 144 120
+:Group-0: 208 120
+$BEGIN_TILE_GROUP 2
+:geoo/construction/platformbrick: 32 0
+:geoo/construction/platformbrick: 0 0
+$END_TILE_GROUP
+:Group-2: 384 56
+$BEGIN_TILE_GROUP 3
+:geoo/construction/platformbrick_single: 8 0
+:geoo/construction/platformbrick_single: 0 0
+$END_TILE_GROUP
+:Group-3: 336 56
+:geoo/construction/platformbrick: 352 56
+:simon/tapir/016: 32 72
+:simon/tapir/008h: 96 64
+:simon/tapir/008h: 96 128
+:simon/tapir/008h: 384 128
+:simon/tapir/016d: 384 136
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/cvblocks/013: 0 16
+:geoo/abstract/cvblocks/014: 8 16
+:geoo/abstract/cvblocks/010: 4 0
+$END_TILE_GROUP
+:Group-4: 332 0
+:matt/goldmine/tracks: 368 208
+:matt/goldmine/minecart: 376 168
+:matt/goldmine/crate16: 352 184
+:matt/goldmine/shovel: 416 184
+:matt/goldmine/pickaxe: 376 184

@@ -1,0 +1,69 @@
+$BUILT 2023-04-01 20:10:37
+$AUTHOR Green Frisbee
+$ENGLISH Fallacious
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 168
+#SIZE_Y 160
+#BACKGROUND_RED 36
+#BACKGROUND_GREEN 36
+#BACKGROUND_BLUE 109
+
+#INITIAL 42
+#REQUIRED 42
+#SPAWN_INTERVAL 32
+
+#FLOATER 1
+#EXPLODER2 0
+
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 8 0
+:matt/marble/Hatch.H: 96 0
+
+:matt/marble/Goal.G: 8 104
+:matt/marble/Goal.G: 97 105
+
+:matt/marble/thinplatform64p: 8 152
+:matt/marble/thinplatform64p: 97 153
+:raymanni/toys/cracker: 60 30
+:raymanni/toys/cracker: 60 94 f

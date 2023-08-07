@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg8" width="83.372mm" height="83.372mm" version="1.1" viewBox="0 0 83.372 83.372" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata id="metadata5">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(-.00041733 -213.63)">
+  <rect id="rect815" transform="rotate(-45)" x="-181.06" y="180.01" width="60" height="60" rx="3.001" ry="3.001" style="paint-order:stroke fill markers"/>
+  <rect id="rect817" transform="rotate(-45)" x="-179.56" y="181.51" width="57" height="57" rx="1.5" ry="1.5" fill="#fad20a" style="paint-order:stroke fill markers"/>
+  <path id="path831" d="m48.886 246.91v26.4h7.2v-26.4h5.4l-9-9.6-9 9.6"/>
+  <path id="path853" d="m34.486 263.71v-26.4h-7.2v26.4h-5.4l9 9.6 9-9.6"/>
+ </g>
+</svg>

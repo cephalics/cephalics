@@ -1,0 +1,157 @@
+$BUILT 2023-02-04 05:38:04
+$AUTHOR Green Frisbee
+$ENGLISH One for both, and both for one
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 592
+#SIZE_Y 272
+#BACKGROUND_RED 192
+#BACKGROUND_GREEN 224
+#BACKGROUND_BLUE 255
+
+#INITIAL 2
+#REQUIRED 2
+#SPAWN_INTERVAL 32
+
+#CLIMBER 2
+#MINER 1
+#DIGGER 1
+#JUMPER -1
+#EXPLODER2 0
+
+:raymanni/toys/hatch.H: -16 0
+:raymanni/toys/hatch.H: 512 160
+
+:raymanni/lab/goal.G: 32 0
+:raymanni/lab/goal.G: 88 0
+:raymanni/lab/goal.G: 144 0
+:raymanni/lab/goal.G: 200 0
+:raymanni/lab/goal.G: 256 0
+:raymanni/lab/goal.G: 368 0
+:raymanni/lab/goal.G: 312 0
+
+:geoo/construction/Laser_hz_64.F: 448 250
+:geoo/construction/Laser_hz_64.F: 384 250
+:geoo/construction/Laser_hz_64.F: 320 250
+:geoo/construction/Laser_hz_64.F: 256 250
+:geoo/construction/Laser_hz_64.F: 192 250
+:geoo/construction/Laser_hz_64.F: 128 250
+:geoo/construction/Laser_hz_64.F: 64 250
+:geoo/construction/Laser_hz_64.F: 0 250
+
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/juncx0: 0 0
+:geoo/abstract/pipes/juncx1: 8 0
+:geoo/abstract/pipes/juncx2: 16 0
+:geoo/abstract/pipes/juncx3: 24 0
+:geoo/abstract/pipes/juncx4: 32 0
+:geoo/abstract/pipes/juncx5: 40 0
+:geoo/abstract/pipes/juncx6: 48 0
+:geoo/abstract/pipes/juncx7: 56 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 64 0
+:Group-0: 128 0
+:Group-0: 192 0
+:Group-0: 256 0
+:Group-0: 320 0
+:Group-0: 384 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:geoo/abstract/pipes/central7: 512 32 r
+:geoo/abstract/pipes/central7: 512 0 r
+:Group-0: 0 0
+:Group-1: 64 0
+:Group-1: 8 8
+:Group-1: 16 16
+:Group-1: 24 24
+:Group-1: 32 32
+:Group-1: 40 40
+:Group-1: 48 48
+:Group-1: 56 56
+:geoo/abstract/pipes/juncx0: 456 8
+:geoo/abstract/pipes/juncx1: 464 8
+:geoo/abstract/pipes/juncx2: 472 8
+:geoo/abstract/pipes/juncx3: 480 8
+:geoo/abstract/pipes/juncx4: 488 8
+:geoo/abstract/pipes/juncx5: 496 8
+:geoo/abstract/pipes/juncx6: 504 8
+:geoo/abstract/pipes/juncx7: 0 8
+:geoo/abstract/pipes/juncx0: 464 16
+:geoo/abstract/pipes/juncx1: 472 16
+:geoo/abstract/pipes/juncx2: 480 16
+:geoo/abstract/pipes/juncx3: 488 16
+:geoo/abstract/pipes/juncx4: 496 16
+:geoo/abstract/pipes/juncx5: 504 16
+:geoo/abstract/pipes/juncx0: 472 24
+:geoo/abstract/pipes/juncx1: 480 24
+:geoo/abstract/pipes/juncx2: 488 24
+:geoo/abstract/pipes/juncx3: 496 24
+:geoo/abstract/pipes/juncx4: 504 24
+:geoo/abstract/pipes/juncx0: 480 32
+:geoo/abstract/pipes/juncx1: 488 32
+:geoo/abstract/pipes/juncx2: 496 32
+:geoo/abstract/pipes/juncx3: 504 32
+:geoo/abstract/pipes/juncx0: 488 40
+:geoo/abstract/pipes/juncx1: 496 40
+:geoo/abstract/pipes/juncx2: 504 40
+:geoo/abstract/pipes/juncx0: 496 48
+:geoo/abstract/pipes/juncx1: 504 48
+:geoo/abstract/pipes/juncx0: 504 56
+:geoo/abstract/pipes/junct7: 512 0 rrr
+:geoo/abstract/pipes/juncx6: 0 16
+:geoo/abstract/pipes/juncx5: 0 24
+:geoo/abstract/pipes/juncx4: 0 32
+:geoo/abstract/pipes/juncx3: 0 40
+:geoo/abstract/pipes/juncx2: 0 48
+:geoo/abstract/pipes/juncx1: 0 56
+:geoo/abstract/pipes/juncx6: 8 24
+:geoo/abstract/pipes/juncx5: 8 32
+:geoo/abstract/pipes/juncx4: 8 40
+:geoo/abstract/pipes/juncx3: 8 48
+:geoo/abstract/pipes/juncx2: 8 56
+:geoo/abstract/pipes/juncx7: 8 16
+:geoo/abstract/pipes/juncx6: 16 32
+:geoo/abstract/pipes/juncx5: 16 40
+:geoo/abstract/pipes/juncx4: 16 48
+:geoo/abstract/pipes/juncx3: 16 56
+:geoo/abstract/pipes/juncx7: 16 24
+:geoo/abstract/pipes/juncx6: 24 40
+:geoo/abstract/pipes/juncx5: 24 48
+:geoo/abstract/pipes/juncx4: 24 56
+:geoo/abstract/pipes/juncx7: 24 32
+:geoo/abstract/pipes/juncx6: 32 48
+:geoo/abstract/pipes/juncx5: 32 56
+:geoo/abstract/pipes/juncx7: 32 40
+:geoo/abstract/pipes/juncx6: 40 56
+:geoo/abstract/pipes/juncx7: 40 48
+:geoo/abstract/pipes/juncx7: 48 56
+$END_TILE_GROUP
+:Group-2: 0 128
+:Group-2: 0 64
+:Group-2: 0 192
+:geoo/abstract/pipes/corner7: 512 248 rrr
+$BEGIN_TILE_GROUP 3
+:geoo/steel/32x16o.S: 0 0
+:geoo/steel/32x16o.S: 32 0
+$END_TILE_GROUP
+:Group-3: 512 256
+:Group-3: 576 192 rrr
+:raymanni/toys/cracker: 560 128
+:matt/carnival/balloons: 568 -104
+:geoo/abstract/pipes/junct7: 512 112 rrrd
+$BEGIN_TILE_GROUP 4
+:geoo/construction/platform.S: 0 0
+:geoo/construction/platform.S: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:Group-4: 0 0
+:Group-4: 64 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:Group-4: 0 0 r
+:Group-5: 0 64 r
+$END_TILE_GROUP
+:Group-6: 447 64
+:geoo/abstract/pipes/junct7: 504 112 rrrd

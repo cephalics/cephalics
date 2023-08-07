@@ -1,0 +1,120 @@
+$BUILT 2023-03-29 22:59:34
+$AUTHOR Green Frisbee (idea: Brown Bear)
+$ENGLISH A maze of twisty little passages, all alike
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 400
+#SIZE_Y 176
+#BACKGROUND_RED 87
+#BACKGROUND_GREEN 226
+#BACKGROUND_BLUE 161
+
+#INITIAL 1
+#REQUIRED 1
+#SPAWN_INTERVAL 32
+
+#WALKER -1
+#FLOATER 1
+#BUILDER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 8 72
+
+:raymanni/lab/goal.G: 352 104
+
+$BEGIN_TILE_GROUP 0
+:green-frisbee/32x8: 0 0 r
+:green-frisbee/32x2.S: 0 0 r
+$END_TILE_GROUP
+:Group-0: 208 136
+:green-frisbee/32x8: 104 136 r
+:green-frisbee/8x8: 104 168
+:green-frisbee/8x8: 208 168
+:green-frisbee/8x8: 248 128
+:Group-0: 248 96
+:green-frisbee/32x8: 176 112
+:green-frisbee/32x8: 216 128
+:green-frisbee/32x8: 112 88
+:green-frisbee/32x8: 48 64
+:green-frisbee/8x8: 40 64 frr
+:Group-0: 40 32 frr
+$BEGIN_TILE_GROUP 1
+:green-frisbee/32x8: 0 0
+:green-frisbee/32x8: 32 0
+:green-frisbee/32x8: 64 0
+$END_TILE_GROUP
+:Group-1: 8 168
+:Group-1: 112 168
+:green-frisbee/8x8: 112 40
+:green-frisbee/8x8: 128 24
+:green-frisbee/8x8: 144 24
+:green-frisbee/8x8: 168 40
+:green-frisbee/8x8: 200 40
+:green-frisbee/8x8: 160 40
+:green-frisbee/8x8: 176 24
+:green-frisbee/8x8: 192 24
+:green-frisbee/8x8: 176 32
+:green-frisbee/8x8: 184 24
+:green-frisbee/8x8: 192 32
+:green-frisbee/8x8: 208 40
+:green-frisbee/8x8: 224 24
+:green-frisbee/8x8: 240 40
+:green-frisbee/8x8: 232 16
+:Group-0: 248 136 frr
+:Group-0: 272 136
+:Group-0: 248 168 r
+:green-frisbee/32x8: 368 168
+$BEGIN_TILE_GROUP 2
+:green-frisbee/32x2.S: 0 32 r
+:green-frisbee/32x2.S: 0 0 r
+$END_TILE_GROUP
+:Group-2: 368 104
+:Group-2: 368 40
+:green-frisbee/32x2.S: 368 24 r
+:green-frisbee/32x2.S: 40 72 r
+:green-frisbee/32x2.S: 40 104
+:green-frisbee/32x2.S: 72 104
+:green-frisbee/32x2.S: 80 104
+$BEGIN_TILE_GROUP 3
+:green-frisbee/8x8: 0 0
+:green-frisbee/8x8: 0 8
+:green-frisbee/8x8: 0 16
+$END_TILE_GROUP
+:Group-3: 288 40
+:Group-3: 304 40
+:Group-3: 320 40
+:green-frisbee/8x8: 296 48
+:Group-3: 336 40
+$BEGIN_TILE_GROUP 4
+:green-frisbee/8x8: 0 6
+:green-frisbee/8x8: 0 0 d
+:green-frisbee/8x8: 0 12 d
+$END_TILE_GROUP
+:Group-4: 336 54 d
+:green-frisbee/cracker-advent: 280 112
+:green-frisbee/cracker-advent: 312 112
+:green-frisbee/cracker-advent: 296 70
+:green-frisbee/32x8: 8 136 r
+:green-frisbee/32x8: 8 144 rd
+:green-frisbee/8x8: 128 32
+:green-frisbee/8x8: 144 32
+:green-frisbee/8x8: 136 24
+:green-frisbee/8x8: 136 32
+:green-frisbee/8x8: 120 40
+:green-frisbee/8x8: 152 40
+:green-frisbee/8x8: 128 40
+:green-frisbee/8x8: 144 40
+:green-frisbee/8x8: 136 40
+$BEGIN_TILE_GROUP 5
+:green-frisbee/32x2.S: 0 0 r
+:green-frisbee/32x2.S: 0 16 rd
+$END_TILE_GROUP
+:Group-5: 280 24
+:Group-1: 280 16
+:green-frisbee/8x8: 216 32
+:green-frisbee/8x8: 248 32
+:green-frisbee/8x8: 184 32
+:green-frisbee/warning-fall-straight-ahead: -8 104 frr

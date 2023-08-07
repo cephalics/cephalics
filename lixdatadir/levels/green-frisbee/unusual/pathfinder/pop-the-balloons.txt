@@ -1,0 +1,173 @@
+$BUILT 2023-01-13 18:44:38
+$AUTHOR Green Frisbee
+$ENGLISH Pop The Balloons
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 560
+#SIZE_Y 528
+#BACKGROUND_RED 80
+#BACKGROUND_GREEN 32
+#BACKGROUND_BLUE 176
+
+#INITIAL 20
+#REQUIRED 19
+#SPAWN_INTERVAL 32
+
+#WALKER 4
+#RUNNER -1
+#BLOCKER 2
+#PLATFORMER 2
+#MINER 1
+#DIGGER 1
+#JUMPER -1
+#EXPLODER2 0
+
+:geoo/sandstone/fennec.H: 168 24 r
+
+:amanda/forest/exit_tent.G: 48 400
+:amanda/forest/exit_tent.G: 240 400
+
+$BEGIN_TILE_GROUP 0
+:amanda/forest/bark_00: 28 0
+:amanda/forest/bark_04: 0 62
+$END_TILE_GROUP
+:Group-0: 288 448 frr
+:Group-0: 0 448
+$BEGIN_TILE_GROUP 1
+:matt/carnival/27a: 0 0
+:matt/carnival/27a: 64 0 frr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 64
+:Group-1: 0 0 f
+$END_TILE_GROUP
+:Group-2: 64 280
+:Group-2: 192 280
+:geoo/steel/64x32o.S: 64 496
+:geoo/steel/64x32o.S: 256 496
+:Group-2: 64 152
+:Group-2: 192 152
+$BEGIN_TILE_GROUP 3
+:matt/bricks/17: 0 0 frr
+:matt/bricks/17: 64 56
+$END_TILE_GROUP
+:Group-3: 384 152
+:Group-3: 384 264
+:Group-3: 384 376
+$BEGIN_TILE_GROUP 4
+:simon/tapir/032va: 0 0
+:simon/tapir/032vb: 32 0
+$END_TILE_GROUP
+:Group-4: 256 152
+:simon/tapir/016v: 280 216
+:simon/tapir/016v: 280 248
+$BEGIN_TILE_GROUP 5
+:raymanni/toys/cracker: 0 98 r
+:matt/carnival/balloons: 0 0
+$END_TILE_GROUP
+:Group-5: 64 275 frr
+$BEGIN_TILE_GROUP 6
+:geoo/construction/platform.S: 0 0
+:geoo/construction/platform.S: 32 0
+$END_TILE_GROUP
+:Group-6: 64 408
+:Group-6: 128 408
+:Group-6: 192 408
+:Group-6: 256 408
+$BEGIN_TILE_GROUP 7
+:geoo/abstract/pipes/ends3: 0 16 rrr
+:geoo/abstract/pipes/cshort3: 8 8 rrr
+:geoo/abstract/pipes/corner3: 0 0 f
+:geoo/abstract/pipes/cshort3: 0 8 r
+:geoo/abstract/pipes/corner3: 8 0 fr
+:geoo/abstract/pipes/ends3: 16 0 r
+:geoo/abstract/pipes/corner3: 16 16 frr
+:geoo/abstract/pipes/cshort3: 16 8 rrr
+:geoo/abstract/pipes/corner3: 8 16 frrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 8
+:geoo/abstract/pipes/corner3: 0 16
+:geoo/abstract/pipes/cshort3: 0 8 r
+:geoo/abstract/pipes/ends3: 0 0 r
+:geoo/abstract/pipes/cshort3: 8 16 rr
+:geoo/abstract/pipes/corner3: 16 16 frr
+:geoo/abstract/pipes/cshort3: 16 8 fr
+:geoo/abstract/pipes/ends3: 16 0 fr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 9
+:geoo/abstract/pipes/endr3: 16 0
+:geoo/abstract/pipes/cshort3: 8 0 rr
+:geoo/abstract/pipes/corner3: 0 0 r
+:geoo/abstract/pipes/cshort3: 8 8 rr
+:geoo/abstract/pipes/cshort3: 8 16 rr
+:geoo/abstract/pipes/endr3: 16 16
+:geoo/abstract/pipes/endr3: 16 8
+:geoo/abstract/pipes/corner3: 0 16
+:geoo/abstract/pipes/junct3: 0 8 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 10
+:geoo/abstract/pipes/corner3: 0 0 r
+:geoo/abstract/pipes/cshort3: 0 8 r
+:geoo/abstract/pipes/corner3: 0 16
+:geoo/abstract/pipes/cshort3: 8 16
+:geoo/abstract/pipes/corner3: 16 16 rrr
+:geoo/abstract/pipes/cshort3: 16 8 rrr
+:geoo/abstract/pipes/corner3: 16 0 rr
+:geoo/abstract/pipes/cshort3: 8 0 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 11
+:geoo/abstract/pipes/endr3: 8 16 r
+:geoo/abstract/pipes/cshort3: 8 8 rrr
+:geoo/abstract/pipes/junct3: 8 0 rr
+:geoo/abstract/pipes/endr3: 16 0
+:geoo/abstract/pipes/endr3: 0 0 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 12
+:geoo/abstract/pipes/endr3: 0 0 rr
+:geoo/abstract/pipes/corner3: 0 16
+:geoo/abstract/pipes/cshort3: 8 16
+:geoo/abstract/pipes/corner3: 16 16 rrr
+:geoo/abstract/pipes/corner3: 16 0 rr
+:geoo/abstract/pipes/cshort3: 8 0 rr
+:geoo/abstract/pipes/corner3: 0 8 r
+:geoo/abstract/pipes/cshort3: 8 8
+:geoo/abstract/pipes/junct3: 16 8 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 13
+:geoo/abstract/pipes/endr3: 0 0 rr
+:geoo/abstract/pipes/endr3: 16 0
+:geoo/abstract/pipes/cshort3: 8 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 14
+:geoo/abstract/pipes/endr3: 0 16 r
+:geoo/abstract/pipes/corner3: 0 0 r
+:geoo/abstract/pipes/junct3: 0 8 r
+:geoo/abstract/pipes/junct3: 8 8 rrr
+:geoo/abstract/pipes/corner3: 8 0 rr
+:geoo/abstract/pipes/link3: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 15
+:geoo/abstract/pipes/endr3: 16 0
+:geoo/abstract/pipes/cshort3: 8 0 rr
+:geoo/abstract/pipes/corner3: 0 0 r
+:geoo/abstract/pipes/endr3: 0 16 rr
+:geoo/abstract/pipes/cshort3: 8 16
+:geoo/abstract/pipes/corner3: 16 16 rrr
+:geoo/abstract/pipes/cshort3: 8 8 rr
+:geoo/abstract/pipes/corner3: 0 8
+:geoo/abstract/pipes/corner3: 16 8 fr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 16
+:Group-15: 32 0
+:Group-8: 0 0
+:Group-9: 64 0
+:Group-10: 136 0
+:Group-15: 0 32
+:Group-11: 32 32
+:Group-12: 64 32
+:Group-13: 96 32 r
+:Group-15: 136 32
+:Group-14: 112 32
+:Group-7: 104 0
+$END_TILE_GROUP
+:Group-16: 8 20

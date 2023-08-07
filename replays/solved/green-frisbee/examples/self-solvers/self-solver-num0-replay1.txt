@@ -1,0 +1,6 @@
+$FILENAME green-frisbee/examples/self-solvers/self-solver-num0.txt
+$LEVEL_BUILT_REQUIRED 2023-02-07 22:46:49
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+

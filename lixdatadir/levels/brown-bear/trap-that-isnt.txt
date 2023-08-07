@@ -1,0 +1,35 @@
+$BUILT 2023-03-25 20:15:37
+$AUTHOR Brown Bear
+$ENGLISH The Level of the Trap That Isn't Really A Trap
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 160
+#TORUS_X 1
+#TORUS_Y 1
+#BACKGROUND_RED 255
+#BACKGROUND_GREEN 0
+#BACKGROUND_BLUE 153
+
+#INITIAL 20
+#REQUIRED 20
+#SPAWN_INTERVAL 32
+
+#EXPLODER2 0
+
+:matt/marble/Hatch.H: 240 8
+
+:amanda/forest/exit.G: 0 24
+
+:geoo/abstract/tbeam_left.T: 320 88
+
+$BEGIN_TILE_GROUP 0
+:matt/carnival/balloons: 80 0 r
+:matt/carnival/balloons: 0 0 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 160 0
+:Group-0: 0 0
+$END_TILE_GROUP
+:Group-1: 448 120
+:Group-1: 128 120

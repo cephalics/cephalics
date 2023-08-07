@@ -1,0 +1,60 @@
+$BUILT 2023-04-07 21:35:24
+$AUTHOR Green Frisbee
+$ENGLISH Wrong Way
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 392
+#SIZE_Y 192
+#BACKGROUND_RED 163
+#BACKGROUND_GREEN 172
+#BACKGROUND_BLUE 187
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 20
+
+#CLIMBER 2
+#BUILDER 1
+#PLATFORMER 1
+#BASHER 1
+#JUMPER 2
+#BATTER 1
+#EXPLODER2 0
+
+:green-frisbee/spinny-advent2-R.H: 32 128
+
+:green-frisbee/goal-59circles.G: 0 128
+
+:matt/carnival/04: 328 32 r
+:geoo/construction/stairsbrick_rd_32: 128 128
+:matt/carnival/28: 128 80 r
+:matt/carnival/28: 128 80 rr
+:matt/carnival/46: 168 48
+:matt/carnival/00: 0 160
+:matt/carnival/00: 32 160
+:matt/carnival/00: 64 160
+:matt/carnival/00: 192 160
+:matt/carnival/00: 224 160
+:matt/carnival/00: 256 160
+:matt/carnival/28: 288 96 r
+:matt/carnival/28: 288 96 rr
+:geoo/construction/stairsbrick_rd_32: 32 32 frr
+:simon/tapir/016: 376 16
+:raymanni/toys/cracker: 296 112
+:raymanni/toys/cracker: 328 112
+:raymanni/toys/cracker: 360 112
+:simon/tapir/016d: 328 34 d
+:matt/carnival/04: 328 64 r
+:simon/tapir/016: 376 0
+$BEGIN_TILE_GROUP 0
+:geoo/construction/platformbrick: 32 0
+:geoo/construction/platformbrick: 0 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 160 0
+:Group-0: 96 0
+:Group-0: 32 0
+:geoo/construction/platformbrick: 0 0
+$END_TILE_GROUP
+:Group-1: 104 32
+:Group-1: 104 0

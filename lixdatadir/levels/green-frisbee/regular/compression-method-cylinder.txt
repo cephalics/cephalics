@@ -1,0 +1,50 @@
+$BUILT 2023-01-02 08:09:48
+$AUTHOR Green Frisbee
+$ENGLISH Compression Method Cylinder
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 416
+#SIZE_Y 160
+#TORUS_X 0
+#TORUS_Y 1
+#BACKGROUND_RED 112
+#BACKGROUND_GREEN 96
+#BACKGROUND_BLUE 255
+
+#INITIAL 60
+#REQUIRED 59
+#SPAWN_INTERVAL 20
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:matt/underworld/Hatch.H: 168 16
+:matt/underworld/Hatch.H: 176 16
+:matt/underworld/Hatch.H: 184 16
+:matt/underworld/Hatch.H: 168 16 r
+:matt/underworld/Hatch.H: 176 16 r
+:matt/underworld/Hatch.H: 184 16 r
+
+:matt/underworld/Goal.G: 272 44
+:matt/underworld/Goal.G: 80 44
+
+:matt/underworld/01: 16 112
+:matt/underworld/01: 80 112
+:matt/underworld/01: 272 112
+:matt/underworld/01: 336 112
+:matt/underworld/02: 16 16
+:matt/underworld/02: 336 16
+:green-frisbee/cracker-greyscale: 344 48
+:green-frisbee/cracker-greyscale: 24 48

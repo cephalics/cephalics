@@ -1,0 +1,71 @@
+$BUILT 2023-04-08 18:38:43
+$AUTHOR Green Frisbee
+$ENGLISH It's also too high up
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 256
+#SIZE_Y 208
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 255
+#BACKGROUND_BLUE 208
+
+#INITIAL 999
+#REQUIRED 2
+#SPAWN_INTERVAL 1
+
+#WALKER 2
+#RUNNER 2
+#CLIMBER 2
+#FLOATER 2
+#EXPLODER2 2
+#BLOCKER 2
+#BUILDER 2
+#PLATFORMER 2
+#BASHER 2
+#MINER 2
+#DIGGER 2
+#JUMPER 2
+#BATTER 2
+#CUBER 2
+
+:raymanni/lab/hatch.H: 64 86
+:raymanni/lab/hatch.H: 160 86 r
+
+:raymanni/lab/goal.G: 144 14
+:raymanni/lab/goal.G: 50 12
+
+:geoo/construction/spring.T: 62 6
+:geoo/construction/spring.T: 82 6
+:geoo/construction/spring.T: 102 6
+:geoo/construction/spring.T: 122 6
+:geoo/construction/spring.T: 142 6
+:geoo/construction/spring.T: 162 6
+:geoo/construction/spring_fast.T: 56 168
+:geoo/construction/spring_fast.T: 72 168
+:geoo/construction/spring_fast.T: 88 168
+:geoo/construction/spring_fast.T: 104 168
+:geoo/construction/spring_fast.T: 120 168
+:geoo/construction/spring_fast.T: 136 168
+:geoo/construction/spring_fast.T: 152 168
+:geoo/construction/spring_fast.T: 168 168
+
+:raymanni/lab/launcher_right.T: 32 38
+:raymanni/lab/launcher_right.T: 32 70
+:raymanni/lab/launcher_right.T: 32 102
+:raymanni/lab/launcher_right.T: 32 134
+:raymanni/lab/launcher_left.T: 192 134
+:raymanni/lab/launcher_left.T: 192 102
+:raymanni/lab/launcher_left.T: 192 70
+:raymanni/lab/launcher_left.T: 192 38
+
+:matt/marble/thinplatform128p: 64 166
+:matt/marble/thinplatform128p: 64 38 r
+:matt/marble/thinplatform128p: 190 40 fr
+:matt/marble/thinplatform16p: 66 76
+:matt/marble/thinplatform16p: 82 76
+:matt/marble/thinplatform16p: 174 78 frr
+:matt/marble/thinplatform16p: 158 78 frr
+:raymanni/toys/cracker: 184 166
+:raymanni/toys/cracker: 24 166 frr
+:green-frisbee/first-time-solvable: 0 0
+:green-frisbee/first-time-solvable: 224 0

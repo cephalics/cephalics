@@ -1,0 +1,87 @@
+$BUILT 2023-04-22 17:52:19
+$AUTHOR Green Frisbee
+$ENGLISH Don't Feed the Fish
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1168
+#SIZE_Y 344
+#BACKGROUND_RED 204
+#BACKGROUND_GREEN 148
+#BACKGROUND_BLUE 63
+
+#INITIAL 20
+#REQUIRED 16
+#SPAWN_INTERVAL 32
+
+#FLOATER -1
+#EXPLODER2 0
+
+:geoo/abstract/hatch.H: 0 32
+
+:raymanni/gore/goal.G: 236 262
+:raymanni/gore/goal.G: 388 262
+:raymanni/gore/goal.G: 540 262
+:raymanni/gore/goal.G: 692 262
+:raymanni/gore/goal.G: 844 262
+:raymanni/gore/goal.G: 996 262
+:green-frisbee/infosign-exit.G: 176 246
+
+:raymanni/gore/eater.T: 312 264
+:raymanni/gore/eater.T: 464 264
+:raymanni/gore/eater.T: 616 264
+:raymanni/gore/eater.T: 768 264
+:raymanni/gore/eater.T: 920 264
+:raymanni/gore/eater.T: 1072 264
+:raymanni/gore/eater.T: 160 262
+
+:raymanni/lab/launcher_right.T: 32 32
+:geoo/abstract/tbeam_left.T: 364 246
+:geoo/abstract/tbeam_right.T: 292 246
+:geoo/abstract/tbeam_left.T: 516 246
+:geoo/abstract/tbeam_right.T: 444 246
+:geoo/abstract/tbeam_left.T: 668 246
+:geoo/abstract/tbeam_right.T: 596 246
+:geoo/abstract/tbeam_left.T: 820 246
+:geoo/abstract/tbeam_right.T: 748 246
+:geoo/abstract/tbeam_left.T: 972 246
+:geoo/abstract/tbeam_right.T: 900 246
+:geoo/abstract/tbeam_left.T: 1124 246
+:geoo/abstract/tbeam_right.T: 1052 246
+:geoo/abstract/tbeam_left.T: 212 246
+:geoo/abstract/tbeam_right.T: 140 246
+
+:matt/goldmine/plank: 0 64
+:simon/oriental/gate: 128 278 rr
+:simon/oriental/gate: 280 278 rr
+:simon/oriental/gate: 356 278 rr
+:simon/oriental/gate: 432 278 rr
+:simon/oriental/gate: 508 278 rr
+:simon/oriental/gate: 584 278 rr
+:simon/oriental/gate: 660 278 rr
+:simon/oriental/gate: 736 278 rr
+:simon/oriental/gate: 812 278 rr
+:simon/oriental/gate: 888 278 rr
+:simon/oriental/gate: 964 278 rr
+:simon/oriental/gate: 1040 278 rr
+$BEGIN_TILE_GROUP 0
+:matt/goldmine/pickaxe: 0 0 rrr
+:matt/marble/13: 0 0
+$END_TILE_GROUP
+:Group-0: 446 138
+$BEGIN_TILE_GROUP 1
+:matt/goldmine/pickaxe: 0 0 r
+:matt/marble/12: 0 0
+$END_TILE_GROUP
+:Group-1: 474 110
+:simon/oriental/gate: 204 278 rr
+:raymanni/gore/bone_5: 128 262
+:raymanni/gore/bone_5: 192 262 frr
+:raymanni/toys/soldier_2: 136 200 r
+$BEGIN_TILE_GROUP 2
+:raymanni/toys/brick_3: 0 48 r
+:raymanni/toys/brick_6: 0 48 rrd
+:raymanni/toys/chalk_4: 32 16
+:raymanni/toys/brick_14: 32 0
+$END_TILE_GROUP
+:Group-2: 96 158
+:green-frisbee/cracker-teal: 80 142

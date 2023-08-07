@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg1299" width="31.965mm" height="47.948mm" version="1.1" viewBox="0 0 31.965 47.948" xmlns="http://www.w3.org/2000/svg">
+ <g id="layer1" transform="translate(-272.01 -71.888)">
+  <g id="ruler_px-to-mm" display="none">
+   <rect id="rect10347" x="303.98" y="71.888" width="32" height="32"/>
+   <text id="text10360" x="302.97922" y="91.740578" fill="#000000" font-family="sans-serif" font-size="10.583px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan id="tspan10362" x="302.97922" y="91.740578" fill="#ffffff" stroke-width=".26458">32mm</tspan></text>
+  </g>
+  <g id="house" transform="matrix(1.3006 0 0 1.3006 -81.774 -21.612)">
+   <path id="path10331" d="m272.01 96.465h24.577l-12.288 12.288z" fill="#e1c040"/>
+   <path id="path10337" d="m296.59 96.465h-24.577l12.288-12.288z" fill="#c00000"/>
+   <path id="path10339" d="m272.01 71.888h24.577l-12.288 12.288z" fill="#008080"/>
+   <path id="path10341" d="m296.59 71.888v24.577l-12.288-12.288z" fill="#ff5050"/>
+   <path id="path10343" d="m272.01 96.465v-24.577l12.288 12.288z" fill="#ff5050"/>
+  </g>
+  <rect id="door" x="283.86" y="71.888" width="8.2665" height="16" display="none"/>
+ </g>
+</svg>

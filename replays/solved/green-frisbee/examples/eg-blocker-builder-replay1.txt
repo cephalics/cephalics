@@ -1,0 +1,9 @@
+$FILENAME green-frisbee/examples/eg-blocker-builder.txt
+$LEVEL_BUILT_REQUIRED 2023-03-06 03:05:53
+$GAME_VERSION_REQUIRED 0.9.29
+
++PLAYER 0 Garden lixer
+
+! 65 0 ASSIGN=BLOCKER 0
+! 114 0 ASSIGN=BUILDER 1
+

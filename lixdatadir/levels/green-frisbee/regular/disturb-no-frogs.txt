@@ -1,0 +1,125 @@
+$BUILT 2023-02-19 21:23:39
+$AUTHOR Green Frisbee
+$ENGLISH Disturb No Frogs
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 496
+#SIZE_Y 184
+#BACKGROUND_RED 86
+#BACKGROUND_GREEN 173
+#BACKGROUND_BLUE 167
+
+#INITIAL 50
+#REQUIRED 20
+#SPAWN_INTERVAL 12
+
+#WALKER -1
+#RUNNER -1
+#CLIMBER -1
+#FLOATER -1
+#EXPLODER2 -1
+#BLOCKER -1
+#BUILDER -1
+#PLATFORMER -1
+#BASHER -1
+#MINER -1
+#DIGGER -1
+#JUMPER -1
+#BATTER -1
+#CUBER -1
+
+:green-frisbee/spinny-advent2-L.H: 440 72 r
+
+:green-frisbee/goal-59circles.G: 296 128
+
+:amanda/forest/frog.T: 168 64
+:amanda/forest/frog_catch.T: 24 16
+:amanda/forest/frog_happy.T: 96 112
+
+:geoo/construction/stairsbrick_rd_32: 224 16
+:geoo/abstract/pipes/central0: 344 104
+:geoo/abstract/pipes/central0: 472 72 r
+:geoo/abstract/pipes/central0: 376 104
+:geoo/construction/stairsbrick_rd_32: 352 80
+:geoo/abstract/pipes/central0: 408 104
+:geoo/abstract/pipes/central0: 440 104
+:geoo/construction/rod_steel/straight32.S: 264 120
+:geoo/construction/rod_steel/straight32.S: 296 120
+:geoo/construction/rod_steel/edge_ld.S: 328 120
+:geoo/construction/rod_steel/straight32.S: 264 160
+:geoo/construction/rod_steel/straight32.S: 296 160
+:geoo/construction/rod_steel/straight32.S: 328 128 rrr
+:geoo/construction/rod_steel/edge_lu.S: 328 160
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/central2: 32 0 rr
+:geoo/abstract/pipes/central2: 0 0 rr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:geoo/abstract/pipes/central2: 0 8 r
+:geoo/abstract/pipes/cshort2: 0 0 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 2
+:geoo/abstract/pipes/junct2: 216 48 rrr
+:geoo/abstract/pipes/junct2: 216 96 rrr
+:Group-0: 152 96
+:Group-0: 80 48
+:Group-0: 8 144
+:Group-0: 152 48
+:Group-1: 216 56
+:Group-1: 216 8
+:Group-1: 216 104
+:Group-1: 144 56
+:geoo/abstract/pipes/juncx2: 144 48
+:geoo/abstract/pipes/juncx2: 144 96
+:Group-1: 144 8
+:Group-1: 72 8
+:geoo/abstract/pipes/juncx2: 72 48
+:geoo/abstract/pipes/juncx2: 72 96
+:Group-0: 80 96
+:Group-1: 72 56
+:Group-1: 72 104
+:geoo/abstract/pipes/junct2: 144 144
+:geoo/abstract/pipes/junct2: 72 144
+:Group-0: 152 144
+:Group-0: 80 144
+:geoo/abstract/pipes/corner2: 216 144 rrr
+:Group-1: 144 104
+:geoo/abstract/pipes/junct2: 0 48 frrr
+:geoo/abstract/pipes/junct2: 0 96 frrr
+:Group-1: 0 56 frr
+:Group-1: 0 8 frr
+:Group-1: 0 104 frr
+:geoo/abstract/pipes/corner2: 0 144 frrr
+:Group-0: 152 0 rr
+:geoo/abstract/pipes/junct2: 72 0 rr
+:geoo/abstract/pipes/junct2: 144 0 rr
+:Group-0: 8 0 rr
+:Group-0: 80 0 rr
+:geoo/abstract/pipes/corner2: 0 0 r
+:geoo/abstract/pipes/corner2: 216 0 fr
+:Group-0: 8 48
+:Group-0: 8 96
+$END_TILE_GROUP
+:Group-2: 16 16
+:geoo/construction/stairsbrick_rd_32: 288 48
+:guideline/cube: 424 88
+$BEGIN_TILE_GROUP 3
+:amanda/steel/steel16x16.S: 0 0
+:amanda/steel/steel16x16.S: 16 16
+:matt/steel/16x16.S: 16 16
+:amanda/steel/steel16x16.S: 32 32
+:amanda/steel/steel16x16.S: 16 0
+:amanda/steel/steel16x16.S: 32 16
+:amanda/steel/steel16x16.S: 0 16
+:amanda/steel/steel16x16.S: 16 32
+:amanda/steel/steel16x16.S: 32 0
+:geoo/steel/dark_16x16o.S: 32 0
+:amanda/steel/steel16x16.S: 0 32
+$END_TILE_GROUP
+:Group-3: 392 128
+:raymanni/toys/cracker: 432 120
+:green-frisbee/cracker-teal: 352 120
+:geoo/abstract/pipes/corner0: 472 104 rrr
+:green-frisbee/warning-deer: 40 -4
+:green-frisbee/warning-deer: 184 44
+:green-frisbee/warning-deer: 112 92

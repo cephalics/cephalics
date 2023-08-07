@@ -1,0 +1,171 @@
+$BUILT 2023-04-26 08:31:42
+$AUTHOR Green Frisbee
+$ENGLISH Compression Method Timely Sprint
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 512
+#SIZE_Y 320
+#BACKGROUND_RED 191
+#BACKGROUND_GREEN 133
+#BACKGROUND_BLUE 252
+
+#INITIAL 2
+#REQUIRED 1
+#SPAWN_INTERVAL 1
+
+#RUNNER 1
+#JUMPER 1
+#EXPLODER2 0
+
+:geoo/sandstone/fennec.H: 48 8
+:geoo/sandstone/fennec.H: 72 8
+
+:geoo/abstract/goal.G: 0 216
+
+:geoo/construction/squisher.T: 216 40
+
+:geoo/construction/Laser_vr_16.F: 296 88
+:geoo/construction/Laser_vr_16.F: 312 88
+:geoo/construction/Laser_vr_16.F: 312 72
+:geoo/construction/Laser_vr_16.F: 320 88
+:geoo/construction/Laser_vr_16.F: 320 72
+:geoo/construction/Laser_vr_16.F: 320 64
+:geoo/construction/Laser_vr_16.F: 304 88
+:geoo/construction/Laser_vr_16.F: 304 80
+:geoo/construction/Laser_vr_16.F: 352 88
+:geoo/construction/Laser_vr_16.F: 336 88
+:geoo/construction/Laser_vr_16.F: 336 72
+:geoo/construction/Laser_vr_16.F: 344 88
+:geoo/construction/Laser_vr_16.F: 344 80
+:geoo/construction/Laser_vr_16.F: 288 40
+:geoo/construction/Laser_vr_16.F: 296 32
+:geoo/construction/Laser_vr_16.F: 304 24
+:geoo/construction/Laser_vr_16.F: 312 24
+:geoo/construction/Laser_vr_16.F: 320 24
+:geoo/construction/Laser_vr_16.F: 328 88
+:geoo/construction/Laser_vr_16.F: 328 72
+:geoo/construction/Laser_vr_16.F: 328 64
+:geoo/construction/Laser_vr_16.F: 368 48
+:geoo/construction/Laser_vr_16.F: 360 40
+:geoo/construction/Laser_vr_16.F: 352 32
+:geoo/construction/Laser_vr_16.F: 344 24
+:geoo/construction/Laser_vr_16.F: 328 24
+:geoo/construction/Laser_vr_16.F: 336 24
+
+:raymanni/lab/launcher_left.T: 440 152
+
+:green-frisbee/cracker-violet: 344 160
+:green-frisbee/cracker-violet: 320 152
+:green-frisbee/cracker-violet: 296 152
+:green-frisbee/cracker-violet: 272 152
+:green-frisbee/cracker-violet: 248 152
+:green-frisbee/cracker-violet: 224 152
+:green-frisbee/cracker-violet: 200 152
+:green-frisbee/cracker-violet: 176 160
+$BEGIN_TILE_GROUP 0
+:geoo/abstract/pipes/central4: 0 0
+:geoo/abstract/pipes/central4: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 0 0
+:Group-0: 64 0
+$END_TILE_GROUP
+:Group-1: 48 104
+$BEGIN_TILE_GROUP 2
+:Group-1: 0 0
+:geoo/abstract/cvblocks/000: 112 0 d
+:geoo/abstract/cvblocks/000: 120 0 d
+$END_TILE_GROUP
+:Group-2: 176 104
+:Group-1: 384 184
+:geoo/abstract/pipes/central4: 0 264
+:matt/carnival/balloons: 376 192 r
+:matt/carnival/balloons: 170 204 rr
+$BEGIN_TILE_GROUP 3
+:geoo/abstract/pipes/endr1: 16 0
+:geoo/abstract/pipes/endr1: 0 0 rr
+:geoo/abstract/pipes/junct1: 8 0 rr
+:geoo/abstract/pipes/cshort1: 8 8 r
+:geoo/abstract/pipes/endr1: 8 16 r
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:geoo/abstract/pipes/cshort1: 16 8 r
+:geoo/abstract/pipes/corner1: 16 16 rrr
+:geoo/abstract/pipes/cshort1: 0 8 rrr
+:geoo/abstract/pipes/corner1: 0 16
+:geoo/abstract/pipes/endr1: 0 0 rrr
+:geoo/abstract/pipes/endr1: 16 0 rrr
+:geoo/abstract/pipes/junct1: 8 16
+:geoo/abstract/pipes/endr1: 8 8 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 5
+:geoo/abstract/pipes/cshort1: 8 0
+:geoo/abstract/pipes/corner1: 0 0 r
+:geoo/abstract/pipes/cshort1: 16 8 r
+:geoo/abstract/pipes/corner1: 16 0 rr
+:geoo/abstract/pipes/cshort1: 8 16 rr
+:geoo/abstract/pipes/corner1: 16 16 rrr
+:geoo/abstract/pipes/cshort1: 0 8 rrr
+:geoo/abstract/pipes/corner1: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:Group-3: 0 0
+:Group-4: 32 0
+:Group-5: 64 0
+$END_TILE_GROUP
+:Group-6: 72 280
+$BEGIN_TILE_GROUP 7
+:geoo/abstract/pipes/cshort1: 0 8 r
+:geoo/abstract/pipes/endr1: 0 16 r
+:geoo/abstract/pipes/endr1: 0 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 8
+:geoo/abstract/pipes/endr1: 16 16
+:geoo/abstract/pipes/endr1: 0 0 rrr
+:geoo/abstract/pipes/cshort1: 8 16
+:geoo/abstract/pipes/cshort1: 0 8 r
+:geoo/abstract/pipes/corner1: 0 16
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 9
+:geoo/abstract/pipes/endr1: 16 0 f
+:geoo/abstract/pipes/cshort1: 8 0 f
+:geoo/abstract/pipes/cshort1: 8 8 f
+:geoo/abstract/pipes/cshort1: 8 16 f
+:geoo/abstract/pipes/corner1: 16 8 fr
+:geoo/abstract/pipes/corner1: 0 0 f
+:geoo/abstract/pipes/corner1: 0 8 frrr
+:geoo/abstract/pipes/corner1: 16 16 frr
+:geoo/abstract/pipes/endr1: 0 16 frr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 10
+:geoo/abstract/pipes/cshort1: 16 8 r
+:geoo/abstract/pipes/cshort1: 8 16 rr
+:geoo/abstract/pipes/corner1: 16 16 rrr
+:geoo/abstract/pipes/cshort1: 0 8 rrr
+:geoo/abstract/pipes/corner1: 0 16
+:geoo/abstract/pipes/endr1: 0 0 rrr
+:geoo/abstract/pipes/endr1: 16 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 11
+:geoo/abstract/pipes/endr1: 0 16 r
+:geoo/abstract/pipes/cshort1: 0 8 r
+:geoo/abstract/pipes/cshort1: 8 8 r
+:geoo/abstract/pipes/cshort1: 16 8 r
+:geoo/abstract/pipes/corner1: 8 16
+:geoo/abstract/pipes/corner1: 0 0 r
+:geoo/abstract/pipes/corner1: 8 0 rr
+:geoo/abstract/pipes/corner1: 16 16 rrr
+:geoo/abstract/pipes/endr1: 16 0 rrr
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 12
+:Group-7: 160 0
+:Group-8: 64 0
+:Group-9: 0 0
+:Group-10: 96 0
+:Group-5: 32 0
+:Group-3: 128 0
+:Group-5: 176 0
+:Group-11: 208 0
+:Group-9: 240 0
+$END_TILE_GROUP
+:Group-12: 216 280

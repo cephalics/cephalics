@@ -1,0 +1,45 @@
+$BUILT 2023-04-25 14:39:22
+$AUTHOR White Closet
+$ENGLISH The Level of the Robot
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 640
+#SIZE_Y 224
+#BACKGROUND_RED 0
+#BACKGROUND_GREEN 59
+#BACKGROUND_BLUE 255
+
+#INITIAL 25
+#REQUIRED 10
+#SPAWN_INTERVAL 96
+
+#WALKER 1
+#CLIMBER -1
+#BLOCKER 1
+#BUILDER 1
+#PLATFORMER 2
+#BASHER 1
+#JUMPER 1
+#CUBER 21
+#EXPLODER2 0
+
+:raymanni/toys/hatch.H: 98 21 r
+
+:raymanni/toys/goal.G: 544 96
+:raymanni/toys/goal.G: 48 0
+
+:geoo/construction/factory.T: 288 96
+:geoo/construction/factory.T: 352 96
+
+$BEGIN_TILE_GROUP 0
+:raymanni/lab/block_8: 0 0
+:raymanni/lab/block_8: 64 0
+$END_TILE_GROUP
+:Group-0: 0 160
+:Group-0: 128 160
+:Group-0: 256 160
+:Group-0: 384 160
+:Group-0: 512 160
+:raymanni/lab/scen_2: 6 104
+:matt/marble/06a: 64 96 frr
+:matt/marble/05_2: 64 64 frr

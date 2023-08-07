@@ -1,0 +1,321 @@
+$BUILT 2023-02-12 16:12:46
+$AUTHOR Green Frisbee
+$ENGLISH Blast Zone
+
+#INTENDED_NUMBER_OF_PLAYERS 1
+#SIZE_X 1408
+#SIZE_Y 928
+#BACKGROUND_RED 173
+#BACKGROUND_GREEN 207
+#BACKGROUND_BLUE 91
+
+#INITIAL 999
+#REQUIRED 111
+#SPAWN_INTERVAL 12
+
+#WALKER 1
+#RUNNER 1
+#CLIMBER 1
+#FLOATER 1
+#EXPLODER2 -1
+#BUILDER 2
+#PLATFORMER 2
+#BASHER 2
+#DIGGER 2
+#JUMPER -1
+#CUBER 1
+
+:green-frisbee/spinny-advent2-R.H: 720 520
+
+:simon/oriental/goal.G: 240 304
+:amanda/occult/goal_skull.G: -24 824
+:green-frisbee/swimming-pool.64x43.G: 304 341
+
+:raymanni/gore/eater.T: 472 848
+
+:geoo/construction/Laser_vr_16.F: -4 888
+:geoo/construction/Laser_hz_16.F: 1248 360
+:geoo/construction/Laser_hz_16.F: 1264 376
+:geoo/construction/Laser_hz_16.F: 1280 392
+:geoo/construction/Laser_hz_16.F: 1248 376
+:geoo/construction/Laser_hz_16.F: 1264 392
+:geoo/construction/Laser_hz_16.F: 1280 408
+:geoo/construction/Laser_hz_16.F: 1248 392
+:geoo/construction/Laser_hz_16.F: 1264 408
+:geoo/construction/Laser_hz_16.F: 1280 424
+:geoo/construction/Laser_hz_16.F: 1248 408
+:geoo/construction/Laser_hz_16.F: 1264 424
+:geoo/construction/Laser_hz_16.F: 1280 440
+:geoo/construction/Laser_hz_16.F: 1248 424
+:geoo/construction/Laser_hz_16.F: 1264 440
+:geoo/construction/Laser_hz_16.F: 1280 456
+:geoo/construction/Laser_hz_16.F: 1248 440
+:geoo/construction/Laser_hz_16.F: 1264 456
+:geoo/construction/Laser_hz_16.F: 1280 472
+:geoo/construction/Laser_hz_16.F: 1248 456
+:geoo/construction/Laser_hz_16.F: 1264 472
+:geoo/construction/Laser_hz_16.F: 1280 488
+:geoo/construction/Laser_hz_16.F: 1248 472
+:geoo/construction/Laser_hz_16.F: 1264 488
+:geoo/construction/Laser_hz_16.F: 1280 504
+:geoo/construction/Laser_hz_16.F: 1248 488
+:geoo/construction/Laser_hz_16.F: 1264 504
+:geoo/construction/Laser_hz_16.F: 1280 264
+:geoo/construction/Laser_hz_16.F: 1248 504
+:geoo/construction/Laser_hz_16.F: 1264 264
+:geoo/construction/Laser_hz_16.F: 1280 280
+:geoo/construction/Laser_hz_16.F: 1248 264
+:geoo/construction/Laser_hz_16.F: 1264 280
+:geoo/construction/Laser_hz_16.F: 1280 296
+:geoo/construction/Laser_hz_16.F: 1248 280
+:geoo/construction/Laser_hz_16.F: 1264 296
+:geoo/construction/Laser_hz_16.F: 1280 312
+:geoo/construction/Laser_hz_16.F: 1248 296
+:geoo/construction/Laser_hz_16.F: 1264 312
+:geoo/construction/Laser_hz_16.F: 1280 328
+:geoo/construction/Laser_hz_16.F: 1248 312
+:geoo/construction/Laser_hz_16.F: 1264 328
+:geoo/construction/Laser_hz_16.F: 1280 344
+:geoo/construction/Laser_hz_16.F: 1248 328
+:geoo/construction/Laser_hz_16.F: 1264 344
+:geoo/construction/Laser_hz_16.F: 1280 360
+:geoo/construction/Laser_hz_16.F: 1248 344
+:geoo/construction/Laser_hz_16.F: 1264 360
+:geoo/construction/Laser_hz_16.F: 1280 376
+:geoo/construction/Laser_vr_64.F: 1248 264
+:geoo/construction/Laser_vr_64.F: 1264 264
+:geoo/construction/Laser_vr_64.F: 1280 264
+:geoo/construction/Laser_vr_64.F: 1248 328
+:geoo/construction/Laser_vr_64.F: 1264 328
+:geoo/construction/Laser_vr_64.F: 1280 328
+:geoo/construction/Laser_vr_64.F: 1248 392
+:geoo/construction/Laser_vr_64.F: 1264 392
+:geoo/construction/Laser_vr_64.F: 1280 392
+:geoo/construction/Laser_vr_64.F: 1248 456
+:geoo/construction/Laser_vr_64.F: 1264 456
+:geoo/construction/Laser_vr_64.F: 1280 456
+
+:geoo/construction/spring.T: 1336 48
+:geoo/construction/spring_fast.T: 1360 48
+:geoo/construction/spring_fast.T: 672 552
+
+:geoo/abstract/tbeam_down.T: 1104 8
+:geoo/abstract/tbeam_left.T: 1256 8
+:geoo/abstract/tbeam_right.T: 1176 8
+:geoo/abstract/tbeam_up.T: 1336 8
+:raymanni/lab/launcher_right.T: 1288 8
+:raymanni/lab/launcher_left.T: 1208 8
+:raymanni/lab/elev_up.T: 1368 8
+:raymanni/lab/elev_down.T: 1136 8
+:raymanni/lab/launcher_right.T: 768 552
+:raymanni/lab/elev_up.T: 1192 552
+:raymanni/lab/elev_up.T: 1192 520
+:geoo/abstract/tbeam_down.T: 1152 856
+:raymanni/lab/elev_up.T: 1192 616
+:raymanni/lab/elev_up.T: 1192 584
+:raymanni/lab/elev_up.T: 1192 680
+:raymanni/lab/elev_up.T: 1192 648
+:raymanni/lab/elev_up.T: 1192 744
+:raymanni/lab/elev_up.T: 1192 712
+:raymanni/lab/elev_up.T: 1192 808
+:raymanni/lab/elev_up.T: 1192 776
+:raymanni/lab/elev_up.T: 1192 872
+:raymanni/lab/elev_up.T: 1192 840
+:geoo/abstract/tbeam_right.T: 1152 888
+:geoo/abstract/tbeam_down.T: 1120 824
+:geoo/abstract/tbeam_right.T: 1120 856
+:geoo/abstract/tbeam_down.T: 1088 792
+:geoo/abstract/tbeam_right.T: 1088 824
+:raymanni/lab/elev_up.T: 1192 904
+:geoo/abstract/tbeam_left.T: 1192 152
+:geoo/abstract/tbeam_down.T: 1056 760
+:geoo/abstract/tbeam_right.T: 1056 792
+:raymanni/lab/launcher_left.T: 1304 104
+:raymanni/lab/elev_up.T: 1304 168
+:raymanni/lab/elev_up.T: 1304 200
+:raymanni/lab/elev_up.T: 1216 552
+:raymanni/lab/elev_up.T: 1216 520
+:raymanni/lab/elev_up.T: 1216 616
+:raymanni/lab/elev_up.T: 1216 584
+:raymanni/lab/elev_up.T: 1216 680
+:raymanni/lab/elev_up.T: 1216 648
+:raymanni/lab/elev_up.T: 1216 744
+:raymanni/lab/elev_up.T: 1216 712
+:raymanni/lab/elev_up.T: 1216 808
+:raymanni/lab/elev_up.T: 1216 776
+:raymanni/lab/elev_up.T: 1216 872
+:raymanni/lab/elev_up.T: 1216 840
+:raymanni/lab/elev_up.T: 1216 904
+:geoo/abstract/tbeam_up.T: 416 432
+:geoo/abstract/tbeam_up.T: 416 400
+:geoo/abstract/tbeam_up.T: 416 368
+:geoo/abstract/tbeam_up.T: 416 336
+:geoo/abstract/tbeam_left.T: 416 304
+:geoo/abstract/tbeam_down.T: 376 848
+:geoo/abstract/tbeam_down.T: 408 848
+:geoo/abstract/tbeam_down.T: 440 848
+:geoo/abstract/tbeam_down.T: 472 848
+:geoo/abstract/tbeam_down.T: 504 848
+:geoo/abstract/tbeam_down.T: 536 848
+:geoo/abstract/tbeam_down.T: 568 848
+:geoo/abstract/tbeam_down.T: 600 848
+:geoo/abstract/tbeam_right.T: 376 880
+:geoo/abstract/tbeam_left.T: 600 880
+:geoo/abstract/tbeam_right.T: 344 816
+:geoo/abstract/tbeam_left.T: 632 816
+:raymanni/lab/launcher_left.T: 672 600
+:geoo/abstract/tbeam_left.T: 800 768
+:geoo/abstract/tbeam_right.T: 672 672
+:geoo/abstract/tbeam_up.T: 672 768
+:geoo/abstract/tbeam_left.T: 768 768
+:geoo/abstract/tbeam_left.T: 736 768
+:geoo/abstract/tbeam_left.T: 704 768
+:geoo/abstract/tbeam_up.T: 672 736
+:geoo/abstract/tbeam_up.T: 672 704
+:geoo/abstract/tbeam_right.T: 704 736
+:geoo/abstract/tbeam_up.T: 736 736
+:geoo/abstract/tbeam_up.T: 736 704
+:geoo/abstract/tbeam_right.T: 736 672
+:geoo/abstract/tbeam_right.T: 768 736
+:geoo/abstract/tbeam_up.T: 800 736
+:geoo/abstract/tbeam_up.T: 800 704
+:geoo/abstract/tbeam_left.T: 832 768
+:geoo/abstract/tbeam_right.T: 792 632
+:raymanni/lab/launcher_right.T: 808 672
+:geoo/abstract/tbeam_left.T: 864 768
+:geoo/abstract/tbeam_right.T: 800 672
+:raymanni/lab/launcher_left.T: 960 640
+:geoo/abstract/tbeam_up.T: 1296 744
+:geoo/abstract/tbeam_up.T: 1296 712
+:geoo/abstract/tbeam_up.T: 1296 680
+:geoo/abstract/tbeam_up.T: 1296 648
+:geoo/abstract/tbeam_up.T: 1296 776
+:raymanni/lab/launcher_left.T: 1040 48
+:raymanni/lab/launcher_left.T: 1056 48
+:raymanni/lab/launcher_left.T: 1008 48
+:raymanni/lab/launcher_left.T: 1024 48
+:raymanni/lab/launcher_left.T: 976 48
+:raymanni/lab/launcher_left.T: 992 48
+:raymanni/lab/launcher_left.T: 944 48
+:raymanni/lab/launcher_left.T: 960 48
+:raymanni/lab/launcher_left.T: 912 48
+:raymanni/lab/launcher_left.T: 928 48
+:raymanni/lab/launcher_left.T: 880 48
+:raymanni/lab/launcher_left.T: 896 48
+:raymanni/lab/launcher_left.T: 848 48
+:raymanni/lab/launcher_left.T: 864 48
+:raymanni/lab/launcher_left.T: 816 48
+:raymanni/lab/launcher_left.T: 832 48
+
+$BEGIN_TILE_GROUP 0
+:raymanni/toys/soldier_1: 0 18
+:raymanni/toys/brick_3: 5 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 1
+:Group-0: 96 0
+:Group-0: 64 0
+:Group-0: 32 0
+:Group-0: 0 0
+$END_TILE_GROUP
+:Group-1: 154 910
+:raymanni/toys/soldier_1: 176 864
+:guideline/cube: 708 568
+:guideline/cube: 748 568
+:geoo/abstract/cvblocks/035: 1272 232
+:geoo/construction/platform.S: 304 384
+:geoo/construction/platform.S: 272 384
+:geoo/construction/platform.S: 240 384
+:raymanni/holiday/cane_mid: 392 912 r
+:raymanni/holiday/cane_mid: 424 912 r
+:raymanni/holiday/cane_mid: 360 912 r
+:raymanni/holiday/cane_mid: 456 912 r
+:raymanni/holiday/cane_mid: 520 912 r
+:raymanni/holiday/cane_mid: 552 912 r
+:raymanni/holiday/cane_mid: 488 912 r
+:raymanni/holiday/cane_mid: 584 912 r
+:matt/underworld/02: -8 904 r
+:raymanni/gore/goop_1: 32 904
+:raymanni/gore/goop_3: -24 904
+:raymanni/toys/soldier_3: 144 864
+:raymanni/toys/soldier_2: 112 864
+:simon/oriental/branch2: 88 904 frr
+$BEGIN_TILE_GROUP 2
+:raymanni/holiday/cane_mid: 32 0 r
+:raymanni/holiday/cane_mid: 64 0 r
+:raymanni/holiday/cane_mid: 0 0 r
+:raymanni/holiday/cane_mid: 96 0 r
+$END_TILE_GROUP
+:Group-2: 672 584
+$BEGIN_TILE_GROUP 3
+:geoo/construction/concrete/016h: 0 0
+:raymanni/holiday/plank_broken: 0 0 d
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 4
+:Group-2: 0 0
+:Group-3: 0 0 d
+$END_TILE_GROUP
+:Group-4: 672 632
+:geoo/construction/platformbrick_single: 992 652 rrr
+:simon/tapir/016a: 784 584 d
+:simon/tapir/016a: 784 632 d
+:simon/tapir/016d: 672 584 d
+$BEGIN_TILE_GROUP 5
+:geoo/construction/platform.S: 0 0
+:geoo/construction/platform.S: 32 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 6
+:Group-5: 0 0
+:Group-5: 64 0
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 7
+:Group-6: 0 0
+:Group-6: 128 0
+$END_TILE_GROUP
+:Group-7: 832 32
+$BEGIN_TILE_GROUP 8
+:geoo/sandstone/8x16: 0 96
+:geoo/sandstone/8x16: 0 0
+:geoo/sandstone/8x16: 0 16
+:geoo/sandstone/8x16: 0 32
+:geoo/sandstone/8x16: 0 48
+:geoo/sandstone/8x16: 0 64
+:geoo/sandstone/8x16: 0 80
+$END_TILE_GROUP
+$BEGIN_TILE_GROUP 9
+:Group-8: 0 0
+:Group-8: 64 0 frr
+$END_TILE_GROUP
+:Group-9: 0 520
+:Group-9: 0 632
+:Group-9: 0 744
+$BEGIN_TILE_GROUP 10
+:geoo/sandstone/8x16: 0 0
+:geoo/sandstone/8x16: 0 16
+$END_TILE_GROUP
+:Group-10: 0 856
+:Group-9: 0 408
+:geoo/sandstone/8x16: 64 464 d
+:geoo/sandstone/8x16: 64 480 d
+:geoo/sandstone/8x16: 64 496 d
+:simon/oriental/bonsai: 0 -16 rr
+:raymanni/toys/letter_2: 128 -8 rr
+:green-frisbee/warning-factorial: 344 848
+:raymanni/holiday/cane_mid: 616 912 r
+:green-frisbee/warning-factorial: 632 848
+:geoo/construction/platform.S: 336 384
+:geoo/construction/stairs_ru_8.S: 368 376
+:geoo/construction/stairs_ru_8.S: 384 368
+:geoo/construction/stairs_ru_8.S: 392 364
+:geoo/construction/platform.S: 344 384
+:green-frisbee/cracker-violet: 1048 -32
+:raymanni/toys/cracker: 1024 -32
+:green-frisbee/cracker-violet: 1000 -32
+:raymanni/toys/cracker: 976 -32
+:green-frisbee/cracker-violet: 952 -32
+:raymanni/toys/cracker: 928 -32
+:green-frisbee/cracker-violet: 904 -32
+:raymanni/toys/cracker: 880 -32
+:green-frisbee/cracker-violet: 856 -32
+:raymanni/toys/cracker: 832 -32
+:green-frisbee/cracker-violet: 808 -32
+:green-frisbee/first-time-solvable: 720 488
