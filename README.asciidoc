@@ -91,13 +91,13 @@ Two-way hatch: incoming lixes will not all face the same way.
 +
 (Typically, incoming lixes will face left and right alternately.)
 
-image:lixdatadir/images/green-frisbee/warning-invisible-traps.png[width=32])::
+image:lixdatadir/images/green-frisbee/warning-invisible-traps.png[width=32]::
 Beware of quicksand!  Some tiles will kill a lix that steps on them.
 +
 The level is nevertheless expected to be solvable on the first attempt,
 unless image:assets/derived/not-solvable-the-first-time.reconstructed.svg[width=16] is posted as well.
 
-image:lixdatadir/images/green-frisbee/warning-invisible-goals.png[width=32])::
+image:lixdatadir/images/green-frisbee/warning-invisible-goals.png[width=32]::
 Beware!  Some goals (exits) are invisible.
 A lix may exit the level before you planned for it to.
 +
@@ -118,7 +118,7 @@ and _are_ solvable on the first try.
 // 💡 Lix tip:
 // Press `/` at the level-choosing screen to search for a level by name.
 
-image:lixdatadir/images/green-frisbee/warning-transparent.G.png[width=32])::
+image:lixdatadir/images/green-frisbee/warning-transparent.G.png[width=32]::
 Beware!  In this level, link:https://m.xkcd.com/363/[some triangular warning signs are transparent]
 (can be neither walked on nor climbed).
 
