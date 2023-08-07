@@ -31,27 +31,51 @@ image::screenshots/brown-bear/very-difficult.png[caption="Level title: ",title="
 
 image::screenshots/green-frisbee/regular/delay-circuit.png[caption="Level title: ",title="Delay Circuit"]
 
+&nbsp;
+
 image::screenshots/green-frisbee/regular/wrong-way.png[caption="Level title: ",title="Wrong Way"]
+
+&nbsp;
 
 image::screenshots/green-frisbee/regular/choose-your-adventure-unsubtitled-99.png[caption="Level title: ", title="Choose Your Adventure: Unsubtitled #99"]
 
+&nbsp;
+
 image::screenshots/green-frisbee/regular/deer-factorial-qmark.png[caption="Level title: ",title="Deer!?"]
+
+&nbsp;
 
 image::screenshots/green-frisbee/regular/left-then-right.png[caption="Level title: ",title="Left Then Right"]
 
+&nbsp;
+
 // image::screenshots/green-frisbee/regular/follow-yellow-brick.png[caption="Level title: ",title="Follow the yellow brick road"]
+//
+// &nbsp;
 
 image::screenshots/green-frisbee/unusual/pathfinder/shortcut.png[caption="Level title: ",title="Shortcut"]
 
+&nbsp;
+
 image::screenshots/green-frisbee/regular/compression-method-timely-sprint.png[caption="Level title: ",title="Compression Method Timely Sprint"]
+
+&nbsp;
 
 image::screenshots/green-frisbee/unusual/bucket/helicopters-submarines.png[caption="Level title: ",title="Helicopters and Submarines"]
 
+&nbsp;
+
 image::screenshots/green-frisbee/unusual/bucket/magma-enigma.png[caption="Level title: ",title="Magma Enigma"]
+
+&nbsp;
 
 image::screenshots/green-frisbee/examples/not-first-time/one-for-four-and-four-for-one.png[caption="Level title: ",title="One for four and four for one"]
 
+&nbsp;
+
 image::screenshots/green-frisbee/unusual/bucket/secret-message.png[caption="Level title: ",title="Secret Message"]
+
+&nbsp;
 
 image::screenshots/green-frisbee/regular/disturb-no-frogs.png[caption="Level title: ", title="Disturb No Frogs"]
 
