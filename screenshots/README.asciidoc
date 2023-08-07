@@ -1,0 +1,322 @@
+= Cephalics Screenshots
+
+This document contains screenshots of all levels in Cephalics.
+
+The levels are grouped by author:
+
+* <<_brown_bear,Brown Bear's levels>> (11 levels)
+* <<_green_frisbee_easy,Green Frisbee's easy levels>> (14 levels): levels whose solutions should be readily apparent
+* <<_green_frisbee_regular,Green Frisbee's regular levels>> (16 levels): levels that require figuring out how to get to the goal (exit).
+* <<_green_frisbee_unusual,Green Frisbee's unusual levels>> (21 levels): levels that exploit rare game mechanics, or require unusual in-game skills to solve.
+* <<_green_frisbee_special,Green Frisbee's special levels>> (29 levels): levels that might be frustrating were they included in the other subsets
+* <<_green_frisbee_examples,Green Frisbee's example levels>> (19 levels): these levels are minimal examples of Lix game mechanics
+* <<_green_frisbee_wip,Green Frisbee's work-in-progress levels>> (11 levels): not-yet-released levels for public testing
+* <<_white_closet,White Closet's levels>> (3 levels)
+
+
+== brown-bear
+
+image::brown-bear/firefrog.png[title='Firefrog',alt="screenshot of this level",caption="Level brown-bear#1: ",]
+
+image::brown-bear/frogs.png[title='Frogs',alt="screenshot of this level",caption="Level brown-bear#2: ",]
+
+image::brown-bear/light-blue.png[title='The Light-blue Level',alt="screenshot of this level",caption="Level brown-bear#3: ",]
+
+image::brown-bear/motherboard-with-laser-number1.png[title='Motherboard with laser #1',alt="screenshot of this level",caption="Level brown-bear#4: ",]
+
+image::brown-bear/one-lix.png[title='The One-lix Level',alt="screenshot of this level",caption="Level brown-bear#5: ",]
+
+image::brown-bear/special-unique-one.png[title='A unique and special one',alt="screenshot of this level",caption="Level brown-bear#6: ",]
+
+image::brown-bear/the-blue-level.png[title='The Blue Level',alt="screenshot of this level",caption="Level brown-bear#7: ",]
+
+image::brown-bear/the-level-that-is-several-levels.png[title='The Several-levels Level',alt="screenshot of this level",caption="Level brown-bear#8: ",]
+
+image::brown-bear/the-rainbow-level.png[title='The Rainbow Level',alt="screenshot of this level",caption="Level brown-bear#9: ",]
+
+image::brown-bear/trap-that-isnt.png[title="The Level of the Trap That Isn't Really A Trap",alt="screenshot of this level",caption="Level brown-bear#10: ",]
+
+image::brown-bear/very-difficult.png[title='Very Difficult',alt="screenshot of this level",caption="Level brown-bear#11: ",]
+
+== green-frisbee
+
+image::green-frisbee/LEGEND-new-hatches-goals.png[title='LEGEND: New Hatches & Goals',alt="screenshot of this level",caption="Level green-frisbee#1: ",]
+
+=== green-frisbee/easy
+
+image::green-frisbee/easy/batting-practice.png[title='Batting Practice',alt="screenshot of this level",caption="Level green-frisbee/easy#1: ",]
+
+image::green-frisbee/easy/boxes-and-steps.png[title='Boxes and Steps',alt="screenshot of this level",caption="Level green-frisbee/easy#2: ",]
+
+image::green-frisbee/easy/break-the-siege.png[title='Break the Siege',alt="screenshot of this level",caption="Level green-frisbee/easy#3: ",]
+
+image::green-frisbee/easy/compression-method-baseball.png[title='Compression Method Baseball',alt="screenshot of this level",caption="Level green-frisbee/easy#4: ",]
+
+image::green-frisbee/easy/find-the-differences.png[title='Find the differences',alt="screenshot of this level",caption="Level green-frisbee/easy#5: ",]
+
+image::green-frisbee/easy/if-airplanes.png[title='If airplanes were like this',alt="screenshot of this level",caption="Level green-frisbee/easy#6: ",]
+
+image::green-frisbee/easy/kubra-ceramic-Turkish-mug.png[title='Kübra (ceramic Turkish mug)',alt="screenshot of this level",caption="Level green-frisbee/easy#7: ",]
+
+image::green-frisbee/easy/one-for-both.png[title='One for both, and both for one',alt="screenshot of this level",caption="Level green-frisbee/easy#8: ",]
+
+image::green-frisbee/easy/one-up.png[title='One Up',alt="screenshot of this level",caption="Level green-frisbee/easy#9: ",]
+
+image::green-frisbee/easy/teeter-totter.png[title='Teeter-totter',alt="screenshot of this level",caption="Level green-frisbee/easy#10: ",]
+
+image::green-frisbee/easy/too-high-up-the-first.png[title="It's too high up",alt="screenshot of this level",caption="Level green-frisbee/easy#11: ",]
+
+image::green-frisbee/easy/untitled-42-fireworks.png[title='Untitled #42: Fireworks',alt="screenshot of this level",caption="Level green-frisbee/easy#12: ",]
+
+image::green-frisbee/easy/workaround.png[title='Workaround',alt="screenshot of this level",caption="Level green-frisbee/easy#13: ",]
+
+image::green-frisbee/easy/zero-choice-interchange.png[title='The Zero-choice Interchange',alt="screenshot of this level",caption="Level green-frisbee/easy#14: ",]
+
+=== green-frisbee/regular
+
+image::green-frisbee/regular/blast-zone.png[title='Blast Zone',alt="screenshot of this level",caption="Level green-frisbee/regular#1: ",]
+
+image::green-frisbee/regular/choose-your-adventure-unsubtitled-99.png[title='Choose Your Adventure: Unsubtitled #99',alt="screenshot of this level",caption="Level green-frisbee/regular#2: ",]
+
+image::green-frisbee/regular/compression-method-cylinder.png[title='Compression Method Cylinder',alt="screenshot of this level",caption="Level green-frisbee/regular#3: ",]
+
+image::green-frisbee/regular/compression-method-rapid-ingress.png[title='Compression Method Rapid Ingress',alt="screenshot of this level",caption="Level green-frisbee/regular#4: ",]
+
+image::green-frisbee/regular/compression-method-timely-sprint.png[title='Compression Method Timely Sprint',alt="screenshot of this level",caption="Level green-frisbee/regular#5: ",]
+
+image::green-frisbee/regular/decompression-chamber.png[title='Decompression Chamber',alt="screenshot of this level",caption="Level green-frisbee/regular#6: ",]
+
+image::green-frisbee/regular/deer-factorial-qmark.png[title='Deer!?',alt="screenshot of this level",caption="Level green-frisbee/regular#7: ",]
+
+image::green-frisbee/regular/delay-circuit.png[title='Delay Circuit',alt="screenshot of this level",caption="Level green-frisbee/regular#8: ",]
+
+image::green-frisbee/regular/disturb-no-frogs.png[title='Disturb No Frogs',alt="screenshot of this level",caption="Level green-frisbee/regular#9: ",]
+
+image::green-frisbee/regular/follow-yellow-brick.png[title='Follow the yellow brick road',alt="screenshot of this level",caption="Level green-frisbee/regular#10: ",]
+
+image::green-frisbee/regular/jump-jump-jump-your-lix.png[title='Jump, jump, jump your lix',alt="screenshot of this level",caption="Level green-frisbee/regular#11: ",]
+
+image::green-frisbee/regular/left-then-right.png[title='Left Then Right',alt="screenshot of this level",caption="Level green-frisbee/regular#12: ",]
+
+image::green-frisbee/regular/rainbow-balls.png[title='Rainbow balls',alt="screenshot of this level",caption="Level green-frisbee/regular#13: ",]
+
+image::green-frisbee/regular/too-high-up-the-second.png[title="It's also too high up",alt="screenshot of this level",caption="Level green-frisbee/regular#14: ",]
+
+image::green-frisbee/regular/untitled-51-gallery-of-bricks.png[title='Untitled #51: Gallery of Bricks',alt="screenshot of this level",caption="Level green-frisbee/regular#15: ",]
+
+image::green-frisbee/regular/wrong-way.png[title='Wrong Way',alt="screenshot of this level",caption="Level green-frisbee/regular#16: ",]
+
+=== green-frisbee/unusual
+
+==== green-frisbee/unusual/pathfinder
+
+image::green-frisbee/unusual/pathfinder/hop-skip-jump-builderful.png[title='With a hop, a skip, and a jump (19/20)',alt="screenshot of this level",caption="Level green-frisbee/unusual/pathfinder#1: ",]
+
+image::green-frisbee/unusual/pathfinder/hop-skip-jump-builderless.png[title='With a hop, a skip, and a jump (20/20)',alt="screenshot of this level",caption="Level green-frisbee/unusual/pathfinder#2: ",]
+
+image::green-frisbee/unusual/pathfinder/pop-the-balloons.png[title='Pop The Balloons',alt="screenshot of this level",caption="Level green-frisbee/unusual/pathfinder#3: ",]
+
+image::green-frisbee/unusual/pathfinder/shortcut.png[title='Shortcut',alt="screenshot of this level",caption="Level green-frisbee/unusual/pathfinder#4: ",]
+
+image::green-frisbee/unusual/pathfinder/you-will-never-reach-the-castle.png[title='You will never reach the castle',alt="screenshot of this level",caption="Level green-frisbee/unusual/pathfinder#5: ",]
+
+==== green-frisbee/unusual/bucket
+
+image::green-frisbee/unusual/bucket/advent.png[title='A maze of twisty little passages, all alike',alt="screenshot of this level",caption="Level green-frisbee/unusual/bucket#1: ",]
+
+image::green-frisbee/unusual/bucket/helicopters-submarines.png[title='Helicopters and Submarines',alt="screenshot of this level",caption="Level green-frisbee/unusual/bucket#2: ",]
+
+image::green-frisbee/unusual/bucket/magma-enigma.png[title='Magma Enigma',alt="screenshot of this level",caption="Level green-frisbee/unusual/bucket#3: ",]
+
+image::green-frisbee/unusual/bucket/moving-target.png[title='Moving Target',alt="screenshot of this level",caption="Level green-frisbee/unusual/bucket#4: ",]
+
+image::green-frisbee/unusual/bucket/odd-one-out.png[title='Odd One Out',alt="screenshot of this level",caption="Level green-frisbee/unusual/bucket#5: ",]
+
+image::green-frisbee/unusual/bucket/one-step-forward-two-steps-back.png[title='One step forward, two steps back',alt="screenshot of this level",caption="Level green-frisbee/unusual/bucket#6: ",]
+
+image::green-frisbee/unusual/bucket/secret-message.png[title='Secret Message',alt="screenshot of this level",caption="Level green-frisbee/unusual/bucket#7: ",]
+
+image::green-frisbee/unusual/bucket/vortex.png[title='Vortex',alt="screenshot of this level",caption="Level green-frisbee/unusual/bucket#8: ",]
+
+==== green-frisbee/unusual/find-the-goal
+
+image::green-frisbee/unusual/find-the-goal/exit-stage-drawbridge-q.png[title='Exit Stage... Drawbridge?',alt="screenshot of this level",caption="Level green-frisbee/unusual/find-the-goal#1: ",]
+
+image::green-frisbee/unusual/find-the-goal/exit-stage-left-q.png[title='Exit Stage... Left?',alt="screenshot of this level",caption="Level green-frisbee/unusual/find-the-goal#2: ",]
+
+image::green-frisbee/unusual/find-the-goal/exit-stage-right-q.png[title='Exit Stage... Right?',alt="screenshot of this level",caption="Level green-frisbee/unusual/find-the-goal#3: ",]
+
+image::green-frisbee/unusual/find-the-goal/exit-stage-top-q.png[title='Exit Stage... Top?',alt="screenshot of this level",caption="Level green-frisbee/unusual/find-the-goal#4: ",]
+
+==== green-frisbee/unusual/guesstimate
+
+image::green-frisbee/unusual/guesstimate/another-timely-sprint.png[title='Another Timely Sprint',alt="screenshot of this level",caption="Level green-frisbee/unusual/guesstimate#1: ",]
+
+image::green-frisbee/unusual/guesstimate/terminal-velocity1-jumper.png[title='Terminal Velocity #1: Jumper',alt="screenshot of this level",caption="Level green-frisbee/unusual/guesstimate#2: ",]
+
+image::green-frisbee/unusual/guesstimate/terminal-velocity2-tbeam.png[title='Terminal Velocity #2: T-Beams',alt="screenshot of this level",caption="Level green-frisbee/unusual/guesstimate#3: ",]
+
+image::green-frisbee/unusual/guesstimate/third-timely-sprint.png[title='Third Timely Sprint',alt="screenshot of this level",caption="Level green-frisbee/unusual/guesstimate#4: ",]
+
+=== green-frisbee/special
+
+image::green-frisbee/special/equestrian.png[title='The Equestrian',alt="screenshot of this level",caption="Level green-frisbee/special#1: ",]
+
+image::green-frisbee/special/fallacious.png[title='Fallacious',alt="screenshot of this level",caption="Level green-frisbee/special#2: ",]
+
+image::green-frisbee/special/sixth-has-a-trick-to-it.png[title='The Sixth Has A Trick To It',alt="screenshot of this level",caption="Level green-frisbee/special#3: ",]
+
+==== green-frisbee/special/beware-of
+
+See link:green-frisbee/special/beware-of/[].
+
+==== green-frisbee/special/edu
+
+image::green-frisbee/special/edu/distinction-without-difference.png[title='Distinction Without Difference',alt="screenshot of this level",caption="Level green-frisbee/special/edu#1: ",]
+
+image::green-frisbee/special/edu/first-grade.png[title='First Grade',alt="screenshot of this level",caption="Level green-frisbee/special/edu#2: ",]
+
+==== green-frisbee/special/illustrative
+
+image::green-frisbee/special/illustrative/formation-drilling.png[title='LEMMINGS: Formation Drilling',alt="screenshot of this level",caption="Level green-frisbee/special/illustrative#1: ",]
+
+==== green-frisbee/special/impossible
+
+image::green-frisbee/special/impossible/unsolvable1.png[title='Unsolvable #1',alt="screenshot of this level",caption="Level green-frisbee/special/impossible#1: ",]
+
+image::green-frisbee/special/impossible/unsolvable2.png[title='Unsolvable #2',alt="screenshot of this level",caption="Level green-frisbee/special/impossible#2: ",]
+
+==== green-frisbee/special/patience
+
+image::green-frisbee/special/patience/longitudal-wave-generator.png[title='Longitudal Wave Generator',alt="screenshot of this level",caption="Level green-frisbee/special/patience#1: ",]
+
+image::green-frisbee/special/patience/odd-25pct-out.png[title='Odd 25% Out',alt="screenshot of this level",caption="Level green-frisbee/special/patience#2: ",]
+
+image::green-frisbee/special/patience/wait-for-it.png[title='Wait for it...',alt="screenshot of this level",caption="Level green-frisbee/special/patience#3: ",]
+
+==== green-frisbee/special/prior-knowledge
+
+image::green-frisbee/special/prior-knowledge/alpha-pixel.png[title='Alpha Pixel',alt="screenshot of this level",caption="Level green-frisbee/special/prior-knowledge#1: ",]
+
+image::green-frisbee/special/prior-knowledge/monty-hall-horizontal.png[title='The Monty Hall Problem (68% v. 10%)',alt="screenshot of this level",caption="Level green-frisbee/special/prior-knowledge#2: ",]
+
+image::green-frisbee/special/prior-knowledge/monty-hall-vertical.png[title='The Monty Hall Problem (69% v. 2%)',alt="screenshot of this level",caption="Level green-frisbee/special/prior-knowledge#3: ",]
+
+==== green-frisbee/special/react-quickly
+
+image::green-frisbee/special/react-quickly/reflex-tester.png[title='Reflex Tester',alt="screenshot of this level",caption="Level green-frisbee/special/react-quickly#1: ",]
+
+image::green-frisbee/special/react-quickly/whack-a-mole.png[title='Whack A Mole',alt="screenshot of this level",caption="Level green-frisbee/special/react-quickly#2: ",]
+
+==== green-frisbee/special/timely-clicks
+
+image::green-frisbee/special/timely-clicks/about-face.png[title='About Face',alt="screenshot of this level",caption="Level green-frisbee/special/timely-clicks#1: ",]
+
+image::green-frisbee/special/timely-clicks/climb-and-land-goleft.png[title='Climb and Land (left-facing)',alt="screenshot of this level",caption="Level green-frisbee/special/timely-clicks#2: ",]
+
+image::green-frisbee/special/timely-clicks/climb-and-land-goright.png[title='Climb and Land (right-facing)',alt="screenshot of this level",caption="Level green-frisbee/special/timely-clicks#3: ",]
+
+image::green-frisbee/special/timely-clicks/climb-and-land-nobridges.png[title='Climb and Land (no platformers)',alt="screenshot of this level",caption="Level green-frisbee/special/timely-clicks#4: ",]
+
+image::green-frisbee/special/timely-clicks/high-jump.png[title='High Jump',alt="screenshot of this level",caption="Level green-frisbee/special/timely-clicks#5: ",]
+
+image::green-frisbee/special/timely-clicks/long-jump-squash.png[title='Long Jump',alt="screenshot of this level",caption="Level green-frisbee/special/timely-clicks#6: ",]
+
+image::green-frisbee/special/timely-clicks/no-feeding-the-fish.png[title="Don't Feed the Fish",alt="screenshot of this level",caption="Level green-frisbee/special/timely-clicks#7: ",]
+
+image::green-frisbee/special/timely-clicks/pavement.png[title='Pavement',alt="screenshot of this level",caption="Level green-frisbee/special/timely-clicks#8: ",]
+
+=== green-frisbee/examples
+
+image::green-frisbee/examples/SCREENSAVER-tennis.png[title='Screensaver: Squash',alt="screenshot of this level",caption="Level green-frisbee/examples#1: ",]
+
+image::green-frisbee/examples/X-marks-the-spot.png[title='X marks the spot',alt="screenshot of this level",caption="Level green-frisbee/examples#2: ",]
+
+image::green-frisbee/examples/eg-blocker-builder.png[title='EXAMPLE: Blocker + Builder',alt="screenshot of this level",caption="Level green-frisbee/examples#3: ",]
+
+image::green-frisbee/examples/eg-exploder-saves-the-day.png[title='EXAMPLE: Exploder Saves the Day',alt="screenshot of this level",caption="Level green-frisbee/examples#4: ",]
+
+image::green-frisbee/examples/eg-invisible-goals.png[title='EXAMPLE: Invisible Goals',alt="screenshot of this level",caption="Level green-frisbee/examples#5: ",]
+
+image::green-frisbee/examples/speed-limit.png[title='Speed Limit',alt="screenshot of this level",caption="Level green-frisbee/examples#6: ",]
+
+==== green-frisbee/examples/delays
+
+image::green-frisbee/examples/delays/compression-method-timely-parachute.png[title='Compression Method Timely Parachute',alt="screenshot of this level",caption="Level green-frisbee/examples/delays#1: ",]
+
+image::green-frisbee/examples/delays/eg-hazard-delays.png[title='EXAMPLE: Hazard delays',alt="screenshot of this level",caption="Level green-frisbee/examples/delays#2: ",]
+
+image::green-frisbee/examples/delays/eg-late-parachute.png[title='EXAMPLE: Late parachute',alt="screenshot of this level",caption="Level green-frisbee/examples/delays#3: ",]
+
+==== green-frisbee/examples/not-first-time
+
+image::green-frisbee/examples/not-first-time/eg-not-first-time-solvable.png[title='EXAMPLE: Not First-time-solvable',alt="screenshot of this level",caption="Level green-frisbee/examples/not-first-time#1: ",]
+
+image::green-frisbee/examples/not-first-time/eg-replay-editor.png[title='EXAMPLE: Replay Editor',alt="screenshot of this level",caption="Level green-frisbee/examples/not-first-time#2: ",]
+
+image::green-frisbee/examples/not-first-time/one-for-four-and-four-for-one.png[title='One for four and four for one',alt="screenshot of this level",caption="Level green-frisbee/examples/not-first-time#3: ",]
+
+==== green-frisbee/examples/self-solvers
+
+image::green-frisbee/examples/self-solvers/home-run.png[title='Home run',alt="screenshot of this level",caption="Level green-frisbee/examples/self-solvers#1: ",]
+
+image::green-frisbee/examples/self-solvers/self-solver-num0.png[title='Self-solver #0',alt="screenshot of this level",caption="Level green-frisbee/examples/self-solvers#2: ",]
+
+==== green-frisbee/examples/topology
+
+image::green-frisbee/examples/topology/eg-torus-tabby.png[title='EXAMPLE: Torus (Tabby)',alt="screenshot of this level",caption="Level green-frisbee/examples/topology#1: ",]
+
+image::green-frisbee/examples/topology/eg-torus.png[title='EXAMPLE: Torus',alt="screenshot of this level",caption="Level green-frisbee/examples/topology#2: ",]
+
+image::green-frisbee/examples/topology/eg-vertical-wraparound.png[title='EXAMPLE: Vertical Wraparound',alt="screenshot of this level",caption="Level green-frisbee/examples/topology#3: ",]
+
+image::green-frisbee/examples/topology/no-taxi-driver-1D.png[title='EXAMPLE: Horizontal Wraparound / I really am not a taxi driver (1D)',alt="screenshot of this level",caption="Level green-frisbee/examples/topology#4: ",]
+
+image::green-frisbee/examples/topology/no-taxi-driver-2D.png[title='EXAMPLE: Two-way Wraparound / I really am not a taxi driver (2D)',alt="screenshot of this level",caption="Level green-frisbee/examples/topology#5: ",]
+
+=== green-frisbee/development-accessories
+
+image::green-frisbee/development-accessories/REF-exploder-s-landing-height.png[title="REF: Exploder's Landing Height",alt="screenshot of this level",caption="Level green-frisbee/development-accessories#1: ",]
+
+image::green-frisbee/development-accessories/REF-jump-fall.png[title='REF: Largest allowable falls',alt="screenshot of this level",caption="Level green-frisbee/development-accessories#2: ",]
+
+image::green-frisbee/development-accessories/font-test-SUBSET.png[title='SCAFFOLDING: Font Test (SUBSET)',alt="screenshot of this level",caption="Level green-frisbee/development-accessories#3: ",]
+
+image::green-frisbee/development-accessories/font-test.png[title='SCAFFOLDING: Font Test',alt="screenshot of this level",caption="Level green-frisbee/development-accessories#4: ",]
+
+=== green-frisbee/WIP
+
+image::green-frisbee/WIP/airlock.png[title='Airlock Escape Velocity',alt="screenshot of this level",caption="Level green-frisbee/WIP#1: ",]
+
+image::green-frisbee/WIP/holding-pattern.png[title='Holding Pattern',alt="screenshot of this level",caption="Level green-frisbee/WIP#2: ",]
+
+image::green-frisbee/WIP/hop-skip-bridge.png[title='With a hop, a skip, and a bridge',alt="screenshot of this level",caption="Level green-frisbee/WIP#3: ",]
+
+image::green-frisbee/WIP/land.png[title='Land!',alt="screenshot of this level",caption="Level green-frisbee/WIP#4: ",]
+
+image::green-frisbee/WIP/take-the-stairs.png[title='Take the Stairs',alt="screenshot of this level",caption="Level green-frisbee/WIP#5: ",]
+
+==== green-frisbee/WIP/react-quickly
+
+image::green-frisbee/WIP/react-quickly/compressed-jumping.png[title='Compressed Jumping',alt="screenshot of this level",caption="Level green-frisbee/WIP/react-quickly#1: ",]
+
+image::green-frisbee/WIP/react-quickly/ferris-wheel.png[title='Ferris Wheel',alt="screenshot of this level",caption="Level green-frisbee/WIP/react-quickly#2: ",]
+
+==== green-frisbee/WIP/regular
+
+image::green-frisbee/WIP/regular/keyboard.png[title='Keyboard (QWERTY layout)',alt="screenshot of this level",caption="Level green-frisbee/WIP/regular#1: ",]
+
+image::green-frisbee/WIP/regular/untitled-104-turned.png[title='Untitled #104 (Turned)',alt="screenshot of this level",caption="Level green-frisbee/WIP/regular#2: ",]
+
+image::green-frisbee/WIP/regular/untitled-104.png[title='Untitled #104',alt="screenshot of this level",caption="Level green-frisbee/WIP/regular#3: ",]
+
+image::green-frisbee/WIP/regular/untitled-80-freestyle.png[title='Untitled #80: Freestyle',alt="screenshot of this level",caption="Level green-frisbee/WIP/regular#4: ",]
+
+== white-closet
+
+image::white-closet/big-monster.png[title='The Level of the Big Monster',alt="screenshot of this level",caption="Level white-closet#1: ",]
+
+image::white-closet/one-solitary-lix.png[title='One Solitary Lix',alt="screenshot of this level",caption="Level white-closet#2: ",]
+
+image::white-closet/the-robot-level.png[title='The Level of the Robot',alt="screenshot of this level",caption="Level white-closet#3: ",]
+
