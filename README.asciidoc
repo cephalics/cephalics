@@ -1,6 +1,5 @@
 = Cephalics: A Level Pack for Lix
-:toc:
-
+:toc: preamble
 :xdg-basedir-spec-url: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
 :lix-homepage: https://www.lixgame.com/
 :lix-repo: https://github.com/SimonN/LixD
