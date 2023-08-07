@@ -1,6 +1,6 @@
 = Cephalics: A Level Pack for Lix
-:toc: preamble
-:toc-title: **Table of Contents**
+:toc: macro
+:toc-title:
 :xdg-basedir-spec-url: https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
 :lix-homepage: https://www.lixgame.com/
 :lix-repo: https://github.com/SimonN/LixD
@@ -12,6 +12,11 @@ This is a collection of Lix levels.
 The difficulty levels vary.
 
 {lix-homepage}[Lix] is an {lix-repo}[open-source] game is similar to {pingus-homepage}[Pingus]™ and Lemmings™.
+
+
+== Table of Contents
+
+toc::[]
 
 
 == Screenshots
